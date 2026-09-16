@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Software — Shinji Watanabe</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Inter:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="index.html">Shinji Watanabe</a>
+  <nav>
+      <a href="index.html">Home</a>
+      <a href="publications.html">Publications</a>
+      <a href="activities.html">Activities</a>
+      <a href="software.html" class="on">Software</a>
+      <a href="cv.html">CV</a>
+  </nav>
+  <div class="controls">
+    <div class="swatches" role="group" aria-label="Colour palette">
+      <button class="swatch paper" type="button" data-palette="paper" aria-label="Paper palette"></button>
+      <button class="swatch slate" type="button" data-palette="slate" aria-label="Slate palette"></button>
+      <button class="swatch forest" type="button" data-palette="forest" aria-label="Forest palette"></button>
+    </div>
+    <button id="theme" class="theme" type="button" aria-label="Toggle light or dark">&#9681;</button>
+  </div>
+</header>
+<main>
+  <h1>Software</h1>
+  <section class="proj">
+    <h2><a href="https://github.com/espnet/espnet">ESPnet</a></h2>
+    <p class="tagline">End-to-End Speech Processing Toolkit</p>
+    <p>An open-source toolkit for speech recognition, text-to-speech, speech enhancement, speech translation, and spoken language understanding. It provides reproducible recipes and a complete setup for speech foundation model research.</p>
+    <div class="pills">
+      <a class="pill" href="https://github.com/espnet/espnet">Project page</a>
+      <a class="pill" href="https://espnet.github.io/espnet/">Documentation</a>
+    </div>
+  </section>
+  <section class="proj">
+    <h2><a href="https://github.com/wavlab-speech/versa">VERSA</a></h2>
+    <p class="tagline">Versatile Evaluation of Speech and Audio</p>
+    <p>A toolkit for evaluating speech and audio quality. It provides seamless access to over 90 evaluation and profiling metrics with 10x variants, assessing audio through multiple dimensions.</p>
+    <div class="pills">
+      <a class="pill" href="https://github.com/wavlab-speech/versa">Project page</a>
+      <a class="pill" href="https://arxiv.org/abs/2412.17667">Paper</a>
+    </div>
+  </section>
+  <section class="proj">
+    <h2><a href="https://www.wavlab.org/activities/2024/owsm/">OWSM</a></h2>
+    <p class="tagline">Open Whisper-style Speech Models</p>
+    <p>Reproduces Whisper-style training using publicly available data and ESPnet. Data preparation scripts, training and inference code, pre-trained model weights, and training logs are all publicly released.</p>
+    <div class="pills">
+      <a class="pill" href="https://www.wavlab.org/activities/2024/owsm/">Project page</a>
+
+    </div>
+  </section>
+
+</main>
+<footer>
+  <p>Built from content/*.md &mdash; prototype.</p>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>

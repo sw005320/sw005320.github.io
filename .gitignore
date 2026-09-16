@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.DS_Store
+
+# One-off Google Sites import: 1.1 MB of scraped HTML, kept locally only.
+# The scripts and the intermediate JSON stay in the repo as provenance.
+migration/raw/
