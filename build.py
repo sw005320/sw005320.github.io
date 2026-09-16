@@ -64,7 +64,7 @@ SOFTWARE = [
         "name": "OWSM",
         "tagline": "Open Whisper-style Speech Models",
         "url": "https://www.wavlab.org/activities/2024/owsm/",
-        "docs": None,
+        "docs": ("Paper", "https://arxiv.org/abs/2309.13876"),
         "body": "Reproduces Whisper-style training using publicly available data "
                 "and ESPnet. Data preparation scripts, training and inference code, "
                 "pre-trained model weights, and training logs are all publicly released.",
