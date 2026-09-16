@@ -48,7 +48,11 @@ SOFTWARE = [
         "name": "ESPnet",
         "tagline": "End-to-End Speech Processing Toolkit",
         "url": "https://github.com/espnet/espnet",
-        "links": [("Documentation", "https://espnet.github.io/espnet/")],
+        "links": [
+            ("Documentation", "https://espnet.github.io/espnet/"),
+            ("Paper (Interspeech'18)", "https://doi.org/10.21437/Interspeech.2018-1456"),
+            ("arXiv", "https://arxiv.org/abs/1804.00015"),
+        ],
         "body": "An open-source toolkit for speech recognition, text-to-speech, "
                 "speech enhancement, speech translation, and spoken language "
                 "understanding. It provides reproducible recipes and a complete "
