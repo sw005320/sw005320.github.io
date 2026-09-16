@@ -82,6 +82,7 @@ CV_LAYOUT = [
     ("Appointments", [("activities", "Work Experience")]),
     ("Awards and Honours", [("activities", "Award and Notable Achievement")]),
     ("Teaching", [("activities", "Teaching")]),
+    ("Skills", [("cv", "Programming Skills"), ("cv", "Language Skills")]),
     ("Invited Talks", [
         ("publications", "Keynote talk"),
         ("publications", "Tutorial/Overview/Invited talk"),
@@ -415,7 +416,8 @@ def main():
     pubs = read_sections("publications")
     acts = read_sections("activities")
     bio = read_bio()
-    sources = {"publications": pubs, "activities": acts}
+    sources = {"publications": pubs, "activities": acts,
+               "cv": read_sections("cv-extra")}
 
     (SITE / "index.html").write_text(home_page(bio), encoding="utf-8")
     (SITE / "publications.html").write_text(publications_page(pubs), encoding="utf-8")

@@ -16,6 +16,7 @@ concept for moving to GitHub Pages. Nothing here is published anywhere yet.
 | Profile links (Scholar, GitHub, ...) | `PROFILE_LINKS` in `build.py` |
 | Software projects | `SOFTWARE` in `build.py` |
 | Which sections go in the CV, and their order | `CV_LAYOUT` in `build.py` |
+| Something that belongs in the CV but not on the site | `content/cv-extra.md` |
 | Colours, fonts, layout, print styles | `docs/style.css` |
 | Default palette | `docs/app.js` (`recall(PALETTE_KEY) || "paper"`) |
 
@@ -57,10 +58,13 @@ For a PDF, either press **Print / Save as PDF** on the page, or:
 
 The current CV runs to 48 pages / 1131 entries.
 
-**It only contains what is on the website.** Compare it against the existing
-[CV on Drive](https://drive.google.com/file/d/1fQw_dsvdNRMuqv2YnG6ip0YmANEFyX2v/view)
-before using it anywhere -- funding, grants, patents and students are the usual
-things a website leaves out.
+Sections that belong in the CV but not on the website live in
+`content/cv-extra.md`; `CV_LAYOUT` refers to them as `("cv", "<name>")`.
+
+Checked against the previous [CV on Drive](https://drive.google.com/file/d/1fQw_dsvdNRMuqv2YnG6ip0YmANEFyX2v/view)
+(50 pages) on 2026-09-16: the only sections it had that the website did not were
+Programming Skills and Language Skills, now in `content/cv-extra.md`. It has no
+separate grants, funding or patents sections.
 
 ## Theme
 
