@@ -1,7 +1,10 @@
 # Homepage
 
-A static rebuild of <https://sites.google.com/view/shinjiwatanabe>, as a proof of
-concept for moving to GitHub Pages. Nothing here is published anywhere yet.
+Source for <https://sw005320.github.io>, a static rebuild of the old Google
+Sites page at <https://sites.google.com/view/shinjiwatanabe>.
+
+Edit `content/*.md`, run `python3 build.py`, commit and push. GitHub Pages
+serves `docs/` from `main` and picks the change up within a minute or so.
 
 ## Where to edit what
 
@@ -113,7 +116,7 @@ Do not re-run `extract.py` -- `content/` is now ahead of it.
 - The Google Sites page cannot redirect automatically; it would have to stay up
   as a pointer to the new address.
 
-## If this becomes the real site
+## Deployment
 
 `docs/` is plain HTML/CSS/JS with no build step. GitHub Pages serves it
 directly: Settings -> Pages -> Source = `main` branch, folder `/docs`. Picking
@@ -123,10 +126,18 @@ directly: Settings -> Pages -> Source = `main` branch, folder `/docs`. Picking
 `docs/.nojekyll` turns off Jekyll preprocessing: nothing here needs it, and it
 stops Pages from silently skipping paths that begin with an underscore.
 
-Intended home: a public repo named exactly **`sw005320.github.io`**, which
-publishes at <https://sw005320.github.io>. That name is free as of 2026-09-16
-and the account already exists. A user site must be public unless the account
-has a paid plan.
+Live since 2026-09-16 at <https://sw005320.github.io>, from the public repo
+`sw005320/sw005320.github.io`. A user site must be public unless the account has
+a paid plan.
+
+**Changing the Pages source folder does not trigger a rebuild.** Setting it to
+`/docs` left the previous `/`-root build serving (Jekyll's rendering of this
+README) while the API happily reported `path: /docs`. Force a build after any
+such change:
+
+```sh
+gh api -X POST repos/sw005320/sw005320.github.io/pages/builds
+```
 
 A custom domain can be attached later from Settings -> Pages without touching
 the repo; the `.github.io` URL keeps working. The lab site is the same
