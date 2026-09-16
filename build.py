@@ -40,12 +40,15 @@ PROFILE_LINKS = [
     ("Curriculum Vitae", "cv.html"),
 ]
 
+# Each project lists its own links: the project page first, then the published
+# paper, then the preprint. Unlike the per-entry links dropped from the
+# publication list, these are fixed per project and do not need upkeep.
 SOFTWARE = [
     {
         "name": "ESPnet",
         "tagline": "End-to-End Speech Processing Toolkit",
         "url": "https://github.com/espnet/espnet",
-        "docs": ("Documentation", "https://espnet.github.io/espnet/"),
+        "links": [("Documentation", "https://espnet.github.io/espnet/")],
         "body": "An open-source toolkit for speech recognition, text-to-speech, "
                 "speech enhancement, speech translation, and spoken language "
                 "understanding. It provides reproducible recipes and a complete "
@@ -55,7 +58,10 @@ SOFTWARE = [
         "name": "VERSA",
         "tagline": "Versatile Evaluation of Speech and Audio",
         "url": "https://github.com/wavlab-speech/versa",
-        "docs": ("Paper", "https://arxiv.org/abs/2412.17667"),
+        "links": [
+            ("Paper (NAACL'25)", "https://aclanthology.org/2025.naacl-demo.19/"),
+            ("arXiv", "https://arxiv.org/abs/2412.17667"),
+        ],
         "body": "A toolkit for evaluating speech and audio quality. It provides "
                 "seamless access to over 90 evaluation and profiling metrics with "
                 "10x variants, assessing audio through multiple dimensions.",
@@ -64,7 +70,10 @@ SOFTWARE = [
         "name": "OWSM",
         "tagline": "Open Whisper-style Speech Models",
         "url": "https://www.wavlab.org/activities/2024/owsm/",
-        "docs": ("Paper", "https://arxiv.org/abs/2309.13876"),
+        "links": [
+            ("Paper (ASRU'23)", "https://doi.org/10.1109/ASRU57964.2023.10389676"),
+            ("arXiv", "https://arxiv.org/abs/2309.13876"),
+        ],
         "body": "Reproduces Whisper-style training using publicly available data "
                 "and ESPnet. Data preparation scripts, training and inference code, "
                 "pre-trained model weights, and training logs are all publicly released.",
@@ -345,16 +354,17 @@ def activities_page(sections):
 def software_page():
     blocks = []
     for s in SOFTWARE:
-        extra = ""
-        if s["docs"]:
-            extra = f'      <a class="pill" href="{s["docs"][1]}">{escape(s["docs"][0])}</a>'
+        pills = [("Project page", s["url"])] + list(s.get("links") or [])
+        rendered = "\n".join(
+            f'      <a class="pill" href="{url}">{escape(label)}</a>'
+            for label, url in pills
+        )
         blocks.append(f"""  <section class="proj">
     <h2><a href="{s['url']}">{escape(s['name'])}</a></h2>
     <p class="tagline">{escape(s['tagline'])}</p>
     <p>{escape(s['body'])}</p>
     <div class="pills">
-      <a class="pill" href="{s['url']}">Project page</a>
-{extra}
+{rendered}
     </div>
   </section>""")
     body = "  <h1>Software</h1>\n" + "\n".join(blocks) + "\n"
