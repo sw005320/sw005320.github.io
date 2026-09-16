@@ -4,7 +4,7 @@
 
 **Shinji Watanabe**, Marc Delcroix, Florian Metze, and John R. Hershey, "New Era for Robust Speech Recognition -Exploiting Deep Learning-," *Springer* (2017)
 
-**Shinji Watanabe** and Jen-Tzung Chien, "[Bayesian Speech and Language Processing](http://www.cambridge.org/us/academic/subjects/engineering/communications-and-signal-processing/bayesian-speech-and-language-processing)," *Cambridge University Press* (2015)
+**Shinji Watanabe** and Jen-Tzung Chien, "Bayesian Speech and Language Processing," *Cambridge University Press* (2015)
 
 ## Book chapter
 
@@ -16,11 +16,11 @@ Marc Delcroix, **Shinji Watanabe**, and Tomohiro Nakatani, " Variance Compensati
 
 ## PhD thesis
 
-[Speech recognition based on a Bayesian approach](https://drive.google.com/file/d/1cBaHlcjsI0eYGC-IJnStBOGWq5p3iKV1/view?usp=sharing), Waseda University (2006)
+Speech recognition based on a Bayesian approach, Waseda University (2006)
 
 ## Keynote talk
 
-**Shinji Watanabe,** "Scaling Multilingual Speech Recognition: From a Handful to Thousands of Languages," *2nd MBZUAI Speech & NLP Symposium* (2025)
+**Shinji Watanabe**, "Scaling Multilingual Speech Recognition: From a Handful to Thousands of Languages," *2nd MBZUAI Speech & NLP Symposium* (2025)
 
 **Shinji Watanabe**, "Scaling Multilingual Speech Recognition: From a Handful to Thousands of Languages," *Multilingual Conversational Speech Language Modeling (MLC-SLM)* (2025)
 
@@ -28,7 +28,7 @@ Marc Delcroix, **Shinji Watanabe**, and Tomohiro Nakatani, " Variance Compensati
 
 **Shinji Watanabe**, "Unifying Speech Processing Applications with Speech Foundation Models," *IEEE Automatic Speech Recognition and Understanding* *(ASRU)*, Taipei, Taiwan (2023)
 
-**Shinji Watanabe,** "Explainable neural network for spoken language processing," *iSpeech* 2023, Jesraem, Israel (2023)
+**Shinji Watanabe**, "Explainable neural network for spoken language processing," *iSpeech* 2023, Jesraem, Israel (2023)
 
 **Shinji Watanabe**, "Simplifying Automatic Speech Recognition with Non-Autoregressive Neural End-to-End Modeling," *2020 Accented English Speech Recognition Challenge Workshop (2020 AESRC Workshop)* (2020)
 
@@ -66,39 +66,39 @@ Abdelrahman Mohamed, Hung-yi Lee, **Shinji Watanabe**, Tara Sainath, Karen Lives
 
 **Shinji Watanabe**, Pengcheng Guo, and Sathvik Udupa, "Introduction of ESPnet, End-to-End Speech Processing Toolkit," MUltilingual and Code-Switching ASR Challenges for Low Resource Indian Languages (MUCS) (2021)
 
-Keisuke Kinoshita, Yusuke Fujita, Naoyuki Kanda, and Shinji Watanabe, "T-9 - Distant conversational speech recognition and analysis: Recent advances, and trends towards end-to-end optimization," ICASSP'21 (2021)
+Keisuke Kinoshita, Yusuke Fujita, Naoyuki Kanda, and **Shinji Watanabe**, "T-9 - Distant conversational speech recognition and analysis: Recent advances, and trends towards end-to-end optimization," ICASSP'21 (2021)
 
-Takaaki Hori Tomoki Hayashi, Shigeki Karita, and Shinji Watanabe, ”Advanced Methods for Neural End-to-End Speech Processing - Unification, Integration, and Implementation," Interspeech'19 (2019)
+Takaaki Hori Tomoki Hayashi, Shigeki Karita, and **Shinji Watanabe**, ”Advanced Methods for Neural End-to-End Speech Processing - Unification, Integration, and Implementation," Interspeech'19 (2019)
 
-Shinji Watanabe, "Hybrid CTC/Attention Architecture for End-to-End Speech Recognition in Challenging Environments," INTERNATIONAL WORKSHOP ON SPEECH PROCESSING IN CHALLENGING ENVIRONMENTS (SPICE) (2018)
+**Shinji Watanabe**, "Hybrid CTC/Attention Architecture for End-to-End Speech Recognition in Challenging Environments," INTERNATIONAL WORKSHOP ON SPEECH PROCESSING IN CHALLENGING ENVIRONMENTS (SPICE) (2018)
 
-Shinji Watanabe, "Multi-microphone Speech Recognition --Recent Advances in Distant Speech Recognition," Speech and Language Symposium (2016)
+**Shinji Watanabe**, "Multi-microphone Speech Recognition --Recent Advances in Distant Speech Recognition," Speech and Language Symposium (2016)
 
-Shinji Watanabe, Xiong Xiao, and Marc Delcrioix "Multi-microphone Speech Recognition," APSIPA ASC'16 (2016)
+**Shinji Watanabe**, Xiong Xiao, and Marc Delcrioix "Multi-microphone Speech Recognition," APSIPA ASC'16 (2016)
 
-Shinji Watanabe, "Pushing the envelope at both ends: beamforming acoustic models and joint CTC/Attention schemes for end-to-end ASR," SANE 2016 - Speech and Audio in the Northeast (2016)
+**Shinji Watanabe**, "Pushing the envelope at both ends: beamforming acoustic models and joint CTC/Attention schemes for end-to-end ASR," SANE 2016 - Speech and Audio in the Northeast (2016)
 
-Marc Delcroix and Shinji Watanabe, "Recent Advances in Distant Speech Recognition," Interspeech'16 (2016)
+Marc Delcroix and **Shinji Watanabe**, "Recent Advances in Distant Speech Recognition," Interspeech'16 (2016)
 
-Shinji Watanabe and Jen-Tzung Chien, " Bayesian Learning for Speech and Language Processing," ICASSP’12 2012, Tutorial T-10, (2012)
+**Shinji Watanabe** and Jen-Tzung Chien, " Bayesian Learning for Speech and Language Processing," ICASSP’12 2012, Tutorial T-10, (2012)
 
-Shinji Watanabe, "Bayesian approaches in speech recognition," APSIPA ASC 2011, Plenary Overview Sessions, (2011)
+**Shinji Watanabe**, "Bayesian approaches in speech recognition," APSIPA ASC 2011, Plenary Overview Sessions, (2011)
 
-Shinji Watanabe, “Recent Topics in Acoustic Modeling for Speech recognition: A Machine Learning Perspective based on Generative and Discriminative Approaches,'' IEICE Technical Report, SP2011-31, pp. 7–10 (2011.6)
+**Shinji Watanabe**, “Recent Topics in Acoustic Modeling for Speech recognition: A Machine Learning Perspective based on Generative and Discriminative Approaches,'' IEICE Technical Report, SP2011-31, pp. 7–10 (2011.6)
 
-Shinji Watanabe, “Recent topics in speech research,” Tutorial Session 1-2, the 2nd Young Researchers Forum on ALAGIN Speech Processing Session (2011.3)
+**Shinji Watanabe**, “Recent topics in speech research,” Tutorial Session 1-2, the 2nd Young Researchers Forum on ALAGIN Speech Processing Session (2011.3)
 
-Shinji Watanabe, “Bayesian training of acoustic models,” IPSJ SIG Technical Report, Vol.2009-SLP-77, No. 9, (2009. 7)
+**Shinji Watanabe**, “Bayesian training of acoustic models,” IPSJ SIG Technical Report, Vol.2009-SLP-77, No. 9, (2009. 7)
 
-Shinji Watanabe, “Speech recognition based on a Bayesian approach and its application,” Japan Techno Center, Lecture on “Speech recognition technology –application and future trend” (2007.2.)
+**Shinji Watanabe**, “Speech recognition based on a Bayesian approach and its application,” Japan Techno Center, Lecture on “Speech recognition technology –application and future trend” (2007.2.)
 
-Shinji Watanabe, Yasuhiro Minami, Atsushi Nakamura, and Naonori Ueda,“Speech recognition using variational Bayes,” 2005 Workshop on Information-Based Induction Sciences (IBIS2005), pp. 269―274, (2005.11)
+**Shinji Watanabe**, Yasuhiro Minami, Atsushi Nakamura, and Naonori Ueda,“Speech recognition using variational Bayes,” 2005 Workshop on Information-Based Induction Sciences (IBIS2005), pp. 269―274, (2005.11)
 
-Shinji Watanabe, “Selection of shared-state hidden Markov model structure using Bayesian criterion,'' IEICE Technical Report, SP2004-149, pp. 25–30 (2005)
+**Shinji Watanabe**, “Selection of shared-state hidden Markov model structure using Bayesian criterion,'' IEICE Technical Report, SP2004-149, pp. 25–30 (2005)
 
-Shinji Watanabe, “Speech recognition based on the Bayesian approach”, Tutorial lecture on IEICE Technical Report, SP2004-74, pp. 13--20, (2004)
+**Shinji Watanabe**, “Speech recognition based on the Bayesian approach”, Tutorial lecture on IEICE Technical Report, SP2004-74, pp. 13--20, (2004)
 
-Shinji Watanabe, “VBEC: robust speech recognition based on Bayesian approach," 5th young researcher workshop, ASJ Kansai section, I-2, (2003)
+**Shinji Watanabe**, “VBEC: robust speech recognition based on Bayesian approach," 5th young researcher workshop, ASJ Kansai section, I-2, (2003)
 
 ## Review and overview paper
 
@@ -118,163 +118,163 @@ Antonios Anastasopoulos, Loïc Barrault, Luisa Bentivogli, Marcely Zanon Boito, 
 
 Joseph Turian, Jordie Shier, Humair Raj Khan, Bhiksha Raj, Björn W. Schuller, Christian J. Steinmetz, Colin Malloy, George Tzanetakis, Gissel Velarde, Kirk McNally, Max Henry, Nicolas Pinto, Camille Noufi, Christian Clough, Dorien Herremans, Eduardo Fonseca, Jesse Engel, Justin Salamon, Philippe Esling, Pranay Manocha, **Shinji Watanabe**, Zeyu Jin, and Yonatan Bisk, "HEAR 2021: Holistic Evaluation of Audio Representations," *In NeurIPS 2021 Competitions and Demonstrations Track* (pp. 125--145). PMLR (2021)
 
-Shinji Watanabe, Florian Boyer, Xuankai Chang, Pengcheng Guo, Tomoki Hayashi, Yosuke Higuchi, Takaaki Hori, Wen-Chin Huang, Hirofumi Inaguma, Naoyuki Kamo, Shigeki Karita, Chenda Li, Jing Shi, Aswin Shanmugam Subramanian, and Wangyou Zhang, "The 2020 ESPnet update: new features, broadened applications, performance improvements, and future plans," Proc. 2021 IEEE Data Science and Learning Workshop (DSLW 2021), pp. 1--6 (2021)
+**Shinji Watanabe**, Florian Boyer, Xuankai Chang, Pengcheng Guo, Tomoki Hayashi, Yosuke Higuchi, Takaaki Hori, Wen-Chin Huang, Hirofumi Inaguma, Naoyuki Kamo, Shigeki Karita, Chenda Li, Jing Shi, Aswin Shanmugam Subramanian, and Wangyou Zhang, "The 2020 ESPnet update: new features, broadened applications, performance improvements, and future plans," Proc. 2021 IEEE Data Science and Learning Workshop (DSLW 2021), pp. 1--6 (2021)
 
-Shinji Watanabe, Michael Mandel, Jon Barker, Emmanuel Vincent, Ashish Arora, Xuankai Chang, Sanjeev Khudanpur, Vimal Manohar, Daniel Povey, Desh Raj, David Snyder, Aswin Shanmugam Subramanian, Jan Trmal, Bar Ben Yair, Christoph Boeddeker, Zhaoheng Ni, Yusuke Fujita, Shota Horiguchi, Naoyuki Kanda, Takuya Yoshioka, and Neville Ryant, "CHiME-6 Challenge: Tackling Multispeaker Speech Recognition for Unsegmented Recordings," Proc. CHiME 2020, pp. 1--7 (2020)
+**Shinji Watanabe**, Michael Mandel, Jon Barker, Emmanuel Vincent, Ashish Arora, Xuankai Chang, Sanjeev Khudanpur, Vimal Manohar, Daniel Povey, Desh Raj, David Snyder, Aswin Shanmugam Subramanian, Jan Trmal, Bar Ben Yair, Christoph Boeddeker, Zhaoheng Ni, Yusuke Fujita, Shota Horiguchi, Naoyuki Kanda, Takuya Yoshioka, and Neville Ryant, "CHiME-6 Challenge: Tackling Multispeaker Speech Recognition for Unsegmented Recordings," Proc. CHiME 2020, pp. 1--7 (2020)
 
-Reinhold Haeb-Umbach, Jahn Heymann, Lukas Drude, Shinji Watanabe, Marc Delcroix, and Tomohiro Nakatani, "Far-Field Automatic Speech Recognition," Proceedings of the IEEE, vol. 109.2: pp. 124--148 (2020)
+Reinhold Haeb-Umbach, Jahn Heymann, Lukas Drude, **Shinji Watanabe**, Marc Delcroix, and Tomohiro Nakatani, "Far-Field Automatic Speech Recognition," Proceedings of the IEEE, vol. 109.2: pp. 124--148 (2020)
 
-Reinhold Haeb-Umbach, Shinji Watanabe, Tomohiro Nakatani, Michiel Bacchiani, Björn Hoffmeister, Michael L. Seltzer, Heiga Zen, and Mehrez Souden, "Speech Processing for Digital HomeAssistants," IEEE Signal Processing Magazine, vol. 36, no. 6, pp. 111--124 (2019)
+Reinhold Haeb-Umbach, **Shinji Watanabe**, Tomohiro Nakatani, Michiel Bacchiani, Björn Hoffmeister, Michael L. Seltzer, Heiga Zen, and Mehrez Souden, "Speech Processing for Digital HomeAssistants," IEEE Signal Processing Magazine, vol. 36, no. 6, pp. 111--124 (2019)
 
-Takahiro Shinozaki and Shinji Watanabe, "Automatic speech recognition and black-box optimization," The Journal of the Acoustical Society of Japan, vol. 72, number 10, pp. 644--652, (2016). (in Japanese)
+Takahiro Shinozaki and **Shinji Watanabe**, "Automatic speech recognition and black-box optimization," The Journal of the Acoustical Society of Japan, vol. 72, number 10, pp. 644--652, (2016). (in Japanese)
 
-Felix Weninger, Hakan Erdogan, Shinji Watanabe, Emmanuel Vincent, Jonathan Le Roux, John R. Hershey, and Bjoern Schuller, "Speech enhancement with LSTM recurrent neural networks and its application to noise-robust ASR," Proc. Latent Variable Analysis and Signal Separation, pp. 91--99 (2015)
+Felix Weninger, Hakan Erdogan, **Shinji Watanabe**, Emmanuel Vincent, Jonathan Le Roux, John R. Hershey, and Bjoern Schuller, "Speech enhancement with LSTM recurrent neural networks and its application to noise-robust ASR," Proc. Latent Variable Analysis and Signal Separation, pp. 91--99 (2015)
 
-Shinji Watanabe and Atsushi Nakamura, "Bayesian Approaches to Acoustic Modeling: A Review," APSIPA Transactions on Signal and Information Processing, Volume 1, e5 (11pages), (2012)
+**Shinji Watanabe** and Atsushi Nakamura, "Bayesian Approaches to Acoustic Modeling: A Review," APSIPA Transactions on Signal and Information Processing, Volume 1, e5 (11pages), (2012)
 
-Mark Gales, Shinji Watanabe, Eric Fossler-Lussier, “Structured Discriminative Models for Speech Recognition,” IEEE Signal Processing Magazine, vol. 29, no.6, pp. 70--82 (2012).
+Mark Gales, **Shinji Watanabe**, Eric Fossler-Lussier, “Structured Discriminative Models for Speech Recognition,” IEEE Signal Processing Magazine, vol. 29, no.6, pp. 70--82 (2012).
 
-Shinji Watanabe and Atsushi Nakamura, "Tutorial: Discriminative Training in Speech Recognition," (in Japanese) The Journal of the Institute of Electronics, Information and Communication Engineers (IEICE), vol. 94(10), pp. 920--922, (2011)
+**Shinji Watanabe** and Atsushi Nakamura, "Tutorial: Discriminative Training in Speech Recognition," (in Japanese) The Journal of the Institute of Electronics, Information and Communication Engineers (IEICE), vol. 94(10), pp. 920--922, (2011)
 
-Shinji Watanabe, "Acoustic models in speech recognition," The Journal of the Acoustical Society of Japan, vol. 66, number 1, pp. 18--22, (2010). (in Japanese)
+**Shinji Watanabe**, "Acoustic models in speech recognition," The Journal of the Acoustical Society of Japan, vol. 66, number 1, pp. 18--22, (2010). (in Japanese)
 
-Atsushi Nakamura, Shinji Watanabe, Takaaki Hori, Erik McDermott, and Shigeru Katagiri, "Advanced Computational Models and Learning Theories for Spoken Language Processing, "IEEE Computational Intelligence Magazine, vol. 1, issue 2, pp. 5--9, (2006)
+Atsushi Nakamura, **Shinji Watanabe**, Takaaki Hori, Erik McDermott, and Shigeru Katagiri, "Advanced Computational Models and Learning Theories for Spoken Language Processing, "IEEE Computational Intelligence Magazine, vol. 1, issue 2, pp. 5--9, (2006)
 
-Shinji Watanabe, "Speech recognition based on a Bayesian approach," The Journal of the Acoustical Society of Japan, vol. 62, number 8, pp. 599--604, (2006). (in Japanese)
+**Shinji Watanabe**, "Speech recognition based on a Bayesian approach," The Journal of the Acoustical Society of Japan, vol. 62, number 8, pp. 599--604, (2006). (in Japanese)
 
 ## Journal (refereed)
 
 Yoshiaki Bando, Tomohiko Nakamura, Satoru Fukayama, Member, and **Shinji Watanabe**, "Online Frontend System for Multi-Talker DSR Using Neural Blind Source Separation and Diarization,” IEEE Transactions on Audio, Speech and Language Processing (accepted)
 
-Hiroaki Sato, Asahi Sakuma, Ryuga Sugano, Tadashi Kumano, Yoshihiko Kawai, Shinji Watanabe, and Tetsuji Ogawa, "Uncertainty-Based Streaming ASR with Evidential Deep Learning," IEEE Open Journal of Signal Processing (accepted)
+Hiroaki Sato, Asahi Sakuma, Ryuga Sugano, Tadashi Kumano, Yoshihiko Kawai, **Shinji Watanabe**, and Tetsuji Ogawa, "Uncertainty-Based Streaming ASR with Evidential Deep Learning," IEEE Open Journal of Signal Processing (accepted)
 
-Hexin Liu, Xiangyu Zhang, Haoyang Zhang, Leibny Paola Garcia-Perera, Andy W. H. Khong, Eng Siong Chng, and Shinji Watanabe, "Aligning Speech to Languages to Enhance Code-switching Speech Recognition,” IEEE Transactions on Audio, Speech and Language Processing (accepted)
+Hexin Liu, Xiangyu Zhang, Haoyang Zhang, Leibny Paola Garcia-Perera, Andy W. H. Khong, Eng Siong Chng, and **Shinji Watanabe**, "Aligning Speech to Languages to Enhance Code-switching Speech Recognition,” IEEE Transactions on Audio, Speech and Language Processing (accepted)
 
-Minsu Kim, Jee-weon Jung, Hyeongseop Rha, Soumi Maiti, Siddhant Arora, Xuankai Chang, Shinji Watanabe, and Yong Man Ro, "TMT: Tri-Modal Translation between Speech, Image, and Text by Processing Different Modalities as Different Languages," IEEE Transactions on Multimedia (accepted)
+Minsu Kim, Jee-weon Jung, Hyeongseop Rha, Soumi Maiti, Siddhant Arora, Xuankai Chang, **Shinji Watanabe**, and Yong Man Ro, "TMT: Tri-Modal Translation between Speech, Image, and Text by Processing Different Modalities as Different Languages," IEEE Transactions on Multimedia (accepted)
 
-Yoshiki Masuyama, Xuankai Chang, Wangyou Zhang, Samuele Cornell, Zhong-Qiu Wang, Nobutaka Ono, Yanmin Qian and Shinji Watanabe, "An End-to-End Integration of Speech Separation and Recognition with Self-Supervised Learning Representation," Computer Speech & Language (accepted)
+Yoshiki Masuyama, Xuankai Chang, Wangyou Zhang, Samuele Cornell, Zhong-Qiu Wang, Nobutaka Ono, Yanmin Qian and **Shinji Watanabe**, "An End-to-End Integration of Speech Separation and Recognition with Self-Supervised Learning Representation," Computer Speech & Language (accepted)
 
-Jee-weon Jung, Yihan Wu, Xin Wang, Ji-Hoon Kim, Soumi Maiti, Yuta Matsunaga, Hye-jin Shim, Jinchuan Tian, Nicholas Evans, Joon Son Chung, Wangyou Zhang, Seyun Um, Shinnosuke Takamichi, Shinji Watanabe, "SpoofCeleb: Speech Deepfake Detection and SASV in the Wild," IEEE Open Journal of Signal Processing (2025)
+Jee-weon Jung, Yihan Wu, Xin Wang, Ji-Hoon Kim, Soumi Maiti, Yuta Matsunaga, Hye-jin Shim, Jinchuan Tian, Nicholas Evans, Joon Son Chung, Wangyou Zhang, Seyun Um, Shinnosuke Takamichi, **Shinji Watanabe**, "SpoofCeleb: Speech Deepfake Detection and SASV in the Wild," IEEE Open Journal of Signal Processing (2025)
 
-Yui Sudo, Muhammad Shakeel, Yosuke Fukumoto, Brian Yan, Jiatong Shi, Yifan Peng, and Shinji Watanabe, "Joint Beam Search Integrating CTC, Attention, and Transducer Decoders,” IEEE Transactions on Audio, Speech and Language Processing (2025)
+Yui Sudo, Muhammad Shakeel, Yosuke Fukumoto, Brian Yan, Jiatong Shi, Yifan Peng, and **Shinji Watanabe**, "Joint Beam Search Integrating CTC, Attention, and Transducer Decoders,” IEEE Transactions on Audio, Speech and Language Processing (2025)
 
-Pengcheng Guo, Xuankai Chang, Hang Lv, Shinji Watanabe, and Lei Xie, "SQ-Whisper: Speaker-Querying based Whisper Model for Target-Speaker ASR,” IEEE Transactions on Audio, Speech and Language Processing (2025)
+Pengcheng Guo, Xuankai Chang, Hang Lv, **Shinji Watanabe**, and Lei Xie, "SQ-Whisper: Speaker-Querying based Whisper Model for Target-Speaker ASR,” IEEE Transactions on Audio, Speech and Language Processing (2025)
 
-Xuankai Chang, Pengcheng Guo, Yuya Fujita, Takashi Maekaku, and Shinji Watanabe, "MC-Whisper: Improving Distant Speech Recognition by Extending Large Pre-Trained Model to Multi-channel," IEEE Signal Processing Letters (2024)
+Xuankai Chang, Pengcheng Guo, Yuya Fujita, Takashi Maekaku, and **Shinji Watanabe**, "MC-Whisper: Improving Distant Speech Recognition by Extending Large Pre-Trained Model to Multi-channel," IEEE Signal Processing Letters (2024)
 
-Shih-Lun Wu, Chris Donahue, Shinji Watanabe, and Nicholas J. Bryan, "Music ControlNet: Multiple Time-varying Controls for Music Generation,” IEEE Transactions on Audio, Speech and Language Processing (2024)
+Shih-Lun Wu, Chris Donahue, **Shinji Watanabe**, and Nicholas J. Bryan, "Music ControlNet: Multiple Time-varying Controls for Music Generation,” IEEE Transactions on Audio, Speech and Language Processing (2024)
 
-Takaaki Saeki, Soumi Maiti, Xinjian Li, Shinji Watanabe, Shinnosuke Takamichi, and Hiroshi Saruwatari, "Text-Inductive Graphone-Based Language Adaptation for Low-Resource Speech Synthesis,” IEEE Transactions on Audio, Speech and Language Processing (2024)
+Takaaki Saeki, Soumi Maiti, Xinjian Li, **Shinji Watanabe**, Shinnosuke Takamichi, and Hiroshi Saruwatari, "Text-Inductive Graphone-Based Language Adaptation for Low-Resource Speech Synthesis,” IEEE Transactions on Audio, Speech and Language Processing (2024)
 
-Zhong-Qiu Wang, Samuele Cornell, Shukjae Choi, Younglo Lee, Byeong-Yeol Kim, and Shinji Watanabe, "TF-GridNet: Integrating Full- and Sub-Band Modeling for Speech Separation,” IEEE Transactions on Audio, Speech and Language Processing (2023)
+Zhong-Qiu Wang, Samuele Cornell, Shukjae Choi, Younglo Lee, Byeong-Yeol Kim, and **Shinji Watanabe**, "TF-GridNet: Integrating Full- and Sub-Band Modeling for Speech Separation,” IEEE Transactions on Audio, Speech and Language Processing (2023)
 
-Yen-Ju Lu, Chia-Yu Chang, Cheng Yu, Ching-Feng Liu, Jeih-weih Hung, Shinji Watanabe, and Yu Tsao, "Improving Speech Enhancement Performance by Leveraging Contextual Broad Phonetic Class Information,” IEEE Transactions on Audio, Speech and Language Processing (2023)
+Yen-Ju Lu, Chia-Yu Chang, Cheng Yu, Ching-Feng Liu, Jeih-weih Hung, **Shinji Watanabe**, and Yu Tsao, "Improving Speech Enhancement Performance by Leveraging Contextual Broad Phonetic Class Information,” IEEE Transactions on Audio, Speech and Language Processing (2023)
 
-Siddharth Dalmia, Dmytro Okhonko, Mike Lewis, Sergey Edunov, Shinji Watanabe, Florian Metze, Luke Zettlemoyer, and Abdelrahman Mohamed, "LegoNN: Building Modular Encoder-Decoder Models,” IEEE Transactions on Audio, Speech and Language Processing (2023)
+Siddharth Dalmia, Dmytro Okhonko, Mike Lewis, Sergey Edunov, **Shinji Watanabe**, Florian Metze, Luke Zettlemoyer, and Abdelrahman Mohamed, "LegoNN: Building Modular Encoder-Decoder Models,” IEEE Transactions on Audio, Speech and Language Processing (2023)
 
-Shota Horiguchi, Shinji Watanabe, Paola Garcia, Yuki Takashima, and Yohei Kawaguchi, ”Online Neural Diarization of Unlimited Numbers of Speakers Using Global and Local Attractors,” IEEE Transactions on Audio, Speech and Language Processing (2023), 2025 IEEE SPS Young Author Best Paper Award
+Shota Horiguchi, **Shinji Watanabe**, Paola Garcia, Yuki Takashima, and Yohei Kawaguchi, ”Online Neural Diarization of Unlimited Numbers of Speakers Using Global and Local Attractors,” IEEE Transactions on Audio, Speech and Language Processing (2023), 2025 IEEE SPS Young Author Best Paper Award
 
-Matthew Maciejewski, Jing Shi, Shinji Watanabe, and Sanjeev Khudanpur, "A Dilemma of Ground Truth in Noisy Speech Separation and an Approach to Lessen the Impact of Imperfect Training Data," Computer Speech & Language, vol. 77, pages 101410 (2023)
+Matthew Maciejewski, Jing Shi, **Shinji Watanabe**, and Sanjeev Khudanpur, "A Dilemma of Ground Truth in Noisy Speech Separation and an Approach to Lessen the Impact of Imperfect Training Data," Computer Speech & Language, vol. 77, pages 101410 (2023)
 
-Zhong-Qiu Wang, Gordon Wichern, Shinji Watanabe, and Jonathan Le Roux, "STFT-Domain Neural Speech Enhancement with Very Low Algorithmic Latency," IEEE Transactions on Audio, Speech and Language Processing, vol. 31, pp. 397--410 (2022).
+Zhong-Qiu Wang, Gordon Wichern, **Shinji Watanabe**, and Jonathan Le Roux, "STFT-Domain Neural Speech Enhancement with Very Low Algorithmic Latency," IEEE Transactions on Audio, Speech and Language Processing, vol. 31, pp. 397--410 (2022).
 
-Wangyou Zhang, Xuankai Chang, Christoph Boeddeker, Tomohiro Nakatani, Shinji Watanabe, and Yanmin Qian, "End-to-End Dereverberation, Beamforming, and Speech Recognition in A Cocktail Party," IEEE Transactions on Audio, Speech and Language Processing, vol. 30, pp. 3173-3188 (2022)
+Wangyou Zhang, Xuankai Chang, Christoph Boeddeker, Tomohiro Nakatani, **Shinji Watanabe**, and Yanmin Qian, "End-to-End Dereverberation, Beamforming, and Speech Recognition in A Cocktail Party," IEEE Transactions on Audio, Speech and Language Processing, vol. 30, pp. 3173-3188 (2022)
 
-Zhong-Qiu Wang and Shinji Watanabe, "Improving Frame-Online Neural Speech Enhancement with Overlapped-Frame Prediction," IEEE Signal Processing Letters, vol. 29, pp. 1422-1426 (2022)
+Zhong-Qiu Wang and **Shinji Watanabe**, "Improving Frame-Online Neural Speech Enhancement with Overlapped-Frame Prediction," IEEE Signal Processing Letters, vol. 29, pp. 1422-1426 (2022)
 
-Shota Horiguchi, Yusuke Fujita, Shinji Watanabe, Yawen Xue, and Paola Garcia, "Encoder-Decoder Based Attractors for End-to-End Neural Diarization," IEEE Transactions on Audio, Speech and Language Processing, vol. 30, pp. 1493-1507 (2022)
+Shota Horiguchi, Yusuke Fujita, **Shinji Watanabe**, Yawen Xue, and Paola Garcia, "Encoder-Decoder Based Attractors for End-to-End Neural Diarization," IEEE Transactions on Audio, Speech and Language Processing, vol. 30, pp. 1493-1507 (2022)
 
-Jing Shi, Xuankai Chang, Shinji Watanabe, and Bo Xu, "Train from scratch: single-stage joint training of speech separation and recognition," Computer Speech & Language, vol. 76, pages 101387 (2022)
+Jing Shi, Xuankai Chang, **Shinji Watanabe**, and Bo Xu, "Train from scratch: single-stage joint training of speech separation and recognition," Computer Speech & Language, vol. 76, pages 101387 (2022)
 
-Aswin Shanmugam Subramanian, Chao Weng, Shinji Watanabe, Meng Yu, and Dong Yu, "Deep Learning based Multi-Source Localization with Source Splitting and its Effectiveness in Multi-Talker Speech Recognition," Computer Speech & Language, vol. 75, pages 101360 (2022)
+Aswin Shanmugam Subramanian, Chao Weng, **Shinji Watanabe**, Meng Yu, and Dong Yu, "Deep Learning based Multi-Source Localization with Source Splitting and its Effectiveness in Multi-Talker Speech Recognition," Computer Speech & Language, vol. 75, pages 101360 (2022)
 
-Jiatong Shi, Chunlei Zhang, Chao Weng, Shinji Watanabe, Meng Yu, and Dong Yu, "An Investigation of Neural Uncertainty Estimation for Target Speaker Extraction Equipped RNN Transducer," Computer Speech & Language, vol. 73, pages 101327 (2022)
+Jiatong Shi, Chunlei Zhang, Chao Weng, **Shinji Watanabe**, Meng Yu, and Dong Yu, "An Investigation of Neural Uncertainty Estimation for Target Speaker Extraction Equipped RNN Transducer," Computer Speech & Language, vol. 73, pages 101327 (2022)
 
-Tae Jin Park, Naoyuki Kanda, Dimitrios Dimitriadis, Kyu J. Han, and Shinji Watanabe, Shrikanth Narayanan, "A Review of Speaker Diarization: Recent Advances with Deep Learning," Computer Speech & Language, vol. 72, pages 101317 (2022)
+Tae Jin Park, Naoyuki Kanda, Dimitrios Dimitriadis, Kyu J. Han, and **Shinji Watanabe**, Shrikanth Narayanan, "A Review of Speaker Diarization: Recent Advances with Deep Learning," Computer Speech & Language, vol. 72, pages 101317 (2022)
 
-Zili Huang, Marc Delcroix, Leibny Paola Garcia, Shinji Watanabe, Desh Raj, and Sanjeev Khudanpur, "Joint Speaker Diarization and Speech Recognition Based on Region Proposal Networks," Computer Speech & Language, vol. 72, pages 101316 (2022)
+Zili Huang, Marc Delcroix, Leibny Paola Garcia, **Shinji Watanabe**, Desh Raj, and Sanjeev Khudanpur, "Joint Speaker Diarization and Speech Recognition Based on Region Proposal Networks," Computer Speech & Language, vol. 72, pages 101316 (2022)
 
-Amir Hussein, Shinji Watanabe, and Ahmed Ali, "Arabic Speech Recognition by End-to-End, Modular Systems and Human," Computer Speech & Language, vol. 71, pages 101272 (2022)
+Amir Hussein, **Shinji Watanabe**, and Ahmed Ali, "Arabic Speech Recognition by End-to-End, Modular Systems and Human," Computer Speech & Language, vol. 71, pages 101272 (2022)
 
-Nanxin Chen, Shinji Watanabe, Jesus Villalba, Piotr Zelasko, and Najim Dehak, "Non-Autoregressive Transformer for Speech Recognition," IEEE Signal Processing Letters, vol. 28, pp 121 -- 125 (2020)
+Nanxin Chen, **Shinji Watanabe**, Jesus Villalba, Piotr Zelasko, and Najim Dehak, "Non-Autoregressive Transformer for Speech Recognition," IEEE Signal Processing Letters, vol. 28, pp 121 -- 125 (2020)
 
-Wangyou Zhang, Xuankai Chang, Yanmin Qian, and Shinji Watanabe, "Improving End-to-End Single-Channel Multi-Talker Speech Recognition," IEEE Transactions on Audio, Speech and Language Processing, vol. 28, pp. 1385--1394 (2020)
+Wangyou Zhang, Xuankai Chang, Yanmin Qian, and **Shinji Watanabe**, "Improving End-to-End Single-Channel Multi-Talker Speech Recognition," IEEE Transactions on Audio, Speech and Language Processing, vol. 28, pp. 1385--1394 (2020)
 
-Ruizhi Li, Xiaofei Wang, Sri Harish Mallidi, Shinji Watanabe, Takaaki Hori, and Hynek Hermansky, "Multi-Stream End-to-End Speech Recognition," IEEE Transactions on Audio, Speech and Language Processing, vol. 28, pp. 646--655 (2020)
+Ruizhi Li, Xiaofei Wang, Sri Harish Mallidi, **Shinji Watanabe**, Takaaki Hori, and Hynek Hermansky, "Multi-Stream End-to-End Speech Recognition," IEEE Transactions on Audio, Speech and Language Processing, vol. 28, pp. 646--655 (2020)
 
-Jonathan Le Roux, Gordon Wichern, Shinji Watanabe, Andy Sarroff, and John R. Hershey, ”Phasebook and Friends: Leveraging discrete representations for source separation," IEEE Journal of Selected Topics in Signal Processing, pp. 370--382 (2019)
+Jonathan Le Roux, Gordon Wichern, **Shinji Watanabe**, Andy Sarroff, and John R. Hershey, ”Phasebook and Friends: Leveraging discrete representations for source separation," IEEE Journal of Selected Topics in Signal Processing, pp. 370--382 (2019)
 
-Takafumi Moriya, Tomohiro Tanaka, Takahiro Shinozaki, Shinji Watanabe, and Kevin Duh, "Evolution-Strategy-Based Automation of System Development for High-Performance Speech Recognition," IEEE Transactions on Audio, Speech and Language Processing, vol. 27, no. 1, pp. 77--88 (2019)
+Takafumi Moriya, Tomohiro Tanaka, Takahiro Shinozaki, **Shinji Watanabe**, and Kevin Duh, "Evolution-Strategy-Based Automation of System Development for High-Performance Speech Recognition," IEEE Transactions on Audio, Speech and Language Processing, vol. 27, no. 1, pp. 77--88 (2019)
 
-Chungwei Lin, Tim K. Marks, Milutin Pajovic, Shinji Watanabe, and Chih-kuan Tung, "Model parameter learning using Kullback–Leibler divergence," Physica A, vol. 491, pp. 549-559 (2018)
+Chungwei Lin, Tim K. Marks, Milutin Pajovic, **Shinji Watanabe**, and Chih-kuan Tung, "Model parameter learning using Kullback–Leibler divergence," Physica A, vol. 491, pp. 549-559 (2018)
 
-Tsubasa Ochiai, Shinji Watanabe, Takaaki Hori, John R. Hershey, and Xiong Xiao, "A Unified Architecture for Multichannel End-to-End Speech Recognition with Neural Beamforming," IEEE Journal of Selected Topics in Signal Processing, vol. 11, no. 8, pp. 1274--1288 (2017)
+Tsubasa Ochiai, **Shinji Watanabe**, Takaaki Hori, John R. Hershey, and Xiong Xiao, "A Unified Architecture for Multichannel End-to-End Speech Recognition with Neural Beamforming," IEEE Journal of Selected Topics in Signal Processing, vol. 11, no. 8, pp. 1274--1288 (2017)
 
-Shinji Watanabe, Takaaki Hori, Suyoun Kim, John R. Hershey, and Tomoki Hayashi, "Hybrid CTC/attention architecture for end-to-end speech recognition," IEEE Journal of Selected Topics in Signal Processing, vol. 11, no. 8, pp. 1240--1253 (2017)
+**Shinji Watanabe**, Takaaki Hori, Suyoun Kim, John R. Hershey, and Tomoki Hayashi, "Hybrid CTC/attention architecture for end-to-end speech recognition," IEEE Journal of Selected Topics in Signal Processing, vol. 11, no. 8, pp. 1240--1253 (2017)
 
-Tomoki Hayashi, Shinji Watanabe, Tomoki Toda, Takaaki Hori, Jonathan Le Roux, Kazuya Takeda, "Duration-Controlled LSTM for Polyphonic Sound Event Detection," IEEE Transactions on Audio, Speech and Language Processing, vol. 25, no. 11, pp. 2059--2070 (2017)
+Tomoki Hayashi, **Shinji Watanabe**, Tomoki Toda, Takaaki Hori, Jonathan Le Roux, Kazuya Takeda, "Duration-Controlled LSTM for Polyphonic Sound Event Detection," IEEE Transactions on Audio, Speech and Language Processing, vol. 25, no. 11, pp. 2059--2070 (2017)
 
-Takaaki Hori, Zhuo Chen, Hakan Erdogan, John Hershey, Jonathan Le Roux, Vikramjit Mitra, and Shinji Watanabe, “Multi-Microphone Speech Recognition Integrating Beamforming, Robust Feature Extraction, and Advanced DNN/RNN Backend, " Computer Speech & Language, pp. 401--418 (2017)
+Takaaki Hori, Zhuo Chen, Hakan Erdogan, John Hershey, Jonathan Le Roux, Vikramjit Mitra, and **Shinji Watanabe**, “Multi-Microphone Speech Recognition Integrating Beamforming, Robust Feature Extraction, and Advanced DNN/RNN Backend, " Computer Speech & Language, pp. 401--418 (2017)
 
-Jon Barker, Ricard Marxer, Emmanuel Vincent, Shinji Watanabe, "The third ’CHIME’ speech separation and recognition challenge: Analysis and outcomes," Computer Speech & Language, pp. 605--626 (2017)
+Jon Barker, Ricard Marxer, Emmanuel Vincent, **Shinji Watanabe**, "The third ’CHIME’ speech separation and recognition challenge: Analysis and outcomes," Computer Speech & Language, pp. 605--626 (2017)
 
-Emmanuel Vincent, Shinji Watanabe, Aditya Nugraha, Jon Barker, Ricard Marxer, "An analysis of environment, microphone and data simulation mismatches in robust speech recognition," Computer Speech & Language, pp. 535--557 (2017) Best Review Paper Award
+Emmanuel Vincent, **Shinji Watanabe**, Aditya Nugraha, Jon Barker, Ricard Marxer, "An analysis of environment, microphone and data simulation mismatches in robust speech recognition," Computer Speech & Language, pp. 535--557 (2017) Best Review Paper Award
 
-Naohiro Tawara, Tetsuji Ogawa, Shinji Watanabe, Atsushi Nakamura, and Tetsunori Kobayashi, "A sampling-based speaker clustering using utterance-oriented Dirichlet process mixture model and its evaluation on large scale data," APSIPA Transactions on Signal and Information Processing, vol. 4, e16 (2015).
+Naohiro Tawara, Tetsuji Ogawa, **Shinji Watanabe**, Atsushi Nakamura, and Tetsunori Kobayashi, "A sampling-based speaker clustering using utterance-oriented Dirichlet process mixture model and its evaluation on large scale data," APSIPA Transactions on Signal and Information Processing, vol. 4, e16 (2015).
 
-Yuuki Tachioka, Tomohiro Narita, and Shinji Watanabe, "Effectiveness of dereverberation, feature transformation, discriminative training methods, and system combination approach for various reverberant environments," EURASIP Journal on Advances in Signal Processing, vol. 2015:52 (2015).
+Yuuki Tachioka, Tomohiro Narita, and **Shinji Watanabe**, "Effectiveness of dereverberation, feature transformation, discriminative training methods, and system combination approach for various reverberant environments," EURASIP Journal on Advances in Signal Processing, vol. 2015:52 (2015).
 
-Masayuki Suzuki, Takuya Yoshioka, Shinji Watanabe, Nobuaki Minematsu, and Keikichi Hirose, "Feature Enhancement with Joint Use of Consecutive Corrupted and Noise Feature Vectors with Discriminative Region Weighting," IEEE Transactions on Audio, Speech & Language Processing, vol. 21, no. 10, pp. 2172--2181 (2013).
+Masayuki Suzuki, Takuya Yoshioka, **Shinji Watanabe**, Nobuaki Minematsu, and Keikichi Hirose, "Feature Enhancement with Joint Use of Consecutive Corrupted and Noise Feature Vectors with Discriminative Region Weighting," IEEE Transactions on Audio, Speech & Language Processing, vol. 21, no. 10, pp. 2172--2181 (2013).
 
-Shinji Watanabe, Atsushi Nakamura, and Biing-Hwang (Fred) Juang, "Structural Bayesian linear regression for hidden Markov models," Journal of Signal Processing Systems, pp. 1--18 (2013).
+**Shinji Watanabe**, Atsushi Nakamura, and Biing-Hwang (Fred) Juang, "Structural Bayesian linear regression for hidden Markov models," Journal of Signal Processing Systems, pp. 1--18 (2013).
 
-Seong-Jun Hahm, Shinji Watanabe, Atsunori Ogawa, Masakiyo Fujimoto, Takaaki Hori, and Atsushi Nakamura, "Prior-Shared Feature and Model Space Speaker Adaptation by Consistently Employing MAP Estimation," Speech Communication, vol. 55, Issue 3, pp. 415--431 (2013).
+Seong-Jun Hahm, **Shinji Watanabe**, Atsunori Ogawa, Masakiyo Fujimoto, Takaaki Hori, and Atsushi Nakamura, "Prior-Shared Feature and Model Space Speaker Adaptation by Consistently Employing MAP Estimation," Speech Communication, vol. 55, Issue 3, pp. 415--431 (2013).
 
-Tomoharu Iwata and Shinji Watanabe, "Influence Relation Estimation based on Lexical Entrainment in Conversation," Speech Communication, vol. 55, issue 2, pp 329–-339 (2013)
+Tomoharu Iwata and **Shinji Watanabe**, "Influence Relation Estimation based on Lexical Entrainment in Conversation," Speech Communication, vol. 55, issue 2, pp 329–-339 (2013)
 
-Marc Delcroix, Keisuke Kinoshita, Tomohiro Nakatani, Shoko Araki, Atsunori Ogawa, Takaaki Hori, Shinji Watanabe, Masakiyo Fujimoto, Takuya Yoshioka, Takanobu Oba, Yotaro Kubo, Mehrez Souden, Seong-Jun Hahm, and Atsushi Nakamura, "Speech recognition in living rooms: Integrated speech enhancement and recognition system based on spatial, spectral and temporal modeling of sounds," Computer Speech & Language, vol. 27, Issue 3, pp. 851--873 (2013).
+Marc Delcroix, Keisuke Kinoshita, Tomohiro Nakatani, Shoko Araki, Atsunori Ogawa, Takaaki Hori, **Shinji Watanabe**, Masakiyo Fujimoto, Takuya Yoshioka, Takanobu Oba, Yotaro Kubo, Mehrez Souden, Seong-Jun Hahm, and Atsushi Nakamura, "Speech recognition in living rooms: Integrated speech enhancement and recognition system based on spatial, spectral and temporal modeling of sounds," Computer Speech & Language, vol. 27, Issue 3, pp. 851--873 (2013).
 
-Marc Delcroix, Shinji Watanabe, Tomohiro Nakatani, and Atsushi Nakamura, "Cluster-based dynamic variance adaptation for interconnecting speech enhancement pre-processor and speech recognizer," Computer Speech & Language, vol. 27, Issue 1, pp. 350--368 (2013)
+Marc Delcroix, **Shinji Watanabe**, Tomohiro Nakatani, and Atsushi Nakamura, "Cluster-based dynamic variance adaptation for interconnecting speech enhancement pre-processor and speech recognizer," Computer Speech & Language, vol. 27, Issue 1, pp. 350--368 (2013)
 
-Yotaro Kubo, Shinji Watanabe, Takaaki Hori, and Atsushi Nakamura, "Structural Classification Methods based on Weighted Finite-State Transducers for Automatic Speech Recognition," IEEE Transactions on Audio, Speech & Language Processing, vol. 20, issue 8, pp. 2240--2251 (2012).
+Yotaro Kubo, **Shinji Watanabe**, Takaaki Hori, and Atsushi Nakamura, "Structural Classification Methods based on Weighted Finite-State Transducers for Automatic Speech Recognition," IEEE Transactions on Audio, Speech & Language Processing, vol. 20, issue 8, pp. 2240--2251 (2012).
 
-Daisuke Saito, Shinji Watanabe, Atsushi Nakamura, and Nobuaki Minematsu, "Statistical Voice Conversion Based on Noisy Channel Model, " IEEE Transactions on Audio, Speech & Language Processing, vol. 20, issue 6, pp. 1784--1794 (2012). ASJ Itakura Award
+Daisuke Saito, **Shinji Watanabe**, Atsushi Nakamura, and Nobuaki Minematsu, "Statistical Voice Conversion Based on Noisy Channel Model, " IEEE Transactions on Audio, Speech & Language Processing, vol. 20, issue 6, pp. 1784--1794 (2012). ASJ Itakura Award
 
-Takuya Maekawa and Shinji Watanabe, “Training Data Selection with User's Physical Characteristics Data for Acceleration-based Activity Modeling,” Personal and Ubiquitous Computing, vol. 17, issue 3, pp. 451--463 (2013).
+Takuya Maekawa and **Shinji Watanabe**, “Training Data Selection with User's Physical Characteristics Data for Acceleration-based Activity Modeling,” Personal and Ubiquitous Computing, vol. 17, issue 3, pp. 451--463 (2013).
 
-Masakiyo Fujimoto, Shinji Watanabe, and Tomohiro Nakatani, "Frame-wise model re-estimation method based on Gaussian pruning with weight normalization for noise robust voice activity detection," Speech Communication, vol. 54(2), pp. 229--244 (2012)
+Masakiyo Fujimoto, **Shinji Watanabe**, and Tomohiro Nakatani, "Frame-wise model re-estimation method based on Gaussian pruning with weight normalization for noise robust voice activity detection," Speech Communication, vol. 54(2), pp. 229--244 (2012)
 
-Takaaki Hori, Shoko Araki, Takuya Yoshioka, Masakiyo Fujimoto, Shinji Watanabe, Takanobu Oba, Atsunori Ogawa, Kazuhiro Otsuka, Dan Mikami, Keisuke Kinoshita, Tomohiro Nakatani, Atsushi Nakamura, and Junji Yamato, "Low-latency Real-time Meeting Recognition and Understanding Using Distant Microphones and Omni-directional Camera," IEEE Transactions on Audio, Speech & Language Processing, vol. 20, issue 2, pp. 499--513 (2012).
+Takaaki Hori, Shoko Araki, Takuya Yoshioka, Masakiyo Fujimoto, **Shinji Watanabe**, Takanobu Oba, Atsunori Ogawa, Kazuhiro Otsuka, Dan Mikami, Keisuke Kinoshita, Tomohiro Nakatani, Atsushi Nakamura, and Junji Yamato, "Low-latency Real-time Meeting Recognition and Understanding Using Distant Microphones and Omni-directional Camera," IEEE Transactions on Audio, Speech & Language Processing, vol. 20, issue 2, pp. 499--513 (2012).
 
-Hideyuki Watanabe, Shigeru Katagiri, Kouta Yamada, Erik McDermott, Atsushi Nakamura, Shinji Watanabe, and Miho Ohsaki, "Minimum Classification Error Training Using Geometric-Margin-Based Misclassification Measure," (in Japanese) IEICE Transactions on Information and Systems, Vol.J94-D No.10 pp.1664--1675 (2011)
+Hideyuki Watanabe, Shigeru Katagiri, Kouta Yamada, Erik McDermott, Atsushi Nakamura, **Shinji Watanabe**, and Miho Ohsaki, "Minimum Classification Error Training Using Geometric-Margin-Based Misclassification Measure," (in Japanese) IEICE Transactions on Information and Systems, Vol.J94-D No.10 pp.1664--1675 (2011)
 
-Hideyuki Watanabe, Shin'ichi TANIGUCHI, Shigeru Katagiri, Kouta Yamada, Atsushi Nakamura, Erik McDermott, Shinji Watanabe, and Miho Ohsaki, "Incremental Minimum Classification Error Training for Pattern Recognition," (in Japanese) IEICE Transactions on Information and Systems vol. J94-D, no. 4, pp. 702--711, (2011)
+Hideyuki Watanabe, Shin'ichi TANIGUCHI, Shigeru Katagiri, Kouta Yamada, Atsushi Nakamura, Erik McDermott, **Shinji Watanabe**, and Miho Ohsaki, "Incremental Minimum Classification Error Training for Pattern Recognition," (in Japanese) IEICE Transactions on Information and Systems vol. J94-D, no. 4, pp. 702--711, (2011)
 
-Shinji Watanabe, Tomoharu Iwata, Takaaki Hori, Atsushi Sako, and Yasuo Ariki, "Topic Tracking Language Model for Speech Recognition," Computer Speech & Language, vol. 25, issue 2, pp. 440--461, (2011)
+**Shinji Watanabe**, Tomoharu Iwata, Takaaki Hori, Atsushi Sako, and Yasuo Ariki, "Topic Tracking Language Model for Speech Recognition," Computer Speech & Language, vol. 25, issue 2, pp. 440--461, (2011)
 
-Yotaro Kubo, Shinji Watanabe, Atsushi Nakamura, Erik McDermott, and Tetsunori Kobayashi, "A Sequential Pattern Classifier Based on Hidden Markov Kernel Machine and Its Application to Phoneme Recognition," IEEE Journal of Selected Topics in Signal Processing Volume 4, Issue 6, pages 974--984 (2010). IEEE Signal Processing Society Japan Chapter Student Paper Award
+Yotaro Kubo, **Shinji Watanabe**, Atsushi Nakamura, Erik McDermott, and Tetsunori Kobayashi, "A Sequential Pattern Classifier Based on Hidden Markov Kernel Machine and Its Application to Phoneme Recognition," IEEE Journal of Selected Topics in Signal Processing Volume 4, Issue 6, pages 974--984 (2010). IEEE Signal Processing Society Japan Chapter Student Paper Award
 
-David Cournapeau, Shinji Watanabe, Atsushi Nakamura, and Tatsuya Kawahara, "Online Unsupervised Classification with Model Comparison in the Variational Bayes Framework for Voice Activity Detection," IEEE Journal of Selected Topics in Signal Processing, volume 4, issue 6, pp. 1071--1083 (2010)
+David Cournapeau, **Shinji Watanabe**, Atsushi Nakamura, and Tatsuya Kawahara, "Online Unsupervised Classification with Model Comparison in the Variational Bayes Framework for Voice Activity Detection," IEEE Journal of Selected Topics in Signal Processing, volume 4, issue 6, pp. 1071--1083 (2010)
 
-Tomoharu Iwata, Shinji Watanabe, Takeshi Yamada and Naonori Ueda, "Topic Tracking Model for Purchase Behavior Analysis," (in Japanese) IEICE Transactions on Information and Systems, vol. J93-D, No. 6, pp. 978--987 (2010)
+Tomoharu Iwata, **Shinji Watanabe**, Takeshi Yamada and Naonori Ueda, "Topic Tracking Model for Purchase Behavior Analysis," (in Japanese) IEICE Transactions on Information and Systems, vol. J93-D, No. 6, pp. 978--987 (2010)
 
-Kenta Nishiki, Yousuke Izumi, Shinji Watanabe, Takuya Nishimoto, Nobutaka Ono, And Shigeki Sagayama, "Stereo-input speech recognition using sparseness-based blind source separation," (in Japanese) IEICE Transactions on Information and Systems vol. J93-D, no. 3, pp. 303--311, (2010)
+Kenta Nishiki, Yousuke Izumi, **Shinji Watanabe**, Takuya Nishimoto, Nobutaka Ono, And Shigeki Sagayama, "Stereo-input speech recognition using sparseness-based blind source separation," (in Japanese) IEICE Transactions on Information and Systems vol. J93-D, no. 3, pp. 303--311, (2010)
 
-Shinji Watanabe and Atsushi Nakamura, "Predictor-Corrector Adaptation by using Time Evolution System with Macroscopic Time Scale," IEEE Transactions on Audio, Speech & Language Processing, vol. 18, issue 2, pp. 395--406 (2010)
+**Shinji Watanabe** and Atsushi Nakamura, "Predictor-Corrector Adaptation by using Time Evolution System with Macroscopic Time Scale," IEEE Transactions on Audio, Speech & Language Processing, vol. 18, issue 2, pp. 395--406 (2010)
 
-Marc Delcroix, Tomohiro Nakatani, and Shinji Watanabe, "Static and dynamic variance compensation for recognition of reverberant speech with dereverberation pre-processing, " IEEE Transactions on Audio, Speech & Language Processing, vol. 17, issue 2, pp. 324--334, (2009)
+Marc Delcroix, Tomohiro Nakatani, and **Shinji Watanabe**, "Static and dynamic variance compensation for recognition of reverberant speech with dereverberation pre-processing, " IEEE Transactions on Audio, Speech & Language Processing, vol. 17, issue 2, pp. 324--334, (2009)
 
-Shinji Watanabe and Atsushi Nakamura, "Speech recognition based on Student's t-distribution derived from total Bayesian framework," IEICE Transactions on Information and Systems, vol.E89-D, no. 3, pp. 970--980, (2006)
+**Shinji Watanabe** and Atsushi Nakamura, "Speech recognition based on Student's t-distribution derived from total Bayesian framework," IEICE Transactions on Information and Systems, vol.E89-D, no. 3, pp. 970--980, (2006)
 
-Shinji Watanabe, Atsushi Sako and Atsushi Nakamura, "Automatic Determination of Acoustic Model Topology using Variational Bayesian Estimation and Clustering for Large Vocabulary Continuous Speech Recognition," IEEE Transactions on Speech and Audio Processing,, vol. 14, issue 3, pp. 855--872, (2006). (received the TELECOM System Technology Award from the Telecommunications Advancement Foundation in 2006)
+**Shinji Watanabe**, Atsushi Sako and Atsushi Nakamura, "Automatic Determination of Acoustic Model Topology using Variational Bayesian Estimation and Clustering for Large Vocabulary Continuous Speech Recognition," IEEE Transactions on Speech and Audio Processing,, vol. 14, issue 3, pp. 855--872, (2006). (received the TELECOM System Technology Award from the Telecommunications Advancement Foundation in 2006)
 
-Shinji Watanabe and Atsushi Nakamura, "Acoustic Model Adaptation based on Coarse/Fine Training of Transfer Vectors," (in Japanese), Information Technology Letters (2004)
+**Shinji Watanabe** and Atsushi Nakamura, "Acoustic Model Adaptation based on Coarse/Fine Training of Transfer Vectors," (in Japanese), Information Technology Letters (2004)
 
-Shinji Watanabe, Yasuhiro Minami, Atsushi Nakamura, and Naonori Ueda, "Variational Bayesian Estimation and Clustering for Speech Recognition," IEEE Transactions on Speech and Audio Processing, vol. 12, pp. 365--381, (2004)
+**Shinji Watanabe**, Yasuhiro Minami, Atsushi Nakamura, and Naonori Ueda, "Variational Bayesian Estimation and Clustering for Speech Recognition," IEEE Transactions on Speech and Audio Processing, vol. 12, pp. 365--381, (2004)
 
-Shinji Watanabe, Yasuhiro Minami, Atsushi Nakamura, and Naonori Ueda, "Selection of Shared-State Hidden Markov Model Structure Using Bayesian Criterion, "IEICE D-II, vol. J86-D-II, no. 6, pp. 776--786, (2003), (received the Best Paper Award from IEICE. The English translation version is in IEICE Transactions on Information and Systems, vol.E88-D, no. 1, pp. 1--9, (2005))
+**Shinji Watanabe**, Yasuhiro Minami, Atsushi Nakamura, and Naonori Ueda, "Selection of Shared-State Hidden Markov Model Structure Using Bayesian Criterion, "IEICE D-II, vol. J86-D-II, no. 6, pp. 776--786, (2003), (received the Best Paper Award from IEICE. The English translation version is in IEICE Transactions on Information and Systems, vol.E88-D, no. 1, pp. 1--9, (2005))
 
-Hisakazu Minakata and Shinji Watanabe, "Solar Neutrinos and Leptonic CP Violation," Phys. Lett. B, 468, p. 256, (1999)
+Hisakazu Minakata and **Shinji Watanabe**, "Solar Neutrinos and Leptonic CP Violation," Phys. Lett. B, 468, p. 256, (1999)
 
 ## International Conference and Workshop (refereed)
 
@@ -326,7 +326,7 @@ Haoran Wang, Jinchuan Tian, Siddhant Arora, and **Shinji Watanabe**, "An Efficie
 
 Shikhar Bharadwaj, Chin-Jou Li, Kwanghee Choi, Eunjung Yeo, William Chen, **Shinji Watanabe**, and David Mortensen "An Empirical Recipe for Universal Phone Recognition," *Proc. Interspeech'26* (accepted)
 
-Yosuke Kashiwagi, Osamu Take, Hayato Futami, Emiru Tsunoo, Siddhant Arora, and **Shinji Watanabe,** "Speaker-Aware Hypothesis Clustering and Merging for Target-Speaker-free and Target-Speaker Multi-Talker ASR," *Proc. Interspeech'26* (accepted)
+Yosuke Kashiwagi, Osamu Take, Hayato Futami, Emiru Tsunoo, Siddhant Arora, and **Shinji Watanabe**, "Speaker-Aware Hypothesis Clustering and Merging for Target-Speaker-free and Target-Speaker Multi-Talker ASR," *Proc. Interspeech'26* (accepted)
 
 Wei Wang, Wangyou Zhang, Chenda Li, Jiahe Wang, Marvin Sach, Kohei Saijo, Samuele Cornell, Yihui Fu, Zhaoheng Ni, Mengxiao Bi, Tim Fingscheidt, **Shinji Watanabe**, and Yanmin Qian, "URGENT-MOS: Unified Multi-Metric and Preference Learning for Robust Speech Quality Assessment," *Proc. Interspeech'26* (accepted)
 
@@ -390,463 +390,463 @@ Keita Goto, Takashi Maekaku, Jin Sakuma, Jinchuan Tian, Yusuke Shinohara, and **
 
 Zili Huang, Matthew Maciejewski, Leibny Paola Garcia Perera, **Shinji Watanabe**, and Sanjeev Khudanpur, "CSPB: Conversational Speech Processing Benchmark for Self-supervised Speech Models," *Proc. EACL'26* (accepted)
 
-Haoran Wang, Jiatong Shi, Jinchuan Tian, Bohan Li, Kai Yu, and **Shinji Watanabe,** "BSCodec: A Band-Split Neural Codec for High-Quality Universal Audio Reconstruction," *Proc. EACL'26* (accepted)
+Haoran Wang, Jiatong Shi, Jinchuan Tian, Bohan Li, Kai Yu, and **Shinji Watanabe**, "BSCodec: A Band-Split Neural Codec for High-Quality Universal Audio Reconstruction," *Proc. EACL'26* (accepted)
 
-Jiatong Shi, Yifan Cheng, Bo-Hao Su, Hye-jin Shim, Jinchuan Tian, Samuele Cornell, Yiwen Zhao, Siddhant Arora, and Shinji Watanabe, "ARECHO: Autoregressive Evaluation via Chain-Based Hypothesis Optimization for Speech Multi-Metric Estimation," Proc. NeurIPS'25 (accepted)
+Jiatong Shi, Yifan Cheng, Bo-Hao Su, Hye-jin Shim, Jinchuan Tian, Samuele Cornell, Yiwen Zhao, Siddhant Arora, and **Shinji Watanabe**, "ARECHO: Autoregressive Evaluation via Chain-Based Hypothesis Optimization for Speech Multi-Metric Estimation," Proc. NeurIPS'25 (accepted)
 
-Fabian Retkowski, Maike Züfle, Andreas Sudmann, Dinah Pfau, Shinji Watanabe, Jan Niehues, and Alexander Waibel, "Summarizing Speech: A Comprehensive Survey," Proc. EMNLP'25 (accepted)
+Fabian Retkowski, Maike Züfle, Andreas Sudmann, Dinah Pfau, **Shinji Watanabe**, Jan Niehues, and Alexander Waibel, "Summarizing Speech: A Comprehensive Survey," Proc. EMNLP'25 (accepted)
 
-Ryuga Sugano, Hiroaki Sato, Asahi Sakuma, Tadashi Kumano, Yoshihiko Kawai, and Shinji Watanabe, "Phoneme-grapheme Dictionary-based Prompting for Robust Proper Noun Recognition in Japanese ASR," Proc. APSIPA ASC'25 (accepted)
+Ryuga Sugano, Hiroaki Sato, Asahi Sakuma, Tadashi Kumano, Yoshihiko Kawai, and **Shinji Watanabe**, "Phoneme-grapheme Dictionary-based Prompting for Robust Proper Noun Recognition in Japanese ASR," Proc. APSIPA ASC'25 (accepted)
 
-Leander Maben, Gayathri Lakshmy, Srijith Radhakrishnan, Siddhant Arora, and Shinji Watanabe, "AURA: Agent for Understanding, Reasoning, and Automated Tool Use in Voice-Driven Tasks," Proc. ASRU'25 Demo (accepted)
+Leander Maben, Gayathri Lakshmy, Srijith Radhakrishnan, Siddhant Arora, and **Shinji Watanabe**, "AURA: Agent for Understanding, Reasoning, and Automated Tool Use in Voice-Driven Tasks," Proc. ASRU'25 Demo (accepted)
 
-Jiatong Shi, Bo-Hao Su, Shikhar Bharadwaj, Yiwen Zhao, Shih-Heng Wang, Jionghao Han, Haoran Wang, Wei Wang, Wenhao Feng, Yuxun Tang, Nezih Topaloğlu, Siddhant Arora, Jinchuan Tian, William Chen, Hye-jin Shim, Wangyou Zhang, Wen-Chin Huang, and Shinji Watanabe, "VERSA-v2: A Modular and Scalable Toolkit for Speech and Audio Evaluation with Expanded Metrics, Visualization, and LLM Integration," Proc. ASRU'25 Demo (accepted)
+Jiatong Shi, Bo-Hao Su, Shikhar Bharadwaj, Yiwen Zhao, Shih-Heng Wang, Jionghao Han, Haoran Wang, Wei Wang, Wenhao Feng, Yuxun Tang, Nezih Topaloğlu, Siddhant Arora, Jinchuan Tian, William Chen, Hye-jin Shim, Wangyou Zhang, Wen-Chin Huang, and **Shinji Watanabe**, "VERSA-v2: A Modular and Scalable Toolkit for Speech and Audio Evaluation with Expanded Metrics, Visualization, and LLM Integration," Proc. ASRU'25 Demo (accepted)
 
-Takashi Maekaku, Keita Goto, Jinchuan Tian, Yusuke Shinohara, and Shinji Watanabe, "Evaluating Self-Supervised Speech Models via Text-based LLMs," Proc. ASRU'25 (accepted)
+Takashi Maekaku, Keita Goto, Jinchuan Tian, Yusuke Shinohara, and **Shinji Watanabe**, "Evaluating Self-Supervised Speech Models via Text-based LLMs," Proc. ASRU'25 (accepted)
 
-Qingzheng Wang, Hye-jin Shim, Jiancheng Sun, and Shinji Watanabe, "Geolocation-Aware Robust Spoken Language Identification," Proc. ASRU'25 (accepted)
+Qingzheng Wang, Hye-jin Shim, Jiancheng Sun, and **Shinji Watanabe**, "Geolocation-Aware Robust Spoken Language Identification," Proc. ASRU'25 (accepted)
 
-Yiwen Zhao, Jiatong Shi, Yuxun Tang, William Chen, and Shinji Watanabe, "Robust Training of Singing Voice Synthesis Using Prior and Posterior Uncertainty," Proc. ASRU'25 (accepted)
+Yiwen Zhao, Jiatong Shi, Yuxun Tang, William Chen, and **Shinji Watanabe**, "Robust Training of Singing Voice Synthesis Using Prior and Posterior Uncertainty," Proc. ASRU'25 (accepted)
 
-Muhammad Shakeel, Yui Sudo, Yifan Peng, Chyi-Jiunn Lin, and Shinji Watanabe, "Unifying Diarization, Separation, and ASR with Multi-Speaker Encoder," Proc. ASRU'25 (accepted)
+Muhammad Shakeel, Yui Sudo, Yifan Peng, Chyi-Jiunn Lin, and **Shinji Watanabe**, "Unifying Diarization, Separation, and ASR with Multi-Speaker Encoder," Proc. ASRU'25 (accepted)
 
-Jiatong Shi, Haoran Wang, William Chen, Chenda Li, Wangyou Zhang, Jinchuan Tian, and Shinji Watanabe, "PURE Codec: Progressive Unfolding of Residual Entropy for Speech Codec Learning," Proc. ASRU'25 (accepted)
+Jiatong Shi, Haoran Wang, William Chen, Chenda Li, Wangyou Zhang, Jinchuan Tian, and **Shinji Watanabe**, "PURE Codec: Progressive Unfolding of Residual Entropy for Speech Codec Learning," Proc. ASRU'25 (accepted)
 
-Pu Wang, Shinji Watanabe, and Hugo Van hamme, "SSVD: Structured SVD for Parameter-Efficient Fine-Tuning and Benchmarking under Domain Shift in ASR," Proc. ASRU'25 (accepted)
+Pu Wang, **Shinji Watanabe**, and Hugo Van hamme, "SSVD: Structured SVD for Parameter-Efficient Fine-Tuning and Benchmarking under Domain Shift in ASR," Proc. ASRU'25 (accepted)
 
-Chenda Li, Wangyou Zhang, Wei Wang, Robin Scheibler, Kohei Saijo, Samuele Cornell, Yihui Fu, Marvin Sach, Zhaoheng Ni, Anurag Kumar, Tim Fingscheidt, Shinji Watanabe, and Yanmin Qian, "Less is More: Data Curation Matters in Scaling Speech Enhancement," Proc. ASRU'25 (accepted)
+Chenda Li, Wangyou Zhang, Wei Wang, Robin Scheibler, Kohei Saijo, Samuele Cornell, Yihui Fu, Marvin Sach, Zhaoheng Ni, Anurag Kumar, Tim Fingscheidt, **Shinji Watanabe**, and Yanmin Qian, "Less is More: Data Curation Matters in Scaling Speech Enhancement," Proc. ASRU'25 (accepted)
 
-Emiru Tsunoo, Hayato Futami, Yosuke Kashiwagi, Siddhant Arora, and Shinji Watanabe, "Spiralformer: Low Latency Encoder for Streaming Speech Recognition with Circular Layer Skipping and Early Exiting," Proc. ASRU'25 (accepted)
+Emiru Tsunoo, Hayato Futami, Yosuke Kashiwagi, Siddhant Arora, and **Shinji Watanabe**, "Spiralformer: Low Latency Encoder for Streaming Speech Recognition with Circular Layer Skipping and Early Exiting," Proc. ASRU'25 (accepted)
 
-Jiahe Wang, Chenda Li, Wei Wang, Wangyou Zhang, Samuele Cornell, Marvin Sach, Robin Scheibler, Kohei Saijo, Yihui Fu, Zhaoheng Ni, Anurag Kumar, Tim Fingscheidt, Shinji Watanabe, and Yanmin Qian, "URGENT-PK: Perceptually-Aligned Ranking Model Designed for Speech Enhancement Competition," Proc. ASRU'25 (accepted)
+Jiahe Wang, Chenda Li, Wei Wang, Wangyou Zhang, Samuele Cornell, Marvin Sach, Robin Scheibler, Kohei Saijo, Yihui Fu, Zhaoheng Ni, Anurag Kumar, Tim Fingscheidt, **Shinji Watanabe**, and Yanmin Qian, "URGENT-PK: Perceptually-Aligned Ranking Model Designed for Speech Enhancement Competition," Proc. ASRU'25 (accepted)
 
-Wei Wang, Wangyou Zhang, Chenda Li, JiaTong Shi, Shinji Watanabe, and Yanmin Qian, "Improving Speech Enhancement with Multi-Metric Supervision from Learned Quality Assessment," Proc. ASRU'25 (accepted)
+Wei Wang, Wangyou Zhang, Chenda Li, JiaTong Shi, **Shinji Watanabe**, and Yanmin Qian, "Improving Speech Enhancement with Multi-Metric Supervision from Learned Quality Assessment," Proc. ASRU'25 (accepted)
 
-Sathvik Udupa, Shinji Watanabe, Petr Schwarz, and Jan Cernocky, "Streaming Endpointer for Spoken Dialogue using Neural Audio Codecs and Label-Delayed Training," Proc. ASRU'25 (accepted)
+Sathvik Udupa, **Shinji Watanabe**, Petr Schwarz, and Jan Cernocky, "Streaming Endpointer for Spoken Dialogue using Neural Audio Codecs and Label-Delayed Training," Proc. ASRU'25 (accepted)
 
-Jiatong Shi, Chunlei Zhang, Jinchuan Tian, Junrui Ni, Hao Zhang, Shinji Watanabe, and Dong Yu, "Balancing Speech Understanding and Generation Using Continual Pre-training for Codec-based Speech LLM," Proc. ASRU'25 (accepted)
+Jiatong Shi, Chunlei Zhang, Jinchuan Tian, Junrui Ni, Hao Zhang, **Shinji Watanabe**, and Dong Yu, "Balancing Speech Understanding and Generation Using Continual Pre-training for Codec-based Speech LLM," Proc. ASRU'25 (accepted)
 
-Shikhar Bharadwaj, Samuele Cornell, Kwanghee Choi, Satoru Fukayama, Hye-jin Shim, Soham Deshmukh, and Shinji Watanabe, "OpenBEATs: A Fully Open-Source General-Purpose Audio Encoder," Proc. WASPAA'25 (accepted)
+Shikhar Bharadwaj, Samuele Cornell, Kwanghee Choi, Satoru Fukayama, Hye-jin Shim, Soham Deshmukh, and **Shinji Watanabe**, "OpenBEATs: A Fully Open-Source General-Purpose Audio Encoder," Proc. WASPAA'25 (accepted)
 
-Holger Bovbjerg, Jan Østergaard, Jesper Jensen, Shinji Watanabe, and Zheng-Hua Tan, "Learning Robust Spatial Representations from Binaural Audio through Feature Distillation," Proc. WASPAA'25 (accepted)
+Holger Bovbjerg, Jan Østergaard, Jesper Jensen, **Shinji Watanabe**, and Zheng-Hua Tan, "Learning Robust Spatial Representations from Binaural Audio through Feature Distillation," Proc. WASPAA'25 (accepted)
 
-Yichen Huang, Zachary Novack, Koichi Saito, Jiatong Shi, Shinji Watanabe, Yuki Mitsufuji, John Thickstun, and Chris Donahue, "Aligning Text-to-Music Evaluation with Human Preferences," Proc. ISMIR'25 (accepted)
+Yichen Huang, Zachary Novack, Koichi Saito, Jiatong Shi, **Shinji Watanabe**, Yuki Mitsufuji, John Thickstun, and Chris Donahue, "Aligning Text-to-Music Evaluation with Human Preferences," Proc. ISMIR'25 (accepted)
 
-Jee-weon Jung, Wangyou Zhang, Soumi Maiti, Yihan Wu, Xin Wang, Ji-Hoon Kim, Yuta Matsunaga, Seyun Um, Jinchuan Tian, Hye-jin Shim, Nicholas Evans, Joon Son Chung, Shinnosuke Takamichi, and Shinji Watanabe, "The text-to-speech in the wild (TITW) dataset," Proc. Interspeech'25 (accepted)
+Jee-weon Jung, Wangyou Zhang, Soumi Maiti, Yihan Wu, Xin Wang, Ji-Hoon Kim, Yuta Matsunaga, Seyun Um, Jinchuan Tian, Hye-jin Shim, Nicholas Evans, Joon Son Chung, Shinnosuke Takamichi, and **Shinji Watanabe**, "The text-to-speech in the wild (TITW) dataset," Proc. Interspeech'25 (accepted)
 
-Qingzheng Wang, Jiancheng Sun, Yifan Peng, and Shinji Watanabe, "Improving Multilingual Speech Models on ML-SUPERB 2.0: Fine-tuning with Data Augmentation and LID-Aware CTC," Proc. Interspeech'25 (accepted)
+Qingzheng Wang, Jiancheng Sun, Yifan Peng, and **Shinji Watanabe**, "Improving Multilingual Speech Models on ML-SUPERB 2.0: Fine-tuning with Data Augmentation and LID-Aware CTC," Proc. Interspeech'25 (accepted)
 
-Zaid Sheikh, Shuichiro Shimizu, Siddhant Arora, Jiatong Shi, Samuele Cornell, Xinjian Li, and Shinji Watanabe, "Scalable Spontaneous Speech Dataset (SSSD): Crowdsourcing Data Collection to Promote Dialogue Research," Proc. Interspeech'25 (accepted)
+Zaid Sheikh, Shuichiro Shimizu, Siddhant Arora, Jiatong Shi, Samuele Cornell, Xinjian Li, and **Shinji Watanabe**, "Scalable Spontaneous Speech Dataset (SSSD): Crowdsourcing Data Collection to Promote Dialogue Research," Proc. Interspeech'25 (accepted)
 
-Siddhant Arora, Jinchuan Tian, Hayato Futami, Jee-weon Jung, Jiatong Shi, Yosuke Kashiwagi, Emiru Tsunoo, and Shinji Watanabe, "A Chain-of-Thought Reasoning Approach to E2E Spoken Dialogue Systems with an Open-Source Toolkit," Proc. Interspeech'25 (accepted)
+Siddhant Arora, Jinchuan Tian, Hayato Futami, Jee-weon Jung, Jiatong Shi, Yosuke Kashiwagi, Emiru Tsunoo, and **Shinji Watanabe**, "A Chain-of-Thought Reasoning Approach to E2E Spoken Dialogue Systems with an Open-Source Toolkit," Proc. Interspeech'25 (accepted)
 
-Brian Yan, Injy Hamed, Shuichiro Shimizu, Vasista Lodagala, William Chen, Olga Iakovenko, Bashar Talafha, Amir Hussein, Alexander Polok, Kalvin Chang, Dominik Klement, Sara Althubaiti, Puyuan Peng, Matthew Wiesner, Thamar Solorio, Ahmed Ali, Sanjeev Khudanpur, Shinji Watanabe, Chih-Chen Chen, Zhen Wu, Karim Benharrak, Anuj Diwan, Samuele Cornell, Eunjung Yeo, Kwanghee Choi, Carlos Carvalho, and Karen Rosero, "CS-FLEURS: A Massively Multilingual and Code-Switched Speech Dataset," Proc. Interspeech'25 (accepted)
+Brian Yan, Injy Hamed, Shuichiro Shimizu, Vasista Lodagala, William Chen, Olga Iakovenko, Bashar Talafha, Amir Hussein, Alexander Polok, Kalvin Chang, Dominik Klement, Sara Althubaiti, Puyuan Peng, Matthew Wiesner, Thamar Solorio, Ahmed Ali, Sanjeev Khudanpur, **Shinji Watanabe**, Chih-Chen Chen, Zhen Wu, Karim Benharrak, Anuj Diwan, Samuele Cornell, Eunjung Yeo, Kwanghee Choi, Carlos Carvalho, and Karen Rosero, "CS-FLEURS: A Massively Multilingual and Code-Switched Speech Dataset," Proc. Interspeech'25 (accepted)
 
-Carlos Ferreira Carvalho, Jinchuan Tian, William Chen, Yifan Peng, Alberto Abad, and Shinji Watanabe, "Exploring Linear Variant Transformers and k-NN Memory Inference for Long-Form ASR," Proc. Interspeech'25 (accepted)
+Carlos Ferreira Carvalho, Jinchuan Tian, William Chen, Yifan Peng, Alberto Abad, and **Shinji Watanabe**, "Exploring Linear Variant Transformers and k-NN Memory Inference for Long-Form ASR," Proc. Interspeech'25 (accepted)
 
-Ming Gao, Shilong Wu, Hang Chen, Jun Du, Chin-Hui Lee, Shinji Watanabe, Jingdong Chen, Sabato Marco Siniscalchi, and Odette Scharenborg, "The Multimodal Information Based Speech Processing (MISP) 2025 Challenge: Audio-Visual Diarization and Recognition," Proc. Interspeech'25 (accepted)
+Ming Gao, Shilong Wu, Hang Chen, Jun Du, Chin-Hui Lee, **Shinji Watanabe**, Jingdong Chen, Sabato Marco Siniscalchi, and Odette Scharenborg, "The Multimodal Information Based Speech Processing (MISP) 2025 Challenge: Audio-Visual Diarization and Recognition," Proc. Interspeech'25 (accepted)
 
-Jiatong Shi, Hye-Jin Shim, and Shinji Watanabe, "Uni-VERSA: Versatile Evaluation of Speech with a Unified Framework," Proc. Interspeech'25 (accepted)
+Jiatong Shi, Hye-Jin Shim, and **Shinji Watanabe**, "Uni-VERSA: Versatile Evaluation of Speech with a Unified Framework," Proc. Interspeech'25 (accepted)
 
-Hayato Futami, Emiru Tsunoo, Yosuke Kashiwagi, Yuki Ito, Hassan Shahmohammadi, Siddhant Arora, and Shinji Watanabe, "Scheduled Interleaved Speech-Text Training for Speech-to-Speech Translation with LLMs," Proc. Interspeech'25 (accepted)
+Hayato Futami, Emiru Tsunoo, Yosuke Kashiwagi, Yuki Ito, Hassan Shahmohammadi, Siddhant Arora, and **Shinji Watanabe**, "Scheduled Interleaved Speech-Text Training for Speech-to-Speech Translation with LLMs," Proc. Interspeech'25 (accepted)
 
-Kohei Saijo, Wangyou Zhang, Samuele Cornell, Robin Scheibler, Chenda Li, Zhaoheng Ni, Anurag Kumar, Marvin Sach, Yihui Fu, Wei Wang, Tim Fingscheidt, and Shinji Watanabe, "Interspeech 2025 URGENT Speech Enhancement Challenge," Proc. Interspeech'25 (accepted)
+Kohei Saijo, Wangyou Zhang, Samuele Cornell, Robin Scheibler, Chenda Li, Zhaoheng Ni, Anurag Kumar, Marvin Sach, Yihui Fu, Wei Wang, Tim Fingscheidt, and **Shinji Watanabe**, "Interspeech 2025 URGENT Speech Enhancement Challenge," Proc. Interspeech'25 (accepted)
 
-Takatomo Kano, Atsunori Ogawa, Marc Delcroix, Ryo Fukuda, William Chen, and Shinji Watanabe, "Pick and Summarize: Integrating Extractive and Abstractive Speech Summarization," Proc. Interspeech'25 (accepted)
+Takatomo Kano, Atsunori Ogawa, Marc Delcroix, Ryo Fukuda, William Chen, and **Shinji Watanabe**, "Pick and Summarize: Integrating Extractive and Abstractive Speech Summarization," Proc. Interspeech'25 (accepted)
 
-Wangyou Zhang, Kohei Saijo, Samuele Cornell, Robin Scheibler, Chenda Li, Zhaoheng Ni, Anurag Kumar, Marvin Sach, Wei Wang, Yihui Fu, Shinji Watanabe, Tim Fingscheidt, and Yanmin Qian, "Lessons Learned from the URGENT 2024 Speech Enhancement Challenge," Proc. Interspeech'25 (accepted)
+Wangyou Zhang, Kohei Saijo, Samuele Cornell, Robin Scheibler, Chenda Li, Zhaoheng Ni, Anurag Kumar, Marvin Sach, Wei Wang, Yihui Fu, **Shinji Watanabe**, Tim Fingscheidt, and Yanmin Qian, "Lessons Learned from the URGENT 2024 Speech Enhancement Challenge," Proc. Interspeech'25 (accepted)
 
-Masao Someki, Shikhar Bharadwaj, Atharva Anand Joshi, Chyi-Jiunn Lin, Jinchuan Tian, Jee-weon Jung, Markus Müller, Nathan Susanj, Jing Liu, and Shinji Watanabe, "Context-Driven Dynamic Pruning for Large Multi-Modal Foundation Model," Proc. Interspeech'25 (accepted)
+Masao Someki, Shikhar Bharadwaj, Atharva Anand Joshi, Chyi-Jiunn Lin, Jinchuan Tian, Jee-weon Jung, Markus Müller, Nathan Susanj, Jing Liu, and **Shinji Watanabe**, "Context-Driven Dynamic Pruning for Large Multi-Modal Foundation Model," Proc. Interspeech'25 (accepted)
 
-Jinchuan Tian, William Chen, Yifan Peng, Jiatong Shi, Siddhant Arora, Shikhar Bharadwaj, Maekaku Takashi, Yusuke Shinohara, Keita Goto, Xiang Yue, Chao-Han Huck Yang, and Shinji Watanabe, "OpusLM: A Family of Open Unified Speech Language Models," Proc. Interspeech'25 (accepted)
+Jinchuan Tian, William Chen, Yifan Peng, Jiatong Shi, Siddhant Arora, Shikhar Bharadwaj, Maekaku Takashi, Yusuke Shinohara, Keita Goto, Xiang Yue, Chao-Han Huck Yang, and **Shinji Watanabe**, "OpusLM: A Family of Open Unified Speech Language Models," Proc. Interspeech'25 (accepted)
 
-Patawee Prakrankamanant, Shinji Watanabe, and Ekapol Chuangsuwanich, "Explainable Depression Detection using Masked Hard Instance Mining," Proc. Interspeech'25 (accepted)
+Patawee Prakrankamanant, **Shinji Watanabe**, and Ekapol Chuangsuwanich, "Explainable Depression Detection using Masked Hard Instance Mining," Proc. Interspeech'25 (accepted)
 
-Yifan Peng, Shakeel Muhammad, Yui Sudo, William Chen, Jinchuan Tian, Chyi-Jiunn Lin, and Shinji Watanabe, "OWSM v4: Improving Open Whisper-Style Speech Models via Data Scaling and Cleaning," Proc. Interspeech'25 (accepted)
+Yifan Peng, Shakeel Muhammad, Yui Sudo, William Chen, Jinchuan Tian, Chyi-Jiunn Lin, and **Shinji Watanabe**, "OWSM v4: Improving Open Whisper-Style Speech Models via Data Scaling and Cleaning," Proc. Interspeech'25 (accepted)
 
-William Chen, Chutong Meng, Jiatong Shi, Martijn Bartelds, Shih-Heng Wang, Hsiu-Hsuan Wang, Rafael Mosquera, Sara Hincapie, Dan Jurafsky, Antonis Anastasopoulos, Hung-yi Lee, Karen Livescu, and Shinji Watanabe, "The ML-SUPERB 2.0 Challenge: Towards Inclusive ASR Benchmarking for All Language Varieties," Proc. Interspeech'25 (accepted)
+William Chen, Chutong Meng, Jiatong Shi, Martijn Bartelds, Shih-Heng Wang, Hsiu-Hsuan Wang, Rafael Mosquera, Sara Hincapie, Dan Jurafsky, Antonis Anastasopoulos, Hung-yi Lee, Karen Livescu, and **Shinji Watanabe**, "The ML-SUPERB 2.0 Challenge: Towards Inclusive ASR Benchmarking for All Language Varieties," Proc. Interspeech'25 (accepted)
 
-Kwanghee Choi, Masao Someki, Emma Strubell, and Shinji Watanabe, "On-device Streaming Discrete Speech Units," Proc. Interspeech'25 (accepted)
+Kwanghee Choi, Masao Someki, Emma Strubell, and **Shinji Watanabe**, "On-device Streaming Discrete Speech Units," Proc. Interspeech'25 (accepted)
 
-Yihan Wu, Yichen Lu, Yijing Chen, Jiaqi Song, William Chen, Ruihua Song, and Shinji Watanabe, "GALAXY: A Large-Scale Open-Domain Dataset for Multimodal Learning," Proc. Interspeech'25 (accepted)
+Yihan Wu, Yichen Lu, Yijing Chen, Jiaqi Song, William Chen, Ruihua Song, and **Shinji Watanabe**, "GALAXY: A Large-Scale Open-Domain Dataset for Multimodal Learning," Proc. Interspeech'25 (accepted)
 
-Kentaro Onda, Yosuke Kashiwagi, Emiru Tsunoo, Hayato Futami, and Shinji Watanabe, "Differentiable K-means for Fully-optimized Discrete Token-based ASR," Proc. Interspeech'25 (accepted)
+Kentaro Onda, Yosuke Kashiwagi, Emiru Tsunoo, Hayato Futami, and **Shinji Watanabe**, "Differentiable K-means for Fully-optimized Discrete Token-based ASR," Proc. Interspeech'25 (accepted)
 
-Yui Sudo, Yosuke Fukumoto, Shakeel Muhammad, Yifan Peng, Chyi-Jiunn Lin, and Shinji Watanabe, "DYNAC: Dynamic Vocabulary based Non-Autoregressive Contextualization for Speech Recognition," Proc. Interspeech'25 (accepted)
+Yui Sudo, Yosuke Fukumoto, Shakeel Muhammad, Yifan Peng, Chyi-Jiunn Lin, and **Shinji Watanabe**, "DYNAC: Dynamic Vocabulary based Non-Autoregressive Contextualization for Speech Recognition," Proc. Interspeech'25 (accepted)
 
-Hyung-gun Chi, Zakaria Aldeneh, Tatiana Likhomanenko, Oggi Rudovic, Takuya Higuchi, Li-Wei Chen, Shinji Watanabe, and Ahmed Hussen Abdelaziz, ”DiceHuBERT: Distilling HuBERT with a Self-Supervised Learning Objective," Proc. Interspeech'25 (accepted)
+Hyung-gun Chi, Zakaria Aldeneh, Tatiana Likhomanenko, Oggi Rudovic, Takuya Higuchi, Li-Wei Chen, **Shinji Watanabe**, and Ahmed Hussen Abdelaziz, ”DiceHuBERT: Distilling HuBERT with a Self-Supervised Learning Objective," Proc. Interspeech'25 (accepted)
 
-Zhen Wan, Chao-Han Huck Yang, Yahan Yu, Jinchuan Tian, Sheng Li, Ke Hu, Zhehuai Chen, Shinji Watanabe, Fei Cheng, Chenhui Chu, and Sadao Kurohashi, ”SIQ: Exterminating Speech Intelligence Quotient Cross Cognitive Levels in Voice Understanding Large Language Models," Proc. ACL'25 (accepted)
+Zhen Wan, Chao-Han Huck Yang, Yahan Yu, Jinchuan Tian, Sheng Li, Ke Hu, Zhehuai Chen, **Shinji Watanabe**, Fei Cheng, Chenhui Chu, and Sadao Kurohashi, ”SIQ: Exterminating Speech Intelligence Quotient Cross Cognitive Levels in Voice Understanding Large Language Models," Proc. ACL'25 (accepted)
 
-William Chen, Jinchuan Tian, Yifan Peng, Brian Yan, Chao-Han Huck Yang, and Shinji Watanabe, "OWLS: Scaling Laws for Multilingual Speech Recognition and Translation Models," Proc. ICML'25 (accepted)
+William Chen, Jinchuan Tian, Yifan Peng, Brian Yan, Chao-Han Huck Yang, and **Shinji Watanabe**, "OWLS: Scaling Laws for Multilingual Speech Recognition and Translation Models," Proc. ICML'25 (accepted)
 
-Siddhant Arora, Yifan Peng, Jiatong Shi, Jinchuan Tian, William Chen, Shikhar Bharadwaj, Hayato Futami, Yosuke Kashiwagi, Emiru Tsunoo, Shuichiro Shimizu, Vaibhav Srivastav, and Shinji Watanabe, "ESPnet-SDS: Unified Toolkit and Demo for Spoken Dialogue Systems," Proc. NAACL'25 Demo Track (accepted)
+Siddhant Arora, Yifan Peng, Jiatong Shi, Jinchuan Tian, William Chen, Shikhar Bharadwaj, Hayato Futami, Yosuke Kashiwagi, Emiru Tsunoo, Shuichiro Shimizu, Vaibhav Srivastav, and **Shinji Watanabe**, "ESPnet-SDS: Unified Toolkit and Demo for Spoken Dialogue Systems," Proc. NAACL'25 Demo Track (accepted)
 
-Jiatong Shi, Hye-jin Shim, Jinchuan Tian, Siddhant Arora, Haibin Wu, Darius Petermann, Jia Qi Yip, You Zhang, Yuxun Tang, Wangyou Zhang, Dareen Safar Alharthi, Yichen Huang, Koichi Saito, Jionghao Han, Yiwen Zhao, Chris Donahue, and Shinji Watanabe, "VERSA: A Versatile Evaluation Toolkit for Speech, Audio, and Music," Proc. NAACL'25 Demo Track (accepted)
+Jiatong Shi, Hye-jin Shim, Jinchuan Tian, Siddhant Arora, Haibin Wu, Darius Petermann, Jia Qi Yip, You Zhang, Yuxun Tang, Wangyou Zhang, Dareen Safar Alharthi, Yichen Huang, Koichi Saito, Jionghao Han, Yiwen Zhao, Chris Donahue, and **Shinji Watanabe**, "VERSA: A Versatile Evaluation Toolkit for Speech, Audio, and Music," Proc. NAACL'25 Demo Track (accepted)
 
-Jinchuan Tian, Jiatong Shi, William Chen, Siddhant Arora, Yoshiki Masuyama, Takashi Maekaku, Yihan Wu, Junyi Peng, Shikhar Bharadwaj, Yiwen Zhao, Samuele Cornell, Yifan Peng, Xiang Yue, Chao-Han Huck Yang, Graham Neubig, and Shinji Watanabe, "ESPnet-SpeechLM: An Open Speech Language Model Toolkit," Proc. NAACL'25 Demo Track (accepted)
+Jinchuan Tian, Jiatong Shi, William Chen, Siddhant Arora, Yoshiki Masuyama, Takashi Maekaku, Yihan Wu, Junyi Peng, Shikhar Bharadwaj, Yiwen Zhao, Samuele Cornell, Yifan Peng, Xiang Yue, Chao-Han Huck Yang, Graham Neubig, and **Shinji Watanabe**, "ESPnet-SpeechLM: An Open Speech Language Model Toolkit," Proc. NAACL'25 Demo Track (accepted)
 
-Kwanghee Choi, Eunjung Yeo, Kalvin Chang, Shinji Watanabe, and David R Mortensen, "Leveraging Allophony in Self-Supervised Speech Models for Atypical Pronunciation Assessment," Proc. NAACL'25 (accepted)
+Kwanghee Choi, Eunjung Yeo, Kalvin Chang, **Shinji Watanabe**, and David R Mortensen, "Leveraging Allophony in Self-Supervised Speech Models for Atypical Pronunciation Assessment," Proc. NAACL'25 (accepted)
 
-Yifan Peng, Krishna C Puvvada, Zhehuai Chen, Piotr Zelasko, He Huang, Kunal Dhawan, Ke Hu, Shinji Watanabe, Jagadeesh Balam, and Boris Ginsburg, "VoiceTextBlender: Augmenting Large Language Models with Speech Capabilities via Single-Stage Joint Speech-Text Supervised Fine-Tuning," Proc. NAACL'25 (accepted)
+Yifan Peng, Krishna C Puvvada, Zhehuai Chen, Piotr Zelasko, He Huang, Kunal Dhawan, Ke Hu, **Shinji Watanabe**, Jagadeesh Balam, and Boris Ginsburg, "VoiceTextBlender: Augmenting Large Language Models with Speech Capabilities via Single-Stage Joint Speech-Text Supervised Fine-Tuning," Proc. NAACL'25 (accepted)
 
-Chien-yu Huang, Wei-Chih Chen, Shu-wen Yang, Andy T. Liu, Chen-An Li, Yu-Xiang Lin, Wei-Cheng Tseng, Anuj Diwan, Yi-Jen Shih, Jiatong Shi, William Chen, Xuanjun Chen, Chi-Yuan Hsiao, Puyuan Peng, Shih-Heng Wang, Chun-Yi Kuan, Ke-Han Lu, Kai-Wei Chang, Chih-Kai Yang, Fabian Ritter-Gutierrez, Ming To Chuang, Kuan-Po Huang, Siddhant Arora, You-Kuan Lin, Eunjung Yeo, Kalvin Chang, Chung-Ming Chien, Kwanghee Choi, Cheng-Hsiu Hsieh, Yi-Cheng Lin, Chee-En Yu, I-Hsiang Chiu, Heitor R. Guimarães, Jionghao Han, Tzu-Quan Lin, Tzu-Yuan Lin, Homu Chang, Ting-Wu Chang, Chun Wei Chen, Shou-Jen Chen, Yu-Hua Chen, Hsi-Chun Cheng, Kunal Dhawan, Jia-Lin Fang, Shi-Xin Fang, Kuan-Yu Fang Chiang, Chi An Fu, Hsien-Fu Hsiao, Ching Yu Hsu, Shao-Syuan Huang, Lee Chen Wei, Hsi-Che Lin, Hsuan-Hao Lin, Hsuan-Ting Lin, Jian-Ren Lin, Ting-Chun Liu, Li-Chun Lu, Tsung-Min Pai, Ankita Pasad, Shih-Yun Shan Kuan, Suwon Shon, Yuxun Tang, Yun-Shao Tsai, Jui-Chiang Wei, Tzu-Chieh Wei, Chengxi Wu, Dien-Ruei Wu, Chao-Han Huck Yang, Chieh-Chi Yang, Jia Qi Yip, Shao-Xiang Yuan, Vahid Noroozi, Zhehuai Chen, Haibin Wu, Karen Livescu, David Harwath, Shinji Watanabe, Hung-yi Lee, "Dynamic-SUPERB Phase-2: A Collaboratively Expanding Benchmark for Measuring the Capabilities of Spoken Language Models with 180 Tasks," Proc. ICLR'25 (accepted)
+Chien-yu Huang, Wei-Chih Chen, Shu-wen Yang, Andy T. Liu, Chen-An Li, Yu-Xiang Lin, Wei-Cheng Tseng, Anuj Diwan, Yi-Jen Shih, Jiatong Shi, William Chen, Xuanjun Chen, Chi-Yuan Hsiao, Puyuan Peng, Shih-Heng Wang, Chun-Yi Kuan, Ke-Han Lu, Kai-Wei Chang, Chih-Kai Yang, Fabian Ritter-Gutierrez, Ming To Chuang, Kuan-Po Huang, Siddhant Arora, You-Kuan Lin, Eunjung Yeo, Kalvin Chang, Chung-Ming Chien, Kwanghee Choi, Cheng-Hsiu Hsieh, Yi-Cheng Lin, Chee-En Yu, I-Hsiang Chiu, Heitor R. Guimarães, Jionghao Han, Tzu-Quan Lin, Tzu-Yuan Lin, Homu Chang, Ting-Wu Chang, Chun Wei Chen, Shou-Jen Chen, Yu-Hua Chen, Hsi-Chun Cheng, Kunal Dhawan, Jia-Lin Fang, Shi-Xin Fang, Kuan-Yu Fang Chiang, Chi An Fu, Hsien-Fu Hsiao, Ching Yu Hsu, Shao-Syuan Huang, Lee Chen Wei, Hsi-Che Lin, Hsuan-Hao Lin, Hsuan-Ting Lin, Jian-Ren Lin, Ting-Chun Liu, Li-Chun Lu, Tsung-Min Pai, Ankita Pasad, Shih-Yun Shan Kuan, Suwon Shon, Yuxun Tang, Yun-Shao Tsai, Jui-Chiang Wei, Tzu-Chieh Wei, Chengxi Wu, Dien-Ruei Wu, Chao-Han Huck Yang, Chieh-Chi Yang, Jia Qi Yip, Shao-Xiang Yuan, Vahid Noroozi, Zhehuai Chen, Haibin Wu, Karen Livescu, David Harwath, **Shinji Watanabe**, Hung-yi Lee, "Dynamic-SUPERB Phase-2: A Collaboratively Expanding Benchmark for Measuring the Capabilities of Spoken Language Models with 180 Tasks," Proc. ICLR'25 (accepted)
 
-Siddhant Arora, Zhiyun Lu, Chung-Cheng Chiu, Ruoming Pang, and Shinji Watanabe, "Talking Turns: Benchmarking Audio Foundation Models on Turn-Taking Dynamics," Proc. ICLR'25 (accepted)
+Siddhant Arora, Zhiyun Lu, Chung-Cheng Chiu, Ruoming Pang, and **Shinji Watanabe**, "Talking Turns: Benchmarking Audio Foundation Models on Turn-Taking Dynamics," Proc. ICLR'25 (accepted)
 
-Masao Someki, Yifan Peng, Siddhant Arora, Markus Müller, Athanasios Mouchtaris, Grant Strimel, Jing Liu, and Shinji Watanabe, "Context-aware Dynamic Pruning for Speech Foundation Models," Proc. ICLR'25 (accepted)
+Masao Someki, Yifan Peng, Siddhant Arora, Markus Müller, Athanasios Mouchtaris, Grant Strimel, Jing Liu, and **Shinji Watanabe**, "Context-aware Dynamic Pruning for Speech Foundation Models," Proc. ICLR'25 (accepted)
 
-Zakaria Aldeneh, Takuya Higuchi, Jee-weon Jung, Li-Wei Chen, Stephen Shum, Ahmed Hussen Abdelaziz, Shinji Watanabe, Tatiana Likhomanenko, and Barry-John Theobald, "Speaker-IPL: Unsupervised Learning of Speaker Characteristics with i-Vector based Pseudo-Labels," Proc. ICASSP'25 (accepted)
+Zakaria Aldeneh, Takuya Higuchi, Jee-weon Jung, Li-Wei Chen, Stephen Shum, Ahmed Hussen Abdelaziz, **Shinji Watanabe**, Tatiana Likhomanenko, and Barry-John Theobald, "Speaker-IPL: Unsupervised Learning of Speaker Characteristics with i-Vector based Pseudo-Labels," Proc. ICASSP'25 (accepted)
 
-Brian Yan, Vineel Pratap, Shinji Watanabe, and Michael Auli, "Improving Multilingual ASR in the Wild Using Simple N-best Re-ranking," Proc. ICASSP'25 (accepted)
+Brian Yan, Vineel Pratap, **Shinji Watanabe**, and Michael Auli, "Improving Multilingual ASR in the Wild Using Simple N-best Re-ranking," Proc. ICASSP'25 (accepted)
 
-Yosuke Kashiwagi, Hayato Futami, Emiru Tsunoo, Siddhant Arora, and Shinji Watanabe, "Hypothesis Clustering and Merging: MultiTalker Speech Recognition with Speaker Token Estimation," Proc. ICASSP'25 (accepted)
+Yosuke Kashiwagi, Hayato Futami, Emiru Tsunoo, Siddhant Arora, and **Shinji Watanabe**, "Hypothesis Clustering and Merging: MultiTalker Speech Recognition with Speaker Token Estimation," Proc. ICASSP'25 (accepted)
 
-Jinchuan Tian, Chunlei Zhang, Jiatong Shi, Hao Zhang, Jianwei Yu, Shinji Watanabe, and Dong Yu, "Preference Alignment Improves Language Model-Based TTS," Proc. ICASSP'25 (accepted)
+Jinchuan Tian, Chunlei Zhang, Jiatong Shi, Hao Zhang, Jianwei Yu, **Shinji Watanabe**, and Dong Yu, "Preference Alignment Improves Language Model-Based TTS," Proc. ICASSP'25 (accepted)
 
-Li-Wei Chen, Zakaria Aldeneh, Takuya Higuchi, He Bai, Ahmed Hussen Abdelaziz, Shinji Watanabe, Alexander Rudnicky, Tatiana Likhomanenko, and Barry-John Theobald, "Exploring Prediction Targets in Masked Pre-Training for Speech Foundation Models," Proc. ICASSP'25 (accepted)
+Li-Wei Chen, Zakaria Aldeneh, Takuya Higuchi, He Bai, Ahmed Hussen Abdelaziz, **Shinji Watanabe**, Alexander Rudnicky, Tatiana Likhomanenko, and Barry-John Theobald, "Exploring Prediction Targets in Masked Pre-Training for Speech Foundation Models," Proc. ICASSP'25 (accepted)
 
-Takatomo Kano, Atsunori Ogawa, Marc Delcroix, William Chen, Ryo Fukuda, Kohei Matsuura, Takanori Ashihara, and Shinji Watanabe, "Bridging Speech and Text Foundation Models with ReShape Attention," Proc. ICASSP'25 (accepted)
+Takatomo Kano, Atsunori Ogawa, Marc Delcroix, William Chen, Ryo Fukuda, Kohei Matsuura, Takanori Ashihara, and **Shinji Watanabe**, "Bridging Speech and Text Foundation Models with ReShape Attention," Proc. ICASSP'25 (accepted)
 
-Yoshiaki Bando, Samuele Cornell, Satoru Fukayama, and Shinji Watanabe, "Investigation of Spatial Self-Supervised Learning and Its Application to Target Speaker Speech Recognition," Proc. ICASSP'25 (accepted)
+Yoshiaki Bando, Samuele Cornell, Satoru Fukayama, and **Shinji Watanabe**, "Investigation of Spatial Self-Supervised Learning and Its Application to Target Speaker Speech Recognition," Proc. ICASSP'25 (accepted)
 
-Yihan Wu, Yichen Lu, Yifan Peng, Xihua Wang, Ruihua Song, and Shinji Watanabe, "Enhancing Audiovisual Speech Recognition through Bifocal Preference Optimization, " Proc. AAAI'25 (accepted)
+Yihan Wu, Yichen Lu, Yifan Peng, Xihua Wang, Ruihua Song, and **Shinji Watanabe**, "Enhancing Audiovisual Speech Recognition through Bifocal Preference Optimization, " Proc. AAAI'25 (accepted)
 
-William Chen, Wangyou Zhang, Yifan Peng, Xinjian Li, Jinchuan Tian, Jiatong Shi, Xuankai Chang, Soumi Maiti, Karen Livescu, and Shinji Watanabe, "Towards Robust Speech Representation Learning for Thousands of Languages, " Proc. EMNLP'24 (accepted)
+William Chen, Wangyou Zhang, Yifan Peng, Xinjian Li, Jinchuan Tian, Jiatong Shi, Xuankai Chang, Soumi Maiti, Karen Livescu, and **Shinji Watanabe**, "Towards Robust Speech Representation Learning for Thousands of Languages, " Proc. EMNLP'24 (accepted)
 
-Chao-Han Huck Yang, Tae Jin Park, Yuan Gong, Yuanchao Li, Yen-Ting Lin, Zhehuai Chen, Yuchen Hu, Chen Chen, Kunal Dhawan, Piotr Żelasko, Chao Zhang, Yun-Nung Chen, Yu Tsao, Jagadeesh Balam, Boris Ginsburg, Sabato Siniscalchi, Eng Siong Chng, Peter Bell, Catherine Lai, Shinji Watanabe, and Andreas Stolcke, "Language Model Based Generative Error Correction: A Challenge and Baselines for Speech Recognition, Speaker Tagging, and Emotion Recognition," Proc. SLT'24 (accepted)
+Chao-Han Huck Yang, Tae Jin Park, Yuan Gong, Yuanchao Li, Yen-Ting Lin, Zhehuai Chen, Yuchen Hu, Chen Chen, Kunal Dhawan, Piotr Żelasko, Chao Zhang, Yun-Nung Chen, Yu Tsao, Jagadeesh Balam, Boris Ginsburg, Sabato Siniscalchi, Eng Siong Chng, Peter Bell, Catherine Lai, **Shinji Watanabe**, and Andreas Stolcke, "Language Model Based Generative Error Correction: A Challenge and Baselines for Speech Recognition, Speaker Tagging, and Emotion Recognition," Proc. SLT'24 (accepted)
 
-Haibin Wu, Xuanjun Chen, Yi-Cheng Lin, Jiawei Du, Kai-Wei Chang, Ke-Han Lu, Alexander Liu, ho lam Chung, Yuan-Kuei Wu, Dongchao Yang, Songxiang Liu, Yi-Chiao Wu, Xu Tan, James Glass, Shinji Watanabe, and Hung-yi Lee, "Codec-SUPERB @ SLT 2024: A lightweight benchmark for neural codec models," Proc. SLT'24 (accepted)
+Haibin Wu, Xuanjun Chen, Yi-Cheng Lin, Jiawei Du, Kai-Wei Chang, Ke-Han Lu, Alexander Liu, ho lam Chung, Yuan-Kuei Wu, Dongchao Yang, Songxiang Liu, Yi-Chiao Wu, Xu Tan, James Glass, **Shinji Watanabe**, and Hung-yi Lee, "Codec-SUPERB @ SLT 2024: A lightweight benchmark for neural codec models," Proc. SLT'24 (accepted)
 
-Yifeng Yu, Jiatong Shi, Yuning Wu, Yuxun Tang, and Shinji Watanabe, "VISinger2+: End-to-End Singing Voice Synthesis Augmented by Self-Supervised Learning Representation," Proc. SLT'24 (accepted)
+Yifeng Yu, Jiatong Shi, Yuning Wu, Yuxun Tang, and **Shinji Watanabe**, "VISinger2+: End-to-End Singing Voice Synthesis Augmented by Self-Supervised Learning Representation," Proc. SLT'24 (accepted)
 
-Jiatong Shi, Jinchuan Tian, Yihan Wu, Jee-weon Jung, Jia Qi Yip, Yoshiki Masuyama, William Chen, Yuning Wu, Yuxun Tang, Massa Baali, Dareen Alharthi, Dong Zhang, Ruifan Deng, Tejes Srivastava, Haibin Wu, Alexander Liu, Bhiksha Raj, Qin Jin, Ruihua Song, and Shinji Watanabe, "ESPnet-Codec: Comprehensive Training and Evaluation of Neural Codecs for Audio, Music, and Speech," Proc. SLT'24 (accepted)
+Jiatong Shi, Jinchuan Tian, Yihan Wu, Jee-weon Jung, Jia Qi Yip, Yoshiki Masuyama, William Chen, Yuning Wu, Yuxun Tang, Massa Baali, Dareen Alharthi, Dong Zhang, Ruifan Deng, Tejes Srivastava, Haibin Wu, Alexander Liu, Bhiksha Raj, Qin Jin, Ruihua Song, and **Shinji Watanabe**, "ESPnet-Codec: Comprehensive Training and Evaluation of Neural Codecs for Audio, Music, and Speech," Proc. SLT'24 (accepted)
 
-William Chen, Brian Yan, Chih-Chen Chen, and Shinji Watanabe, "FLORAS 50: A Massively Multilingual Multitask Benchmark for Long-form Conversational Speech," Proc. SLT'24 (accepted)
+William Chen, Brian Yan, Chih-Chen Chen, and **Shinji Watanabe**, "FLORAS 50: A Massively Multilingual Multitask Benchmark for Long-form Conversational Speech," Proc. SLT'24 (accepted)
 
-Yui Sudo, Yosuke Fukumoto, Muhammad Shakeel, Yifan Peng, and Shinji Watanabe, "Contextualized Automatic Speech Recognition with Dynamic Vocabulary," Proc. SLT'24 (accepted)
+Yui Sudo, Yosuke Fukumoto, Muhammad Shakeel, Yifan Peng, and **Shinji Watanabe**, "Contextualized Automatic Speech Recognition with Dynamic Vocabulary," Proc. SLT'24 (accepted)
 
-Yihan Wu, Yifan Peng, Yichen Lu, Xuankai Chang, Ruihua Song, and Shinji Watanabe, "Robust Audiovisual Speech Recognition Models with Mixture-of-Experts," Proc. SLT'24 (accepted)
+Yihan Wu, Yifan Peng, Yichen Lu, Xuankai Chang, Ruihua Song, and **Shinji Watanabe**, "Robust Audiovisual Speech Recognition Models with Mixture-of-Experts," Proc. SLT'24 (accepted)
 
-Chenda Li, Samuele Cornell, Shinji Watanabe, and Yanmin Qian, "Diffusion-based Generative Modeling with Discriminative Guidance for Streamable Speech Enhancement," Proc. SLT'24 (accepted)
+Chenda Li, Samuele Cornell, **Shinji Watanabe**, and Yanmin Qian, "Diffusion-based Generative Modeling with Discriminative Guidance for Streamable Speech Enhancement," Proc. SLT'24 (accepted)
 
-Shih-Heng Wang, Jiatong Shi, Chien-yu Huang, Shinji Watanabe, and Hung-yi Lee, "Fusion of Discrete Representations and Self-Augmented Representations for Multilingual Automatic Speech Recognition," Proc. SLT'24 (accepted)
+Shih-Heng Wang, Jiatong Shi, Chien-yu Huang, **Shinji Watanabe**, and Hung-yi Lee, "Fusion of Discrete Representations and Self-Augmented Representations for Multilingual Automatic Speech Recognition," Proc. SLT'24 (accepted)
 
-Masao Someki, Kwanghee Choi, Siddhant Arora, William Chen, Samuele Cornell, Jionghao Han, Yifan Peng, Jiatong Shi, Vaibhav Srivastav, and Shinji Watanabe, "ESPnet-EZ: Python-only ESPnet for Easy Fine-tuning and Integration," Proc. SLT'24 (accepted)
+Masao Someki, Kwanghee Choi, Siddhant Arora, William Chen, Samuele Cornell, Jionghao Han, Yifan Peng, Jiatong Shi, Vaibhav Srivastav, and **Shinji Watanabe**, "ESPnet-EZ: Python-only ESPnet for Easy Fine-tuning and Integration," Proc. SLT'24 (accepted)
 
-Darshan Prabhu, Yifan Peng, Preethi Jyothi, and Shinji Watanabe, "Multi-Convformer: Extending Conformer with Multiple Convolution Kernels," Proc. Interspeech'24 (accepted)
+Darshan Prabhu, Yifan Peng, Preethi Jyothi, and **Shinji Watanabe**, "Multi-Convformer: Extending Conformer with Multiple Convolution Kernels," Proc. Interspeech'24 (accepted)
 
-Hyung Yong Kim, Byeong-Yeol Kim, Yunkyu Lim, Jihwan Park, Shukjae Choi, Yooncheol Ju, Jinseok Park, Youshin Lim, Seung Woo Yu, Hanbin Lee, and Shinji Watanabe, "Self-training ASR Guided by Unsupervised ASR Teacher," Proc. Interspeech'24 (accepted)
+Hyung Yong Kim, Byeong-Yeol Kim, Yunkyu Lim, Jihwan Park, Shukjae Choi, Yooncheol Ju, Jinseok Park, Youshin Lim, Seung Woo Yu, Hanbin Lee, and **Shinji Watanabe**, "Self-training ASR Guided by Unsupervised ASR Teacher," Proc. Interspeech'24 (accepted)
 
-Jiatong Shi, Xutai Ma, Hirofumi Inaguma, Anna Sun, and Shinji Watanabe, "MMM: Multi-Layer Multi-Residual Multi-Stream Discrete Speech Representation from Self-supervised Learning Model," Proc. Interspeech'24 (accepted)
+Jiatong Shi, Xutai Ma, Hirofumi Inaguma, Anna Sun, and **Shinji Watanabe**, "MMM: Multi-Layer Multi-Residual Multi-Stream Discrete Speech Representation from Self-supervised Learning Model," Proc. Interspeech'24 (accepted)
 
-Jiatong Shi, Shi-Heng Wang, William Chen, Martijn Bartelds, Vanya Bannihatti Kumar, Jinchuan Tian, Xuankai Chang, Dan Jurafsky, Karen Livescu, Hung-yi Lee, and Shinji Watanabe, "ML-SUPERB 2.0: Benchmarking Multilingual Speech Models Across Modeling Constraints, Languages, and Datasets," Proc. Interspeech'24 (accepted)
+Jiatong Shi, Shi-Heng Wang, William Chen, Martijn Bartelds, Vanya Bannihatti Kumar, Jinchuan Tian, Xuankai Chang, Dan Jurafsky, Karen Livescu, Hung-yi Lee, and **Shinji Watanabe**, "ML-SUPERB 2.0: Benchmarking Multilingual Speech Models Across Modeling Constraints, Languages, and Datasets," Proc. Interspeech'24 (accepted)
 
-Tejes Srivastava, Jiatong Shi, William Chen, and Shinji Watanabe, "EFFUSE: Efficient Self-Supervised Feature Fusion for E2E ASR in Low Resource and Multilingual Scenarios," Proc. Interspeech'24 (accepted)
+Tejes Srivastava, Jiatong Shi, William Chen, and **Shinji Watanabe**, "EFFUSE: Efficient Self-Supervised Feature Fusion for E2E ASR in Low Resource and Multilingual Scenarios," Proc. Interspeech'24 (accepted)
 
-Kwangyoun Kim, Suwon Shon, Yi-Te Hsu, Prashant Sridhar, Karen Livescu, and Shinji Watanabe, "Convolution-Augmented Parameter-Efficient Fine-Tuning for Speech Recognition," Proc. Interspeech'24 (accepted)
+Kwangyoun Kim, Suwon Shon, Yi-Te Hsu, Prashant Sridhar, Karen Livescu, and **Shinji Watanabe**, "Convolution-Augmented Parameter-Efficient Fine-Tuning for Speech Recognition," Proc. Interspeech'24 (accepted)
 
-Jinchuan Tian, Yifan Peng, William Chen, Kwanghee Choi, Karen Livescu, and Shinji Watanabe, "On the Effects of Heterogeneous Data Sources on Speech-to-Text Foundation Models," Proc. Interspeech'24 (accepted)
+Jinchuan Tian, Yifan Peng, William Chen, Kwanghee Choi, Karen Livescu, and **Shinji Watanabe**, "On the Effects of Heterogeneous Data Sources on Speech-to-Text Foundation Models," Proc. Interspeech'24 (accepted)
 
-Xuankai Chang, Jiatong Shi, Jinchuan Tian, Yuning Wu, Yuxun Tang, Yihan Wu, Shinji Watanabe, Yossi Adi, Xie Chen, and Qin Jin, "The Interspeech 2024 Challenge on Speech Processing Using Discrete Units," Proc. Interspeech'24 (accepted)
+Xuankai Chang, Jiatong Shi, Jinchuan Tian, Yuning Wu, Yuxun Tang, Yihan Wu, **Shinji Watanabe**, Yossi Adi, Xie Chen, and Qin Jin, "The Interspeech 2024 Challenge on Speech Processing Using Discrete Units," Proc. Interspeech'24 (accepted)
 
-Takaaki Saeki, Soumi Maiti, Shinnosuke Takamichi, Shinji Watanabe, and Hiroshi Saruwatari, "SpeechBERTScore: Reference-Aware Automatic Evaluation of Speech Generation Leveraging NLP Evaluation Metrics," Proc. Interspeech'24 (accepted)
+Takaaki Saeki, Soumi Maiti, Shinnosuke Takamichi, **Shinji Watanabe**, and Hiroshi Saruwatari, "SpeechBERTScore: Reference-Aware Automatic Evaluation of Speech Generation Leveraging NLP Evaluation Metrics," Proc. Interspeech'24 (accepted)
 
-Jee-weon Jung, Xin Wang, Nicholas Evans, Shinji Watanabe, Hye-jin Shim, Hemlata Tak, Siddhant Arora, Junichi Yamagishi, and Joon Son Chung, "To what extent can ASV systems naturally defend against spoofing attacks?" Proc. Interspeech'24 (accepted)
+Jee-weon Jung, Xin Wang, Nicholas Evans, **Shinji Watanabe**, Hye-jin Shim, Hemlata Tak, Siddhant Arora, Junichi Yamagishi, and Joon Son Chung, "To what extent can ASV systems naturally defend against spoofing attacks?" Proc. Interspeech'24 (accepted)
 
-Jee-weon Jung, Wangyou Zhang, Jiatong Shi, Zakaria Aldeneh, Takuya Higuchi, Alex Gichamba, Barry-John Theobald, Ahmed Hussen Abdelaziz, and Shinji Watanabe, "ESPnet-SPK: full pipeline speaker embedding toolkit with reproducible recipes, self-supervised front-ends, and off-the-shelf models," Proc. Interspeech'24 (accepted)
+Jee-weon Jung, Wangyou Zhang, Jiatong Shi, Zakaria Aldeneh, Takuya Higuchi, Alex Gichamba, Barry-John Theobald, Ahmed Hussen Abdelaziz, and **Shinji Watanabe**, "ESPnet-SPK: full pipeline speaker embedding toolkit with reproducible recipes, self-supervised front-ends, and off-the-shelf models," Proc. Interspeech'24 (accepted)
 
-Suwon Shon, Kwangyoun Kim, Yi-Te Hsu, Prashant Sridhar, Shinji Watanabe, and Karen Livescu, "DiscreteSLU: A Large Language Model with Self-Supervised Discrete Speech Units for Spoken Language Understanding," Proc. Interspeech'24 (accepted)
+Suwon Shon, Kwangyoun Kim, Yi-Te Hsu, Prashant Sridhar, **Shinji Watanabe**, and Karen Livescu, "DiscreteSLU: A Large Language Model with Self-Supervised Discrete Speech Units for Spoken Language Understanding," Proc. Interspeech'24 (accepted)
 
-Wangyou Zhang, Kohei Saijo, Jee-weon Jung, Chenda Li, Shinji Watanabe, and Yanmin Qian, "Beyond Performance Plateaus: A Comprehensive Study on Scalability in Speech Enhancement," Proc. Interspeech'24 (accepted)
+Wangyou Zhang, Kohei Saijo, Jee-weon Jung, Chenda Li, **Shinji Watanabe**, and Yanmin Qian, "Beyond Performance Plateaus: A Comprehensive Study on Scalability in Speech Enhancement," Proc. Interspeech'24 (accepted)
 
-Muhammad Shakeel, Yui Sudo, Yifan Peng, and Shinji Watanabe, "Contextualized End-to-End Automatic Speech Recognition with Intermediate Biasing Loss," Proc. Interspeech'24 (accepted)
+Muhammad Shakeel, Yui Sudo, Yifan Peng, and **Shinji Watanabe**, "Contextualized End-to-End Automatic Speech Recognition with Intermediate Biasing Loss," Proc. Interspeech'24 (accepted)
 
-Wangyou Zhang, Robin Scheibler, Kohei Saijo, Samuele Cornell, Chenda Li, Zhaoheng Ni, Jan Pirklbauer, Marvin Sach, Shinji Watanabe, Tim Fingscheidt, and Yanmin Qian, "URGENT Challenge: Universality, Robustness, and Generalizability for speech EnhancemeNT," Proc. Interspeech'24 (accepted)
+Wangyou Zhang, Robin Scheibler, Kohei Saijo, Samuele Cornell, Chenda Li, Zhaoheng Ni, Jan Pirklbauer, Marvin Sach, **Shinji Watanabe**, Tim Fingscheidt, and Yanmin Qian, "URGENT Challenge: Universality, Robustness, and Generalizability for speech EnhancemeNT," Proc. Interspeech'24 (accepted)
 
-Zakaria Aldeneh, Takuya Higuchi, Jee-weon Jung, Skyler Seto, Tatiana Likhomanenko, Stephen Shum, Ahmed Hussen Abdelaziz, Shinji Watanabe, and Barry-John Theobald, "Can you Remove the Downstream Model for Speaker Recognition with Self-Supervised Speech Features?" Proc. Interspeech'24 (accepted)
+Zakaria Aldeneh, Takuya Higuchi, Jee-weon Jung, Skyler Seto, Tatiana Likhomanenko, Stephen Shum, Ahmed Hussen Abdelaziz, **Shinji Watanabe**, and Barry-John Theobald, "Can you Remove the Downstream Model for Speaker Recognition with Self-Supervised Speech Features?" Proc. Interspeech'24 (accepted)
 
-Yifan Peng, Jinchuan Tian, William Chen, Siddhant Arora, Brian Yan, Yui Sudo, Muhammad Shakeel, Kwanghee Choi, Jiatong Shi, Xuankai Chang, Jee-weon Jung, and Shinji Watanabe, "OWSM v3.1: Better and Faster Open Whisper-Style Speech Models based on E-Branchformer," Proc. Interspeech'24 (accepted)
+Yifan Peng, Jinchuan Tian, William Chen, Siddhant Arora, Brian Yan, Yui Sudo, Muhammad Shakeel, Kwanghee Choi, Jiatong Shi, Xuankai Chang, Jee-weon Jung, and **Shinji Watanabe**, "OWSM v3.1: Better and Faster Open Whisper-Style Speech Models based on E-Branchformer," Proc. Interspeech'24 (accepted)
 
-Kwanghee Choi, Ankita Pasad, Tomohiko Nakamura, Satoru Fukayama, Karen Livescu, and Shinji Watanabe, "Self-Supervised Speech Representations are More Phonetic than Semantic," Proc. Interspeech'24 (accepted)
+Kwanghee Choi, Ankita Pasad, Tomohiko Nakamura, Satoru Fukayama, Karen Livescu, and **Shinji Watanabe**, "Self-Supervised Speech Representations are More Phonetic than Semantic," Proc. Interspeech'24 (accepted)
 
-Yoshiaki Bando, Tomohiko Nakamura, and Shinji Watanabe, "Neural Blind Source Separation and Diarization for Distant Speech Recognition," Proc. Interspeech'24 (accepted)
+Yoshiaki Bando, Tomohiko Nakamura, and **Shinji Watanabe**, "Neural Blind Source Separation and Diarization for Distant Speech Recognition," Proc. Interspeech'24 (accepted)
 
-Hayato Futami, Siddhant Arora, Yosuke Kashiwagi, Emiru Tsunoo, and Shinji Watanabe, "Finding Task-specific Subnetworks in Multi-task Spoken Language Understanding Model," Proc. Interspeech'24 (accepted)
+Hayato Futami, Siddhant Arora, Yosuke Kashiwagi, Emiru Tsunoo, and **Shinji Watanabe**, "Finding Task-specific Subnetworks in Multi-task Spoken Language Understanding Model," Proc. Interspeech'24 (accepted)
 
-Emiru Tsunoo, Hayato Futami, Yosuke Kashiwagi, Siddhant Arora, and Shinji Watanabe, "Decoder-only Architecture for Streaming End-to-end Speech Recognition," Proc. Interspeech'24 (accepted)
+Emiru Tsunoo, Hayato Futami, Yosuke Kashiwagi, Siddhant Arora, and **Shinji Watanabe**, "Decoder-only Architecture for Streaming End-to-end Speech Recognition," Proc. Interspeech'24 (accepted)
 
-Yosuke Kashiwagi, Hayato Futami, Emiru Tsunoo, Siddhant Arora, and Shinji Watanabe, "Rapid Language Adaptation for Multilingual E2E Speech Recognition Using Encoder Prompting," Proc. Interspeech'24 (accepted)
+Yosuke Kashiwagi, Hayato Futami, Emiru Tsunoo, Siddhant Arora, and **Shinji Watanabe**, "Rapid Language Adaptation for Multilingual E2E Speech Recognition Using Encoder Prompting," Proc. Interspeech'24 (accepted)
 
-Julius Richter, Yi-Chiao Wu, Steven Krenn, Alexander Richard, Simon Welker, Bunlong Lay, Shinji Watanabe, and Timo Gerkmann, "EARS: An Anechoic Fullband Speech Dataset Benchmarked for Speech Enhancement and Dereverberation," Proc. Interspeech'24 (accepted)
+Julius Richter, Yi-Chiao Wu, Steven Krenn, Alexander Richard, Simon Welker, Bunlong Lay, **Shinji Watanabe**, and Timo Gerkmann, "EARS: An Anechoic Fullband Speech Dataset Benchmarked for Speech Enhancement and Dereverberation," Proc. Interspeech'24 (accepted)
 
-Jiatong Shi, Yueqian Lin, Xinyi Bai, Keyi Zhang, Yuning Wu, Yuxun Tang, Yifeng Yu, Qin Jin, and Shinji Watanabe, "Singing Voice Data Scaling-up: An Introduction to ACE-Opencpop and ACE-KiSing," Proc. Interspeech'24 (accepted)
+Jiatong Shi, Yueqian Lin, Xinyi Bai, Keyi Zhang, Yuning Wu, Yuxun Tang, Yifeng Yu, Qin Jin, and **Shinji Watanabe**, "Singing Voice Data Scaling-up: An Introduction to ACE-Opencpop and ACE-KiSing," Proc. Interspeech'24 (accepted)
 
-Taiqi He, Kwanghee Choi, Lindia Tjuatja, Nathaniel Romney Robinson, Jiatong Shi, Shinji Watanabe, Graham Neubig, David R Mortensen, and Lori Levin, "Wav2Gloss: Generating Interlinear Glossed Text from Speech," Proc. ACL'24 (accepted)
+Taiqi He, Kwanghee Choi, Lindia Tjuatja, Nathaniel Romney Robinson, Jiatong Shi, **Shinji Watanabe**, Graham Neubig, David R Mortensen, and Lori Levin, "Wav2Gloss: Generating Interlinear Glossed Text from Speech," Proc. ACL'24 (accepted)
 
-Yifan Peng, Yui Sudo, Muhammad Shakeel, and Shinji Watanabe, "OWSM-CTC: An Open Encoder-Only Speech Foundation Model for Speech Recognition, Translation, and Language Identification," Proc. ACL'24 (accepted)
+Yifan Peng, Yui Sudo, Muhammad Shakeel, and **Shinji Watanabe**, "OWSM-CTC: An Open Encoder-Only Speech Foundation Model for Speech Recognition, Translation, and Language Identification," Proc. ACL'24 (accepted)
 
-Siddhant Arora, Ankita Pasad, Chung-Ming Chien, Jionghao Han, Roshan Sharma, Jee-weon Jung, Hira Dhamyal, William Chen, Suwon Shon, Hung-yi Lee, Karen Livescu, and Shinji Watanabe, "On the Evaluation of Speech Foundation Models for Spoken Language Understanding," Proc. Findings of ACL'24 (accepted)
+Siddhant Arora, Ankita Pasad, Chung-Ming Chien, Jionghao Han, Roshan Sharma, Jee-weon Jung, Hira Dhamyal, William Chen, Suwon Shon, Hung-yi Lee, Karen Livescu, and **Shinji Watanabe**, "On the Evaluation of Speech Foundation Models for Spoken Language Understanding," Proc. Findings of ACL'24 (accepted)
 
-Zhong-Qiu Wang, Anurag Kumar, and Shinji Watanabe, "Cross-Talk Reduction," Proc. IJCAI'24 (accepted)
+Zhong-Qiu Wang, Anurag Kumar, and **Shinji Watanabe**, "Cross-Talk Reduction," Proc. IJCAI'24 (accepted)
 
-Siddhant Arora, Hayato Futami, Jee-weon Jung, Yifan Peng, Roshan Sharma, Yosuke Kashiwagi, Emiru Tsunoo, Karen Livescu, and Shinji Watanabe, "UniverSLU: Universal Spoken Language Understanding for Diverse Tasks with Natural Language Instructions, " Proc. NAACL'24 (accepted)
+Siddhant Arora, Hayato Futami, Jee-weon Jung, Yifan Peng, Roshan Sharma, Yosuke Kashiwagi, Emiru Tsunoo, Karen Livescu, and **Shinji Watanabe**, "UniverSLU: Universal Spoken Language Understanding for Diverse Tasks with Natural Language Instructions, " Proc. NAACL'24 (accepted)
 
-Doyeop Kwak, Jaemin Jung, Kihyun Nam, Youngjoon Jang, Jee-weon Jung, Shinji Watanabe, and Joon Son Chung, "VOXMM: RICH TRANSCRIPTION OF CONVERSATIONS IN THE WILD," Proc. ICASSP'24 (accepted)
+Doyeop Kwak, Jaemin Jung, Kihyun Nam, Youngjoon Jang, Jee-weon Jung, **Shinji Watanabe**, and Joon Son Chung, "VOXMM: RICH TRANSCRIPTION OF CONVERSATIONS IN THE WILD," Proc. ICASSP'24 (accepted)
 
-Jee-weon Jung, Roshan Sharma, William Chen, Bhiksha Raj, and Shinji Watanabe, "AUGSUMM: TOWARDS GENERALIZABLE SPEECH SUMMARIZATION USING SYNTHETIC LABELS FROM LARGE LANGUAGE MODELS," Proc. ICASSP'24 (accepted)
+Jee-weon Jung, Roshan Sharma, William Chen, Bhiksha Raj, and **Shinji Watanabe**, "AUGSUMM: TOWARDS GENERALIZABLE SPEECH SUMMARIZATION USING SYNTHETIC LABELS FROM LARGE LANGUAGE MODELS," Proc. ICASSP'24 (accepted)
 
-Soumi Maiti, Yifan Peng, Shukjae Choi, Jee-weon Jung, Xuankai Chang, and Shinji Watanabe, "VOXTLM: UNIFIED DECODER-ONLY MODELS FOR CONSOLIDATING SPEECH RECOGNITION, SYNTHESIS AND SPEECH, TEXT CONTINUATION TASKS," Proc. ICASSP'24 (accepted)
+Soumi Maiti, Yifan Peng, Shukjae Choi, Jee-weon Jung, Xuankai Chang, and **Shinji Watanabe**, "VOXTLM: UNIFIED DECODER-ONLY MODELS FOR CONSOLIDATING SPEECH RECOGNITION, SYNTHESIS AND SPEECH, TEXT CONTINUATION TASKS," Proc. ICASSP'24 (accepted)
 
-Amir Hussein, Dorsa Zeinali, Ondřej Klejch, Matthew Wiesner, Brian Yan, Shammur Chowdhury, Ahmed Ali, Shinji Watanabe, and Sanjeev Khudanpur, "SPEECH COLLAGE: CODE-SWITCHED AUDIO GENERATION BY COLLAGING MONOLINGUAL CORPORA," Proc. ICASSP'24 (accepted)
+Amir Hussein, Dorsa Zeinali, Ondřej Klejch, Matthew Wiesner, Brian Yan, Shammur Chowdhury, Ahmed Ali, **Shinji Watanabe**, and Sanjeev Khudanpur, "SPEECH COLLAGE: CODE-SWITCHED AUDIO GENERATION BY COLLAGING MONOLINGUAL CORPORA," Proc. ICASSP'24 (accepted)
 
-Amir Hussein, Brian Yan, Antonios Anastasopoulos, Shinji Watanabe, and Sanjeev Khudanpur, "ENHANCING END-TO-END CONVERSATIONAL SPEECH TRANSLATION THROUGH TARGET LANGUAGE CONTEXT UTILIZATION," Proc. ICASSP'24 (accepted)
+Amir Hussein, Brian Yan, Antonios Anastasopoulos, **Shinji Watanabe**, and Sanjeev Khudanpur, "ENHANCING END-TO-END CONVERSATIONAL SPEECH TRANSLATION THROUGH TARGET LANGUAGE CONTEXT UTILIZATION," Proc. ICASSP'24 (accepted)
 
-Salvador Medina, Sarah Taylor, Carsten Stoll, Gareth Edwards, Alex Hauptmann, Shinji Watanabe, and Iain Matthews, "PHISANET: PHONETICALLY INFORMED SPEECH ANIMATION NETWORK," Proc. ICASSP'24 (accepted)
+Salvador Medina, Sarah Taylor, Carsten Stoll, Gareth Edwards, Alex Hauptmann, **Shinji Watanabe**, and Iain Matthews, "PHISANET: PHONETICALLY INFORMED SPEECH ANIMATION NETWORK," Proc. ICASSP'24 (accepted)
 
-Samuele Cornell, Jee-weon Jung, Shinji Watanabe, and Stefano Squartini, "ONE MODEL TO RULE THEM ALL ? TOWARDS END-TO-END JOINT SPEAKER DIARIZATION AND SPEECH RECOGNITION," Proc. ICASSP'24 (accepted)
+Samuele Cornell, Jee-weon Jung, **Shinji Watanabe**, and Stefano Squartini, "ONE MODEL TO RULE THEM ALL ? TOWARDS END-TO-END JOINT SPEAKER DIARIZATION AND SPEECH RECOGNITION," Proc. ICASSP'24 (accepted)
 
-Ruizhe Huang, Xiaohui Zhang, Zhaoheng Ni, Li Sun, Moto Hira, Jeff Hwang, Vimal Manohar, Vineel Pratap, Shinji Watanabe, Daniel Povey, and Sanjeev Khudanpur, "LESS PEAKY AND MORE ACCURATE CTC FORCED ALIGNMENT BY PRUNED CTC LOSS AND LABEL PRIORS," Proc. ICASSP'24 (accepted)
+Ruizhe Huang, Xiaohui Zhang, Zhaoheng Ni, Li Sun, Moto Hira, Jeff Hwang, Vimal Manohar, Vineel Pratap, **Shinji Watanabe**, Daniel Povey, and Sanjeev Khudanpur, "LESS PEAKY AND MORE ACCURATE CTC FORCED ALIGNMENT BY PRUNED CTC LOSS AND LABEL PRIORS," Proc. ICASSP'24 (accepted)
 
-Takashi Maekaku, Jiatong Shi, Xuankai Chang, Yuya Fujita, and Shinji Watanabe, "HUBERTOPIC: ENHANCING SEMANTIC REPRESENTATION OF HUBERT THROUGH SELF-SUPERVISION UTILIZING TOPIC MODEL," Proc. ICASSP'24 (accepted)
+Takashi Maekaku, Jiatong Shi, Xuankai Chang, Yuya Fujita, and **Shinji Watanabe**, "HUBERTOPIC: ENHANCING SEMANTIC REPRESENTATION OF HUBERT THROUGH SELF-SUPERVISION UTILIZING TOPIC MODEL," Proc. ICASSP'24 (accepted)
 
-Xuankai Chang, Brian Yan, Kwanghee Choi, Jee-weon Jung, Yichen Lu, Soumi Maiti, Roshan Sharma, Jiatong Shi, Jinchuan Tian, Shinji Watanabe, Yuya Fujita, Takashi Maekaku, Pengcheng Guo, Yao-Fei Cheng, Pavel Denisov, Kohei Saijo, and Hsiu-Hsuan Wang, "EXPLORING SPEECH RECOGNITION, TRANSLATION, AND UNDERSTANDING WITH DISCRETE SPEECH UNITS: A COMPARATIVE STUDY," Proc. ICASSP'24 (accepted)
+Xuankai Chang, Brian Yan, Kwanghee Choi, Jee-weon Jung, Yichen Lu, Soumi Maiti, Roshan Sharma, Jiatong Shi, Jinchuan Tian, **Shinji Watanabe**, Yuya Fujita, Takashi Maekaku, Pengcheng Guo, Yao-Fei Cheng, Pavel Denisov, Kohei Saijo, and Hsiu-Hsuan Wang, "EXPLORING SPEECH RECOGNITION, TRANSLATION, AND UNDERSTANDING WITH DISCRETE SPEECH UNITS: A COMPARATIVE STUDY," Proc. ICASSP'24 (accepted)
 
-Chien-yu Huang, Ke-Han Lu, Shih-Heng Wang, Chun-Yi Kuan, Chi-Yuan Hsiao, Haibin Wu, Siddhant Arora, Kai-Wei Chang, Jiatong Shi, Yifan Peng, Roshan Sharma, Shinji Watanabe, Bhiksha Ramakrishnan, Shady Shehata, and Hung-yi Lee, "DYNAMIC-SUPERB: TOWARDS A DYNAMIC, COLLABORATIVE, AND COMPREHENSIVE INSTRUCTION-TUNING BENCHMARK FOR SPEECH," Proc. ICASSP'24 (accepted)
+Chien-yu Huang, Ke-Han Lu, Shih-Heng Wang, Chun-Yi Kuan, Chi-Yuan Hsiao, Haibin Wu, Siddhant Arora, Kai-Wei Chang, Jiatong Shi, Yifan Peng, Roshan Sharma, **Shinji Watanabe**, Bhiksha Ramakrishnan, Shady Shehata, and Hung-yi Lee, "DYNAMIC-SUPERB: TOWARDS A DYNAMIC, COLLABORATIVE, AND COMPREHENSIVE INSTRUCTION-TUNING BENCHMARK FOR SPEECH," Proc. ICASSP'24 (accepted)
 
-Brian Yan, Xuankai Chang, Antonios Anastasopoulos, Yuya Fujita, and Shinji Watanabe, "CROSS-MODAL MULTI-TASKING FOR SPEECH-TO-TEXT TRANSLATION VIA HARD PARAMETER SHARING," Proc. ICASSP'24 (accepted)
+Brian Yan, Xuankai Chang, Antonios Anastasopoulos, Yuya Fujita, and **Shinji Watanabe**, "CROSS-MODAL MULTI-TASKING FOR SPEECH-TO-TEXT TRANSLATION VIA HARD PARAMETER SHARING," Proc. ICASSP'24 (accepted)
 
-Siddhant Arora, George Saon, Shinji Watanabe, and Brian Kingsbury, "SEMI-AUTOREGRESSIVE STREAMING ASR WITH LABEL CONTEXT," Proc. ICASSP'24 (accepted)
+Siddhant Arora, George Saon, **Shinji Watanabe**, and Brian Kingsbury, "SEMI-AUTOREGRESSIVE STREAMING ASR WITH LABEL CONTEXT," Proc. ICASSP'24 (accepted)
 
-Suwon Shon, Kwangyoun Kim, Prashant Sridhar, Yi-Te Hsu, Shinji Watanabe, and Karen Livescu, "GENERATIVE CONTEXT-AWARE FINE-TUNING OF SELF-SUPERVISED SPEECH MODELS," Proc. ICASSP'24 (accepted)
+Suwon Shon, Kwangyoun Kim, Prashant Sridhar, Yi-Te Hsu, **Shinji Watanabe**, and Karen Livescu, "GENERATIVE CONTEXT-AWARE FINE-TUNING OF SELF-SUPERVISED SPEECH MODELS," Proc. ICASSP'24 (accepted)
 
-Yui Sudo, Shakeel Muhammad, Yosuke Fukumoto, Yifan Peng, and Shinji Watanabe, "CONTEXTUALIZED AUTOMATIC SPEECH RECOGNITION WITH ATTENTION-BASED BIAS PHRASE BOOSTED BEAM SEARCH," Proc. ICASSP'24 (accepted)
+Yui Sudo, Shakeel Muhammad, Yosuke Fukumoto, Yifan Peng, and **Shinji Watanabe**, "CONTEXTUALIZED AUTOMATIC SPEECH RECOGNITION WITH ATTENTION-BASED BIAS PHRASE BOOSTED BEAM SEARCH," Proc. ICASSP'24 (accepted)
 
-William Chen, Takatomo Kano, Atsunori Ogawa, Marc Delcroix, and Shinji Watanabe, "Train Long and Test Long: Leveraging Full Document Contexts in Speech Processing," Proc. ICASSP'24 (accepted)
+William Chen, Takatomo Kano, Atsunori Ogawa, Marc Delcroix, and **Shinji Watanabe**, "Train Long and Test Long: Leveraging Full Document Contexts in Speech Processing," Proc. ICASSP'24 (accepted)
 
-Hayato Futami, Emiru Tsunoo, Yosuke Kashiwagi, Hiroaki Ogawa, Siddhant Arora, and Shinji Watanabe, "PHONEME-AWARE ENCODING FOR PREFIX-TREE-BASED CONTEXTUAL ASR," Proc. ICASSP'24 (accepted)
+Hayato Futami, Emiru Tsunoo, Yosuke Kashiwagi, Hiroaki Ogawa, Siddhant Arora, and **Shinji Watanabe**, "PHONEME-AWARE ENCODING FOR PREFIX-TREE-BASED CONTEXTUAL ASR," Proc. ICASSP'24 (accepted)
 
-Younglo Lee, Shukjae Choi, Byeong-Yeol Kim, Zhong-Qiu Wang, and Shinji Watanabe, "BOOSTING UNKNOWN-NUMBER SPEAKER SEPARATION WITH TRANSFORMER DECODER-BASED ATTRACTOR," Proc. ICASSP'24 (accepted)
+Younglo Lee, Shukjae Choi, Byeong-Yeol Kim, Zhong-Qiu Wang, and **Shinji Watanabe**, "BOOSTING UNKNOWN-NUMBER SPEAKER SEPARATION WITH TRANSFORMER DECODER-BASED ATTRACTOR," Proc. ICASSP'24 (accepted)
 
-Jeong Hun Yeo, Minsu Kim, Shinji Watanabe, and Yong Man Ro, "VISUAL SPEECH RECOGNITION FOR LOW-RESOURCE LANGUAGES WITH AUTOMATIC LABELS FROM WHISPER MODEL," Proc. ICASSP'24 (accepted)
+Jeong Hun Yeo, Minsu Kim, **Shinji Watanabe**, and Yong Man Ro, "VISUAL SPEECH RECOGNITION FOR LOW-RESOURCE LANGUAGES WITH AUTOMATIC LABELS FROM WHISPER MODEL," Proc. ICASSP'24 (accepted)
 
-Minsu Kim, Jeongsoo Choi, Soumi Maiti, Jeong Hun Yeo, Shinji Watanabe, and Yong Man Ro, "TOWARDS PRACTICAL AND EFFICIENT IMAGE-TO-SPEECH CAPTIONING WITH VISION-LANGUAGE PRE-TRAINING AND MULTI-MODAL TOKENS," Proc. ICASSP'24 (accepted)
+Minsu Kim, Jeongsoo Choi, Soumi Maiti, Jeong Hun Yeo, **Shinji Watanabe**, and Yong Man Ro, "TOWARDS PRACTICAL AND EFFICIENT IMAGE-TO-SPEECH CAPTIONING WITH VISION-LANGUAGE PRE-TRAINING AND MULTI-MODAL TOKENS," Proc. ICASSP'24 (accepted)
 
-Kwanghee Choi, Jee-weon Jung, and Shinji Watanabe, "UNDERSTANDING PROBE BEHAVIORS THROUGH VARIATIONAL BOUNDS OF MUTUAL INFORMATION," Proc. ICASSP'24 (accepted)
+Kwanghee Choi, Jee-weon Jung, and **Shinji Watanabe**, "UNDERSTANDING PROBE BEHAVIORS THROUGH VARIATIONAL BOUNDS OF MUTUAL INFORMATION," Proc. ICASSP'24 (accepted)
 
-Shih-Lun Wu, Xuankai Chang, Gordon Wichern, Jee-weon Jung, François Germain, Jonathan Le Roux, and Shinji Watanabe, "IMPROVING AUDIO CAPTIONING MODELS WITH FINE-GRAINED AUDIO FEATURES, TEXT EMBEDDING SUPERVISION, AND LLM MIX-UP AUGMENTATION," Proc. ICASSP'24 (accepted)
+Shih-Lun Wu, Xuankai Chang, Gordon Wichern, Jee-weon Jung, François Germain, Jonathan Le Roux, and **Shinji Watanabe**, "IMPROVING AUDIO CAPTIONING MODELS WITH FINE-GRAINED AUDIO FEATURES, TEXT EMBEDDING SUPERVISION, AND LLM MIX-UP AUGMENTATION," Proc. ICASSP'24 (accepted)
 
-Yusuke Shinohara and Shinji Watanabe, "Domain Adaptation by Data Distribution Matching via Submodularity for Speech Recognition," Proc. ASRU'23 (accepted)
+Yusuke Shinohara and **Shinji Watanabe**, "Domain Adaptation by Data Distribution Matching via Submodularity for Speech Recognition," Proc. ASRU'23 (accepted)
 
-Takatomo Kano, Atsunori Ogawa, Marc Delcroix, Kohei Matsuura, Takanori Ashihara, William Chen, and Shinji Watanabe, "Summarize while Translating: Universal Model with Parallel Decoding for Summarization and Translation," Proc. ASRU'23 (accepted)
+Takatomo Kano, Atsunori Ogawa, Marc Delcroix, Kohei Matsuura, Takanori Ashihara, William Chen, and **Shinji Watanabe**, "Summarize while Translating: Universal Model with Parallel Decoding for Summarization and Translation," Proc. ASRU'23 (accepted)
 
-Xinjian Li, Shinnosuke Takamichi, Takaaki Saeki, William Chen, Sayaka Shiota, and Shinji Watanabe, "YODAS: Youtube-Oriented Dataset for Audio and Speech," Proc. ASRU'23 (accepted)
+Xinjian Li, Shinnosuke Takamichi, Takaaki Saeki, William Chen, Sayaka Shiota, and **Shinji Watanabe**, "YODAS: Youtube-Oriented Dataset for Audio and Speech," Proc. ASRU'23 (accepted)
 
-Kohei Saijo, Wangyou Zhang, Zhong-Qiu Wang, Shinji Watanabe, Tetsunori Kobayashi, and Tetsuji Ogawa, "A Single Speech Enhancement Model Unifying Dereverberation, Denoising, Speaker Counting, Separation, and Extraction," Proc. ASRU'23 (accepted)
+Kohei Saijo, Wangyou Zhang, Zhong-Qiu Wang, **Shinji Watanabe**, Tetsunori Kobayashi, and Tetsuji Ogawa, "A Single Speech Enhancement Model Unifying Dereverberation, Denoising, Speaker Counting, Separation, and Extraction," Proc. ASRU'23 (accepted)
 
-Jeff Hwang, Moto Hira, Caroline Chen, Xiaohui Zhang, Zhaoheng Ni, Guangzhi Sun, Pingchuan Ma, Ruizhe Huang, Vineel Pratap, Yuekai Zhang, Anurag Kumar, Chin-Yun Yu, Chuang Zhu, Chunxi Liu, Jacob Kahn, Mirco Ravanelli, Peng Sun, Shinji Watanabe, Yangyang Shi, and Yumeng Tao, "TorchAudio 2.1: Advancing speech recognition, self-supervised learning, and audio processing components for PyTorch," Proc. ASRU'23 (accepted)
+Jeff Hwang, Moto Hira, Caroline Chen, Xiaohui Zhang, Zhaoheng Ni, Guangzhi Sun, Pingchuan Ma, Ruizhe Huang, Vineel Pratap, Yuekai Zhang, Anurag Kumar, Chin-Yun Yu, Chuang Zhu, Chunxi Liu, Jacob Kahn, Mirco Ravanelli, Peng Sun, **Shinji Watanabe**, Yangyang Shi, and Yumeng Tao, "TorchAudio 2.1: Advancing speech recognition, self-supervised learning, and audio processing components for PyTorch," Proc. ASRU'23 (accepted)
 
-Wangyou Zhang, Kohei Saijo, Zhong-Qiu Wang, Shinji Watanabe, and Yanmin Qian, "Toward Universal Speech Enhancement For Diverse Input Conditions," Proc. ASRU'23 (accepted)
+Wangyou Zhang, Kohei Saijo, Zhong-Qiu Wang, **Shinji Watanabe**, and Yanmin Qian, "Toward Universal Speech Enhancement For Diverse Input Conditions," Proc. ASRU'23 (accepted)
 
-Jiatong Shi, William Chen, Dan Berrebbi, Hsiu-Hsuan Wang, Wei Ping Huang, En Pei Hu, ho lam Chung, Xuankai Chang, Yuxun Tang, Shang-Wen Li, Abdelrahman Mohamed, Hung-yi Lee, and Shinji Watanabe, "Findings of the 2023 ML-SUPERB Challenge: Pre-Training and Evaluation over More Languages and Beyond," Proc. ASRU'23 (accepted)
+Jiatong Shi, William Chen, Dan Berrebbi, Hsiu-Hsuan Wang, Wei Ping Huang, En Pei Hu, ho lam Chung, Xuankai Chang, Yuxun Tang, Shang-Wen Li, Abdelrahman Mohamed, Hung-yi Lee, and **Shinji Watanabe**, "Findings of the 2023 ML-SUPERB Challenge: Pre-Training and Evaluation over More Languages and Beyond," Proc. ASRU'23 (accepted)
 
-William Chen, Jiatong Shi, Brian Yan, Dan Berrebbi, Wangyou Zhang, Yifan Peng, Xuankai Chang, Soumi Maiti, and Shinji Watanabe, "Joint Prediction and Denoising for Large-Scale Multilingual Self-Supervised Learning," Proc. ASRU'23 (accepted)
+William Chen, Jiatong Shi, Brian Yan, Dan Berrebbi, Wangyou Zhang, Yifan Peng, Xuankai Chang, Soumi Maiti, and **Shinji Watanabe**, "Joint Prediction and Denoising for Large-Scale Multilingual Self-Supervised Learning," Proc. ASRU'23 (accepted)
 
-Masao Someki, Nicholas Eng, Yosuke Higuchi, and Shinji Watanabe, "Segment-Level Vectorized Beam Search Based on Partially Autoregressive Inference," Proc. ASRU'23 (accepted)
+Masao Someki, Nicholas Eng, Yosuke Higuchi, and **Shinji Watanabe**, "Segment-Level Vectorized Beam Search Based on Partially Autoregressive Inference," Proc. ASRU'23 (accepted)
 
-Yifan Peng, Jinchuan Tian, Brian Yan, Dan Berrebbi, Xuankai Chang, Xinjian Li, Jiatong Shi, Siddhant Arora, William Chen, Roshan Sharma, Wangyou Zhang, Yui Sudo, Muhammad Shakeel, Jee-weon Jung, Soumi Maiti, and Shinji Watanabe, "Reproducing Whisper-Style Training Using an Open-Source Toolkit and Publicly Available Data," Proc. ASRU'23 (accepted)
+Yifan Peng, Jinchuan Tian, Brian Yan, Dan Berrebbi, Xuankai Chang, Xinjian Li, Jiatong Shi, Siddhant Arora, William Chen, Roshan Sharma, Wangyou Zhang, Yui Sudo, Muhammad Shakeel, Jee-weon Jung, Soumi Maiti, and **Shinji Watanabe**, "Reproducing Whisper-Style Training Using an Open-Source Toolkit and Publicly Available Data," Proc. ASRU'23 (accepted)
 
-Roshan Sharma, William Chen, Takatomo Kano, Ruchira Sharma, Atsunori Ogawa, Siddhant Arora, Marc Delcroix, Rita Singh, Shinji Watanabe, and Bhiksha Raj, "ESPNet-SUMM: Introducing a novel large dataset, toolkit, and a cross-corpora evaluation of speech summarization systems," Proc. ASRU'23 (accepted)
+Roshan Sharma, William Chen, Takatomo Kano, Ruchira Sharma, Atsunori Ogawa, Siddhant Arora, Marc Delcroix, Rita Singh, **Shinji Watanabe**, and Bhiksha Raj, "ESPNet-SUMM: Introducing a novel large dataset, toolkit, and a cross-corpora evaluation of speech summarization systems," Proc. ASRU'23 (accepted)
 
-Yuya Fujita, Shinji Watanabe, Xuankai Chang, and Takashi Maekaku, "LV-CTC: Non-autoregressive ASR with CTC and latent variable models," Proc. ASRU'23 (accepted)
+Yuya Fujita, **Shinji Watanabe**, Xuankai Chang, and Takashi Maekaku, "LV-CTC: Non-autoregressive ASR with CTC and latent variable models," Proc. ASRU'23 (accepted)
 
-Zhong-Qiu Wang and Shinji Watanabe, "UNSSOR: Unsupervised Neural Speech Separation by Leveraging Over-determined Training Mixtures," Proc. NeurIPS'23 (accepted)
+Zhong-Qiu Wang and **Shinji Watanabe**, "UNSSOR: Unsupervised Neural Speech Separation by Leveraging Over-determined Training Mixtures," Proc. NeurIPS'23 (accepted)
 
-Yoshiki Masuyama, Xuankai Chang, Wangyou Zhang, Samuele Cornell, Zhong-Qiu Wang, Nobutaka Ono, Yanmin Qian, and Shinji Watanabe, "Exploring the Integration of Speech Separation and Recognition with Self-Supervised Learning Representation," Proc. WASPAA'23 (accepted)
+Yoshiki Masuyama, Xuankai Chang, Wangyou Zhang, Samuele Cornell, Zhong-Qiu Wang, Nobutaka Ono, Yanmin Qian, and **Shinji Watanabe**, "Exploring the Integration of Speech Separation and Recognition with Self-Supervised Learning Representation," Proc. WASPAA'23 (accepted)
 
-Peter Polák, Brian Yan, Shinji Watanabe, Alex Waibel, and Ondřej Bojar, "Incremental Blockwise Beam Search for Simultaneous Speech Translation with Controllable Quality-Latency," Proc. Interspeech'23 (accepted)
+Peter Polák, Brian Yan, **Shinji Watanabe**, Alex Waibel, and Ondřej Bojar, "Incremental Blockwise Beam Search for Simultaneous Speech Translation with Controllable Quality-Latency," Proc. Interspeech'23 (accepted)
 
-Peter Wu, Tingle Li, Yijing Lu, Yubin Zhang, Jiachen Lian, Alan Black, Louis Goldstein, Shinji Watanabe, and Gopala Krishna Anumanchipalli, "Deep Speech Synthesis from MRI-Based Articulatory Representations," Proc. Interspeech'23 (accepted)
+Peter Wu, Tingle Li, Yijing Lu, Yubin Zhang, Jiachen Lian, Alan Black, Louis Goldstein, **Shinji Watanabe**, and Gopala Krishna Anumanchipalli, "Deep Speech Synthesis from MRI-Based Articulatory Representations," Proc. Interspeech'23 (accepted)
 
-Jiyang Tang, William Chen, Xuankai Chang, Shinji Watanabe, and Brian MacWhinney, "A New Benchmark of Aphasia Speech Recognition and Detection Based on E-Branchformer and Multi-task Learning," Proc. Interspeech'23 (accepted)
+Jiyang Tang, William Chen, Xuankai Chang, **Shinji Watanabe**, and Brian MacWhinney, "A New Benchmark of Aphasia Speech Recognition and Detection Based on E-Branchformer and Multi-task Learning," Proc. Interspeech'23 (accepted)
 
-Xuankai Chang, Brian Yan, Yuya Fujita, Takashi Maekaku, and Shinji Watanabe, "Exploration of Efficient End-to-End ASR using Discretized Input from Self-Supervised Learning," Proc. Interspeech'23 (accepted)
+Xuankai Chang, Brian Yan, Yuya Fujita, Takashi Maekaku, and **Shinji Watanabe**, "Exploration of Efficient End-to-End ASR using Discretized Input from Self-Supervised Learning," Proc. Interspeech'23 (accepted)
 
-Puyuan Peng, Brian Yan, Shinji Watanabe, and David Harwath, "Prompting the Hidden Talent of Web-Scale Speech Models for Zero-Shot Task Generalization," Proc. Interspeech'23 (accepted)
+Puyuan Peng, Brian Yan, **Shinji Watanabe**, and David Harwath, "Prompting the Hidden Talent of Web-Scale Speech Models for Zero-Shot Task Generalization," Proc. Interspeech'23 (accepted)
 
-Siddhant Arora, Hayato Futami, Yosuke Kashiwagi, Emiru Tsunoo, Brian Yan, and Shinji Watanabe, "Integrating Pretrained ASR and LM to perform Sequence Generation for Spoken Language Understanding," Proc. Interspeech'23 (accepted)
+Siddhant Arora, Hayato Futami, Yosuke Kashiwagi, Emiru Tsunoo, Brian Yan, and **Shinji Watanabe**, "Integrating Pretrained ASR and LM to perform Sequence Generation for Spoken Language Understanding," Proc. Interspeech'23 (accepted)
 
-Emiru Tsunoo, Hayato Futami, Yosuke Kashiwagi, Siddhant Arora, and Shinji Watanabe, "Integration of Frame- and Label-synchronous Beam Search for Streaming Encoder--decoder Speech Recognition," Proc. Interspeech'23 (accepted)
+Emiru Tsunoo, Hayato Futami, Yosuke Kashiwagi, Siddhant Arora, and **Shinji Watanabe**, "Integration of Frame- and Label-synchronous Beam Search for Streaming Encoder--decoder Speech Recognition," Proc. Interspeech'23 (accepted)
 
-Jinchuan Tian, Jianwei Yu, Hangting Chen, Brian Yan, Chao Weng, Dong Yu, and Shinji Watanabe, "Bayes Risk Transducer: Transducer with Controllable Alignment Prediction," Proc. Interspeech'23 (accepted)
+Jinchuan Tian, Jianwei Yu, Hangting Chen, Brian Yan, Chao Weng, Dong Yu, and **Shinji Watanabe**, "Bayes Risk Transducer: Transducer with Controllable Alignment Prediction," Proc. Interspeech'23 (accepted)
 
-Jiatong Shi, Yun Tang, HIrofumi Inaguma, Hongyu Gong, Juan Pino, and Shinji Watanabe, "Exploration on HuBERT with Multiple Resolution," Proc. Interspeech'23 (accepted)
+Jiatong Shi, Yun Tang, HIrofumi Inaguma, Hongyu Gong, Juan Pino, and **Shinji Watanabe**, "Exploration on HuBERT with Multiple Resolution," Proc. Interspeech'23 (accepted)
 
-Yui Sudo, Muhammad Shakeel, Yifan Peng, and Shinji Watanabe, "Time-synchronous one-pass Beam Search for Parallel Online and Offline Transducers with Dynamic Block Training," Proc. Interspeech'23 (accepted)
+Yui Sudo, Muhammad Shakeel, Yifan Peng, and **Shinji Watanabe**, "Time-synchronous one-pass Beam Search for Parallel Online and Offline Transducers with Dynamic Block Training," Proc. Interspeech'23 (accepted)
 
-Jiatong Shi, Dan Berrebbi, William Chen, En Pei Hu, Wei-Ping Huang, ho lam Chung, Xuankai Chang, Shang-Wen Li, Abdelrahman Mohamed, Hung-yi Lee, and Shinji Watanabe, "ML-SUPERB: Multilingual Speech Universal PERformance Benchmark," Proc. Interspeech'23 (accepted)
+Jiatong Shi, Dan Berrebbi, William Chen, En Pei Hu, Wei-Ping Huang, ho lam Chung, Xuankai Chang, Shang-Wen Li, Abdelrahman Mohamed, Hung-yi Lee, and **Shinji Watanabe**, "ML-SUPERB: Multilingual Speech Universal PERformance Benchmark," Proc. Interspeech'23 (accepted)
 
-Yosuke Kashiwagi, Siddhant Arora, Hayato Futami, Jessica Huynh, Shih-Lun Wu, Yifan Peng, Brian Yan, Emiru Tsunoo, and Shinji Watanabe, "Tensor Decomposition for Minimization of E2E SLU Model Toward On-Device Processing," Proc. Interspeech'23 (accepted)
+Yosuke Kashiwagi, Siddhant Arora, Hayato Futami, Jessica Huynh, Shih-Lun Wu, Yifan Peng, Brian Yan, Emiru Tsunoo, and **Shinji Watanabe**, "Tensor Decomposition for Minimization of E2E SLU Model Toward On-Device Processing," Proc. Interspeech'23 (accepted)
 
-Yui Sudo, Muhammad Shakeel, Brian Yan, Jiatong Shi, and Shinji Watanabe, "4D: Joint modeling of CTC, Attention, Transducer, and Mask-Predict decoders," Proc. Interspeech'23 (accepted)
+Yui Sudo, Muhammad Shakeel, Brian Yan, Jiatong Shi, and **Shinji Watanabe**, "4D: Joint modeling of CTC, Attention, Transducer, and Mask-Predict decoders," Proc. Interspeech'23 (accepted)
 
-Yifan Peng, Yui Sudo, Muhammad Shakeel, and Shinji Watanabe, "DPHuBERT: Joint Distillation and Pruning of Self-Supervised Speech Models," Proc. Interspeech'23 (accepted)
+Yifan Peng, Yui Sudo, Muhammad Shakeel, and **Shinji Watanabe**, "DPHuBERT: Joint Distillation and Pruning of Self-Supervised Speech Models," Proc. Interspeech'23 (accepted)
 
-Yifan Peng, Kwangyoun Kim, Felix Wu, Brian Yan, Siddhant Arora, William Chen, Jiyang Tang, Suwon Shon, Prashant Sridhar, and Shinji Watanabe, "A Comparative Study on E-Branchformer vs Conformer in Speech Recognition, Translation, and Understanding Tasks," Proc. Interspeech'23 (accepted)
+Yifan Peng, Kwangyoun Kim, Felix Wu, Brian Yan, Siddhant Arora, William Chen, Jiyang Tang, Suwon Shon, Prashant Sridhar, and **Shinji Watanabe**, "A Comparative Study on E-Branchformer vs Conformer in Speech Recognition, Translation, and Understanding Tasks," Proc. Interspeech'23 (accepted)
 
-William Chen, Xuankai Chang, Yifan Peng, Zhaoheng Ni, Soumi Maiti, and Shinji Watanabe, "Reducing Barriers to Self-Supervised Learning: HuBERT Pre-training with Academic Compute," Proc. Interspeech'23 (accepted)
+William Chen, Xuankai Chang, Yifan Peng, Zhaoheng Ni, Soumi Maiti, and **Shinji Watanabe**, "Reducing Barriers to Self-Supervised Learning: HuBERT Pre-training with Academic Compute," Proc. Interspeech'23 (accepted)
 
-Roshan Sharma, Siddhant Arora, Kenneth Zheng, Shinji Watanabe, Rita Singh, and Bhiksha Raj, "BASS: Block-wise Adaptation for Speech Summarization," Proc. Interspeech'23 (accepted)
+Roshan Sharma, Siddhant Arora, Kenneth Zheng, **Shinji Watanabe**, Rita Singh, and Bhiksha Raj, "BASS: Block-wise Adaptation for Speech Summarization," Proc. Interspeech'23 (accepted)
 
-Brian Yan, Jiatong Shi, Yun Tang, Hirofumi Inaguma, Yifan Peng, Siddharth Dalmia, Peter Polak, Patrick Fernandes, Dan Berrebbi, Tomoki Hayashi, Xiaohui Zhang, Zhaoheng Ni, Moto Hira, Soumi Maiti, Juan Pino, and Shinji Watanabe, "ESPnet-ST-v2: Multipurpose Spoken Language Translation Toolkit," Proc. ACL'23 (demo paper) (accepted)
+Brian Yan, Jiatong Shi, Yun Tang, Hirofumi Inaguma, Yifan Peng, Siddharth Dalmia, Peter Polak, Patrick Fernandes, Dan Berrebbi, Tomoki Hayashi, Xiaohui Zhang, Zhaoheng Ni, Moto Hira, Soumi Maiti, Juan Pino, and **Shinji Watanabe**, "ESPnet-ST-v2: Multipurpose Spoken Language Translation Toolkit," Proc. ACL'23 (demo paper) (accepted)
 
-Hirofumi Inaguma, Sravya Popuri, Ilia Kulikov, Peng-Jen Chen, Changhan Wang, Yu-An Chung, Yun Tang, Ann Lee, Shinji Watanabe, and Juan Pino, "UnitY: Two-pass Direct Speech-to-speech Translation with Discrete Units," Proc. ACL'23 (accepted)
+Hirofumi Inaguma, Sravya Popuri, Ilia Kulikov, Peng-Jen Chen, Changhan Wang, Yu-An Chung, Yun Tang, Ann Lee, **Shinji Watanabe**, and Juan Pino, "UnitY: Two-pass Direct Speech-to-speech Translation with Discrete Units," Proc. ACL'23 (accepted)
 
-Suwon Shon, Siddhant Arora, Chyi-Jiunn Lin, Ankita Pasad, Felix Wu, Roshan S Sharma, Wei-Lun Wu, Hung-yi Lee, Karen Livescu and Shinji Watanabe, "SLUE Phase-2: A Benchmark Suite of Diverse Spoken Language Understanding Tasks," Proc. ACL'23 (accepted
+Suwon Shon, Siddhant Arora, Chyi-Jiunn Lin, Ankita Pasad, Felix Wu, Roshan S Sharma, Wei-Lun Wu, Hung-yi Lee, Karen Livescu and **Shinji Watanabe**, "SLUE Phase-2: A Benchmark Suite of Diverse Spoken Language Understanding Tasks," Proc. ACL'23 (accepted
 
-Hainan Xu, Fei Jia, Somshubra Majumdar, He Huang, Shinji Watanabe, and Boris Ginsburg, "Efficient Sequence Transduction by Jointly Predicting Tokens and Durations," Proc. ICML'23 (accepted)
+Hainan Xu, Fei Jia, Somshubra Majumdar, He Huang, **Shinji Watanabe**, and Boris Ginsburg, "Efficient Sequence Transduction by Jointly Predicting Tokens and Durations," Proc. ICML'23 (accepted)
 
-Takaaki Saeki, Soumi Maiti, Xinjian Li, Shinji Watanabe, Shinnosuke Takamichi, and Hiroshi Saruwatari "Learning to Speak from Text: Zero-Shot Multilingual Text-to-Speech with Unsupervised Text Pretraining," Proc. IJCAI'23 (accepted)
+Takaaki Saeki, Soumi Maiti, Xinjian Li, **Shinji Watanabe**, Shinnosuke Takamichi, and Hiroshi Saruwatari "Learning to Speak from Text: Zero-Shot Multilingual Text-to-Speech with Unsupervised Text Pretraining," Proc. IJCAI'23 (accepted)
 
-Yifan Peng, Jaesong Lee, and Shinji Watanabe, "I3D: Transformer architectures with input-dependent dynamic depth for speech recognition," Proc. ICASSP'23 (accepted)
+Yifan Peng, Jaesong Lee, and **Shinji Watanabe**, "I3D: Transformer architectures with input-dependent dynamic depth for speech recognition," Proc. ICASSP'23 (accepted)
 
-Junwei Huang, Karthik Ganesan, Soumi Maiti, Young Min Kim, Xuankai Chang, Paul Liang, and Shinji Watanabe, "FINDADAPTNET: Find and Insert Adapters by Learned Layer Importance," Proc. ICASSP'23 (accepted)
+Junwei Huang, Karthik Ganesan, Soumi Maiti, Young Min Kim, Xuankai Chang, Paul Liang, and **Shinji Watanabe**, "FINDADAPTNET: Find and Insert Adapters by Learned Layer Importance," Proc. ICASSP'23 (accepted)
 
-Zhe Wang, Shilong Wu, Hang Chen, Mao-Kui He, Jun Du, Chin-Hui Lee, Jingdong Chen, Shinji Watanabe, Sabato Siniscalchi, Odette Scharenborg, Diyuan Liu, Baocai Yin, Jia Pan, Jianqing Gao, and Cong Liu, "The Multimodal Information Based Speech Processing (MISP) 2022 Challenge: Audio-Visual Diarization and Recognition," Proc. ICASSP'23 (accepted)
+Zhe Wang, Shilong Wu, Hang Chen, Mao-Kui He, Jun Du, Chin-Hui Lee, Jingdong Chen, **Shinji Watanabe**, Sabato Siniscalchi, Odette Scharenborg, Diyuan Liu, Baocai Yin, Jia Pan, Jianqing Gao, and Cong Liu, "The Multimodal Information Based Speech Processing (MISP) 2022 Challenge: Audio-Visual Diarization and Recognition," Proc. ICASSP'23 (accepted)
 
-Takashi Maekaku, Yuya Fujita, Xuankai Chang, and Shinji Watanabe, "Fully Unsupervised Topic Clustering of Unlabelled Spoken Audio Using Self-Supervised Representation Learning and Topic Model," Proc. ICASSP'23 (accepted)
+Takashi Maekaku, Yuya Fujita, Xuankai Chang, and **Shinji Watanabe**, "Fully Unsupervised Topic Clustering of Unlabelled Spoken Audio Using Self-Supervised Representation Learning and Topic Model," Proc. ICASSP'23 (accepted)
 
-Yifan Peng, Kwangyoun Kim, Felix Wu, Prashant Sridhar, and Shinji Watanabe, "Structured Pruning of Self-Supervised Pre-trained Models for Speech Recognition and Understanding," Proc. ICASSP'23 (accepted)
+Yifan Peng, Kwangyoun Kim, Felix Wu, Prashant Sridhar, and **Shinji Watanabe**, "Structured Pruning of Self-Supervised Pre-trained Models for Speech Recognition and Understanding," Proc. ICASSP'23 (accepted)
 
-Jiachen Lian, Alan W Black, Yijing Lu, Louis Goldstein, Shinji Watanabe, and Gopala K. Anumanchipalli, "Articulatory Representation Learning Via Joint Factor Analysis and Neural Matrix Factorization," Proc. ICASSP'23 (accepted)
+Jiachen Lian, Alan W Black, Yijing Lu, Louis Goldstein, **Shinji Watanabe**, and Gopala K. Anumanchipalli, "Articulatory Representation Learning Via Joint Factor Analysis and Neural Matrix Factorization," Proc. ICASSP'23 (accepted)
 
-Dan Berrebbi, Brian Yan, and Shinji Watanabe, "Avoid Overthinking in Self-Supervised Models for Speech Recognition," Proc. ICASSP'23 (accepted)
+Dan Berrebbi, Brian Yan, and **Shinji Watanabe**, "Avoid Overthinking in Self-Supervised Models for Speech Recognition," Proc. ICASSP'23 (accepted)
 
-Zhong-Qiu Wang, Samuele Cornell, Shukjae Choi, Younglo Lee, Byeong-Yeol Kim, and Shinji Watanabe, "Neural Speech Enhancement with Very Low Algorithmic Latency and Complexity via Integrated Full- and Sub-Band Modeling," Proc. ICASSP'23 (accepted)
+Zhong-Qiu Wang, Samuele Cornell, Shukjae Choi, Younglo Lee, Byeong-Yeol Kim, and **Shinji Watanabe**, "Neural Speech Enhancement with Very Low Algorithmic Latency and Complexity via Integrated Full- and Sub-Band Modeling," Proc. ICASSP'23 (accepted)
 
-Dongji Gao, Jiatong Shi, Shun-Po Chuang, Leibny Paola Garcia, Hung-yi Lee, Shinji Watanabe, and Sanjeev Khudanpur, "EURO: ESPnet Unsupervised ASR Open-Source Toolkit," Proc. ICASSP'23 (accepted)
+Dongji Gao, Jiatong Shi, Shun-Po Chuang, Leibny Paola Garcia, Hung-yi Lee, **Shinji Watanabe**, and Sanjeev Khudanpur, "EURO: ESPnet Unsupervised ASR Open-Source Toolkit," Proc. ICASSP'23 (accepted)
 
-Zhong-Qiu Wang, Samuele Cornell, Shukjae Choi, Younglo Lee, Byeong-Yeol Kim, and Shinji Watanabe, "TF-GridNet: Making Time-Frequency Domain Models Great Again for Monaural Speaker Separation," Proc. ICASSP'23 (accepted)
+Zhong-Qiu Wang, Samuele Cornell, Shukjae Choi, Younglo Lee, Byeong-Yeol Kim, and **Shinji Watanabe**, "TF-GridNet: Making Time-Frequency Domain Models Great Again for Monaural Speaker Separation," Proc. ICASSP'23 (accepted)
 
-Siddhant Arora, Hayato Futami, Emiru Tsunoo, Brian Yan, and Shinji Watanabe, "Joint Modelling of Spoken Language Understanding Tasks with Integrated Dialog History," Proc. ICASSP'23 (accepted)
+Siddhant Arora, Hayato Futami, Emiru Tsunoo, Brian Yan, and **Shinji Watanabe**, "Joint Modelling of Spoken Language Understanding Tasks with Integrated Dialog History," Proc. ICASSP'23 (accepted)
 
-Peter Wu, Li-Wei Chen, Cheol Jun Cho, Shinji Watanabe, Louis Goldstein, Alan W. Black, and Gopala K. Anumanchipalli, "Speaker-Independent Acoustic-to-Articulatory Speech Inversion," Proc. ICASSP'23 (accepted)
+Peter Wu, Li-Wei Chen, Cheol Jun Cho, **Shinji Watanabe**, Louis Goldstein, Alan W. Black, and Gopala K. Anumanchipalli, "Speaker-Independent Acoustic-to-Articulatory Speech Inversion," Proc. ICASSP'23 (accepted)
 
-Soumi Maiti, Yifan Peng, Takaaki Saeki, and Shinji Watanabe, "SpeechLMScore: Evaluating Speech Generation Using Speech Language Model," Proc. ICASSP'23 (accepted)
+Soumi Maiti, Yifan Peng, Takaaki Saeki, and **Shinji Watanabe**, "SpeechLMScore: Evaluating Speech Generation Using Speech Language Model," Proc. ICASSP'23 (accepted)
 
-William Chen, Brian Yan, Jiatong Shi, Yifan Peng, Soumi Maiti, and Shinji Watanabe, "Improving Massively Multilingual ASR With Auxiliary CTC Objectives," Proc. ICASSP'23 (accepted)
+William Chen, Brian Yan, Jiatong Shi, Yifan Peng, Soumi Maiti, and **Shinji Watanabe**, "Improving Massively Multilingual ASR With Auxiliary CTC Objectives," Proc. ICASSP'23 (accepted)
 
-Motoi Omachi, Brian Yan, Siddharth Dalmia, Yuya Fujita, and Shinji Watanabe, "Align, Write, Re-order: Explainable End-to-End Speech Translation via Operation Sequence Generation," Proc. ICASSP'23 (accepted)
+Motoi Omachi, Brian Yan, Siddharth Dalmia, Yuya Fujita, and **Shinji Watanabe**, "Align, Write, Re-order: Explainable End-to-End Speech Translation via Operation Sequence Generation," Proc. ICASSP'23 (accepted)
 
-Brian Yan, Matthew Wiesner, Ondrej Klejch, Preethi Jyothi, and Shinji Watanabe, "Towards Zero-Shot Code-Switched Speech Recognition," Proc. ICASSP'23 (accepted)
+Brian Yan, Matthew Wiesner, Ondrej Klejch, Preethi Jyothi, and **Shinji Watanabe**, "Towards Zero-Shot Code-Switched Speech Recognition," Proc. ICASSP'23 (accepted)
 
-Hayato Futami, Emiru Tsunoo, Kentaro Shibata, Yosuke Kashiwagi, Takao Okuda, Siddhant Arora, and Shinji Watanabe, "Streaming Joint Speech Recognition and Disfluency Detection," Proc. ICASSP'23 (accepted)
+Hayato Futami, Emiru Tsunoo, Kentaro Shibata, Yosuke Kashiwagi, Takao Okuda, Siddhant Arora, and **Shinji Watanabe**, "Streaming Joint Speech Recognition and Disfluency Detection," Proc. ICASSP'23 (accepted)
 
-Jiatong Shi, Yun Tang, Ann Lee, Hirofumi Inaguma, Changhan Wang, Juan Pino, and Shinji Watanabe, "Enhancing Speech-To-Speech Translation with Multiple TTS Targets," Proc. ICASSP'23 (accepted)
+Jiatong Shi, Yun Tang, Ann Lee, Hirofumi Inaguma, Changhan Wang, Juan Pino, and **Shinji Watanabe**, "Enhancing Speech-To-Speech Translation with Multiple TTS Targets," Proc. ICASSP'23 (accepted)
 
-Suwon Shon, Felix Wu, Kwangyoun Kim, Prashant Sridhar, Karen Livescu, and Shinji Watanabe, "Context-Aware Fine-Tuning of Self-Supervised Speech Models," Proc. ICASSP'23 (accepted)
+Suwon Shon, Felix Wu, Kwangyoun Kim, Prashant Sridhar, Karen Livescu, and **Shinji Watanabe**, "Context-Aware Fine-Tuning of Self-Supervised Speech Models," Proc. ICASSP'23 (accepted)
 
-Takatomo Kano, Atsunori Ogawa, Marc Delcroix, Roshan Sharma, Kohei Matsuura, and Shinji Watanabe, "Speech summarization of long spoken document: Improving memory efficiency of speech/text encoders," Proc. ICASSP'23 (accepted)
+Takatomo Kano, Atsunori Ogawa, Marc Delcroix, Roshan Sharma, Kohei Matsuura, and **Shinji Watanabe**, "Speech summarization of long spoken document: Improving memory efficiency of speech/text encoders," Proc. ICASSP'23 (accepted)
 
-Yunyang Zeng, Joseph Konan, Shuo Han, David Bick, Muqiao Yang, Anurag Kumar, Shinji Watanabe, and Bhiksha Raj, "TAPLoss: A Temporal Acoustic Parameter Loss for Speech Enhancement," Proc. ICASSP'23 (accepted)
+Yunyang Zeng, Joseph Konan, Shuo Han, David Bick, Muqiao Yang, Anurag Kumar, **Shinji Watanabe**, and Bhiksha Raj, "TAPLoss: A Temporal Acoustic Parameter Loss for Speech Enhancement," Proc. ICASSP'23 (accepted)
 
-Jiatong Shi, Chan-Jan Hsu, Holam Chung, Dongji Gao, Paola Garcia, Shinji Watanabe, Ann Lee, and Hung-yi Lee, "Bridging Speech and Text Pre-trained Models with Unsupervised ASR," Proc. ICASSP'23 (accepted)
+Jiatong Shi, Chan-Jan Hsu, Holam Chung, Dongji Gao, Paola Garcia, **Shinji Watanabe**, Ann Lee, and Hung-yi Lee, "Bridging Speech and Text Pre-trained Models with Unsupervised ASR," Proc. ICASSP'23 (accepted)
 
-Li-Wei Chen, Shinji Watanabe, and Alexander Rudnicky, ”A Unified One-Shot Prosody and Speaker Conversion System with Self-Supervised Discrete Speech Units," Proc. ICASSP'23 (accepted)
+Li-Wei Chen, **Shinji Watanabe**, and Alexander Rudnicky, ”A Unified One-Shot Prosody and Speaker Conversion System with Self-Supervised Discrete Speech Units," Proc. ICASSP'23 (accepted)
 
-Yosuke Higuchi, Tetsuji Ogawa, Tetsunori Kobayashi, and Shinji Watanabe, "InterMPL: Momentum Pseudo-Labeling with Intermediate CTC Loss," Proc. ICASSP'23 (accepted)
+Yosuke Higuchi, Tetsuji Ogawa, Tetsunori Kobayashi, and **Shinji Watanabe**, "InterMPL: Momentum Pseudo-Labeling with Intermediate CTC Loss," Proc. ICASSP'23 (accepted)
 
-Yosuke Higuchi, Tetsuji Ogawa, Tetsunori Kobayashi, and Shinji Watanabe, "BECTRA: Transducer-based End-to-End ASR with BERT-Enhanced Encoder," Proc. ICASSP'23 (accepted)
+Yosuke Higuchi, Tetsuji Ogawa, Tetsunori Kobayashi, and **Shinji Watanabe**, "BECTRA: Transducer-based End-to-End ASR with BERT-Enhanced Encoder," Proc. ICASSP'23 (accepted)
 
-Felix Wu, Kwangyoun Kim, Shinji Watanabe, Kyu J. Han, Ryan McDonald, Kilian Q. Weinberger, and Yoav Artzi, "Wav2Seq: Pre-training Speech-to-Text Encoder-Decoder Models Using Pseudo Languages," Proc. ICASSP'23 (accepted)
+Felix Wu, Kwangyoun Kim, **Shinji Watanabe**, Kyu J. Han, Ryan McDonald, Kilian Q. Weinberger, and Yoav Artzi, "Wav2Seq: Pre-training Speech-to-Text Encoder-Decoder Models Using Pseudo Languages," Proc. ICASSP'23 (accepted)
 
-Jee-weon Jung, Hee-Soo Heo, Bong-Jin Lee, Jaesung Huh, Andrew Brown, Youngki Kwon, Shinji Watanabe, and Joon Son Chung, "In search of strong embedding extractors for speaker diarisation," Proc. ICASSP'23 (accepted)
+Jee-weon Jung, Hee-Soo Heo, Bong-Jin Lee, Jaesung Huh, Andrew Brown, Youngki Kwon, **Shinji Watanabe**, and Joon Son Chung, "In search of strong embedding extractors for speaker diarisation," Proc. ICASSP'23 (accepted)
 
-Muqiao Yang, Joseph Konan, David Bick, Yunyang Zeng, Shuo Han, Anurag Kumar, Shinji Watanabe, and Bhiksha Raj, "PAAPLoss: A Phonetic-Aligned Acoustic Parameter Loss for Speech Enhancement," Proc. ICASSP'23 (accepted)
+Muqiao Yang, Joseph Konan, David Bick, Yunyang Zeng, Shuo Han, Anurag Kumar, **Shinji Watanabe**, and Bhiksha Raj, "PAAPLoss: A Phonetic-Aligned Acoustic Parameter Loss for Speech Enhancement," Proc. ICASSP'23 (accepted)
 
-Hainan Xu, Fei Jia, Somshubra Majumdar, Shinji Watanabe, and Boris Ginsburg, "Multi-blank Transducers for Speech Recognition," Proc. ICASSP'23 (accepted)
+Hainan Xu, Fei Jia, Somshubra Majumdar, **Shinji Watanabe**, and Boris Ginsburg, "Multi-blank Transducers for Speech Recognition," Proc. ICASSP'23 (accepted)
 
-Brian Yan, Siddharth Dalmia, Yosuke Higuchi, Graham Neubig, Florian Metze, Alan W Black and Shinji Watanabe, "CTC Alignments Improve Autoregressive Translation," Proc. EACL'23, pp. 1623--1329 (2023)
+Brian Yan, Siddharth Dalmia, Yosuke Higuchi, Graham Neubig, Florian Metze, Alan W Black and **Shinji Watanabe**, "CTC Alignments Improve Autoregressive Translation," Proc. EACL'23, pp. 1623--1329 (2023)
 
-Jinchuan Tian, Brian Yan, Jianwei Yu, Chao Weng, Dong Yu, and Shinji Watanabe, "BAYES RISK CTC: CONTROLLABLE CTC ALIGNMENT IN SEQUENCE-TO-SEQUENCE TASKS," Proc. ICLR'23 (accepted)
+Jinchuan Tian, Brian Yan, Jianwei Yu, Chao Weng, Dong Yu, and **Shinji Watanabe**, "BAYES RISK CTC: CONTROLLABLE CTC ALIGNMENT IN SEQUENCE-TO-SEQUENCE TASKS," Proc. ICLR'23 (accepted)
 
-Li-Wei Chen, Alexander Rudnicky, and Shinji Watanabe, "A Vector Quantized Approach for Text to Speech Synthesis on Real-World Spontaneous Speech," Proc. AAAI'23 (accepted)
+Li-Wei Chen, Alexander Rudnicky, and **Shinji Watanabe**, "A Vector Quantized Approach for Text to Speech Synthesis on Real-World Spontaneous Speech," Proc. AAAI'23 (accepted)
 
-Yosuke Higuchi, Brian Yan, Siddhant Arora, Tetsuji Ogawa, Tetsunori Kobayashi, and Shinji Watanabe, "BERT Meets CTC: New Formulation of End-to-End Speech Recognition with Pre-trained Masked Language Model," Proc. Findings of EMNLP'22, pp. 5486--5503 (2022)
+Yosuke Higuchi, Brian Yan, Siddhant Arora, Tetsuji Ogawa, Tetsunori Kobayashi, and **Shinji Watanabe**, "BERT Meets CTC: New Formulation of End-to-End Speech Recognition with Pre-trained Masked Language Model," Proc. Findings of EMNLP'22, pp. 5486--5503 (2022)
 
-Siddhant Arora, Siddharth Dalmia, Brian Yan, Florian Metze, Alan W Black, and Shinji Watanabe, "Token-level Sequence Labeling for Spoken Language Understanding using Compositional End-to-End Models," Proc. Findings of EMNLP'22, pp. 5448--5458 (2022)
+Siddhant Arora, Siddharth Dalmia, Brian Yan, Florian Metze, Alan W Black, and **Shinji Watanabe**, "Token-level Sequence Labeling for Spoken Language Understanding using Compositional End-to-End Models," Proc. Findings of EMNLP'22, pp. 5448--5458 (2022)
 
-Yushi Ueda, Soumi Maiti, Shinji Watanabe, Chunlei Zhang, Meng Yu, Shi-Xiong Zhang, and Yong Xu, "EEND-SS: Joint End-to-End Neural Speaker Diarization and Speech Separation for Flexible Number of Speakers," Proc. SLT'22, pp. 480--487 (2022)
+Yushi Ueda, Soumi Maiti, **Shinji Watanabe**, Chunlei Zhang, Meng Yu, Shi-Xiong Zhang, and Yong Xu, "EEND-SS: Joint End-to-End Neural Speaker Diarization and Speech Separation for Flexible Number of Speakers," Proc. SLT'22, pp. 480--487 (2022)
 
-Tzu-hsun Feng, Annie Dong, Ching-Feng Yeh, Shu-wen Yang, Tzu-Quan Lin, Jiatong Shi, Kai-Wei Chang, Zili Huang, Haibin Wu, Xuankai Chang, Shinji Watanabe, Abdel-rahman Mohamed, Shang-Wen Li, and Hung-yi Lee, "SUPERB @ SLT 2022: Challenge on Generalization and Efficiency of Self-Supervised Speech Representation Learning," Proc. SLT'22, pp. 1096--1103 (2022)
+Tzu-hsun Feng, Annie Dong, Ching-Feng Yeh, Shu-wen Yang, Tzu-Quan Lin, Jiatong Shi, Kai-Wei Chang, Zili Huang, Haibin Wu, Xuankai Chang, **Shinji Watanabe**, Abdel-rahman Mohamed, Shang-Wen Li, and Hung-yi Lee, "SUPERB @ SLT 2022: Challenge on Generalization and Efficiency of Self-Supervised Speech Representation Learning," Proc. SLT'22, pp. 1096--1103 (2022)
 
-Kwangyoun Kim, Felix Wu, Yifan Peng, Jing Pan, Prashant Sridhar, Kyu Jeong Han, and Shinji Watanabe, "E-Branchformer: Branchformer with Enhanced merging for speech recognition," Proc. SLT'22, pp. 84--91 (2022)
+Kwangyoun Kim, Felix Wu, Yifan Peng, Jing Pan, Prashant Sridhar, Kyu Jeong Han, and **Shinji Watanabe**, "E-Branchformer: Branchformer with Enhanced merging for speech recognition," Proc. SLT'22, pp. 84--91 (2022)
 
-Yifan Peng, Siddhant Arora, Yosuke Higuchi, Yushi Ueda, Sujay Kumar, Karthik Ganesan, Siddharth Dalmia, Xuankai Chang, and Shinji Watanabe, "A Study on the Integration of Pre-Trained SSL, ASR, LM and SLU Models for Spoken Language Understanding," Proc. SLT'22, pp. 406--413 (2022)
+Yifan Peng, Siddhant Arora, Yosuke Higuchi, Yushi Ueda, Sujay Kumar, Karthik Ganesan, Siddharth Dalmia, Xuankai Chang, and **Shinji Watanabe**, "A Study on the Integration of Pre-Trained SSL, ASR, LM and SLU Models for Spoken Language Understanding," Proc. SLT'22, pp. 406--413 (2022)
 
-Yen Meng, Hsuan-Jui Chen, Jiatong Shi, Shinji Watanabe, Paola Garcia, Hung-yi Lee, and Hao Tang, "On Compressing Sequences for Self-Supervised Speech Models," Proc. SLT'22, pp. 1128--1135 (2022)
+Yen Meng, Hsuan-Jui Chen, Jiatong Shi, **Shinji Watanabe**, Paola Garcia, Hung-yi Lee, and Hao Tang, "On Compressing Sequences for Self-Supervised Speech Models," Proc. SLT'22, pp. 1128--1135 (2022)
 
-Yoshiki Masuyama, Xuankai Chang, Samuele Cornell, Shinji Watanabe, and Nobutaka Ono, "End-to-End Integration of Speech Recognition, Dereverberation, Beamforming, and Self-Supervised Learning Representation," Proc. SLT'22, pp. 260--265 (2022)
+Yoshiki Masuyama, Xuankai Chang, Samuele Cornell, **Shinji Watanabe**, and Nobutaka Ono, "End-to-End Integration of Speech Recognition, Dereverberation, Beamforming, and Self-Supervised Learning Representation," Proc. SLT'22, pp. 260--265 (2022)
 
-Shota Horiguchi, Yuki Takashima, Shinji Watanabe, and Paola Garcia, "Mutual Learning of Single- and Multi-Channel End-to-End Neural Diarization," Proc. SLT'22, pp. 620--625 (2022)
+Shota Horiguchi, Yuki Takashima, **Shinji Watanabe**, and Paola Garcia, "Mutual Learning of Single- and Multi-Channel End-to-End Neural Diarization," Proc. SLT'22, pp. 620--625 (2022)
 
-Robin Scheibler, Wangyou Zhang, Xuankai Chang, Shinji Watanabe, and Yanmin Qian, "End-to-End Multi-speaker ASR with Independent Vector Analysis," Proc. SLT'22, pp. 496--501 (2022)
+Robin Scheibler, Wangyou Zhang, Xuankai Chang, **Shinji Watanabe**, and Yanmin Qian, "End-to-End Multi-speaker ASR with Independent Vector Analysis," Proc. SLT'22, pp. 496--501 (2022)
 
-Shukjae Choi, Younglo Lee, Jihwan Park, Hyung Yong Kim, Byeong-Yeol Kim, Zhong-Qiu Wang, and Shinji Watanabe, "An Empirical Study of Training Mixture Generation Strategies on Speech Separation: Dynamic Mixing and Augmentation," Proc. APSIPA ASC'22, pp. 1070--1075 (2022)
+Shukjae Choi, Younglo Lee, Jihwan Park, Hyung Yong Kim, Byeong-Yeol Kim, Zhong-Qiu Wang, and **Shinji Watanabe**, "An Empirical Study of Training Mixture Generation Strategies on Speech Separation: Dynamic Mixing and Augmentation," Proc. APSIPA ASC'22, pp. 1070--1075 (2022)
 
-Masao Someki, Yosuke Higuchi, Tomoki Hayashi, and Shinji Watanabe, "ESPnet-ONNX: Bridging a Gap Between Research and Production," Proc. APSIPA ASC'22, pp. 420--427 (2022)
+Masao Someki, Yosuke Higuchi, Tomoki Hayashi, and **Shinji Watanabe**, "ESPnet-ONNX: Bridging a Gap Between Research and Production," Proc. APSIPA ASC'22, pp. 420--427 (2022)
 
-Jiatong Shi, George Saon, David Haws, Shinji Watanabe and Brian Kingsbury, "VQ-T: RNN Transducers using Vector-Quantized Prediction Network States," Proc. Interspeech'22, pp. 1656--1660 (2022)
+Jiatong Shi, George Saon, David Haws, **Shinji Watanabe** and Brian Kingsbury, "VQ-T: RNN Transducers using Vector-Quantized Prediction Network States," Proc. Interspeech'22, pp. 1656--1660 (2022)
 
-Jaesong Lee, Lukas Lee and Shinji Watanabe, "Memory-Efficient Training of RNN-Transducer with Sampled Softmax," Proc. Interspeech'22, pp. 4441--4445 (2022)
+Jaesong Lee, Lukas Lee and **Shinji Watanabe**, "Memory-Efficient Training of RNN-Transducer with Sampled Softmax," Proc. Interspeech'22, pp. 4441--4445 (2022)
 
-Keqi Deng, Shinji Watanabe, Jiatong Shi and Siddhant Arora, "Blockwise Streaming Transformer for Spoken Language Understanding and Simultaneous Speech Translation," Proc. Interspeech'22, pp. 1746--1750 (2022)
+Keqi Deng, **Shinji Watanabe**, Jiatong Shi and Siddhant Arora, "Blockwise Streaming Transformer for Spoken Language Understanding and Simultaneous Speech Translation," Proc. Interspeech'22, pp. 1746--1750 (2022)
 
-Shuai Guo, Jiatong Shi, Tao Qian, Shinji Watanabe and Qin Jin, "SingAug: Data Augmentation for Singing Voice Synthesis with Cycle-consistent Training Strategy," Proc. Interspeech'22, pp. 4272--4276 (2022)
+Shuai Guo, Jiatong Shi, Tao Qian, **Shinji Watanabe** and Qin Jin, "SingAug: Data Augmentation for Singing Voice Synthesis with Cycle-consistent Training Strategy," Proc. Interspeech'22, pp. 4272--4276 (2022)
 
-Jiatong Shi, Shuai Guo, Tao Qian, Tomoki Hayashi, Yuning Wu, Fangzheng Xu, Xuankai Chang, Huazhe Li, Peter Wu, Shinji Watanabe and Qin Jin, "Muskits: an End-to-end Music Processing Toolkit for Singing Voice Synthesis," Proc. Interspeech'22, pp. 4277--4281 (2022)
+Jiatong Shi, Shuai Guo, Tao Qian, Tomoki Hayashi, Yuning Wu, Fangzheng Xu, Xuankai Chang, Huazhe Li, Peter Wu, **Shinji Watanabe** and Qin Jin, "Muskits: an End-to-end Music Processing Toolkit for Singing Voice Synthesis," Proc. Interspeech'22, pp. 4277--4281 (2022)
 
-Hang Chen, Jun Du, Yusheng Dai, Chin-Hui Lee, Sabato Marco Siniscalchi, Shinji Watanabe, Odette Scharenborg, Jingdong Chen, Baocai Yin and Jia Pan, "Audio-Visual Speech Recognition in MISP2021 Challenge: Dataset Release and Deep Analysis," Proc. Interspeech'22, pp. 1766--1770 (2022)
+Hang Chen, Jun Du, Yusheng Dai, Chin-Hui Lee, Sabato Marco Siniscalchi, **Shinji Watanabe**, Odette Scharenborg, Jingdong Chen, Baocai Yin and Jia Pan, "Audio-Visual Speech Recognition in MISP2021 Challenge: Dataset Release and Deep Analysis," Proc. Interspeech'22, pp. 1766--1770 (2022)
 
-Hengshun Zhou, Jun Du, Gongzhen Zou, Zhaoxu Nian, Chin-Hui Lee, Sabato Marco Siniscalchi, Shinji Watanabe, Odette Scharenborg, Jingdong Chen, Shifu Xiong and Jian-Qing Gao, "Audio-Visual Wake Word Spotting in MISP2021 Challenge: Dataset Release and Deep Analysis," Proc. Interspeech'22, pp. 1111--1115 (2022)
+Hengshun Zhou, Jun Du, Gongzhen Zou, Zhaoxu Nian, Chin-Hui Lee, Sabato Marco Siniscalchi, **Shinji Watanabe**, Odette Scharenborg, Jingdong Chen, Shifu Xiong and Jian-Qing Gao, "Audio-Visual Wake Word Spotting in MISP2021 Challenge: Dataset Release and Deep Analysis," Proc. Interspeech'22, pp. 1111--1115 (2022)
 
-Xinjian Li, Florian Metze, David R. Mortensen, Alan W Black and Shinji Watanabe, "ASR2K: Speech Recognition for Around 2000 Languages without Audio," Proc. Interspeech'22, pp. 4885--4889 (2022)
+Xinjian Li, Florian Metze, David R. Mortensen, Alan W Black and **Shinji Watanabe**, "ASR2K: Speech Recognition for Around 2000 Languages without Audio," Proc. Interspeech'22, pp. 4885--4889 (2022)
 
-Yen-Ju Lu, Xuankai Chang, Chenda Li, Wangyou Zhang, Samuele Cornell, Zhaoheng Ni, Yoshiki Masuyama, Brian Yan, Robin Scheibler, Zhong-Qiu Wang, Yu Tsao, Yanmin Qian and Shinji Watanabe, "ESPnet-SE++: Speech Enhancement for Robust Speech Recognition, Translation, and Understanding," Proc. Interspeech'22, pp. 5458--5462 (2022)
+Yen-Ju Lu, Xuankai Chang, Chenda Li, Wangyou Zhang, Samuele Cornell, Zhaoheng Ni, Yoshiki Masuyama, Brian Yan, Robin Scheibler, Zhong-Qiu Wang, Yu Tsao, Yanmin Qian and **Shinji Watanabe**, "ESPnet-SE++: Speech Enhancement for Robust Speech Recognition, Translation, and Understanding," Proc. Interspeech'22, pp. 5458--5462 (2022)
 
-Siddhant Arora, Siddharth Dalmia, Xuankai Chang, Brian Yan, Alan W Black and Shinji Watanabe, "Two-Pass Low Latency End-to-End Spoken Language Understanding," Proc. Interspeech'22, pp. 3478--3482 (2022)
+Siddhant Arora, Siddharth Dalmia, Xuankai Chang, Brian Yan, Alan W Black and **Shinji Watanabe**, "Two-Pass Low Latency End-to-End Spoken Language Understanding," Proc. Interspeech'22, pp. 3478--3482 (2022)
 
-Peter Wu, Shinji Watanabe, Louis Goldstein, Alan W Black and Gopala Krishna Anumanchipalli, "Deep Speech Synthesis from Articulatory Representations," Proc. Interspeech'22, pp. 779--783 (2022)
+Peter Wu, **Shinji Watanabe**, Louis Goldstein, Alan W Black and Gopala Krishna Anumanchipalli, "Deep Speech Synthesis from Articulatory Representations," Proc. Interspeech'22, pp. 779--783 (2022)
 
-Yusuke Shinohara and Shinji Watanabe, "Minimum latency training of sequence transducers for streaming end-to-end speech recognition," Proc. Interspeech'22, pp. 2098--2102 (2022)
+Yusuke Shinohara and **Shinji Watanabe**, "Minimum latency training of sequence transducers for streaming end-to-end speech recognition," Proc. Interspeech'22, pp. 2098--2102 (2022)
 
-Yui Sudo, Shakeel Muhammad, Kazuhiro Nakadai, Jiatong Shi and Shinji Watanabe, "Streaming Automatic Speech Recognition with Re-blocking Processing Based on Integrated Voice Activity Detection," Proc. Interspeech'22, pp. 4641--4645 (2022)
+Yui Sudo, Shakeel Muhammad, Kazuhiro Nakadai, Jiatong Shi and **Shinji Watanabe**, "Streaming Automatic Speech Recognition with Re-blocking Processing Based on Integrated Voice Activity Detection," Proc. Interspeech'22, pp. 4641--4645 (2022)
 
-Tatsuya Komatsu, Yusuke Fujita, Jaesong Lee, Lukas Lee, Shinji Watanabe and Yusuke Kida, "Better Intermediates Improve CTC Inference," Proc. Interspeech'22, pp. 4965--4969 (2022)
+Tatsuya Komatsu, Yusuke Fujita, Jaesong Lee, Lukas Lee, **Shinji Watanabe** and Yusuke Kida, "Better Intermediates Improve CTC Inference," Proc. Interspeech'22, pp. 4965--4969 (2022)
 
-Yuki Takashima, Shota Horiguchi, Shinji Watanabe, Leibny Paola Garcia Perera and Yohei Kawaguchi, "Updating Only Encoders Prevents Catastrophic Forgetting of End-to-End ASR Models," Proc. Interspeech'22, pp. 2218--2222 (2022)
+Yuki Takashima, Shota Horiguchi, **Shinji Watanabe**, Leibny Paola Garcia Perera and Yohei Kawaguchi, "Updating Only Encoders Prevents Catastrophic Forgetting of End-to-End ASR Models," Proc. Interspeech'22, pp. 2218--2222 (2022)
 
-Takashi Maekaku, Yuya Fujita, Yifan Peng and Shinji Watanabe, "Attention Weight Smoothing Using Prior Distributions for Transformer-Based End-to-End ASR," Proc. Interspeech'22, pp. 1071--1075 (2022)
+Takashi Maekaku, Yuya Fujita, Yifan Peng and **Shinji Watanabe**, "Attention Weight Smoothing Using Prior Distributions for Transformer-Based End-to-End ASR," Proc. Interspeech'22, pp. 1071--1075 (2022)
 
-Emiru Tsunoo, Yosuke Kashiwagi, Chaitanya Prasad Narisetty and Shinji Watanabe, "Residual Language Model for End-to-end Speech Recognition," Proc. Interspeech'22, pp. 3899--3903 (2022)
+Emiru Tsunoo, Yosuke Kashiwagi, Chaitanya Prasad Narisetty and **Shinji Watanabe**, "Residual Language Model for End-to-end Speech Recognition," Proc. Interspeech'22, pp. 3899--3903 (2022)
 
-Nathaniel Romney Robinson, Perez Ogayo, Swetha R. Gangu, David R. Mortensen and Shinji Watanabe, "When Is TTS Augmentation Through a Pivot Language Useful?," Proc. Interspeech'22, pp. 3538--3542 (2022)
+Nathaniel Romney Robinson, Perez Ogayo, Swetha R. Gangu, David R. Mortensen and **Shinji Watanabe**, "When Is TTS Augmentation Through a Pivot Language Useful?," Proc. Interspeech'22, pp. 3538--3542 (2022)
 
-Yooncheol Ju, Ilhwan Kim, Hongsun Yang, Ji-Hoon Kim, Byeongyeol Kim, Soumi Maiti and Shinji Watanabe, "TriniTTS: Pitch-controllable End-to-end TTS without External Aligner," Proc. Interspeech'22, pp. 16--20 (2022)
+Yooncheol Ju, Ilhwan Kim, Hongsun Yang, Ji-Hoon Kim, Byeongyeol Kim, Soumi Maiti and **Shinji Watanabe**, "TriniTTS: Pitch-controllable End-to-end TTS without External Aligner," Proc. Interspeech'22, pp. 16--20 (2022)
 
-Muqiao Yang, Ian Lane and Shinji Watanabe, "Online Continual Learning of End-to-End Speech Recognition Models," Proc. Interspeech'22, pp. 2668--2672 (2022)
+Muqiao Yang, Ian Lane and **Shinji Watanabe**, "Online Continual Learning of End-to-End Speech Recognition Models," Proc. Interspeech'22, pp. 2668--2672 (2022)
 
-Xuankai Chang, Takashi Maekaku, Yuya Fujita and Shinji Watanabe, "End-to-End Integration of Speech Recognition, Speech Enhancement, and Self-Supervised Learning Representation," Proc. Interspeech'22, pp. 3819--3823 (2022)
+Xuankai Chang, Takashi Maekaku, Yuya Fujita and **Shinji Watanabe**, "End-to-End Integration of Speech Recognition, Speech Enhancement, and Self-Supervised Learning Representation," Proc. Interspeech'22, pp. 3819--3823 (2022)
 
-Dan Berrebbi, Jiatong Shi, Brian Yan, Osbel López-Francisco, Jonathan Amith and Shinji Watanabe, "Combining Spectral and Self-Supervised Features for Low Resource Speech Recognition and Translation," Proc. Interspeech'22, pp. 3533--3537 (2022)
+Dan Berrebbi, Jiatong Shi, Brian Yan, Osbel López-Francisco, Jonathan Amith and **Shinji Watanabe**, "Combining Spectral and Self-Supervised Features for Low Resource Speech Recognition and Translation," Proc. Interspeech'22, pp. 3533--3537 (2022)
 
-Muqiao Yang, Joseph Konan, David Bick, Anurag Kumar, Shinji Watanabe and Bhiksha Raj, "Improving Speech Enhancement through Fine-Grained Speech Characteristics," Proc. Interspeech'22, pp. 2953--2957 (2022)
+Muqiao Yang, Joseph Konan, David Bick, Anurag Kumar, **Shinji Watanabe** and Bhiksha Raj, "Improving Speech Enhancement through Fine-Grained Speech Characteristics," Proc. Interspeech'22, pp. 2953--2957 (2022)
 
-Yifan Peng, Siddharth Dalmia, Ian Lane, and Shinji Watanabe, "Branchformer: Parallel MLP-Attention Architectures for Speech Recognition and Understanding," Proc. ICML'22, pp. 17627--17643 (2022)
+Yifan Peng, Siddharth Dalmia, Ian Lane, and **Shinji Watanabe**, "Branchformer: Parallel MLP-Attention Architectures for Speech Recognition and Understanding," Proc. ICML'22, pp. 17627--17643 (2022)
 
-Brian Yan, Patrick Fernandes, Siddharth Dalmia, Jiatong Shi, Yifan Peng, Dan Berrebbi, Xinyi Wang, Graham Neubig and Shinji Watanabe, “CMU’s IWSLT 2022 Dialect Speech Translation System,” Proc. IWSLT’22, pp. 298--307 (2022)
+Brian Yan, Patrick Fernandes, Siddharth Dalmia, Jiatong Shi, Yifan Peng, Dan Berrebbi, Xinyi Wang, Graham Neubig and **Shinji Watanabe**, “CMU’s IWSLT 2022 Dialect Speech Translation System,” Proc. IWSLT’22, pp. 298--307 (2022)
 
-Xinjian Li, Florian Metze, David R. Mortensen, Alan W Black, and Shinji Watanabe, ”Phone Inventories and Recognition for Every Language," *Proc. LREC'22*, pp. 1061--1067 (2022)
+Xinjian Li, Florian Metze, David R. Mortensen, Alan W Black, and **Shinji Watanabe**, ”Phone Inventories and Recognition for Every Language," *Proc. LREC'22*, pp. 1061--1067 (2022)
 
 Hsiang-Sheng Tsai, Heng-Jui Chang, Wen-Chin Huang, Zili Huang, Kushal Lakhotia, Shu-wen Yang, Shuyan Dong, Andy T. Liu, Cheng-I Lai, Jiatong Shi, Xuankai Chang, Phil Hall, Hsuan-Jui Chen, Shang-Wen Li, **Shinji Watanabe**, Abdelrahman Mohamed, and Hung-yi Lee, "SUPERB-SG: Enhanced Speech processing Universal PERformance Benchmark for Semantic and Generative Capabilities," *Proc. ACL'22*, pp. 8479--8492 (2022)
 
@@ -958,7 +958,7 @@ Cong Han, Yi Luo, Chenda Li, Tianyan Zhou, Keisuke Kinoshita, **Shinji Watanabe*
 
 Jiatong Shi, Jonathan D. Amith, Xuankai Chang, Siddharth Dalmia, Brian Yan, and **Shinji Watanabe**, "Highland Puebla Nahuatl Speech Translation Corpus for Endangered Language Documentation," *Proc. AmericasNLP'21*, pp. 53--63 (2021)
 
-Hirofumi Inaguma, Tatsuya Kawahara, and **Shinji Watanabe,** "Bidirectional Source and Target Knowledge Distillation for End-to-end Speech Translation," *Proc. NAACL'21*, pp. 1872--1881 (2021)
+Hirofumi Inaguma, Tatsuya Kawahara, and **Shinji Watanabe**, "Bidirectional Source and Target Knowledge Distillation for End-to-end Speech Translation," *Proc. NAACL'21*, pp. 1872--1881 (2021)
 
 Motoi Omachi, Yuya Fujita, **Shinji Watanabe**, and Matthew Wiesner, "End-to-end ASR to jointly predict transcriptions and linguistic annotations," *Proc. NAACL'21*, pp. 1861--1871 (2021)
 
@@ -1076,9 +1076,9 @@ Hiroshi Seki, Takaaki Hori, **Shinji Watanabe**, Jonathan Le Roux and John Hersh
 
 Matthew Wiesner, Adithya Renduchintala, **Shinji Watanabe**, Chunxi Liu, Najim Dehak and Sanjeev Khudanpur, "Pretraining by Backtranslation for End-to-end ASR in Low-Resource Settings," *Proc. Interspeech'19*, pp. 4375--4379 (2019)
 
-Tomoki Hayashi, **Shinji Watanabe,** Tomoki Toda, Kazuya Takeda, Shubham Toshniwal and Karen Livescu, "Pre-trained Text Embeddings for Enhanced Text-to-Speech Synthesis," *Proc. Interspeech'19*, pp. 4430--4434 (2019)
+Tomoki Hayashi, **Shinji Watanabe**, Tomoki Toda, Kazuya Takeda, Shubham Toshniwal and Karen Livescu, "Pre-trained Text Embeddings for Enhanced Text-to-Speech Synthesis," *Proc. Interspeech'19*, pp. 4430--4434 (2019)
 
-Yusuke Fujita, Naoyuki Kanda, Shota Horiguchi, Kenji Nagamatsu and **Shinji Watanabe,** "End-to-End Neural Speaker Diarization with Permutation-Free Objectives," *Proc. Interspeech'19*, pp. 4300--4304 (2019)
+Yusuke Fujita, Naoyuki Kanda, Shota Horiguchi, Kenji Nagamatsu and **Shinji Watanabe**, "End-to-End Neural Speaker Diarization with Permutation-Free Objectives," *Proc. Interspeech'19*, pp. 4300--4304 (2019)
 
 Martin Karafiat, Murali Karthick Baskar, **Shinji Watanabe**, Takaaki Hori, Matthew Wiesner and Jan Černocký, "Analysis of Multilingual Sequence-to-Sequence speech recognition systems," *Proc. Interspeech'19*, pp. 2220--2224 (2019)
 
@@ -1124,11 +1124,11 @@ Jonathan Le Roux, Gordon Wichern, **Shinji Watanabe**, Andy Sarroff, John R. Her
 
 Xuankai Chang, Yanmin Qian, Kai Yu, **Shinji Watanabe**, "End-to-End Monaural Multi-speaker ASR System without Pretraining," *Proc. ICASSP'19*, pp. 6256--6260 (2019)
 
-Shigeki Karita, **Shinji Watanabe,** Tomoharu Iwata, Marc Delcroix, Atsunori Ogawa, Tomohiro Nakatani, "SEMI-SUPERVISED END-TO-END SPEECH RECOGNITION USING TEXT-TO-SPEECH AND AUTOENCODERS," *Proc. ICASSP'19*, pp. 6166--6170 (2019)
+Shigeki Karita, **Shinji Watanabe**, Tomoharu Iwata, Marc Delcroix, Atsunori Ogawa, Tomohiro Nakatani, "SEMI-SUPERVISED END-TO-END SPEECH RECOGNITION USING TEXT-TO-SPEECH AND AUTOENCODERS," *Proc. ICASSP'19*, pp. 6166--6170 (2019)
 
 Naoyuki Kanda, Yusuke Fujita, Shota Horiguchi, Rintaro Ikeshita, Kenji Nagamatsu, **Shinji Watanabe**, "ACOUSTIC MODELING FOR DISTANT MULTI-TALKER SPEECH RECOGNITION WITH SINGLE- AND MULTI-CHANNEL BRANCHES," *Proc. ICASSP'19*, pp. 6630--6634 (2019)
 
-Chunxi Liu, Matthew Wiesner, **Shinji Watanabe,** Craig Harman, Jan Trmal, Najim Dehak, and Sanjeev Khudanpu, "Low-resource contextual topic identification on speech," *Proc. IEEE SLT'18*, pp. 656--663 (2018)
+Chunxi Liu, Matthew Wiesner, **Shinji Watanabe**, Craig Harman, Jan Trmal, Najim Dehak, and Sanjeev Khudanpu, "Low-resource contextual topic identification on speech," *Proc. IEEE SLT'18*, pp. 656--663 (2018)
 
 Tomoki Hayashi, **Shinji Watanabe**, Yu Zhang, Tomoki Toda, Takaaki Hori, Ramon Astudillo, and Kazuya Takeda, "Back-translation-style data augmentation for end-to-end ASR" *Proc. IEEE SLT'18*, pp. 426--433 (2018)
 
@@ -1150,7 +1150,7 @@ Aswin Shanmugam Subramanian, Szu-Jui Chen and **Shinji Watanabe**, "Student-Teac
 
 Adithya Renduchintala, Shuoyang Ding, Matthew Wiesner and **Shinji Watanabe**, "Multi-Modal Data Augmentation for End-to-end ASR," *Proc. Interspeech'18* , pp. 2394-2398 (2018) ***best student paper award***
 
-Peter Frederiksen, Jesus Villalba, **Shinji Watanabe,** Zheng-Hua Tan and Najim Dehak, "Effectiveness of Single-Channel BLSTM Enhancement for Language Identification," *Proc. Interspeech'18*, pp. 1823--1827 (2018)
+Peter Frederiksen, Jesus Villalba, **Shinji Watanabe**, Zheng-Hua Tan and Najim Dehak, "Effectiveness of Single-Channel BLSTM Enhancement for Language Identification," *Proc. Interspeech'18*, pp. 1823--1827 (2018)
 
 Gregory Sell, David Snyder, Alan McCree, Daniel Garcia-Romero, Jesus Villalba, Matthew Maciejewski, Vimal Manohar, Najim Dehak, Daniel Povey, **Shinji Watanabe** and Sanjeev Khudanpur, "Diarization is Hard: Some Experiences and Lessons Learned for the JHU Team in the Inaugural DIHARD Challenge," *Proc. Interspeech'18*, pp. 2808--2812 (2018)
 
@@ -1356,58 +1356,58 @@ Takaaki Hori, Shoko Araki, Takuya Yoshioka, Masakiyo Fujimoto, **Shinji Watanabe
 
 Masakiyo Fujimoto, **Shinji Watanabe**, and Tomohiro Nakatani, "Voice Activity Detection Using Frame-Wise Model Re-Estimation Method Based on Gaussian Pruning with Weight Normalization," *Proc. Interspeech'10*, pp. 3102--3105, (2010)
 
-Yotaro Kubo**, Shinji Watanabe**, Atsushi Nakamura, and Tetsunori Kobayashi, "A Regularized Discriminative Training Method of Acoustic Models Derived by Minimum Relative Entropy Discrimination," *Proc. Interspeech'10*, pp. 2954--2957, (2010)
+Yotaro Kubo, **Shinji Watanabe**, Atsushi Nakamura, and Tetsunori Kobayashi, "A Regularized Discriminative Training Method of Acoustic Models Derived by Minimum Relative Entropy Discrimination," *Proc. Interspeech'10*, pp. 2954--2957, (2010)
 
 Daisuke Saito, **Shinji Watanabe**, Atsushi Nakamura, and Nobuaki Minematsu, "Probabilistic Integration of Joint Density Model and Speaker Model for Voice Conversion," *Proc. Interspeech'10*, pp. 1728--1731, (2010)
 
 Takaaki Hori, **Shinji Watanabe**, and Atsushi Nakamura, "Improvements of Search Error Risk Minimization in Viterbi Beam Search for Speech Recognition," *Proc. Interspeech'10*, pp. 1962--1965, (2010)
 
-**Shinji Watanabe**, Takaaki Hori, Erik McDermott, and Atsushi Nakamura, "[A discriminative model for continuous speech recognition based on weighted finite state transducers](http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5495096)," *Proc. ICASSP'10*, pp. 4922--4925, (2010)
+**Shinji Watanabe**, Takaaki Hori, Erik McDermott, and Atsushi Nakamura, "A discriminative model for continuous speech recognition based on weighted finite state transducers," *Proc. ICASSP'10*, pp. 4922--4925, (2010)
 
-David Cournapeau, **Shinji Watanabe**, and Atsushi Nakamura, Tatsuya Kawahara, ["Using online model comparison in the variational Bayes framework for online unsupervised voice activity detection](http://ieeexplore.ieee.org/iel5/5487364/5494886/05495610.pdf?arnumber=5495610)," *Proc. ICASSP'10*, pp. 4462--4465, (2010)
+David Cournapeau, **Shinji Watanabe**, and Atsushi Nakamura, Tatsuya Kawahara, "Using online model comparison in the variational Bayes framework for online unsupervised voice activity detection," *Proc. ICASSP'10*, pp. 4462--4465, (2010)
 
-Takaaki Hori, **Shinji Watanabe**, and Atsushi Nakamura, "[Search error risk minimization in Viterbi beam search for speech recognition](http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5495099)," *Proc. ICASSP'10*, pp. 4934--4937, (2010)
+Takaaki Hori, **Shinji Watanabe**, and Atsushi Nakamura, "Search error risk minimization in Viterbi beam search for speech recognition," *Proc. ICASSP'10*, pp. 4934--4937, (2010)
 
-Kazuo Aoyama, **Shinji Watanabe**, Hiroshi Sawada, Yasuhiro Minami, Naonori Ueda, and Kazumi Saito, "[Fast similarity search on a large speech data set with neighborhood graph indexing](http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5494950)," *Proc. ICASSP'10*, pp. 5358--5361, (2010)
+Kazuo Aoyama, **Shinji Watanabe**, Hiroshi Sawada, Yasuhiro Minami, Naonori Ueda, and Kazumi Saito, "Fast similarity search on a large speech data set with neighborhood graph indexing," *Proc. ICASSP'10*, pp. 5358--5361, (2010)
 
-Erik McDermott, **Shinji Watanabe**, and Atsushi Nakamura, "[Discriminative training based on an integrated view of MPE and MMI in margin and error space](http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5495106)," *Proc. ICASSP'10,* pp. 4894--4897, (2010)
+Erik McDermott, **Shinji Watanabe**, and Atsushi Nakamura, "Discriminative training based on an integrated view of MPE and MMI in margin and error space," *Proc. ICASSP'10,* pp. 4894--4897, (2010)
 
-Hideyuki Watanabe, Shigeru Katagiri, Kouta Yamada, Erik McDermott, Atsushi Nakamura, **Shinji Watanabe**, and Miho Ohsaki, "[Minimum error classification with geometric margin control](http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5495645)," *Proc. ICASSP'10*, pp. 4922―4925, (2010)
+Hideyuki Watanabe, Shigeru Katagiri, Kouta Yamada, Erik McDermott, Atsushi Nakamura, **Shinji Watanabe**, and Miho Ohsaki, "Minimum error classification with geometric margin control," *Proc. ICASSP'10*, pp. 4922―4925, (2010)
 
-Erik McDermott, **Shinji Watanabe**, and Atsushi Nakamura, "[Margin-Space Integration of MPE Loss via Differencing of MMI Functionals for Generalized Error-Weighted Discriminative Training](http://www.isca-speech.org/archive/interspeech_2009/i09_0224.html)," *Proc. Interspeech'09*, pp. 224--227, (2009)
+Erik McDermott, **Shinji Watanabe**, and Atsushi Nakamura, "Margin-Space Integration of MPE Loss via Differencing of MMI Functionals for Generalized Error-Weighted Discriminative Training," *Proc. Interspeech'09*, pp. 224--227, (2009)
 
-Yosuke Izumi, Kenta Nishiki, **Shinji Watanabe**, Takuya Nishimoto, Nobutaka Ono, and Shigeki Sagayama, "[Stereo-input Speech Recognition using Sparseness-based Time-frequency Masking in a Reverberant Environment](http://www.isca-speech.org/archive/interspeech_2009/i09_1955.html)," *Proc. Interspeech'09*, pp. 1955--1958, (2009)
+Yosuke Izumi, Kenta Nishiki, **Shinji Watanabe**, Takuya Nishimoto, Nobutaka Ono, and Shigeki Sagayama, "Stereo-input Speech Recognition using Sparseness-based Time-frequency Masking in a Reverberant Environment," *Proc. Interspeech'09*, pp. 1955--1958, (2009)
 
-Tomoharu. Iwata, **Shinji Watanabe**, Takeshi Yamada and Naonori Ueda, "[Topic tracking model for analyzing consumer purchase behavior](http://ijcai.org/papers09/Papers/IJCAI09-239.pdf)," *Proc. IJCAI'09*, pp. 1427--1432, (2009)
+Tomoharu. Iwata, **Shinji Watanabe**, Takeshi Yamada and Naonori Ueda, "Topic tracking model for analyzing consumer purchase behavior," *Proc. IJCAI'09*, pp. 1427--1432, (2009)
 
-Atushi Nakamura, Erik McDermott, **Shinji Watanabe**, and Shigeru Katagiri, "[A unified view for discriminative objective functions based on negative exponential of difference measure between strings](http://ieeexplore.ieee.org/iel5/4912736/4959496/04959913.pdf?arnumber=4959913), " *Proc. ICASSP'09*, pp. 1633-1636, (2009)
+Atushi Nakamura, Erik McDermott, **Shinji Watanabe**, and Shigeru Katagiri, "A unified view for discriminative objective functions based on negative exponential of difference measure between strings, " *Proc. ICASSP'09*, pp. 1633-1636, (2009)
 
-**Shinji Watanabe** and Atsushi Nakamura, "[Speech recognition with incremental tracking and detection of changing environments based on a macroscopic time evolution system](http://ieeexplore.ieee.org/iel5/4912736/4959496/04960598.pdf?arnumber=4960598), " *Proc. ICASSP'09*, pp. 4373-4376, (2009)
+**Shinji Watanabe** and Atsushi Nakamura, "Speech recognition with incremental tracking and detection of changing environments based on a macroscopic time evolution system, " *Proc. ICASSP'09*, pp. 4373-4376, (2009)
 
-Marc Delcroix, Tomohiro Nakatani, and **Shinji Watanabe**, "[Combined static and dynamic variance adaptation for efficient interconnection of speech enhancement pre-processor with speech recognizer](http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=4518549)," *Proc. ICASSP'08*, pp. 4073--4076, (2008)
+Marc Delcroix, Tomohiro Nakatani, and **Shinji Watanabe**, "Combined static and dynamic variance adaptation for efficient interconnection of speech enhancement pre-processor with speech recognizer," *Proc. ICASSP'08*, pp. 4073--4076, (2008)
 
-**Shinji Watanabe** and Atsushi Nakamura, "[A unified interpretation of adaptation approaches based on a macroscopic time evolution system and indirect/direct adaptation approaches](http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=4518602)," *Proc. ICASSP'08*, pp. 4285--4288, (2008)
+**Shinji Watanabe** and Atsushi Nakamura, "A unified interpretation of adaptation approaches based on a macroscopic time evolution system and indirect/direct adaptation approaches," *Proc. ICASSP'08*, pp. 4285--4288, (2008)
 
-**Shinji Watanabe** and Atsushi Nakamura, "[Incremental adaptation based on a macroscopic time evolution system](http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=4218214)," *Proc. ICASSP'07*, vol. 4, pp. 769--772, (2007)
+**Shinji Watanabe** and Atsushi Nakamura, "Incremental adaptation based on a macroscopic time evolution system," *Proc. ICASSP'07*, vol. 4, pp. 769--772, (2007)
 
-**Shinji Watanabe** and Atsushi Nakamura, "[Acoustic model adaptation based on coarse/fine training of transfer vectors using directional statistics](http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1660193)," *Proc. ICASSP'06*, vol. 1, pp. 1005--1008, (2006)
+**Shinji Watanabe** and Atsushi Nakamura, "Acoustic model adaptation based on coarse/fine training of transfer vectors using directional statistics," *Proc. ICASSP'06*, vol. 1, pp. 1005--1008, (2006)
 
-**Shinji Watanabe** and Atsushi Nakamura, "[Effects of Bayesian predictive classification using variational Bayesian posteriors for sparse training data in speech recognition](http://www.isca-speech.org/archive/interspeech_2005/i05_1105.html)," *Proc. Interspeech'05*, pp. 1105--1109, (2005)
+**Shinji Watanabe** and Atsushi Nakamura, "Effects of Bayesian predictive classification using variational Bayesian posteriors for sparse training data in speech recognition," *Proc. Interspeech'05*, pp. 1105--1109, (2005)
 
-**Shinji Watanabe** and Atsushi Nakamura, "[Robustness of acoustic model topology determined by VBEC (Variational Bayesian Estimation and Clustering for speech recognition) for different speech data sets](http://ci.nii.ac.jp/naid/110003298415/en)," *Proc. Workshop on statistical modeling approach for speech recognition - Beyond HMM*, pp. 55--60, (2004)
+**Shinji Watanabe** and Atsushi Nakamura, "Robustness of acoustic model topology determined by VBEC (Variational Bayesian Estimation and Clustering for speech recognition) for different speech data sets," *Proc. Workshop on statistical modeling approach for speech recognition - Beyond HMM*, pp. 55--60, (2004)
 
-**Shinji Watanabe** and Atsushi Nakamura, "[Acoustic model adaptation based on coarse-fine training of transfer vectors and its application to speaker adaptation task](http://www.isca-speech.org/archive/interspeech_2004/i04_2933.html)," *Proc. ICSLP'04*, vol. 4, pp. 2933--2936, (2004)
+**Shinji Watanabe** and Atsushi Nakamura, "Acoustic model adaptation based on coarse-fine training of transfer vectors and its application to speaker adaptation task," *Proc. ICSLP'04*, vol. 4, pp. 2933--2936, (2004)
 
-Parham Zolfaghari, **Shinji Watanabe**, Atsushi Nakamura and Shigeru Katagiri, "[Bayesian Modelling of the Speech Spectrum Using Mixture of Gaussians](http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1326045)," *Proc. ICASSP'04*, vol. 1, pp. 553--556, (2004)
+Parham Zolfaghari, **Shinji Watanabe**, Atsushi Nakamura and Shigeru Katagiri, "Bayesian Modelling of the Speech Spectrum Using Mixture of Gaussians," *Proc. ICASSP'04*, vol. 1, pp. 553--556, (2004)
 
-**Shinji Watanabe**, Atsushi Sako and Atsushi Nakamura, "[Automatic Determination of Acoustic Model Topology using Variational Bayesian Estimation and Clustering](http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1326110)," *Proc. ICASSP'04*, vol. 1, pp. 813--816, (2004)
+**Shinji Watanabe**, Atsushi Sako and Atsushi Nakamura, "Automatic Determination of Acoustic Model Topology using Variational Bayesian Estimation and Clustering," *Proc. ICASSP'04*, vol. 1, pp. 813--816, (2004)
 
-Parham Zolfaghari, Hiroko Kato, **Shinji Watanabe** and Shigeru Katagiri, "[Speech Spectral Modelling using Mixture of Gaussians](http://dspincars.sdsu.edu/swim/session2.html), " *Proc. SWIM* , (2004)
+Parham Zolfaghari, Hiroko Kato, **Shinji Watanabe** and Shigeru Katagiri, "Speech Spectral Modelling using Mixture of Gaussians, " *Proc. SWIM* , (2004)
 
-**Shinji Watanabe**, Yasuhiro Minami, Atsushi Nakamura, and Naonori Ueda, "[Bayesian Acoustic Modeling for Spontaneous Speech Recognition](http://www.isca-speech.org/archive/sspr2003/sspr_map3.html)," *Proc. SSPR'03*, pp. 47--50, (2003)
+**Shinji Watanabe**, Yasuhiro Minami, Atsushi Nakamura, and Naonori Ueda, "Bayesian Acoustic Modeling for Spontaneous Speech Recognition," *Proc. SSPR'03*, pp. 47--50, (2003)
 
-**Shinji Watanabe**, Yasuhiro Minami, Atsushi Nakamura, and Naonori Ueda, "[Application of Variational Bayesian Estimation and Clustering to Acoustic Model Adaptation](http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1198844)," *Proc. ICASSP'03*, vol. 1, pp. 568--571, (2003)
+**Shinji Watanabe**, Yasuhiro Minami, Atsushi Nakamura, and Naonori Ueda, "Application of Variational Bayesian Estimation and Clustering to Acoustic Model Adaptation," *Proc. ICASSP'03*, vol. 1, pp. 568--571, (2003)
 
-**Shinji Watanabe**, Yasuhiro Minami, Atsushi Nakamura, and Naonori Ueda, "[Application of Variational Bayesian Approach to Speech Recognition](http://books.nips.cc/papers/files/nips15/SP10.pdf)," *NIPS15 MIT Press,* (2002)
+**Shinji Watanabe**, Yasuhiro Minami, Atsushi Nakamura, and Naonori Ueda, "Application of Variational Bayesian Approach to Speech Recognition," *NIPS15 MIT Press,* (2002)
 
-**Shinji Watanabe**, Yasuhiro Minami, Atsushi Nakamura, and Naonori Ueda, "[Constructing Shared-State Hidden Markov Models Based on a Bayesian Approach](http://www.isca-speech.org/archive/icslp_2002/i02_2669.html)," *Proc*. *ICSLP'02*, vol. 4, pp. 2669--2672, (2002).
+**Shinji Watanabe**, Yasuhiro Minami, Atsushi Nakamura, and Naonori Ueda, "Constructing Shared-State Hidden Markov Models Based on a Bayesian Approach," *Proc*. *ICSLP'02*, vol. 4, pp. 2669--2672, (2002).
