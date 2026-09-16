@@ -112,7 +112,12 @@ Do not re-run `extract.py` -- `content/` is now ahead of it.
 ## If this becomes the real site
 
 `docs/` is plain HTML/CSS/JS with no build step. GitHub Pages serves it
-directly: Settings -> Pages -> Source = `main` branch, folder `/docs`.
+directly: Settings -> Pages -> Source = `main` branch, folder `/docs`. Picking
+`/ (root)` there instead is the easy mistake -- the repository root has no
+`index.html`, so every page 404s.
+
+`docs/.nojekyll` turns off Jekyll preprocessing: nothing here needs it, and it
+stops Pages from silently skipping paths that begin with an underscore.
 
 Intended home: a public repo named exactly **`sw005320.github.io`**, which
 publishes at <https://sw005320.github.io>. That name is free as of 2026-09-16
