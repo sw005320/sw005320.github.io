@@ -51,6 +51,12 @@ jobs:
           cv = pathlib.Path("docs/cv.html").read_text(encoding="utf-8")
           entries = len(re.findall(r"<li data-year", pubs))
           problems = []
+          # every file the pages reference must actually be in the build --
+          # a missing stylesheet still returns valid-looking HTML
+          for asset in ("style.css", "app.js", "filter.js", "assets/shinji.jpg"):
+              f = pathlib.Path("docs") / asset
+              if not f.is_file() or f.stat().st_size == 0:
+                  problems.append(f"{asset} missing from the build")
           if entries < 600:
               problems.append(f"only {entries} publication entries")
           if "<em>Proc." not in pubs:

@@ -9,12 +9,14 @@ generated from exactly the same entries as the rest of the site, so it can never
 drift out of date.
 """
 import re
+import shutil
 from datetime import date
 from html import escape
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 CONTENT = ROOT / "content"
+STATIC = ROOT / "static"       # css, js, images -- copied verbatim into the build
 SITE = ROOT / "docs"
 
 YEAR = re.compile(r"\((19|20)(\d{2})\)")
@@ -423,9 +425,17 @@ def cv_page(sources):
     return shell("CV", f"Curriculum Vitae — {NAME}", body)
 
 
+def copy_static():
+    """Mirror static/ into the build. These are sources, not build output --
+    docs/ is regenerated from scratch by CI, so anything only kept there would
+    simply vanish from the published site."""
+    shutil.copytree(STATIC, SITE, dirs_exist_ok=True)
+    return sorted(p.relative_to(STATIC).as_posix() for p in STATIC.rglob("*") if p.is_file())
+
+
 def main():
     SITE.mkdir(exist_ok=True)
-    (SITE / "assets").mkdir(exist_ok=True)
+    copied = copy_static()
 
     pubs = read_sections("publications")
     acts = read_sections("activities")
@@ -445,6 +455,7 @@ def main():
     print(f"publications.html   {n_pub} entries")
     print(f"activities.html     {n_act} entries")
     print(f"software.html       {len(SOFTWARE)} projects")
+    print(f"static              {len(copied)} files: {', '.join(copied)}")
 
     used = {(src, t) for _, refs in CV_LAYOUT for src, t in refs}
     allsec = {("publications", s["title"]) for s in pubs if s["items"]} | \
