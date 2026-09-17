@@ -5,3 +5,6 @@ __pycache__/
 # One-off Google Sites import: 1.1 MB of scraped HTML, kept locally only.
 # The scripts and the intermediate JSON stay in the repo as provenance.
 migration/raw/
+
+# OpenAlex / Crossref lookups for verify.py; refetch with --fetch
+.cache/
