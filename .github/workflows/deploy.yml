@@ -1,0 +1,82 @@
+name: Build and deploy
+
+# Renders content/*.md into the site and publishes it, so editing content and
+# pushing is enough -- docs/ is never committed and so can never go stale.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build the site
+        run: python3 build.py
+
+      - name: Render the CV to PDF
+        run: |
+          python3 -m http.server 8787 --directory docs &
+          for i in $(seq 1 20); do
+            curl -sf -o /dev/null http://localhost:8787/cv.html && break
+            sleep 1
+          done
+          google-chrome --headless --disable-gpu --no-sandbox \
+            --no-pdf-header-footer --run-all-compositor-stages-before-draw \
+            --virtual-time-budget=60000 \
+            --print-to-pdf=docs/cv.pdf http://localhost:8787/cv.html
+          ls -l docs/cv.pdf
+
+      - name: Check the build looks sane
+        run: |
+          python3 - <<'PY'
+          import re, sys, pathlib
+          pubs = pathlib.Path("docs/publications.html").read_text(encoding="utf-8")
+          cv = pathlib.Path("docs/cv.html").read_text(encoding="utf-8")
+          entries = len(re.findall(r"<li data-year", pubs))
+          problems = []
+          if entries < 600:
+              problems.append(f"only {entries} publication entries")
+          if "<em>Proc." not in pubs:
+              problems.append("no italic venue names")
+          for name, page in (("publications", pubs), ("cv", cv)):
+              if re.search(r"\*\*|\]\(http", page):
+                  problems.append(f"unrendered markdown left in {name}.html")
+          size = pathlib.Path("docs/cv.pdf").stat().st_size
+          if size < 200_000:
+              problems.append(f"cv.pdf is only {size} bytes")
+          if problems:
+              sys.exit("build looks wrong: " + "; ".join(problems))
+          print(f"ok: {entries} entries, cv.pdf {size // 1024} KB")
+          PY
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
