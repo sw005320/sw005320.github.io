@@ -202,7 +202,9 @@ The 4th Young Researchers Forum on ALAGIN Speech Processing Session, Japan, Dec.
 
 “Variational Bayesian estimation and clustering for speech recognition,” Georgia tech. CSIP seminar, USA, February 2009 (host: Prof. Fred Juang).
 
-## Award and Notable Achievement
+## Awards and Notable Achievements
+
+Computer Speech & Language Best Review Paper Award (202６)
 
 Co-authored paper achieved the IEEE ICASSP Best Student Paper Award in 2026
 
