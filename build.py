@@ -10,6 +10,7 @@ drift out of date.
 """
 import re
 import shutil
+from difflib import get_close_matches
 from datetime import date
 from html import escape
 from pathlib import Path
@@ -95,7 +96,7 @@ PAGES = [("index.html", "Home"), ("publications.html", "Publications"),
 CV_LAYOUT = [
     ("Education", [("activities", "Education")]),
     ("Appointments", [("activities", "Work Experience")]),
-    ("Awards and Honours", [("activities", "Award and Notable Achievement")]),
+    ("Awards and Honours", [("activities", "Awards and Notable Achievements")]),
     ("Teaching", [("activities", "Teaching")]),
     ("Skills", [("cv", "Programming Skills"), ("cv", "Language Skills")]),
     ("Invited Talks", [
@@ -191,6 +192,38 @@ def find(sections, title):
         if s["title"] == title:
             return s
     raise KeyError(f"section not found: {title!r}")
+
+
+def check_cv_layout(sources):
+    """Fail early, and usefully, when CV_LAYOUT and the content disagree.
+
+    Renaming a heading in content/*.md is an ordinary edit, but CV_LAYOUT refers
+    to headings by name -- so without this the build dies on a bare KeyError
+    several hundred lines later, saying nothing about what to do next.
+    """
+    problems = []
+    for heading, refs in CV_LAYOUT:
+        for source, title in refs:
+            have = [s["title"] for s in sources[source]]
+            if title in have:
+                continue
+            near = get_close_matches(title, have, n=1, cutoff=0.6)
+            hint = f" Did you mean {near[0]!r}?" if near else ""
+            problems.append(
+                f"CV_LAYOUT ({heading}) wants {title!r} from {source}, "
+                f"which is not a heading there.{hint}"
+            )
+    if problems:
+        raise SystemExit(
+            "\n".join(["build.py and content/ disagree:", *("  - " + p for p in problems),
+                        "", "Fix the heading in content/, or CV_LAYOUT in build.py."])
+        )
+
+    used = {(src, t) for _, refs in CV_LAYOUT for src, t in refs}
+    for source, sections in sources.items():
+        for s in sections:
+            if s["items"] and (source, s["title"]) not in used:
+                print(f"  note: {source}/{s['title']!r} is not in the CV")
 
 
 # ---------------------------------------------------------------- helpers
@@ -442,6 +475,7 @@ def main():
     bio = read_bio()
     sources = {"publications": pubs, "activities": acts,
                "cv": read_sections("cv-extra")}
+    check_cv_layout(sources)
 
     (SITE / "index.html").write_text(home_page(bio), encoding="utf-8")
     (SITE / "publications.html").write_text(publications_page(pubs), encoding="utf-8")
@@ -457,13 +491,7 @@ def main():
     print(f"software.html       {len(SOFTWARE)} projects")
     print(f"static              {len(copied)} files: {', '.join(copied)}")
 
-    used = {(src, t) for _, refs in CV_LAYOUT for src, t in refs}
-    allsec = {("publications", s["title"]) for s in pubs if s["items"]} | \
-             {("activities", s["title"]) for s in acts if s["items"]}
-    missing = sorted(allsec - used)
     print(f"cv.html             {len(CV_LAYOUT)} headings")
-    if missing:
-        print("  not in the CV:", ", ".join(f"{a}/{b}" for a, b in missing))
 
 
 if __name__ == "__main__":
