@@ -204,7 +204,7 @@ The 4th Young Researchers Forum on ALAGIN Speech Processing Session, Japan, Dec.
 
 ## Awards and Notable Achievements
 
-Computer Speech & Language Best Review Paper Award (202６)
+Computer Speech & Language Best Review Paper Award (2026)
 
 Co-authored paper achieved the IEEE ICASSP Best Student Paper Award in 2026
 
