@@ -1,0 +1,51 @@
+name: Look for new publications
+
+# Weekly: ask OpenAlex what it knows that content/publications.md does not, and
+# open an issue with the candidates written out in house style.
+#
+# It deliberately does not commit. The list is the authoritative record, and the
+# drafts need a human eye -- OpenAlex truncates author lists, leaves the venue
+# empty on most conference papers, and sometimes files another Shinji Watanabe's
+# work under this author id.
+
+on:
+  schedule:
+    - cron: "0 7 * * 1"      # Mondays, 07:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  look:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Ask OpenAlex
+        id: look
+        run: |
+          python3 find_new.py --fetch
+          count=$(grep -c '^```$' new-publications.md || true)
+          echo "count=$(( count / 2 ))" >> "$GITHUB_OUTPUT"
+
+      - name: Open an issue when there is something to add
+        if: steps.look.outputs.count != '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          title="New publications to add ($(date +%Y-%m-%d))"
+          # Replace the open issue from last week rather than stacking them up.
+          old=$(gh issue list --label new-publications --state open \
+                  --json number --jq '.[].number')
+          gh issue create --title "$title" \
+                          --label new-publications \
+                          --body-file new-publications.md
+          for n in $old; do
+            gh issue close "$n" --comment "Superseded by a newer check."
+          done

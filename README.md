@@ -69,6 +69,25 @@ Checked against the previous [CV on Drive](https://drive.google.com/file/d/1fQw_
 Programming Skills and Language Skills, now in `content/cv-extra.md`. It has no
 separate grants, funding or patents sections.
 
+## Keeping the list up to date
+
+`find_new.py` asks OpenAlex what it has that `content/publications.md` does not,
+and writes the candidates out in house style:
+
+```sh
+python3 find_new.py --fetch
+```
+
+A weekly workflow runs the same thing and opens an issue when there is anything
+to add. It never commits: the list is the record, and the drafts need checking.
+OpenAlex leaves the venue empty on most conference papers (Crossref fills it in),
+truncates author lists, and sometimes files another Shinji Watanabe's work under
+this author id -- a 2025 depth-camera paper on elderly action recognition arrived
+that way. Candidates whose titles carry no vocabulary from this field are flagged.
+
+`verify.py` is the other half: it cross-checks what is already listed. See
+`verify-report.md`.
+
 ## Theme
 
 Newsreader (display) + Inter (UI), from Google Fonts.
