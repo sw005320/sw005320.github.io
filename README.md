@@ -3,8 +3,8 @@
 Source for <https://sw005320.github.io>, a static rebuild of the old Google
 Sites page at <https://sites.google.com/view/shinjiwatanabe>.
 
-Edit `content/*.md`, run `python3 build.py`, commit and push. GitHub Pages
-serves `docs/` from `main` and picks the change up within a minute or so.
+Edit `content/*.md`, commit and push. A workflow renders the site and the CV
+PDF and deploys them; `docs/` is generated and is not in the repository.
 
 ## Where to edit what
 
@@ -20,10 +20,11 @@ serves `docs/` from `main` and picks the change up within a minute or so.
 | Software projects | `SOFTWARE` in `build.py` |
 | Which sections go in the CV, and their order | `CV_LAYOUT` in `build.py` |
 | Something that belongs in the CV but not on the site | `content/cv-extra.md` |
-| Colours, fonts, layout, print styles | `docs/style.css` |
-| Default palette | `docs/app.js` (`recall(PALETTE_KEY) || "paper"`) |
+| Colours, fonts, layout, print styles | `static/style.css` |
+| Default palette | `static/app.js` (`recall(PALETTE_KEY) || "paper"`) |
+| The photo, or any other asset | `static/` (copied verbatim into the build) |
 
-Then:
+Pushing is enough. To see it first:
 
 ```sh
 python3 build.py                                  # regenerate docs/
@@ -59,7 +60,7 @@ For a PDF, either press **Print / Save as PDF** on the page, or:
 ./makepdf.sh        # needs the preview server running; writes docs/cv.pdf
 ```
 
-The current CV runs to 48 pages / 1131 entries.
+The current CV runs to 49 pages / 1137 entries.
 
 Sections that belong in the CV but not on the website live in
 `content/cv-extra.md`; `CV_LAYOUT` refers to them as `("cv", "<name>")`.
@@ -100,7 +101,7 @@ no explicit choice the page follows the OS setting. Both preferences live in
 
 ## Photo
 
-`docs/assets/shinji.jpg` comes from <https://www.wavlab.org/assets/img/shinji_20210605.jpg>,
+`static/assets/shinji.jpg` comes from <https://www.wavlab.org/assets/img/shinji_20210605.jpg>,
 centre-cropped square, resized to 640x640, re-encoded (1.3 MB -> 134 KB). The
 original carries EXIF including GPS coordinates and the capture device; the copy
 here is written without any metadata.
@@ -137,26 +138,23 @@ Do not re-run `extract.py` -- `content/` is now ahead of it.
 
 ## Deployment
 
-`docs/` is plain HTML/CSS/JS with no build step. GitHub Pages serves it
-directly: Settings -> Pages -> Source = `main` branch, folder `/docs`. Picking
-`/ (root)` there instead is the easy mistake -- the repository root has no
-`index.html`, so every page 404s.
-
-`docs/.nojekyll` turns off Jekyll preprocessing: nothing here needs it, and it
-stops Pages from silently skipping paths that begin with an underscore.
-
 Live since 2026-09-16 at <https://sw005320.github.io>, from the public repo
 `sw005320/sw005320.github.io`. A user site must be public unless the account has
 a paid plan.
 
-**Changing the Pages source folder does not trigger a rebuild.** Setting it to
-`/docs` left the previous `/`-root build serving (Jekyll's rendering of this
-README) while the API happily reported `path: /docs`. Force a build after any
-such change:
+`.github/workflows/deploy.yml` builds and deploys on every push to `main`, so
+`docs/` is generated and deliberately untracked -- a committed copy could only
+drift from what is published. The workflow refuses to deploy a build that looks
+wrong: too few publication entries, no italic venue names, unrendered markdown
+in the HTML, a missing stylesheet, script or portrait, or a tiny `cv.pdf`.
 
-```sh
-gh api -X POST repos/sw005320/sw005320.github.io/pages/builds
-```
+Two things that cost time before, in case Pages is ever reconfigured:
+
+- Serving from a branch folder requires that folder to hold an `index.html`;
+  picking `/ (root)` 404s everything.
+- **Changing the Pages source does not trigger a rebuild.** The previous build
+  keeps serving while the API reports the new setting. Force one with
+  `gh api -X POST repos/sw005320/sw005320.github.io/pages/builds`.
 
 A custom domain can be attached later from Settings -> Pages without touching
 the repo; the `.github.io` URL keeps working. The lab site is the same
