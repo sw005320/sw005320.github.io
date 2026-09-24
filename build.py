@@ -38,6 +38,8 @@ EMAIL = "shinjiw_at_ieee.org or swatanab_at_andrew.cmu.edu"
 PROFILE_LINKS = [
     ("Google Scholar", "https://scholar.google.com/citations?user=U5xRA6QAAAAJ"),
     ("GitHub", "https://github.com/sw005320"),
+    ("X", "https://x.com/shinjiw_at_cmu"),
+    ("LinkedIn", "https://www.linkedin.com/in/shinji-watanabe-82533520/"),
     ("WAVLab", "https://www.wavlab.org/"),
     ("CMU LTI", "https://lti.cmu.edu/people/faculty/watanabe-shinji.html"),
     ("Curriculum Vitae", "cv.html"),
