@@ -15,6 +15,7 @@ PDF and deploys them; `docs/` is generated and is not in the repository.
 | A publication | `content/publications.md` |
 | Education, appointments, awards, teaching, service, collaborators | `content/activities.md` |
 | Short bio | `content/home.md` |
+| A note (longer piece of writing) | `content/notes/YYYY-MM-DD-slug.md`; the first `# ` line is the title |
 | Name, title, affiliation, e-mail | `NAME` / `ROLE` / `AFFIL` / `DEPT` / `EMAIL` in `build.py` |
 | Profile links (Scholar, GitHub, ...) | `PROFILE_LINKS` in `build.py` |
 | Software projects | `SOFTWARE` in `build.py` |

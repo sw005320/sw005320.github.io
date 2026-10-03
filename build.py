@@ -19,6 +19,7 @@ ROOT = Path(__file__).resolve().parent
 CONTENT = ROOT / "content"
 STATIC = ROOT / "static"       # css, js, images -- copied verbatim into the build
 SITE = ROOT / "docs"
+NOTES = CONTENT / "notes"   # one Markdown file per note, named YYYY-MM-DD-slug.md
 
 YEAR = re.compile(r"\((19|20)(\d{2})\)")
 TAG = re.compile(r"<[^>]+>")
@@ -27,6 +28,9 @@ MD_LINK = re.compile(r"\[([^\]]+)\]\(([^)\s]+)\)")
 MD_BOTH = re.compile(r"\*\*\*(.+?)\*\*\*", re.S)
 MD_STRONG = re.compile(r"\*\*(.+?)\*\*", re.S)
 MD_EM = re.compile(r"(?<!\*)\*(?!\*)(.+?)(?<!\*)\*(?!\*)", re.S)
+NOTE_FILE = re.compile(r"^(\d{4})-(\d{2})-(\d{2})-([a-z0-9-]+)\.md$")
+MD_HEADING = re.compile(r"^(#{1,3})\s+(.*)")
+MD_ITEM = re.compile(r"^(\d+\.|[-*])\s+(.*)")
 
 # ---------------------------------------------------------------- identity
 NAME = "Shinji Watanabe"
@@ -91,7 +95,7 @@ SOFTWARE = [
 
 PAGES = [("index.html", "Home"), ("publications.html", "Publications"),
          ("activities.html", "Activities"), ("software.html", "Software"),
-         ("cv.html", "CV")]
+         ("notes.html", "Notes"), ("cv.html", "CV")]
 
 # Which website sections go into the CV, in order. Each CV heading pulls one or
 # more sections; when it pulls more than one, their names become sub-headings.
@@ -189,6 +193,90 @@ def read_bio():
     return paras
 
 
+def md_blocks(text):
+    """Block-level Markdown for notes: headings, paragraphs, quotes and lists.
+
+    Deliberately small. Notes are prose, so this is all they need, and it keeps
+    the build free of dependencies. Inline markup goes through md_inline().
+    """
+    html, para = [], []
+
+    def flush():
+        if para:
+            html.append(f"<p>{md_inline(' '.join(para))}</p>")
+            para.clear()
+
+    lines = text.splitlines()
+    i = 0
+    while i < len(lines):
+        s = lines[i].strip()
+        if not s or s.startswith("<!--"):
+            flush()
+            i += 1
+            continue
+        m = MD_HEADING.match(s)
+        if m:
+            flush()
+            level = len(m.group(1))
+            html.append(f"<h{level}>{md_inline(m.group(2))}</h{level}>")
+            i += 1
+            continue
+        if s.startswith(">"):
+            flush()
+            quote = []
+            while i < len(lines) and lines[i].strip().startswith(">"):
+                quote.append(lines[i].strip()[1:].strip())
+                i += 1
+            html.append(f"<blockquote><p>{md_inline(' '.join(quote))}</p></blockquote>")
+            continue
+        if MD_ITEM.match(s):
+            flush()
+            tag = "ol" if s[0].isdigit() else "ul"
+            items = []
+            while i < len(lines) and lines[i].strip():
+                m = MD_ITEM.match(lines[i].strip())
+                if m:
+                    items.append(m.group(2))
+                else:
+                    items[-1] += " " + lines[i].strip()   # wrapped continuation
+                i += 1
+            lis = "".join(f"<li>{md_inline(x)}</li>" for x in items)
+            html.append(f"<{tag}>{lis}</{tag}>")
+            continue
+        para.append(s)
+        i += 1
+    flush()
+    return html
+
+
+def read_notes():
+    """Parse content/notes/YYYY-MM-DD-slug.md into [{date, slug, title, lede, body}].
+
+    The file name carries the date and the URL; the first "# " heading is the
+    title; the first paragraph doubles as the summary on the index page.
+    """
+    notes = []
+    if not NOTES.is_dir():
+        return notes
+    for path in sorted(NOTES.glob("*.md"), reverse=True):
+        m = NOTE_FILE.match(path.name)
+        if not m:
+            raise SystemExit(f"{path}: notes are named YYYY-MM-DD-slug.md")
+        when = date(int(m.group(1)), int(m.group(2)), int(m.group(3)))
+        blocks = md_blocks(path.read_text(encoding="utf-8"))
+        if not blocks or not blocks[0].startswith("<h1>"):
+            raise SystemExit(f"{path}: a note starts with a '# Title' line")
+        title = TAG.sub("", blocks[0])
+        first = next((b for b in blocks[1:] if b.startswith("<p>")), "")
+        # the index shows the first two sentences of the opening paragraph
+        sentences = re.split(r"(?<=[.!?])\s+", TAG.sub("", first))
+        notes.append({
+            "date": when, "slug": m.group(4), "title": title,
+            "lede": " ".join(sentences[:2]), "body": blocks[1:],
+        })
+    return notes
+
+
 def find(sections, title):
     for s in sections:
         if s["title"] == title:
@@ -238,12 +326,14 @@ def slug(text):
     return re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")
 
 
-def shell(active, title, body, extra_js=""):
+def shell(active, title, body, extra_js="", prefix=""):
+    """Wrap a page body in the site chrome. `prefix` is the relative path back
+    to the site root ("../" for a page in a sub-directory)."""
     nav = "\n".join(
-        f'      <a href="{href}"{" class=\"on\"" if label == active else ""}>{label}</a>'
+        f'      <a href="{prefix}{href}"{" class=\"on\"" if label == active else ""}>{label}</a>'
         for href, label in PAGES
     )
-    js = f'\n  <script src="{extra_js}"></script>' if extra_js else ""
+    js = f'\n  <script src="{prefix}{extra_js}"></script>' if extra_js else ""
     return f"""<!doctype html>
 <html lang="en">
 <head>
@@ -253,11 +343,11 @@ def shell(active, title, body, extra_js=""):
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Inter:wght@400;500;600;700&display=swap">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="{prefix}style.css">
 </head>
 <body>
 <header class="topbar">
-  <a class="brand" href="index.html">{NAME}</a>
+  <a class="brand" href="{prefix}index.html">{NAME}</a>
   <nav>
 {nav}
   </nav>
@@ -276,7 +366,7 @@ def shell(active, title, body, extra_js=""):
 <footer>
   <p>Built from content/*.md &mdash; prototype.</p>
 </footer>
-<script src="app.js"></script>{js}
+<script src="{prefix}app.js"></script>{js}
 </body>
 </html>
 """
@@ -412,6 +502,38 @@ def software_page():
     return shell("Software", f"Software — {NAME}", body)
 
 
+def long_date(d):
+    return f"{d.strftime('%B')} {d.day}, {d.year}"
+
+
+def notes_page(notes):
+    items = "\n".join(f"""    <li>
+      <time datetime="{n['date'].isoformat()}">{long_date(n['date'])}</time>
+      <a href="notes/{n['slug']}.html">{escape(n['title'])}</a>
+      <p>{escape(n['lede'])}</p>
+    </li>""" for n in notes)
+    body = f"""  <h1>Notes</h1>
+  <p class="lede">Occasional longer pieces: where things came from, and what was
+  learned along the way.</p>
+  <ul class="notes">
+{items}
+  </ul>
+"""
+    return shell("Notes", f"Notes — {NAME}", body)
+
+
+def note_page(note):
+    body = "\n".join(f"    {b}" for b in note["body"])
+    article = f"""  <article class="note">
+    <p class="note-meta"><a href="../notes.html">Notes</a> &middot;
+      <time datetime="{note['date'].isoformat()}">{long_date(note['date'])}</time></p>
+    <h1>{escape(note['title'])}</h1>
+{body}
+  </article>
+"""
+    return shell("Notes", f"{note['title']} — {NAME}", article, prefix="../")
+
+
 def cv_page(sources):
     """The CV, assembled from the same sections the rest of the site uses."""
     blocks, counted = [], 0
@@ -485,12 +607,19 @@ def main():
     (SITE / "software.html").write_text(software_page(), encoding="utf-8")
     (SITE / "cv.html").write_text(cv_page(sources), encoding="utf-8")
 
+    notes = read_notes()
+    (SITE / "notes").mkdir(exist_ok=True)
+    (SITE / "notes.html").write_text(notes_page(notes), encoding="utf-8")
+    for n in notes:
+        (SITE / "notes" / f"{n['slug']}.html").write_text(note_page(n), encoding="utf-8")
+
     n_pub = sum(len(s["items"]) for s in pubs)
     n_act = sum(len(s["items"]) for s in acts)
     print(f"index.html          {len(bio)} bio paragraph(s)")
     print(f"publications.html   {n_pub} entries")
     print(f"activities.html     {n_act} entries")
     print(f"software.html       {len(SOFTWARE)} projects")
+    print(f"notes.html          {len(notes)} note(s)")
     print(f"static              {len(copied)} files: {', '.join(copied)}")
 
     print(f"cv.html             {len(CV_LAYOUT)} headings")

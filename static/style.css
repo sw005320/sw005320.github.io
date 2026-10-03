@@ -408,3 +408,29 @@ footer {
   .cv-list strong { color: #000 !important; }
   @page { margin: 16mm 15mm; }
 }
+
+/* ---- notes ---- */
+.notes { list-style: none; margin: 0; padding: 0; }
+.notes li { padding: 1.2rem 0; border-bottom: 1px solid var(--line-soft); }
+.notes time { display: block; color: var(--muted); font-size: .86rem; margin-bottom: .15rem; }
+.notes a {
+  font-family: var(--display); font-size: 1.35rem; font-weight: 500;
+  letter-spacing: -.012em; text-decoration: none;
+}
+.notes a:hover { text-decoration: underline; }
+.notes p { margin: .35rem 0 0; color: var(--ink-soft); }
+
+.note { max-width: 42rem; }
+.note-meta { margin: 0 0 1.4rem; color: var(--muted); font-size: .9rem; }
+.note-meta a { color: var(--muted); text-decoration: none; }
+.note-meta a:hover { color: var(--accent); }
+.note h1 { margin-bottom: 1.4rem; }
+.note h2 { margin-top: 2.6rem; }
+.note p, .note li { line-height: 1.72; }
+.note blockquote {
+  margin: 1.4rem 0; padding: .15rem 0 .15rem 1.1rem;
+  border-left: 3px solid var(--line); color: var(--ink-soft);
+}
+.note blockquote p { margin: 0; }
+.note ol, .note ul { padding-left: 1.5rem; }
+.note li { margin: .3rem 0; }
