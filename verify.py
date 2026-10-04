@@ -29,8 +29,9 @@ TAGS = re.compile(r"\*{1,3}|\[|\]\([^)]*\)")
 
 # ---------------------------------------------------------------- fetch
 def fetch_works():
+    # cited_by_count is here for highlights.py: one fetch serves every check
     fields = ("id,doi,title,display_name,publication_year,authorships,"
-              "primary_location,biblio,type,ids")
+              "primary_location,biblio,type,ids,cited_by_count")
     cursor, works = "*", []
     while cursor:
         q = urllib.parse.urlencode({
