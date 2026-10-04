@@ -80,8 +80,19 @@ and writes the candidates out in house style:
 python3 find_new.py --fetch
 ```
 
-A weekly workflow runs the same thing and opens an issue when there is anything
-to add. It never commits: the list is the record, and the drafts need checking.
+`highlights.py` is the companion for the selected-publications block above the
+list. `content/highlights.md` is maintained by hand -- citation counts reward
+surveys and benchmarks, so a purely ranked list leaves the method papers out --
+and a leading `caption:` line sets the text under the heading. Running
+`highlights.py` only prints candidates, labelled survey or method; `--write`
+replaces the file with the current top N.
+
+The home page deliberately does not carry this block; it stays bio, links and
+software.
+
+A weekly workflow runs both checks and opens one issue when there is anything to
+act on: publications OpenAlex has that the list does not, and any movement in
+the citation ranking behind `highlights.md`. It never commits: the list is the record, and the drafts need checking.
 OpenAlex leaves the venue empty on most conference papers (Crossref fills it in),
 truncates author lists, and sometimes files another Shinji Watanabe's work under
 this author id -- a 2025 depth-camera paper on elderly action recognition arrived

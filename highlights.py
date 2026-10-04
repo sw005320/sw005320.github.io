@@ -13,6 +13,7 @@ when asked.
 """
 import argparse
 import json
+import pathlib
 import sys
 from datetime import date
 from pathlib import Path
@@ -28,6 +29,31 @@ ROOT = Path(__file__).resolve().parent
 OUT = ROOT / "content" / "highlights.md"
 
 
+def current_entries():
+    """The entries listed in content/highlights.md right now."""
+    if not OUT.is_file():
+        return []
+    out, buf, in_comment = [], [], False
+    for line in OUT.read_text(encoding="utf-8").splitlines():
+        t = line.strip()
+        if in_comment:                       # a comment block spans lines, and
+            in_comment = not t.endswith("-->")   # stripping hides its indent
+            continue
+        if t.startswith("<!--"):
+            in_comment = not t.endswith("-->")
+            continue
+        if t.startswith("caption:"):
+            continue
+        if not t:
+            if buf:
+                out.append(" ".join(buf)); buf = []
+            continue
+        buf.append(t)
+    if buf:
+        out.append(" ".join(buf))
+    return out
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--fetch", action="store_true")
@@ -35,6 +61,9 @@ def main():
     ap.add_argument("-n", type=int, default=15)
     ap.add_argument("--write", action="store_true",
                     help="replace content/highlights.md with the top --n")
+    ap.add_argument("--check", metavar="FILE",
+                    help="write a report of how the ranking has moved since "
+                         "content/highlights.md was last set, for CI")
     args = ap.parse_args()
 
     works = (
@@ -69,6 +98,42 @@ def main():
         chosen.append((w, by_title[key]))
         if len(chosen) == args.n:
             break
+
+    if args.check:
+        listed = current_entries()
+        picked = [e["raw"] for _, e in chosen]
+        gone = [r for r in listed if r not in picked]
+        risen = [(w, e) for w, e in chosen if e["raw"] not in listed]
+        lines = []
+        if gone or risen:
+            lines = [
+                "## Selected publications",
+                "",
+                f"The top {args.n} by citation since {cutoff} no longer matches "
+                "`content/highlights.md`.",
+                "",
+                "`highlights.md` is maintained by hand, so nothing was changed. "
+                "Run `python3 highlights.py --write -n "
+                f"{args.n}` to take the ranking as it stands, or edit the file.",
+                "",
+            ]
+            if risen:
+                lines.append("**Now in the top, not listed:**")
+                lines.append("")
+                for w, e in risen:
+                    lines.append(f"- {w.get('cited_by_count')} citations &mdash; "
+                                 f"{(w.get('display_name') or '')[:90]}")
+                lines.append("")
+            if gone:
+                lines.append("**Listed, no longer in the top:**")
+                lines.append("")
+                for r in gone:
+                    t = re.split(r'["\u201c\u201d]', r)
+                    lines.append(f"- {(t[1] if len(t) > 1 else r)[:90]}")
+                lines.append("")
+        pathlib.Path(args.check).write_text("\n".join(lines), encoding="utf-8")
+        print(f"{len(risen)} risen, {len(gone)} dropped -> {args.check}")
+        return 0
 
     if not args.write:
         print(f"Top {len(chosen)} by citation since {cutoff}. "

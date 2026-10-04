@@ -205,6 +205,28 @@ def grouped_list(section, tag="ul", cls="entries"):
     return "\n".join(out)
 
 
+AUTHORS_END = re.compile(r'["\u201c\u201d]')
+
+
+def shorten_authors(entry, keep=3):
+    """`A, B, ..., and T, "Title," ...` -> `A et al., "Title," ...`
+
+    The selected block sits above the list and some of these papers carry
+    twenty authors; spelling them all out costs more space than the block is
+    worth. Shortening happens here rather than in content/highlights.md so that
+    file stays a verbatim copy of the list and can still be diffed against it.
+    """
+    m = AUTHORS_END.search(entry)
+    if not m:
+        return entry
+    head, rest = entry[:m.start()], entry[m.start():]
+    people = [p for p in re.split(r",|\band\b", head) if p.strip(" *")]
+    if len(people) <= keep:
+        return entry
+    first = people[0].strip().rstrip(",")
+    return f"{first} et al., {rest}"
+
+
 def read_highlights():
     """(entries, caption) for the selected-publications block.
 
@@ -225,17 +247,17 @@ def read_highlights():
             continue
         if not s:
             if buf:
-                out.append(md_inline(" ".join(buf)))
+                out.append(" ".join(buf))
                 buf = []
             continue
         buf.append(s)
     if buf:
-        out.append(md_inline(" ".join(buf)))
+        out.append(" ".join(buf))
 
     caption = ""
     if out and out[0].startswith("caption:"):
-        caption = out.pop(0)[len("caption:"):].strip()
-    return out, caption
+        caption = md_inline(out.pop(0)[len("caption:"):].strip())
+    return [md_inline(shorten_authors(o)) for o in out], caption
 
 
 def read_bio():
