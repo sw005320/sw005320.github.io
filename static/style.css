@@ -434,3 +434,22 @@ footer {
 .note blockquote p { margin: 0; }
 .note ol, .note ul { padding-left: 1.5rem; }
 .note li { margin: .3rem 0; }
+
+/* a label inside a section -- Post-doc, CMU student, and so on */
+.sublabel {
+  margin: .9rem 0 .2rem 2.6rem;
+  font-family: var(--sans); font-size: .76rem; font-weight: 700;
+  letter-spacing: .11em; text-transform: uppercase; color: var(--muted);
+}
+.cv-list + .sublabel { margin-top: .7rem; }
+@media print {
+  .sublabel { margin-left: 16pt; font-size: 8pt; color: #333 !important;
+              break-after: avoid; page-break-after: avoid; }
+}
+
+/* selected publications on the home page */
+.entries.selected { padding-left: 1.9rem; }
+.entries.selected li { margin: .6rem 0; }
+.more { margin: .9rem 0 0; font-size: .9rem; }
+.more a { text-decoration: none; }
+.more a:hover { text-decoration: underline; }

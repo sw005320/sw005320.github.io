@@ -114,7 +114,7 @@ Rohit Prabhavalkar, Takaaki Hori, Tara N Sainath, Ralf Schlüter, and **Shinji W
 
 Abdelrahman Mohamed, Hung-yi Lee, Lasse Borgholt, Jakob D. Havtorn, Joakim Edin, Christian Igel, Katrin Kirchhoff, Shang-Wen Li, Karen Livescu, Lars Maaløe, Tara N. Sainath, and **Shinji Watanabe**, "Self-Supervised Speech Representation Learning: A Review," *IEEE Journal of Selected Topics in Signal Processing*, vol. 16, no. 6, pp. 1179-1210 (2022)
 
-Antonios Anastasopoulos, Loïc Barrault, Luisa Bentivogli, Marcely Zanon Boito, Ondřej Bojar, Roldano Cattoni, Anna Currey, Georgiana Dinu, Kevin Duh, Maha Elbayad, Clara Emmanuel, Yannick Estève, Marcello Federico, Christian Federmann, Souhir Gahbiche, Hongyu Gong, Roman Grundkiewicz, Barry Haddow, Benjamin Hsu, Dávid Javorský, Vĕra Kloudová, Surafel Lakew, Xutai Ma, Prashant Mathur, Paul McNamee, Kenton Murray, Maria Nǎdejde, Satoshi Nakamura, Matteo Negri, Jan Niehues, Xing Niu, John Ortega, Juan Pino, Elizabeth Salesky, Jiatong Shi, Matthias Sperber, Sebastian Stüker, Katsuhito Sudoh, Marco Turchi, Yogesh Virkar, Alexander Waibel, Changhan Wang, S**hinji Watanabe**, "Findings of the IWSLT 2022 Evaluation Campaign," *Proc. IWSLT’22*, pp. 98–157 (2022)
+Antonios Anastasopoulos, Loïc Barrault, Luisa Bentivogli, Marcely Zanon Boito, Ondřej Bojar, Roldano Cattoni, Anna Currey, Georgiana Dinu, Kevin Duh, Maha Elbayad, Clara Emmanuel, Yannick Estève, Marcello Federico, Christian Federmann, Souhir Gahbiche, Hongyu Gong, Roman Grundkiewicz, Barry Haddow, Benjamin Hsu, Dávid Javorský, Vĕra Kloudová, Surafel Lakew, Xutai Ma, Prashant Mathur, Paul McNamee, Kenton Murray, Maria Nǎdejde, Satoshi Nakamura, Matteo Negri, Jan Niehues, Xing Niu, John Ortega, Juan Pino, Elizabeth Salesky, Jiatong Shi, Matthias Sperber, Sebastian Stüker, Katsuhito Sudoh, Marco Turchi, Yogesh Virkar, Alexander Waibel, Changhan Wang, S**hinji Watanabe**, "Findings of the IWSLT 2022 Evaluation Campaign," *Proc. IWSLT'22*, pp. 98–157 (2022)
 
 Joseph Turian, Jordie Shier, Humair Raj Khan, Bhiksha Raj, Björn W. Schuller, Christian J. Steinmetz, Colin Malloy, George Tzanetakis, Gissel Velarde, Kirk McNally, Max Henry, Nicolas Pinto, Camille Noufi, Christian Clough, Dorien Herremans, Eduardo Fonseca, Jesse Engel, Justin Salamon, Philippe Esling, Pranay Manocha, **Shinji Watanabe**, Zeyu Jin, and Yonatan Bisk, "HEAR 2021: Holistic Evaluation of Audio Representations," *In NeurIPS 2021 Competitions and Demonstrations Track* (pp. 125--145). PMLR (2021)
 
@@ -280,23 +280,23 @@ Hisakazu Minakata and **Shinji Watanabe**, "Solar Neutrinos and Leptonic CP Viol
 
 ## International Conference and Workshop (refereed)
 
-Masao Someki, Samuele Cornell, Kuang-Da Wang, and **Shinji Watanabe**, "ATLAS: Agentic ASR Tuning for Research Labor Scaling," *Proc. SLT/26*
+Masao Someki, Samuele Cornell, Kuang-Da Wang, and **Shinji Watanabe**, "ATLAS: Agentic ASR Tuning for Research Labor Scaling," *Proc. SLT'26*
 
-Shunsuke Mitsumori, Matthew Wiesner, Shigeo Morishima, and **Shinji Watanabe**, "Code-Switching Spoken Language Identification as Multi-Label Set Prediction," *Proc. SLT/26*
+Shunsuke Mitsumori, Matthew Wiesner, Shigeo Morishima, and **Shinji Watanabe**, "Code-Switching Spoken Language Identification as Multi-Label Set Prediction," *Proc. SLT'26*
 
-Osamu Take, Yosuke Kashiwagi, Hayato Futami, Alkis Koudounas, Emiru Tsunoo, Siddhant Arora, and **Shinji Watanabe**, "Hypothesis Clustering and Merging with Metadata Token for Recognizing Real Multi-talker Speech," *Proc. SLT/26*
+Osamu Take, Yosuke Kashiwagi, Hayato Futami, Alkis Koudounas, Emiru Tsunoo, Siddhant Arora, and **Shinji Watanabe**, "Hypothesis Clustering and Merging with Metadata Token for Recognizing Real Multi-talker Speech," *Proc. SLT'26*
 
-Thanapat Trachu, Samuele Cornell, William Chen, and **Shinji Watanabe**, "LACE: Layer-Wise Compression for dynamic frame rate Codecs," *Proc. SLT/26*
+Thanapat Trachu, Samuele Cornell, William Chen, and **Shinji Watanabe**, "LACE: Layer-Wise Compression for dynamic frame rate Codecs," *Proc. SLT'26*
 
-Jialu Li, Jinchuan Tian, and **Shinji Watanabe**, "Speech Language Models for Full-Meeting Speaker Diarization: Capabilities and Limitations," *Proc. SLT/26*
+Jialu Li, Jinchuan Tian, and **Shinji Watanabe**, "Speech Language Models for Full-Meeting Speaker Diarization: Capabilities and Limitations," *Proc. SLT'26*
 
-Chin-Jou Li, Masao Someki, Woojeong Jin, Yashish M. Siriwardena, Tanmay Laud, Shanil Puri, and **Shinji Watanabe**, "HARP: Agentic Hybrid Retrieval and Analysis for Long-Form Audio," *Proc. SLT/26*
+Chin-Jou Li, Masao Someki, Woojeong Jin, Yashish M. Siriwardena, Tanmay Laud, Shanil Puri, and **Shinji Watanabe**, "HARP: Agentic Hybrid Retrieval and Analysis for Long-Form Audio," *Proc. SLT'26*
 
-Jin Sakuma, Takashi Maekaku, Keita Goto, Jinchuan Tian, Yusuke Shinohara, and **Shinji Watanabe**, "WaveRVQ: Iterative Residual Vector Quantization in the Waveform Domain for Neural Audio Coding," *Proc. SLT/26*
+Jin Sakuma, Takashi Maekaku, Keita Goto, Jinchuan Tian, Yusuke Shinohara, and **Shinji Watanabe**, "WaveRVQ: Iterative Residual Vector Quantization in the Waveform Domain for Neural Audio Coding," *Proc. SLT'26*
 
-Shikhar Bharadwaj, Kwanghee Choi, Stephen McIntosh, Chin-Jou Li, Eunjung Yeo, Daisuke Saito, Nobuaki Minematsu, **Shinji Watanabe**, Jian Zhu, David Harwath, and David R. Mortensen, "Phone Segmentation and Recognition through Phonological Activation Mapping," *Proc. SLT/26*
+Shikhar Bharadwaj, Kwanghee Choi, Stephen McIntosh, Chin-Jou Li, Eunjung Yeo, Daisuke Saito, Nobuaki Minematsu, **Shinji Watanabe**, Jian Zhu, David Harwath, and David R. Mortensen, "Phone Segmentation and Recognition through Phonological Activation Mapping," *Proc. SLT'26*
 
-Freeman Jiang, Ramon Sanabria, Soham Deshmukh, Bandhav Veluri, Simon Michael Vuch Williams, Elliott K. Suen, Garreth Lee, Kevin Yoonho Choi, Takuya Umeki, Riku Kubo, Sathvik Udupa, Chien-yu Huang, Shih-Yun Shan Kuan, Zhuoyan Tao, Satyapriya Krishna, Sefik Emre Eskimez, Yu Tsao, Hung-yi Lee, and **Shinji Watanabe**, "TurnBench: A Multi-Domain Benchmark for Turn-Taking Dynamics in Spoken Dialogue," *Proc. SLT/26*
+Freeman Jiang, Ramon Sanabria, Soham Deshmukh, Bandhav Veluri, Simon Michael Vuch Williams, Elliott K. Suen, Garreth Lee, Kevin Yoonho Choi, Takuya Umeki, Riku Kubo, Sathvik Udupa, Chien-yu Huang, Shih-Yun Shan Kuan, Zhuoyan Tao, Satyapriya Krishna, Sefik Emre Eskimez, Yu Tsao, Hung-yi Lee, and **Shinji Watanabe**, "TurnBench: A Multi-Domain Benchmark for Turn-Taking Dynamics in Spoken Dialogue," *Proc. SLT'26*
 
 Hang Chen, junhui Zhao, mingqian su, Jun Du, Chin-Hui Lee, Sabato Marco Siniscalchi, **Shinji Watanabe**, jingdong chen, and Odette Scharenborg, "MISP 2026 Challenge Summary: Audio-Visual-Text Query-by-Example Keyword Spotting," *Proc. SLT'26 (challenge)*
 
@@ -846,7 +846,7 @@ Muqiao Yang, Joseph Konan, David Bick, Anurag Kumar, **Shinji Watanabe** and Bhi
 
 Yifan Peng, Siddharth Dalmia, Ian Lane, and **Shinji Watanabe**, "Branchformer: Parallel MLP-Attention Architectures for Speech Recognition and Understanding," *Proc. ICML'22*, pp. 17627--17643 (2022)
 
-Brian Yan, Patrick Fernandes, Siddharth Dalmia, Jiatong Shi, Yifan Peng, Dan Berrebbi, Xinyi Wang, Graham Neubig and **Shinji Watanabe**, “CMU’s IWSLT 2022 Dialect Speech Translation System,” *Proc. IWSLT’22*, pp. 298--307 (2022)
+Brian Yan, Patrick Fernandes, Siddharth Dalmia, Jiatong Shi, Yifan Peng, Dan Berrebbi, Xinyi Wang, Graham Neubig and **Shinji Watanabe**, “CMU’s IWSLT 2022 Dialect Speech Translation System,” *Proc. IWSLT'22*, pp. 298--307 (2022)
 
 Xinjian Li, Florian Metze, David R. Mortensen, Alan W Black, and **Shinji Watanabe**, ”Phone Inventories and Recognition for Every Language," *Proc. LREC'22*, pp. 1061--1067 (2022)
 
@@ -1206,57 +1206,57 @@ Tomoki Hayashi, **Shinji Watanabe**, Tomoki Toda1, Takaaki Hori, Jonathan Le Rou
 
 Takaaki Hori, Hai Wang, Chiori Hori, **Shinji Watanabe**, Bret A. Harsham, Jonathan Le Roux, John R. Hershey, Yusuke Koji, Yi Jing, Zhaocheng Zhu, and Takeyuki Aikawa, “Dialog state tracking with attention-based sequence-to-sequence learning,“ *Proc. SLT’16,* pp.552--558 (2016)*.**Ranked 2nd at DSTC5 challenge.***
 
-Tomohiro Tanaka, Takafumi Moriya, Takahiro Shinozaki, **Shinji Watanabe**, Takaaki Hori, and Kevin Duh, “Automated structure discovery and parameter tuning of neural network language model based on evolution strategy,“ *Proc. SLT’16*, pp.665--671 (2016)
+Tomohiro Tanaka, Takafumi Moriya, Takahiro Shinozaki, **Shinji Watanabe**, Takaaki Hori, and Kevin Duh, “Automated structure discovery and parameter tuning of neural network language model based on evolution strategy,“ *Proc. SLT'16*, pp.665--671 (2016)
 
 Toshiaki Koike-Akino, Ruhi Mahajan, Tim K. Marks, Oncel C. Tuzel, Ye Wang, **Shinji Watanabe**, Philip V. Orlik, “High-Accuracy User Identification Using EEG Biometrics,“ *Proc. EMBC (IEEE Engineering in Medicine and Biology Society)’16,* (2016)
 
 Yusuf Işık, Jonathan Le Roux, Zhuo Chen, **Shinji Watanabe** and John Hershey, “Single-channel multi-speaker separation using deep clustering,“ *Proc. Interspeech’16,* pp. 545--549 (2016)
 
-Chiori Hori, Takaaki Hori, **Shinji Watanabe** and John Hershey, “Context-sensitive and role-dependent spoken language understanding using bidirectional and attention LSTMs,“ *Proc. Interspeech’16*, pp. 3236--3240 (2016)
+Chiori Hori, Takaaki Hori, **Shinji Watanabe** and John Hershey, “Context-sensitive and role-dependent spoken language understanding using bidirectional and attention LSTMs,“ *Proc. Interspeech'16*, pp. 3236--3240 (2016)
 
-Katerina Zmolikova, Martin Karafiat, Karel Vesely, Marc Delcroix, **Shinji Watanabe**, Lukas Burget and Jan Cernocky, “Data selection by sequence summarizing neural network in mismatch condition training,“ *Proc. Interspeech’16*, pp. 2354--2358 (2016)
+Katerina Zmolikova, Martin Karafiat, Karel Vesely, Marc Delcroix, **Shinji Watanabe**, Lukas Burget and Jan Cernocky, “Data selection by sequence summarizing neural network in mismatch condition training,“ *Proc. Interspeech'16*, pp. 2354--2358 (2016)
 
-Hakan Erdogan, John Hershey, **Shinji Watanabe**, Michael Mandel and Jonathan Le Roux, “Improved MVDR beamforming using single-channel mask prediction networks,“ *Proc. Interspeech’16*, pp. 1981--1985 (2016)
+Hakan Erdogan, John Hershey, **Shinji Watanabe**, Michael Mandel and Jonathan Le Roux, “Improved MVDR beamforming using single-channel mask prediction networks,“ *Proc. Interspeech'16*, pp. 1981--1985 (2016)
 
-Chiori Hori, **Shinji Watanabe**, Takaaki Hori, Bret A. Harsham, John R. Hershey, Yusuke Koji, Youichi Fujii, and Yuki Furumoto, “Driver confusion status detection using recurrent neural networks,“ *Proc. ICME’16* (2016)
+Chiori Hori, **Shinji Watanabe**, Takaaki Hori, Bret A. Harsham, John R. Hershey, Yusuke Koji, Youichi Fujii, and Yuki Furumoto, “Driver confusion status detection using recurrent neural networks,“ *Proc. ICME'16* (2016)
 
 Xiong Xiao, **Shinji Watanabe**, Hakan Erdogan, Liang Lu, John Hershey, Michael L. Seltzer, Guoguo Chen, Yu Zhang, Michael Mandel, and Dong Yu, “Deep beamforming networks for multi-channel speech recognition,“ *Proc. ICASSP’16,* pp. 5745--5749 (2016)
 
-John R. Hershey, Zhuo Chen, Jonathan Le Roux, and **Shinji Watanabe**, “Deep clustering: discriminative embeddings for segmentation and separation,“ *Proc. ICASSP’16*, pp. 31--35 (2016)
+John R. Hershey, Zhuo Chen, Jonathan Le Roux, and **Shinji Watanabe**, “Deep clustering: discriminative embeddings for segmentation and separation,“ *Proc. ICASSP'16*, pp. 31--35 (2016)
 
-Scott Wisdom, John R. Hershey, Jonathan Le Roux, **Shinji Watanabe**, “Deep unfolding for multichannel source separation,“ *Proc. ICASSP’16*, pp. 121--125 (2016)
+Scott Wisdom, John R. Hershey, Jonathan Le Roux, **Shinji Watanabe**, “Deep unfolding for multichannel source separation,“ *Proc. ICASSP'16*, pp. 121--125 (2016)
 
-Karel Vesely, **Shinji Watanabe**, Katerina Zmolikova, Martin Karafiat, Lukas Burget, Jan Cernocky, “Sequence summarizing neural network for speaker adaptation,“ *Proc. ICASSP’16*, pp. 5315--5319 (2016)
+Karel Vesely, **Shinji Watanabe**, Katerina Zmolikova, Martin Karafiat, Lukas Burget, Jan Cernocky, “Sequence summarizing neural network for speaker adaptation,“ *Proc. ICASSP'16*, pp. 5315--5319 (2016)
 
-Takaaki Hori, Chiori Hori, **Shinji Watanabe**, John Hershey, “Minimum word error training of long short-term memory recurrent neural network language models for speech recognition,“ *Proc. ICASSP’16*, pp. 5990--5994 (2016)
+Takaaki Hori, Chiori Hori, **Shinji Watanabe**, John Hershey, “Minimum word error training of long short-term memory recurrent neural network language models for speech recognition,“ *Proc. ICASSP'16*, pp. 5990--5994 (2016)
 
-Takaaki Hori, Zhuo Chen, Hakan Erdogan, John Hershey, Jonathan Le Roux, Vikramjit Mitra, and **Shinji Watanabe**, “The MERL/SRI system for the 3rd CHiME challenge using beamforming, robust feature extraction, and advanced speech recognition,“ *Proc. ASRU’15*, pp. 475--481 (2015)*.**Ranked 2nd at 3rd CHiME Challenge among 25 submissions***
+Takaaki Hori, Zhuo Chen, Hakan Erdogan, John Hershey, Jonathan Le Roux, Vikramjit Mitra, and **Shinji Watanabe**, “The MERL/SRI system for the 3rd CHiME challenge using beamforming, robust feature extraction, and advanced speech recognition,“ *Proc. ASRU'15*, pp. 475--481 (2015)*.**Ranked 2nd at 3rd CHiME Challenge among 25 submissions***
 
-Takafumi Moriya, Tomohiro Tanaka, Takahiro Shinozaki, **Shinji Watanabe**, and Kevin Duh “Automation of system building for state-of-the-art large vocabulary speech recognition using evolution strategy,“ *Proc. ASRU’15*, pp. 610--616 (2015)
+Takafumi Moriya, Tomohiro Tanaka, Takahiro Shinozaki, **Shinji Watanabe**, and Kevin Duh “Automation of system building for state-of-the-art large vocabulary speech recognition using evolution strategy,“ *Proc. ASRU'15*, pp. 610--616 (2015)
 
 Jon Barker, Ricard Marxer, Emmanuel Vincent, and **Shinji Watanabe**, “The third `CHiME' Speech Separation and Recognition Challenge: Dataset, task and baselines,“ *Proc. ASRU’15,* pp. 504--511 (2015)
 
-Roger Hsiao, Jeff Ma, William Hartmann, Martin Karafiat, Frantisek Grezl, Lukas Burget, Igor Szoke, Jan Honza Cernocky, **Shinji Watanabe**, Zhuo Chen, Sri Harish Mallidi, Hynek Hermansky, Stavros Tsakalidis, and Richard Schwartz, “Robust speech recognition in unknown reverberant and noisy conditions,“ *Proc. ASRU’15*, pp. 533--538 (2015)
+Roger Hsiao, Jeff Ma, William Hartmann, Martin Karafiat, Frantisek Grezl, Lukas Burget, Igor Szoke, Jan Honza Cernocky, **Shinji Watanabe**, Zhuo Chen, Sri Harish Mallidi, Hynek Hermansky, Stavros Tsakalidis, and Richard Schwartz, “Robust speech recognition in unknown reverberant and noisy conditions,“ *Proc. ASRU'15*, pp. 533--538 (2015)
 
-Hiroki Kanagawa, Yuuki Tachioka, **Shinji Watanabe**, and Jun Ishii, “Feature-space structural MAPLR with regression tree-based multiple transformation matrices for DNN,“ *Proc. APSIPA ASC’15*, pp. 86--92 (2015)
+Hiroki Kanagawa, Yuuki Tachioka, **Shinji Watanabe**, and Jun Ishii, “Feature-space structural MAPLR with regression tree-based multiple transformation matrices for DNN,“ *Proc. APSIPA ASC'15*, pp. 86--92 (2015)
 
 Chiori Hori, Takaaki Hori, **Shinji Watanabe**, and John R. Hershey, "Context Sensitive Spoken Language Understanding using Role Dependent LSTM layers", *Proc. NIPS Workshop for Machine Learning for SLU & Interaction* (2015)
 
-Bret A. Harsham, **Shinji Watanabe**, Alan Esenther, John R. Hershey, Jonathan Le Roux, Yi Luan, Daniel N. Nikovski, and Vamsi K. Potluru, “Driver prediction to improve interaction with in-vehicle HMI,“ *Proc. DSP for In-Vehicle Workshop’15*, (2015).
+Bret A. Harsham, **Shinji Watanabe**, Alan Esenther, John R. Hershey, Jonathan Le Roux, Yi Luan, Daniel N. Nikovski, and Vamsi K. Potluru, “Driver prediction to improve interaction with in-vehicle HMI,“ *Proc. DSP for In-Vehicle Workshop'15*, (2015).
 
 Yi Luan, **Shinji Watanabe**, and Bret Harsham, “Efficient learning for spoken language understanding tasks with word embedding based pre-training,“ *Proc. Interspeech’15,* pp. 1398--1402 (2015).
 
-Zhuo Chen, **Shinji Watanabe**, Hakan Erdogan, and John R. Hershey, “Integration of Speech Enhancement and Recognition using Long-Short Term Memory Recurrent Neural Network,“ *Proc. Interspeech’15*, pp. 3274--3278 (2015).
+Zhuo Chen, **Shinji Watanabe**, Hakan Erdogan, and John R. Hershey, “Integration of Speech Enhancement and Recognition using Long-Short Term Memory Recurrent Neural Network,“ *Proc. Interspeech'15*, pp. 3274--3278 (2015).
 
-Ahmed Hussen Abdelaziz, **Shinji Watanabe**, John R. Hershey, Emmanuel Vincent, and Dorothea Kolossa, “Uncertainty Propagation through Deep Neural Networks,“ *Proc.Interspeech’15*, pp. 3561--3565 (2015).
+Ahmed Hussen Abdelaziz, **Shinji Watanabe**, John R. Hershey, Emmanuel Vincent, and Dorothea Kolossa, “Uncertainty Propagation through Deep Neural Networks,“ *Proc.Interspeech'15*, pp. 3561--3565 (2015).
 
-Yuuki Tachioka, **Shinji Watanabe**, “Uncertainty training and decoding methods of deep neural networks based on stochastic representation of enhanced features,“ *Proc. Interspeech’15*, pp. 3541--3545 (2015).
+Yuuki Tachioka, **Shinji Watanabe**, “Uncertainty training and decoding methods of deep neural networks based on stochastic representation of enhanced features,“ *Proc. Interspeech'15*, pp. 3541--3545 (2015).
 
-Yuuki Tachioka, **Shinji Watanabe**, “A Discriminative Method for Recurrent Neural Network Language Models,“ *Proc. ICASSP’15*, pp. 5386--5390 (2015).
+Yuuki Tachioka, **Shinji Watanabe**, “A Discriminative Method for Recurrent Neural Network Language Models,“ *Proc. ICASSP'15*, pp. 5386--5390 (2015).
 
-Takahiro Shinozaki, **Shinji Watanabe**, “Structure Discovery of Deep Neural Network Based on Evolutionary Algorithms,“ *Proc. ICASSP’15*, pp. 4979--4983 (2015).
+Takahiro Shinozaki, **Shinji Watanabe**, “Structure Discovery of Deep Neural Network Based on Evolutionary Algorithms,“ *Proc. ICASSP'15*, pp. 4979--4983 (2015).
 
-Erdogan Hakan, John R. Hershey, **Shinji Watanabe**, Jonathan Le Roux, “Phase-sensitive and recognition-boosted speech separation using deep recurrent neural networks,” *Proc. ICASSP’15*, pp. 708--712 (2015).
+Erdogan Hakan, John R. Hershey, **Shinji Watanabe**, Jonathan Le Roux, “Phase-sensitive and recognition-boosted speech separation using deep recurrent neural networks,” *Proc. ICASSP'15*, pp. 708--712 (2015).
 
 Yuuki Tachioka, **Shinji Watanabe**, Jonathan Le Roux, and John Hershey, "Sequence Discriminative Training for Low-Rank Deep Neural Networks," *Proc. GlobalSIP14-Machine Learning Applications in Speech Processing,* pp. 735--739 (2014).
 
@@ -1280,47 +1280,47 @@ Chao Weng, Dong Yu, **Shinji Watanabe**, and Biing-Hwang (Fred) Juang, "Recurren
 
 Felix J Weninger, **Shinji Watanabe**, Yuuki Tachioka, and Björn W Schuller, "Deep Recurrent De-Noising Auto-Encoder and Blind De-Reverberation for Reverberated Speech Recognition," *Proc. ICASSP'14*, pp. 4656 -- 4659 (2014)
 
-Yuuki Tachioka, **Shinji Watanabe**, Jonathan Le Roux, and John Hershey, “A Generalized Discriminative Training Framework for System Combination,” *Proc. ASRU’13*, pp. 43--48 (2013)
+Yuuki Tachioka, **Shinji Watanabe**, Jonathan Le Roux, and John Hershey, “A Generalized Discriminative Training Framework for System Combination,” *Proc. ASRU'13*, pp. 43--48 (2013)
 
-Emmanuel Vincent, Jon Barker, **Shinji Watanabe**, Jonathan Le Roux, Francesco Nesta, and Marco Matassoni, “The Second `CHiME' Speech Separation and Recognition Challenge: An Overview of Challenge Systems and Outcomes,” *Proc. ASRU’13*, pp. 162 -- 167 (2013)
+Emmanuel Vincent, Jon Barker, **Shinji Watanabe**, Jonathan Le Roux, Francesco Nesta, and Marco Matassoni, “The Second `CHiME' Speech Separation and Recognition Challenge: An Overview of Challenge Systems and Outcomes,” *Proc. ASRU'13*, pp. 162 -- 167 (2013)
 
-Jonathon Le Roux, **Shinji Watanabe**, and John R. Hershey, “Ensemble Learning for Speech Enhancement,” *Proc. WASPAA’13* (2013)
+Jonathon Le Roux, **Shinji Watanabe**, and John R. Hershey, “Ensemble Learning for Speech Enhancement,” *Proc. WASPAA'13* (2013)
 
-Koichiro Yoshino, **Shinji Watanabe**, Jonathon Le Roux, and John R. Hershey, “Statistical dialogue management using intention dependency graph,” *Proc. IJCNLP’13*, pp. 962--966 (2013)
+Koichiro Yoshino, **Shinji Watanabe**, Jonathon Le Roux, and John R. Hershey, “Statistical dialogue management using intention dependency graph,” *Proc. IJCNLP'13*, pp. 962--966 (2013)
 
-Naohiro Tawara, Tetsuji Ogawa, **Shinji Watanabe**, Atsushi Nakamura, and Tetsunori Kobayashi, “Blocked Gibbs sampling based multi-scale mixture model for speaker clustering on noisy data,” *Proc. MLSP’13* (2013)
+Naohiro Tawara, Tetsuji Ogawa, **Shinji Watanabe**, Atsushi Nakamura, and Tetsunori Kobayashi, “Blocked Gibbs sampling based multi-scale mixture model for speaker clustering on noisy data,” *Proc. MLSP'13* (2013)
 
-Yuuki Tachioka and **Shinji Watanabe**, “Discriminative training of acoustic models for system combination,” *Proc. Interspeech’13*, pp. 2355--2359 (2013)
+Yuuki Tachioka and **Shinji Watanabe**, “Discriminative training of acoustic models for system combination,” *Proc. Interspeech'13*, pp. 2355--2359 (2013)
 
-**Shinji Watanabe** and John R. Hershey, “Stereo-based feature enhancement using dictionary learning,” *Proc. ICASSP’13*, pp. 7073--7077 (2013)
+**Shinji Watanabe** and John R. Hershey, “Stereo-based feature enhancement using dictionary learning,” *Proc. ICASSP'13*, pp. 7073--7077 (2013)
 
-Yuuki Tachioka, **Shinji Watanabe**, and John Hershey, “Effectiveness of discriminative training and feature transformation for reverberated and noisy speech,” *Proc. ICASSP’13*, pp. 6935--6939 (2013)
+Yuuki Tachioka, **Shinji Watanabe**, and John Hershey, “Effectiveness of discriminative training and feature transformation for reverberated and noisy speech,” *Proc. ICASSP'13*, pp. 6935--6939 (2013)
 
-Emmanuel Vincent, Jon Barker, **Shinji Watanabe**, Jonathan Le Roux, Francesco Nesta, and Marco Matassoni, “The second ‘CHiME’ speech separation and recognition challenge: datasets, tasks and baselines,” *Proc. ICASSP’13*, pp. 126--130 (2013)
+Emmanuel Vincent, Jon Barker, **Shinji Watanabe**, Jonathan Le Roux, Francesco Nesta, and Marco Matassoni, “The second ‘CHiME’ speech separation and recognition challenge: datasets, tasks and baselines,” *Proc. ICASSP'13*, pp. 126--130 (2013)
 
-Yuuki Tachioka, **Shinji Watanabe**, Jonathan Le Roux, and John R. Hershey, “Discriminative methods for noise robust speech recognition: A CHiME Challenge Benchmark,” *Proc. CHiME’13*, pp. 19--24, (2013) ***Ranked 1st place at 2nd CHiME Challenge Track 2***
+Yuuki Tachioka, **Shinji Watanabe**, Jonathan Le Roux, and John R. Hershey, “Discriminative methods for noise robust speech recognition: A CHiME Challenge Benchmark,” *Proc. CHiME'13*, pp. 19--24, (2013) ***Ranked 1st place at 2nd CHiME Challenge Track 2***
 
-Naohiro Tawara, Tetsuji Ogawa, **Shinji Watanabe**, Atsushi Nakamura, Tetsunori Kobayashi, “Fully Bayesian speaker clustering based on hierarchically structured utterance-oriented Dirichlet process mixture model,” *Proc. Interspeech’12*, pp. 2166--2169 (2012)
+Naohiro Tawara, Tetsuji Ogawa, **Shinji Watanabe**, Atsushi Nakamura, Tetsunori Kobayashi, “Fully Bayesian speaker clustering based on hierarchically structured utterance-oriented Dirichlet process mixture model,” *Proc. Interspeech'12*, pp. 2166--2169 (2012)
 
 Seong-Jun Hahm, **Shinji Watanabe**, Masakiyo Fujimoto, Atsunori Ogawa, Takaaki Hori, and Atsushi Nakamura, “Normalization and Adaptation by Consistently Employing MAP Estimation,” in: *Proc. of International Workshop on Statistical Machine Learning for Speech Processing (IWSML)* (2012).
 
 **Shinji Watanabe**, Yotaro Kubo, Takanobu Oba, Takaaki Hori, Atsushi Nakamura, “Bag of arcs: new representation of speech segment features based on finite state machines,” *Proc. ICASSP’12,* pp. 4201--4204 (2012).
 
-Roland Roller, **Shinji Watanabe**, Tomoharu Iwata, “Effect of dialog acts on word use in polylogue,” *Proc. ICASSP’12*, pp. 4969--4972 (2012).
+Roland Roller, **Shinji Watanabe**, Tomoharu Iwata, “Effect of dialog acts on word use in polylogue,” *Proc. ICASSP'12*, pp. 4969--4972 (2012).
 
-Masayuki Suzuki, Takuya Yoshioka, **Shinji Watanabe**, Nobuaki Minematsu, Keikichi Hirose, “MFCC enhancement using joint corrupted and noise feature space for highly non-stationary noise environments,” *Proc. ICASSP’12*, pp. 4109--4112 (2012). ***ICASSP 2012 Student Paper Award***
+Masayuki Suzuki, Takuya Yoshioka, **Shinji Watanabe**, Nobuaki Minematsu, Keikichi Hirose, “MFCC enhancement using joint corrupted and noise feature space for highly non-stationary noise environments,” *Proc. ICASSP'12*, pp. 4109--4112 (2012). ***ICASSP 2012 Student Paper Award***
 
-Ekapol Chuangsuwanich, **Shinji Watanabe**, Hori Takaaki, Tomoharu Iwata, James Glass, “Handling uncertain observations in unsupervised topic-mixture language model adaptation,”*Proc. ICASSP’12*, pp. 5033--5036 (2012).
+Ekapol Chuangsuwanich, **Shinji Watanabe**, Hori Takaaki, Tomoharu Iwata, James Glass, “Handling uncertain observations in unsupervised topic-mixture language model adaptation,”*Proc. ICASSP'12*, pp. 5033--5036 (2012).
 
-Naohiro Tawara, Tetsuji Ogawa, **Shinji Watanabe**, Tetsunori Kobayashi, “Fully bayesian inference of multi-mixture gaussian model and its evaluation using speaker clustering,” *Proc. ICASSP’12*, pp. 5253--5256 (2012).
+Naohiro Tawara, Tetsuji Ogawa, **Shinji Watanabe**, Tetsunori Kobayashi, “Fully bayesian inference of multi-mixture gaussian model and its evaluation using speaker clustering,” *Proc. ICASSP'12*, pp. 5253--5256 (2012).
 
-Marc Delcroix, Atsunori Ogawa, **Shinji Watanabe**, Tomohiro Nakatani, Atsushi Nakamura, “Discriminative feature transforms using differenced maximum mutual information,” *Proc. ICASSP’12*, pp. 4753--4756 (2012).
+Marc Delcroix, Atsunori Ogawa, **Shinji Watanabe**, Tomohiro Nakatani, Atsushi Nakamura, “Discriminative feature transforms using differenced maximum mutual information,” *Proc. ICASSP'12*, pp. 4753--4756 (2012).
 
-Yotaro Kubo, **Shinji Watanabe**, Atsushi Nakamura, Simon Wiesler, Ralf Schlueter, Hermann Ney, “Basis vector orthogonalization for an improved kernel gradient matching pursuit method,” *Proc. ICASSP’12*, pp. 4753--4756 (2012).
+Yotaro Kubo, **Shinji Watanabe**, Atsushi Nakamura, Simon Wiesler, Ralf Schlueter, Hermann Ney, “Basis vector orthogonalization for an improved kernel gradient matching pursuit method,” *Proc. ICASSP'12*, pp. 4753--4756 (2012).
 
-Yotaro Kubo, **Shinji Watanabe**, Atsushi Nakamura, “Decoding network optimization using minimum transition error training,” *Proc. ICASSP’12*, pp. 4197--4200 (2012).
+Yotaro Kubo, **Shinji Watanabe**, Atsushi Nakamura, “Decoding network optimization using minimum transition error training,” *Proc. ICASSP'12*, pp. 4197--4200 (2012).
 
-Masakiyo Fujimoto, **Shinji Watanabe**, Tomohiro Nakatani, “Noise suppression with unsupervised joint speaker adaptation and noise mixture model estimation,” *Proc. ICASSP’12*, pp. 4713 - 4716 (2012).
+Masakiyo Fujimoto, **Shinji Watanabe**, Tomohiro Nakatani, “Noise suppression with unsupervised joint speaker adaptation and noise mixture model estimation,” *Proc. ICASSP'12*, pp. 4713 - 4716 (2012).
 
 **Shinji Watanabe**, Atsushi Nakamura, and Biing-Hwang Juang, "Bayesian Linear Regression for Hidden Markov Model Based on Optimizing Variational Bounds," *Proc. MLSP'11*, pp. 1--6 (2011).
 
@@ -1334,21 +1334,21 @@ Tomoharu Iwata and **Shinji Watanabe**, "Learning Influences from Word Use in Po
 
 Naohiro Tawara, **Shinji Watanabe**, Tetsuji Ogawa, and Tetsunori Kobayashi, "Speaker Clustering Based on Utterance-oriented Dirichlet Process Mixture Model," *Proc. Interspeech'11*, pp. 2905-2908 (2011)
 
-Tomoharu Iwata, **Shinji Watanabe** and Hiroshi Sawada, “Fashion Coordinates Recommender System using Photographs from Fashion Magazines,” *Proc. IJCAI’11*, pp. 2262--2267 (2011)
+Tomoharu Iwata, **Shinji Watanabe** and Hiroshi Sawada, “Fashion Coordinates Recommender System using Photographs from Fashion Magazines,” *Proc. IJCAI'11*, pp. 2262--2267 (2011)
 
-Marc Delcroix, **Shinji Watanabe**, Tomohiro Nakatani, and Atsushi Nakamura, “Discriminative approach to dynamic variance adaptation for noisy speech recognition,” *Proc. HSCMA’11*, pp. 7--12 (2011)
+Marc Delcroix, **Shinji Watanabe**, Tomohiro Nakatani, and Atsushi Nakamura, “Discriminative approach to dynamic variance adaptation for noisy speech recognition,” *Proc. HSCMA'11*, pp. 7--12 (2011)
 
-Shoko Araki, Takaaki Hori, Takuya Yoshioka, Masakiyo Fujimoto, **Shinji Watanabe**, Takanobu Oba, Atsunori Ogawa, Kazuhiro Otsuka, Dan Mikami, Keisuke Kinoshita, Tomohiro Nakatani, Atsushi Nakamura, Junji Yamato, “Low-latency meeting recognition and understanding using distant microphones,” *Proc. HSCMA’11*, pp. 151--152 (2011)
+Shoko Araki, Takaaki Hori, Takuya Yoshioka, Masakiyo Fujimoto, **Shinji Watanabe**, Takanobu Oba, Atsunori Ogawa, Kazuhiro Otsuka, Dan Mikami, Keisuke Kinoshita, Tomohiro Nakatani, Atsushi Nakamura, Junji Yamato, “Low-latency meeting recognition and understanding using distant microphones,” *Proc. HSCMA'11*, pp. 151--152 (2011)
 
-Takuya Maekawa, **Shinji Watanabe**, ”Unsupervised Activity Recognition with User's Physical Characteristics Data,” *Proc. ISWC’11*, pp. 89--96 (2011). ***Best In-Category Nominee***
+Takuya Maekawa, **Shinji Watanabe**, ”Unsupervised Activity Recognition with User's Physical Characteristics Data,” *Proc. ISWC'11*, pp. 89--96 (2011). ***Best In-Category Nominee***
 
-**Shinji Watanabe**, Daichi Mochihashi, Takaaki Hori, and Atsushi Nakamura, ”Gibbs Sampling Based Multi-Scale Mixture Model for Speaker Clustering,” *Proc. ICASSP’11*, pp. 4524--4527 (2011).
+**Shinji Watanabe**, Daichi Mochihashi, Takaaki Hori, and Atsushi Nakamura, ”Gibbs Sampling Based Multi-Scale Mixture Model for Speaker Clustering,” *Proc. ICASSP'11*, pp. 4524--4527 (2011).
 
-Masakiyo Fujimoto, **Shinji Watanabe**, and Tomohiro Nakatani, “Non-Stationary Noise Estimation Method Based on Bias-Residual Component Decomposition for Robust Speech Recognition,” *Proc. ICASSP’11*, pp. 4816 - 4819 (2011).
+Masakiyo Fujimoto, **Shinji Watanabe**, and Tomohiro Nakatani, “Non-Stationary Noise Estimation Method Based on Bias-Residual Component Decomposition for Robust Speech Recognition,” *Proc. ICASSP'11*, pp. 4816 - 4819 (2011).
 
-Daisuke Saito, **Shinji Watanabe**, Atsushi Nakamura, and Nobuaki Minematsu, “High Accurate Model-Integration-Based Voice Conversion Using Dynamic Features and Model Structure Optimization,” *Proc. ICASSP’11*, pp. 4576 - 4579 (2011).
+Daisuke Saito, **Shinji Watanabe**, Atsushi Nakamura, and Nobuaki Minematsu, “High Accurate Model-Integration-Based Voice Conversion Using Dynamic Features and Model Structure Optimization,” *Proc. ICASSP'11*, pp. 4576 - 4579 (2011).
 
-Yotaro Kubo, Simon Wiesler, Ralf Schlueter, Hermann Ney, **Shinji Watanabe**, Atsushi Nakamura, and Tetsunori Kobayashi, “Subspace Pursuit Method for Kernel-Log-Linear Models,” *Proc. ICASSP’11*, pp. 4500 - 4503 (2011).
+Yotaro Kubo, Simon Wiesler, Ralf Schlueter, Hermann Ney, **Shinji Watanabe**, Atsushi Nakamura, and Tetsunori Kobayashi, “Subspace Pursuit Method for Kernel-Log-Linear Models,” *Proc. ICASSP'11*, pp. 4500 - 4503 (2011).
 
 **Shinji Watanabe**, Tomoharu Iwata, Takaaki Hori, Atsushi Sako, and Yasuo Ariki, "Application of Topic Tracking Model to Language Model Adaptation and Meeting Analysis," *Proc. IEEE Workshop on Spoken Language Technology (SLT'10)*, pp. 366--371 (2010)
 

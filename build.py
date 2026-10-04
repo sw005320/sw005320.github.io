@@ -148,23 +148,40 @@ def md_inline(s):
 
 
 def read_sections(name):
-    """Parse content/<name>.md into [{level, title, items}]."""
+    """Parse content/<name>.md into [{level, title, items, groups}].
+
+    `####` is a label *inside* a section, not a section of its own -- the
+    collaborator lists are grouped into Post-doc, CMU student and so on. Keeping
+    them inside means `items` still holds everything and CV_LAYOUT, which refers
+    to sections by name, is unaffected. `groups` is [(label or None, [items])].
+    """
     text = (CONTENT / f"{name}.md").read_text(encoding="utf-8")
     sections, current, buf = [], None, []
 
     def flush():
         if current is not None and buf:
-            current["items"].append(md_inline(" ".join(buf).strip()))
+            item = md_inline(" ".join(buf).strip())
+            current["items"].append(item)
+            current["groups"][-1][1].append(item)
         buf.clear()
+
+    def new_group(label):
+        if current is not None:
+            current["groups"].append((label, []))
 
     for line in text.splitlines():
         stripped = line.strip()
         if stripped.startswith("<!--"):
             continue
+        if stripped.startswith("#### "):
+            flush()
+            new_group(stripped[5:].strip())
+            continue
         if stripped.startswith("## ") or stripped.startswith("### "):
             flush()
             level = "h2" if stripped.startswith("## ") else "h3"
-            current = {"level": level, "title": stripped.lstrip("#").strip(), "items": []}
+            current = {"level": level, "title": stripped.lstrip("#").strip(),
+                       "items": [], "groups": [(None, [])]}
             sections.append(current)
             continue
         if not stripped:
@@ -172,7 +189,45 @@ def read_sections(name):
             continue
         buf.append(stripped)
     flush()
+    for sec in sections:
+        sec["groups"] = [g for g in sec["groups"] if g[1]]
     return sections
+
+
+def grouped_list(section, tag="ul", cls="entries"):
+    """Render a section's entries, with a label above each group that has one."""
+    out = []
+    for label, items in section["groups"]:
+        if label:
+            out.append(f'      <p class="sublabel">{escape(label)}</p>')
+        rows = "\n".join(f"        <li>{i}</li>" for i in items)
+        out.append(f'      <{tag} class="{cls}">\n{rows}\n      </{tag}>')
+    return "\n".join(out)
+
+
+def read_highlights():
+    """The selected-publications entries, or [] if the file is absent."""
+    f = CONTENT / "highlights.md"
+    if not f.is_file():
+        return []
+    out, buf, in_comment = [], [], False
+    for line in f.read_text(encoding="utf-8").splitlines():
+        s = line.strip()
+        if in_comment:
+            in_comment = not s.endswith("-->")
+            continue
+        if s.startswith("<!--"):
+            in_comment = not s.endswith("-->")
+            continue
+        if not s:
+            if buf:
+                out.append(md_inline(" ".join(buf)))
+                buf = []
+            continue
+        buf.append(s)
+    if buf:
+        out.append(md_inline(" ".join(buf)))
+    return out
 
 
 def read_bio():
@@ -373,7 +428,7 @@ def shell(active, title, body, extra_js="", prefix=""):
 
 
 # ---------------------------------------------------------------- pages
-def home_page(bio):
+def home_page(bio, highlights):
     paras = "\n".join(f"    <p>{p}</p>" for p in bio)
     links = "\n".join(
         f'      <a class="pill" href="{u}">{escape(t)}</a>' for t, u in PROFILE_LINKS
@@ -385,6 +440,18 @@ def home_page(bio):
       </a>"""
         for s in SOFTWARE
     )
+    selected = ""
+    if highlights:
+        rows = "\n".join(f"      <li>{h}</li>" for h in highlights)
+        selected = f"""
+  <section>
+    <h2>Selected publications</h2>
+    <ol class="entries selected">
+{rows}
+    </ol>
+    <p class="more"><a href="publications.html">All publications &rarr;</a></p>
+  </section>"""
+
     return shell("Home", NAME, f"""  <section class="hero">
     <img class="portrait" src="assets/shinji.jpg" width="168" height="168"
          alt="Portrait of {NAME}">
@@ -402,6 +469,7 @@ def home_page(bio):
     <h2>Short bio</h2>
 {paras}
   </section>
+{selected}
 
   <section>
     <h2>Software</h2>
@@ -424,7 +492,9 @@ def publications_page(sections):
         items = "\n".join(
             f'        <li data-year="{year_of(i)}">{i}</li>' for i in s["items"]
         )
-        blocks.append(f"""  <details class="sec" open id="{slug(s['title'])}">
+        # starts collapsed: 698 entries open at once is a wall of text, and
+        # the search in filter.js opens whichever sections match
+        blocks.append(f"""  <details class="sec" id="{slug(s['title'])}">
     <summary><span class="t">{escape(s['title'])}</span>
       <span class="count"><span class="shown">{len(s['items'])}</span> / {len(s['items'])}</span>
     </summary>
@@ -459,15 +529,12 @@ def activities_page(sections):
         if not s["items"]:
             blocks.append(f'  <p class="group">{escape(s["title"])}</p>')
             continue
-        items = "\n".join(f"        <li>{i}</li>" for i in s["items"])
         cls = "sec sub" if s["level"] == "h3" else "sec"
         blocks.append(f"""  <details class="{cls}" id="{slug(s['title'])}">
     <summary><span class="t">{escape(s['title'])}</span>
       <span class="count">{len(s['items'])}</span>
     </summary>
-    <ul class="entries">
-{items}
-    </ul>
+{grouped_list(s)}
   </details>""")
     total = sum(len(s["items"]) for s in sections)
     body = f"""  <h1>Activities</h1>
@@ -547,8 +614,7 @@ def cv_page(sources):
             label = ""
             if len(refs) > 1:
                 label = f'      <h3 class="cv-sub">{escape(title)}</h3>\n'
-            items = "\n".join(f"        <li>{i}</li>" for i in sec["items"])
-            parts.append(f"{label}      <ol class=\"cv-list\">\n{items}\n      </ol>")
+            parts.append(label + grouped_list(sec, tag="ol", cls="cv-list"))
         if parts:
             blocks.append(
                 f'  <section class="cv-block">\n'
@@ -601,7 +667,8 @@ def main():
                "cv": read_sections("cv-extra")}
     check_cv_layout(sources)
 
-    (SITE / "index.html").write_text(home_page(bio), encoding="utf-8")
+    (SITE / "index.html").write_text(
+        home_page(bio, read_highlights()), encoding="utf-8")
     (SITE / "publications.html").write_text(publications_page(pubs), encoding="utf-8")
     (SITE / "activities.html").write_text(activities_page(acts), encoding="utf-8")
     (SITE / "software.html").write_text(software_page(), encoding="utf-8")
@@ -615,7 +682,8 @@ def main():
 
     n_pub = sum(len(s["items"]) for s in pubs)
     n_act = sum(len(s["items"]) for s in acts)
-    print(f"index.html          {len(bio)} bio paragraph(s)")
+    print(f"index.html          {len(bio)} bio paragraph(s), "
+          f"{len(read_highlights())} highlight(s)")
     print(f"publications.html   {n_pub} entries")
     print(f"activities.html     {n_act} entries")
     print(f"software.html       {len(SOFTWARE)} projects")

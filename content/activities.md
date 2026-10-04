@@ -696,7 +696,11 @@ Professor Biing-Hwang (Fred) Juang at Georgia Institute of Technology, Atlanta, 
 
 ### At CMU
 
+#### Visiting faculty
+
 2023. 09 - 2024. 06: Karen Livescu (TTI-Chicago)
+
+#### Post-doc
 
 2021. 08 - 2024. 07: Zhong-Qiu Wang
 
@@ -707,6 +711,8 @@ Professor Biing-Hwang (Fred) Juang at Georgia Institute of Technology, Atlanta, 
 2023. 10 -: Samuele Cornell
 
 2024. 02 - 2025. 05: Hye-jin Shim
+
+#### CMU student
 
 2025. 08 -: Jaeyeon Kim (co-supervisor)
 
@@ -759,6 +765,8 @@ Professor Biing-Hwang (Fred) Juang at Georgia Institute of Technology, Atlanta, 
 2021. 01 - 2022. 08: Chaitanya Narisetty
 
 2020. 09 - 2022. 08: Siddharth Dalmia (co-supervisor)
+
+#### Visitor
 
 2026. 05 - 2027. 05: Kuang-Da Wang (National Yang Ming Chiao Tung University)
 
@@ -820,6 +828,8 @@ Professor Biing-Hwang (Fred) Juang at Georgia Institute of Technology, Atlanta, 
 
 ### At JHU
 
+#### JHU student
+
 2020. 08 - 2021. 08: Tianzi Wang (CUHK)
 
 2019. 09 - 2021. 09: Jiatong Shi (transferred to CMU)
@@ -835,6 +845,8 @@ Professor Biing-Hwang (Fred) Juang at Georgia Institute of Technology, Atlanta, 
 2017. 09 - 2018. 12: Szu-Jui Chen
 
 2017. 09 - 2022. 05:: Aswin Shanmugam Subramanian
+
+#### Visitor
 
 2020. 01 - 2021. 01: Pengcheng Guo (Northwestern Polytechnical University)
 
