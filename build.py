@@ -208,8 +208,8 @@ def grouped_list(section, tag="ul", cls="entries"):
 def read_highlights():
     """(entries, caption) for the selected-publications block.
 
-    The caption is built from the parameters highlights.py recorded, so it
-    always describes the cut that actually produced the list.
+    The file is hand-maintained; a leading `caption:` line, if present, becomes
+    the line under the heading. Everything else is one entry per paragraph.
     """
     f = CONTENT / "highlights.md"
     if not f.is_file():
@@ -233,12 +233,8 @@ def read_highlights():
         out.append(md_inline(" ".join(buf)))
 
     caption = ""
-    m = re.search(r"<!--\s*highlights:\s*n=(\d+)\s+since=(\d+)",
-                  f.read_text(encoding="utf-8"))
-    if m:
-        n, since = m.group(1), m.group(2)
-        caption = (f"The {n} most cited since {since}, by "
-                   '<a href="https://openalex.org/">OpenAlex</a> counts.')
+    if out and out[0].startswith("caption:"):
+        caption = out.pop(0)[len("caption:"):].strip()
     return out, caption
 
 
