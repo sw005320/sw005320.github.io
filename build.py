@@ -206,10 +206,14 @@ def grouped_list(section, tag="ul", cls="entries"):
 
 
 def read_highlights():
-    """The selected-publications entries, or [] if the file is absent."""
+    """(entries, caption) for the selected-publications block.
+
+    The caption is built from the parameters highlights.py recorded, so it
+    always describes the cut that actually produced the list.
+    """
     f = CONTENT / "highlights.md"
     if not f.is_file():
-        return []
+        return [], ""
     out, buf, in_comment = [], [], False
     for line in f.read_text(encoding="utf-8").splitlines():
         s = line.strip()
@@ -227,7 +231,15 @@ def read_highlights():
         buf.append(s)
     if buf:
         out.append(md_inline(" ".join(buf)))
-    return out
+
+    caption = ""
+    m = re.search(r"<!--\s*highlights:\s*n=(\d+)\s+since=(\d+)",
+                  f.read_text(encoding="utf-8"))
+    if m:
+        n, since = m.group(1), m.group(2)
+        caption = (f"The {n} most cited since {since}, by "
+                   '<a href="https://openalex.org/">OpenAlex</a> counts.')
+    return out, caption
 
 
 def read_bio():
@@ -428,7 +440,7 @@ def shell(active, title, body, extra_js="", prefix=""):
 
 
 # ---------------------------------------------------------------- pages
-def home_page(bio, highlights):
+def home_page(bio):
     paras = "\n".join(f"    <p>{p}</p>" for p in bio)
     links = "\n".join(
         f'      <a class="pill" href="{u}">{escape(t)}</a>' for t, u in PROFILE_LINKS
@@ -440,18 +452,6 @@ def home_page(bio, highlights):
       </a>"""
         for s in SOFTWARE
     )
-    selected = ""
-    if highlights:
-        rows = "\n".join(f"      <li>{h}</li>" for h in highlights)
-        selected = f"""
-  <section>
-    <h2>Selected publications</h2>
-    <ol class="entries selected">
-{rows}
-    </ol>
-    <p class="more"><a href="publications.html">All publications &rarr;</a></p>
-  </section>"""
-
     return shell("Home", NAME, f"""  <section class="hero">
     <img class="portrait" src="assets/shinji.jpg" width="168" height="168"
          alt="Portrait of {NAME}">
@@ -469,7 +469,6 @@ def home_page(bio, highlights):
     <h2>Short bio</h2>
 {paras}
   </section>
-{selected}
 
   <section>
     <h2>Software</h2>
@@ -480,7 +479,7 @@ def home_page(bio, highlights):
 """)
 
 
-def publications_page(sections):
+def publications_page(sections, highlights=(), caption=""):
     total = sum(len(s["items"]) for s in sections)
     years = sorted(
         {year_of(i) for s in sections for i in s["items"] if year_of(i)}, reverse=True
@@ -503,9 +502,22 @@ def publications_page(sections):
     </ol>
   </details>""")
 
+    selected = ""
+    if highlights:
+        rows = "\n".join(f"      <li>{h}</li>" for h in highlights)
+        selected = f"""
+  <section class="selected-block">
+    <h2>Selected publications</h2>
+    <p class="caption">{caption}</p>
+    <ol class="entries selected">
+{rows}
+    </ol>
+  </section>
+"""
+
     body = f"""  <h1>Publications</h1>
   <p class="lede">{total} entries across {len(sections)} categories.</p>
-
+{selected}
   <div class="toolbar">
     <input id="q" type="search" placeholder="Search titles, authors, venues&hellip;"
            autocomplete="off" aria-label="Search publications">
@@ -667,9 +679,10 @@ def main():
                "cv": read_sections("cv-extra")}
     check_cv_layout(sources)
 
-    (SITE / "index.html").write_text(
-        home_page(bio, read_highlights()), encoding="utf-8")
-    (SITE / "publications.html").write_text(publications_page(pubs), encoding="utf-8")
+    (SITE / "index.html").write_text(home_page(bio), encoding="utf-8")
+    highlights, caption = read_highlights()
+    (SITE / "publications.html").write_text(
+        publications_page(pubs, highlights, caption), encoding="utf-8")
     (SITE / "activities.html").write_text(activities_page(acts), encoding="utf-8")
     (SITE / "software.html").write_text(software_page(), encoding="utf-8")
     (SITE / "cv.html").write_text(cv_page(sources), encoding="utf-8")
@@ -682,9 +695,8 @@ def main():
 
     n_pub = sum(len(s["items"]) for s in pubs)
     n_act = sum(len(s["items"]) for s in acts)
-    print(f"index.html          {len(bio)} bio paragraph(s), "
-          f"{len(read_highlights())} highlight(s)")
-    print(f"publications.html   {n_pub} entries")
+    print(f"index.html          {len(bio)} bio paragraph(s)")
+    print(f"publications.html   {n_pub} entries, {len(highlights)} highlight(s)")
     print(f"activities.html     {n_act} entries")
     print(f"software.html       {len(SOFTWARE)} projects")
     print(f"notes.html          {len(notes)} note(s)")

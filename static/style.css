@@ -447,9 +447,18 @@ footer {
               break-after: avoid; page-break-after: avoid; }
 }
 
-/* selected publications on the home page */
-.entries.selected { padding-left: 1.9rem; }
-.entries.selected li { margin: .6rem 0; }
-.more { margin: .9rem 0 0; font-size: .9rem; }
-.more a { text-decoration: none; }
-.more a:hover { text-decoration: underline; }
+/* the selected block above the publication list */
+.selected-block {
+  margin: 1.8rem 0 2.2rem;
+  padding: 1.2rem 1.4rem .4rem;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--bg-tint);
+}
+.selected-block > h2 {
+  margin: 0; padding: 0; border: 0;
+  font-size: 1.22rem;
+}
+.caption { margin: .15rem 0 .8rem; color: var(--muted); font-size: .86rem; }
+.entries.selected { padding-left: 1.9rem; margin-bottom: 1rem; }
+.entries.selected li { margin: .55rem 0; }
