@@ -42,6 +42,11 @@ Speech recognition based on a Bayesian approach, Waseda University (2006)
 
 ## Tutorial/Overview/Invited talk
 
+Karen Livescu, **Shinji Watanabe**, Hung-yi Lee, Yossi Adi, Chung-Ming Chien, Siddhant Arora, Ke-Han Lu, Chih-Kai Yang, and Kai-Wei Chang, "On the Landscape of Spoken Language Models," *Interspeech'26* (2026)
+
+Naohiro Tawara, Samuele Cornell, Alexander Polok, Takafumi Moriya, Marc Delcroix, and **Shinji Watanabe**, "Conversational Speech Recognition and Analysis- Progress, Challenges, and Emerging Opportunities with Speech Language Models," *Interspeech'26* (2026)
+
+
 **Shinji Watanabe**, "Open Whisper-Style Speech Models: Transparency, Scalability, and Advancing Explainability," *International Advanced Summer School on NLP* (IASNLP) (2025)
 
 Tae Jin Park, Huck Yang, Kyu J. Han, and **Shinji Watanabe**, "Beyond End-to-End ASR: Integrating Long-Context Acoustic and Linguistic Insights," *Interspeech'25* (2025)
