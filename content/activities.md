@@ -768,6 +768,8 @@ Professor Biing-Hwang (Fred) Juang at Georgia Institute of Technology, Atlanta, 
 
 #### Visitor
 
+2026. 10 - 2027. 03: Kazuki Yano (Tohoku University)
+
 2026. 05 - 2027. 05: Kuang-Da Wang (National Yang Ming Chiao Tung University)
 
 2026. 05 - 2026. 08: Thanapat Trachu (University of Southern California)
