@@ -149,6 +149,8 @@ Atsushi Nakamura, **Shinji Watanabe**, Takaaki Hori, Erik McDermott, and Shigeru
 
 ## Journal (refereed)
 
+Jinchuan Tian, Bo-Hao Su, Siddhant Arora, Jiatong Shi, William Chen, Keita Goto, Takashi Maekaku, Yusuke Shinohara, Chao-Han Huck Yang, and **Shinji Watanabe**, "Opus-Chat: Exploring How Speech Language Models Remember and Think," _IEEE Transactions on Audio, Speech and Language Processing_ (accepted)
+
 Jiatong Shi, Jionghao Han, Yichen Lu, Santiago Pascual, Pengfei Wu, Chenye Cui, **Shinji Watanabe**, CHAO WENG, Cong Zhou, "Speech-DRAME: Human-Aligned Evaluation for Speech Role-Play," _Transactions on Machine Learning Research (TMLR)_ (accepted)
 
 Yoshiaki Bando, Tomohiko Nakamura, Satoru Fukayama, and **Shinji Watanabe**, "Online Frontend System for Multi-Talker DSR Using Neural Blind Source Separation and Diarization,” IEEE Transactions on Audio, Speech and Language Processing, pp. 3698--3713 (2026)
