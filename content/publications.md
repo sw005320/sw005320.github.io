@@ -69,13 +69,13 @@ Abdelrahman Mohamed, Hung-yi Lee, **Shinji Watanabe**, Tara Sainath, Karen Lives
 
 **Shinji Watanabe**, "Toward a Unification of Various Speech Processing Tasks based on End-to-End Neural Networks," *Otogaku Symposium* (2021)
 
-**Shinji Watanabe**, Pengcheng Guo, and Sathvik Udupa, "Introduction of ESPnet, End-to-End Speech Processing Toolkit," MUltilingual and Code-Switching ASR Challenges for Low Resource Indian Languages (MUCS) (2021)
+**Shinji Watanabe**, Pengcheng Guo, and Sathvik Udupa, "Introduction of ESPnet, End-to-End Speech Processing Toolkit," *MUltilingual and Code-Switching ASR Challenges for Low Resource Indian Languages (MUCS)* (2021)
 
 Keisuke Kinoshita, Yusuke Fujita, Naoyuki Kanda, and **Shinji Watanabe**, "T-9 - Distant conversational speech recognition and analysis: Recent advances, and trends towards end-to-end optimization," *ICASSP'21* (2021)
 
 Takaaki Hori Tomoki Hayashi, Shigeki Karita, and **Shinji Watanabe**, ”Advanced Methods for Neural End-to-End Speech Processing - Unification, Integration, and Implementation," *Interspeech'19* (2019)
 
-**Shinji Watanabe**, "Hybrid CTC/Attention Architecture for End-to-End Speech Recognition in Challenging Environments," INTERNATIONAL WORKSHOP ON SPEECH PROCESSING IN CHALLENGING ENVIRONMENTS (SPICE) (2018)
+**Shinji Watanabe**, "Hybrid CTC/Attention Architecture for End-to-End Speech Recognition in Challenging Environments," *INTERNATIONAL WORKSHOP ON SPEECH PROCESSING IN CHALLENGING ENVIRONMENTS (SPICE)* (2018)
 
 **Shinji Watanabe**, "Multi-microphone Speech Recognition --Recent Advances in Distant Speech Recognition," *Speech and Language Symposium* (2016)
 
@@ -85,25 +85,25 @@ Takaaki Hori Tomoki Hayashi, Shigeki Karita, and **Shinji Watanabe**, ”Advance
 
 Marc Delcroix and **Shinji Watanabe**, "Recent Advances in Distant Speech Recognition," *Interspeech'16* (2016)
 
-**Shinji Watanabe** and Jen-Tzung Chien, " Bayesian Learning for Speech and Language Processing," ICASSP’12 2012, Tutorial T-10, (2012)
+**Shinji Watanabe** and Jen-Tzung Chien, " Bayesian Learning for Speech and Language Processing," *ICASSP’12* 2012, Tutorial T-10, (2012)
 
-**Shinji Watanabe**, "Bayesian approaches in speech recognition," APSIPA ASC 2011, Plenary Overview Sessions, (2011)
+**Shinji Watanabe**, "Bayesian approaches in speech recognition," *APSIPA ASC 2011*, Plenary Overview Sessions, (2011)
 
-**Shinji Watanabe**, “Recent Topics in Acoustic Modeling for Speech recognition: A Machine Learning Perspective based on Generative and Discriminative Approaches,'' IEICE Technical Report, SP2011-31, pp. 7–10 (2011.6)
+**Shinji Watanabe**, “Recent Topics in Acoustic Modeling for Speech recognition: A Machine Learning Perspective based on Generative and Discriminative Approaches,'' *IEICE Technical Report*, SP2011-31, pp. 7–10 (2011.6)
 
-**Shinji Watanabe**, “Recent topics in speech research,” Tutorial Session 1-2, the 2nd Young Researchers Forum on ALAGIN Speech Processing Session (2011.3)
+**Shinji Watanabe**, “Recent topics in speech research,” Tutorial Session 1-2, *the 2nd Young Researchers Forum on ALAGIN Speech Processing Session* (2011.3)
 
-**Shinji Watanabe**, “Bayesian training of acoustic models,” IPSJ SIG Technical Report, Vol.2009-SLP-77, No. 9, (2009. 7)
+**Shinji Watanabe**, “Bayesian training of acoustic models,” *IPSJ SIG Technical Report*, Vol.2009-SLP-77, No. 9, (2009. 7)
 
-**Shinji Watanabe**, “Speech recognition based on a Bayesian approach and its application,” Japan Techno Center, Lecture on “Speech recognition technology –application and future trend” (2007.2.)
+**Shinji Watanabe**, “Speech recognition based on a Bayesian approach and its application,” *Japan Techno Center*, Lecture on “Speech recognition technology –application and future trend” (2007.2.)
 
-**Shinji Watanabe**, Yasuhiro Minami, Atsushi Nakamura, and Naonori Ueda,“Speech recognition using variational Bayes,” 2005 Workshop on Information-Based Induction Sciences (IBIS2005), pp. 269―274, (2005.11)
+**Shinji Watanabe**, Yasuhiro Minami, Atsushi Nakamura, and Naonori Ueda,“Speech recognition using variational Bayes,” *2005 Workshop on Information-Based Induction Sciences (IBIS2005)*, pp. 269―274, (2005.11)
 
-**Shinji Watanabe**, “Selection of shared-state hidden Markov model structure using Bayesian criterion,'' IEICE Technical Report, SP2004-149, pp. 25–30 (2005)
+**Shinji Watanabe**, “Selection of shared-state hidden Markov model structure using Bayesian criterion,'' *IEICE Technical Report*, SP2004-149, pp. 25–30 (2005)
 
-**Shinji Watanabe**, “Speech recognition based on the Bayesian approach”, Tutorial lecture on IEICE Technical Report, SP2004-74, pp. 13--20, (2004)
+**Shinji Watanabe**, “Speech recognition based on the Bayesian approach”, Tutorial lecture on *IEICE Technical Report*, SP2004-74, pp. 13--20, (2004)
 
-**Shinji Watanabe**, “VBEC: robust speech recognition based on Bayesian approach," 5th young researcher workshop, ASJ Kansai section, I-2, (2003)
+**Shinji Watanabe**, “VBEC: robust speech recognition based on Bayesian approach," *5th young researcher workshop, ASJ Kansai section*, I-2, (2003)
 
 ## Review and overview paper
 
