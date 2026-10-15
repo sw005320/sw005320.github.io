@@ -71,19 +71,19 @@ Abdelrahman Mohamed, Hung-yi Lee, **Shinji Watanabe**, Tara Sainath, Karen Lives
 
 **Shinji Watanabe**, Pengcheng Guo, and Sathvik Udupa, "Introduction of ESPnet, End-to-End Speech Processing Toolkit," MUltilingual and Code-Switching ASR Challenges for Low Resource Indian Languages (MUCS) (2021)
 
-Keisuke Kinoshita, Yusuke Fujita, Naoyuki Kanda, and **Shinji Watanabe**, "T-9 - Distant conversational speech recognition and analysis: Recent advances, and trends towards end-to-end optimization," ICASSP'21 (2021)
+Keisuke Kinoshita, Yusuke Fujita, Naoyuki Kanda, and **Shinji Watanabe**, "T-9 - Distant conversational speech recognition and analysis: Recent advances, and trends towards end-to-end optimization," *ICASSP'21* (2021)
 
-Takaaki Hori Tomoki Hayashi, Shigeki Karita, and **Shinji Watanabe**, ”Advanced Methods for Neural End-to-End Speech Processing - Unification, Integration, and Implementation," Interspeech'19 (2019)
+Takaaki Hori Tomoki Hayashi, Shigeki Karita, and **Shinji Watanabe**, ”Advanced Methods for Neural End-to-End Speech Processing - Unification, Integration, and Implementation," *Interspeech'19* (2019)
 
 **Shinji Watanabe**, "Hybrid CTC/Attention Architecture for End-to-End Speech Recognition in Challenging Environments," INTERNATIONAL WORKSHOP ON SPEECH PROCESSING IN CHALLENGING ENVIRONMENTS (SPICE) (2018)
 
-**Shinji Watanabe**, "Multi-microphone Speech Recognition --Recent Advances in Distant Speech Recognition," Speech and Language Symposium (2016)
+**Shinji Watanabe**, "Multi-microphone Speech Recognition --Recent Advances in Distant Speech Recognition," *Speech and Language Symposium* (2016)
 
-**Shinji Watanabe**, Xiong Xiao, and Marc Delcrioix "Multi-microphone Speech Recognition," APSIPA ASC'16 (2016)
+**Shinji Watanabe**, Xiong Xiao, and Marc Delcrioix "Multi-microphone Speech Recognition," *APSIPA ASC'16* (2016)
 
-**Shinji Watanabe**, "Pushing the envelope at both ends: beamforming acoustic models and joint CTC/Attention schemes for end-to-end ASR," SANE 2016 - Speech and Audio in the Northeast (2016)
+**Shinji Watanabe**, "Pushing the envelope at both ends: beamforming acoustic models and joint CTC/Attention schemes for end-to-end ASR," *SANE 2016 - Speech and Audio in the Northeast* (2016)
 
-Marc Delcroix and **Shinji Watanabe**, "Recent Advances in Distant Speech Recognition," Interspeech'16 (2016)
+Marc Delcroix and **Shinji Watanabe**, "Recent Advances in Distant Speech Recognition," *Interspeech'16* (2016)
 
 **Shinji Watanabe** and Jen-Tzung Chien, " Bayesian Learning for Speech and Language Processing," ICASSP’12 2012, Tutorial T-10, (2012)
 
@@ -127,25 +127,25 @@ Joseph Turian, Jordie Shier, Humair Raj Khan, Bhiksha Raj, Björn W. Schuller, C
 
 **Shinji Watanabe**, Michael Mandel, Jon Barker, Emmanuel Vincent, Ashish Arora, Xuankai Chang, Sanjeev Khudanpur, Vimal Manohar, Daniel Povey, Desh Raj, David Snyder, Aswin Shanmugam Subramanian, Jan Trmal, Bar Ben Yair, Christoph Boeddeker, Zhaoheng Ni, Yusuke Fujita, Shota Horiguchi, Naoyuki Kanda, Takuya Yoshioka, and Neville Ryant, "CHiME-6 Challenge: Tackling Multispeaker Speech Recognition for Unsegmented Recordings," *Proc. CHiME 2020*, pp. 1--7 (2020)
 
-Reinhold Haeb-Umbach, Jahn Heymann, Lukas Drude, **Shinji Watanabe**, Marc Delcroix, and Tomohiro Nakatani, "Far-Field Automatic Speech Recognition," Proceedings of the IEEE, vol. 109.2: pp. 124--148 (2020)
+Reinhold Haeb-Umbach, Jahn Heymann, Lukas Drude, **Shinji Watanabe**, Marc Delcroix, and Tomohiro Nakatani, "Far-Field Automatic Speech Recognition," *Proceedings of the IEEE*, vol. 109.2: pp. 124--148 (2020)
 
-Reinhold Haeb-Umbach, **Shinji Watanabe**, Tomohiro Nakatani, Michiel Bacchiani, Björn Hoffmeister, Michael L. Seltzer, Heiga Zen, and Mehrez Souden, "Speech Processing for Digital HomeAssistants," IEEE Signal Processing Magazine, vol. 36, no. 6, pp. 111--124 (2019)
+Reinhold Haeb-Umbach, **Shinji Watanabe**, Tomohiro Nakatani, Michiel Bacchiani, Björn Hoffmeister, Michael L. Seltzer, Heiga Zen, and Mehrez Souden, "Speech Processing for Digital HomeAssistants," *IEEE Signal Processing Magazine*, vol. 36, no. 6, pp. 111--124 (2019)
 
-Takahiro Shinozaki and **Shinji Watanabe**, "Automatic speech recognition and black-box optimization," The Journal of the Acoustical Society of Japan, vol. 72, number 10, pp. 644--652, (2016). (in Japanese)
+Takahiro Shinozaki and **Shinji Watanabe**, "Automatic speech recognition and black-box optimization," *The Journal of the Acoustical Society of Japan*, vol. 72, number 10, pp. 644--652, (2016). (in Japanese)
 
 Felix Weninger, Hakan Erdogan, **Shinji Watanabe**, Emmanuel Vincent, Jonathan Le Roux, John R. Hershey, and Bjoern Schuller, "Speech enhancement with LSTM recurrent neural networks and its application to noise-robust ASR," *Proc. Latent Variable Analysis and Signal Separation*, pp. 91--99 (2015)
 
-**Shinji Watanabe** and Atsushi Nakamura, "Bayesian Approaches to Acoustic Modeling: A Review," APSIPA Transactions on Signal and Information Processing, Volume 1, e5 (11pages), (2012)
+**Shinji Watanabe** and Atsushi Nakamura, "Bayesian Approaches to Acoustic Modeling: A Review," *APSIPA Transactions on Signal and Information Processing*, Volume 1, e5 (11pages), (2012)
 
-Mark Gales, **Shinji Watanabe**, Eric Fossler-Lussier, “Structured Discriminative Models for Speech Recognition: An Overview,” IEEE Signal Processing Magazine, vol. 29, no.6, pp. 70--82 (2012).
+Mark Gales, **Shinji Watanabe**, Eric Fossler-Lussier, “Structured Discriminative Models for Speech Recognition: An Overview,” *IEEE Signal Processing Magazine*, vol. 29, no.6, pp. 70--82 (2012).
 
-**Shinji Watanabe** and Atsushi Nakamura, "Tutorial: Discriminative Training in Speech Recognition," (in Japanese) The Journal of the Institute of Electronics, Information and Communication Engineers (IEICE), vol. 94(10), pp. 920--922, (2011)
+**Shinji Watanabe** and Atsushi Nakamura, "Tutorial: Discriminative Training in Speech Recognition," (in Japanese) *The Journal of the Institute of Electronics, Information and Communication Engineers (IEICE)*, vol. 94(10), pp. 920--922, (2011)
 
-**Shinji Watanabe**, "Acoustic models in speech recognition," The Journal of the Acoustical Society of Japan, vol. 66, number 1, pp. 18--22, (2010). (in Japanese)
+**Shinji Watanabe**, "Acoustic models in speech recognition," *The Journal of the Acoustical Society of Japan*, vol. 66, number 1, pp. 18--22, (2010). (in Japanese)
 
-Atsushi Nakamura, **Shinji Watanabe**, Takaaki Hori, Erik McDermott, and Shigeru Katagiri, "Advanced Computational Models and Learning Theories for Spoken Language Processing, "IEEE Computational Intelligence Magazine, vol. 1, issue 2, pp. 5--9, (2006)
+Atsushi Nakamura, **Shinji Watanabe**, Takaaki Hori, Erik McDermott, and Shigeru Katagiri, "Advanced Computational Models and Learning Theories for Spoken Language Processing, "*IEEE Computational Intelligence Magazine*, vol. 1, issue 2, pp. 5--9, (2006)
 
-**Shinji Watanabe**, "Speech recognition based on a Bayesian approach," The Journal of the Acoustical Society of Japan, vol. 62, number 8, pp. 599--604, (2006). (in Japanese)
+**Shinji Watanabe**, "Speech recognition based on a Bayesian approach," *The Journal of the Acoustical Society of Japan*, vol. 62, number 8, pp. 599--604, (2006). (in Japanese)
 
 ## Journal (refereed)
 
@@ -153,137 +153,137 @@ Jinchuan Tian, Bo-Hao Su, Siddhant Arora, Jiatong Shi, William Chen, Keita Goto,
 
 Jiatong Shi, Jionghao Han, Yichen Lu, Santiago Pascual, Pengfei Wu, Chenye Cui, **Shinji Watanabe**, CHAO WENG, Cong Zhou, "Speech-DRAME: Human-Aligned Evaluation for Speech Role-Play," _Transactions on Machine Learning Research (TMLR)_ (accepted)
 
-Yoshiaki Bando, Tomohiko Nakamura, Satoru Fukayama, and **Shinji Watanabe**, "Online Frontend System for Multi-Talker DSR Using Neural Blind Source Separation and Diarization,” IEEE Transactions on Audio, Speech and Language Processing, pp. 3698--3713 (2026)
+Yoshiaki Bando, Tomohiko Nakamura, Satoru Fukayama, and **Shinji Watanabe**, "Online Frontend System for Multi-Talker DSR Using Neural Blind Source Separation and Diarization,” *IEEE Transactions on Audio, Speech and Language Processing*, pp. 3698--3713 (2026)
 
-Hiroaki Sato, Asahi Sakuma, Ryuga Sugano, Tadashi Kumano, Yoshihiko Kawai, **Shinji Watanabe**, and Tetsuji Ogawa, "Uncertainty-Based Streaming ASR with Evidential Deep Learning," IEEE Open Journal of Signal Processing (accepted)
+Hiroaki Sato, Asahi Sakuma, Ryuga Sugano, Tadashi Kumano, Yoshihiko Kawai, **Shinji Watanabe**, and Tetsuji Ogawa, "Uncertainty-Based Streaming ASR with Evidential Deep Learning," *IEEE Open Journal of Signal Processing* (accepted)
 
-Hexin Liu, Xiangyu Zhang, Haoyang Zhang, Leibny Paola Garcia-Perera, Andy W. H. Khong, Eng Siong Chng, and **Shinji Watanabe**, "Aligning Speech to Languages to Enhance Code-switching Speech Recognition,” IEEE Transactions on Audio, Speech and Language Processing, pp. 4712--4725 (2025)
+Hexin Liu, Xiangyu Zhang, Haoyang Zhang, Leibny Paola Garcia-Perera, Andy W. H. Khong, Eng Siong Chng, and **Shinji Watanabe**, "Aligning Speech to Languages to Enhance Code-switching Speech Recognition,” *IEEE Transactions on Audio, Speech and Language Processing*, pp. 4712--4725 (2025)
 
-Minsu Kim, Jee-weon Jung, Hyeongseop Rha, Soumi Maiti, Siddhant Arora, Xuankai Chang, **Shinji Watanabe**, and Yong Man Ro, "TMT: Tri-Modal Translation between Speech, Image, and Text by Processing Different Modalities as Different Languages," IEEE Transactions on Multimedia (accepted)
+Minsu Kim, Jee-weon Jung, Hyeongseop Rha, Soumi Maiti, Siddhant Arora, Xuankai Chang, **Shinji Watanabe**, and Yong Man Ro, "TMT: Tri-Modal Translation between Speech, Image, and Text by Processing Different Modalities as Different Languages," *IEEE Transactions on Multimedia* (accepted)
 
-Yoshiki Masuyama, Xuankai Chang, Wangyou Zhang, Samuele Cornell, Zhong-Qiu Wang, Nobutaka Ono, Yanmin Qian and **Shinji Watanabe**, "An End-to-End Integration of Speech Separation and Recognition with Self-Supervised Learning Representation," Computer Speech & Language, p. 101813 (2026)
+Yoshiki Masuyama, Xuankai Chang, Wangyou Zhang, Samuele Cornell, Zhong-Qiu Wang, Nobutaka Ono, Yanmin Qian and **Shinji Watanabe**, "An End-to-End Integration of Speech Separation and Recognition with Self-Supervised Learning Representation," *Computer Speech & Language, p. 101813* (2026)
 
-Jee-weon Jung, Yihan Wu, Xin Wang, Ji-Hoon Kim, Soumi Maiti, Yuta Matsunaga, Hye-jin Shim, Jinchuan Tian, Nicholas Evans, Joon Son Chung, Wangyou Zhang, Seyun Um, Shinnosuke Takamichi, **Shinji Watanabe**, "SpoofCeleb: Speech Deepfake Detection and SASV in the Wild," IEEE Open Journal of Signal Processing (2025)
+Jee-weon Jung, Yihan Wu, Xin Wang, Ji-Hoon Kim, Soumi Maiti, Yuta Matsunaga, Hye-jin Shim, Jinchuan Tian, Nicholas Evans, Joon Son Chung, Wangyou Zhang, Seyun Um, Shinnosuke Takamichi, **Shinji Watanabe**, "SpoofCeleb: Speech Deepfake Detection and SASV in the Wild," *IEEE Open Journal of Signal Processing* (2025)
 
-Yui Sudo, Muhammad Shakeel, Yosuke Fukumoto, Brian Yan, Jiatong Shi, Yifan Peng, and **Shinji Watanabe**, "Joint Beam Search Integrating CTC, Attention, and Transducer Decoders,” IEEE Transactions on Audio, Speech and Language Processing (2025)
+Yui Sudo, Muhammad Shakeel, Yosuke Fukumoto, Brian Yan, Jiatong Shi, Yifan Peng, and **Shinji Watanabe**, "Joint Beam Search Integrating CTC, Attention, and Transducer Decoders,” *IEEE Transactions on Audio, Speech and Language Processing* (2025)
 
-Pengcheng Guo, Xuankai Chang, Hang Lv, **Shinji Watanabe**, and Lei Xie, "SQ-Whisper: Speaker-Querying based Whisper Model for Target-Speaker ASR,” IEEE Transactions on Audio, Speech and Language Processing (2025)
+Pengcheng Guo, Xuankai Chang, Hang Lv, **Shinji Watanabe**, and Lei Xie, "SQ-Whisper: Speaker-Querying based Whisper Model for Target-Speaker ASR,” *IEEE Transactions on Audio, Speech and Language Processing* (2025)
 
-Xuankai Chang, Pengcheng Guo, Yuya Fujita, Takashi Maekaku, and **Shinji Watanabe**, "MC-Whisper: Improving Distant Speech Recognition by Extending Large Pre-Trained Model to Multi-channel," IEEE Signal Processing Letters (2024)
+Xuankai Chang, Pengcheng Guo, Yuya Fujita, Takashi Maekaku, and **Shinji Watanabe**, "MC-Whisper: Improving Distant Speech Recognition by Extending Large Pre-Trained Model to Multi-channel," *IEEE Signal Processing Letters* (2024)
 
-Shih-Lun Wu, Chris Donahue, **Shinji Watanabe**, and Nicholas J. Bryan, "Music ControlNet: Multiple Time-varying Controls for Music Generation,” IEEE Transactions on Audio, Speech and Language Processing (2024)
+Shih-Lun Wu, Chris Donahue, **Shinji Watanabe**, and Nicholas J. Bryan, "Music ControlNet: Multiple Time-varying Controls for Music Generation,” *IEEE Transactions on Audio, Speech and Language Processing* (2024)
 
-Takaaki Saeki, Soumi Maiti, Xinjian Li, **Shinji Watanabe**, Shinnosuke Takamichi, and Hiroshi Saruwatari, "Text-Inductive Graphone-Based Language Adaptation for Low-Resource Speech Synthesis,” IEEE Transactions on Audio, Speech and Language Processing (2024)
+Takaaki Saeki, Soumi Maiti, Xinjian Li, **Shinji Watanabe**, Shinnosuke Takamichi, and Hiroshi Saruwatari, "Text-Inductive Graphone-Based Language Adaptation for Low-Resource Speech Synthesis,” *IEEE Transactions on Audio, Speech and Language Processing* (2024)
 
-Zhong-Qiu Wang, Samuele Cornell, Shukjae Choi, Younglo Lee, Byeong-Yeol Kim, and **Shinji Watanabe**, "TF-GridNet: Integrating Full- and Sub-Band Modeling for Speech Separation,” IEEE Transactions on Audio, Speech and Language Processing (2023)
+Zhong-Qiu Wang, Samuele Cornell, Shukjae Choi, Younglo Lee, Byeong-Yeol Kim, and **Shinji Watanabe**, "TF-GridNet: Integrating Full- and Sub-Band Modeling for Speech Separation,” *IEEE Transactions on Audio, Speech and Language Processing* (2023)
 
-Yen-Ju Lu, Chia-Yu Chang, Cheng Yu, Ching-Feng Liu, Jeih-weih Hung, **Shinji Watanabe**, and Yu Tsao, "Improving Speech Enhancement Performance by Leveraging Contextual Broad Phonetic Class Information,” IEEE Transactions on Audio, Speech and Language Processing (2023)
+Yen-Ju Lu, Chia-Yu Chang, Cheng Yu, Ching-Feng Liu, Jeih-weih Hung, **Shinji Watanabe**, and Yu Tsao, "Improving Speech Enhancement Performance by Leveraging Contextual Broad Phonetic Class Information,” *IEEE Transactions on Audio, Speech and Language Processing* (2023)
 
-Siddharth Dalmia, Dmytro Okhonko, Mike Lewis, Sergey Edunov, **Shinji Watanabe**, Florian Metze, Luke Zettlemoyer, and Abdelrahman Mohamed, "LegoNN: Building Modular Encoder-Decoder Models,” IEEE Transactions on Audio, Speech and Language Processing (2023)
+Siddharth Dalmia, Dmytro Okhonko, Mike Lewis, Sergey Edunov, **Shinji Watanabe**, Florian Metze, Luke Zettlemoyer, and Abdelrahman Mohamed, "LegoNN: Building Modular Encoder-Decoder Models,” *IEEE Transactions on Audio, Speech and Language Processing* (2023)
 
-Shota Horiguchi, **Shinji Watanabe**, Paola Garcia, Yuki Takashima, and Yohei Kawaguchi, ”Online Neural Diarization of Unlimited Numbers of Speakers Using Global and Local Attractors,” IEEE Transactions on Audio, Speech and Language Processing (2023), 2025 IEEE SPS Young Author Best Paper Award
+Shota Horiguchi, **Shinji Watanabe**, Paola Garcia, Yuki Takashima, and Yohei Kawaguchi, ”Online Neural Diarization of Unlimited Numbers of Speakers Using Global and Local Attractors,” *IEEE Transactions on Audio, Speech and Language Processing* (2023), 2025 IEEE SPS Young Author Best Paper Award
 
-Matthew Maciejewski, Jing Shi, **Shinji Watanabe**, and Sanjeev Khudanpur, "A Dilemma of Ground Truth in Noisy Speech Separation and an Approach to Lessen the Impact of Imperfect Training Data," Computer Speech & Language, vol. 77, pages 101410 (2023)
+Matthew Maciejewski, Jing Shi, **Shinji Watanabe**, and Sanjeev Khudanpur, "A Dilemma of Ground Truth in Noisy Speech Separation and an Approach to Lessen the Impact of Imperfect Training Data," *Computer Speech & Language*, vol. 77, pages 101410 (2023)
 
-Zhong-Qiu Wang, Gordon Wichern, **Shinji Watanabe**, and Jonathan Le Roux, "STFT-Domain Neural Speech Enhancement with Very Low Algorithmic Latency," IEEE Transactions on Audio, Speech and Language Processing, vol. 31, pp. 397--410 (2022).
+Zhong-Qiu Wang, Gordon Wichern, **Shinji Watanabe**, and Jonathan Le Roux, "STFT-Domain Neural Speech Enhancement with Very Low Algorithmic Latency," *IEEE Transactions on Audio, Speech and Language Processing*, vol. 31, pp. 397--410 (2022).
 
-Wangyou Zhang, Xuankai Chang, Christoph Boeddeker, Tomohiro Nakatani, **Shinji Watanabe**, and Yanmin Qian, "End-to-End Dereverberation, Beamforming, and Speech Recognition in A Cocktail Party," IEEE Transactions on Audio, Speech and Language Processing, vol. 30, pp. 3173-3188 (2022)
+Wangyou Zhang, Xuankai Chang, Christoph Boeddeker, Tomohiro Nakatani, **Shinji Watanabe**, and Yanmin Qian, "End-to-End Dereverberation, Beamforming, and Speech Recognition in A Cocktail Party," *IEEE Transactions on Audio, Speech and Language Processing*, vol. 30, pp. 3173-3188 (2022)
 
-Zhong-Qiu Wang and **Shinji Watanabe**, "Improving Frame-Online Neural Speech Enhancement with Overlapped-Frame Prediction," IEEE Signal Processing Letters, vol. 29, pp. 1422-1426 (2022)
+Zhong-Qiu Wang and **Shinji Watanabe**, "Improving Frame-Online Neural Speech Enhancement with Overlapped-Frame Prediction," *IEEE Signal Processing Letters*, vol. 29, pp. 1422-1426 (2022)
 
-Shota Horiguchi, Yusuke Fujita, **Shinji Watanabe**, Yawen Xue, and Paola Garcia, "Encoder-Decoder Based Attractors for End-to-End Neural Diarization," IEEE Transactions on Audio, Speech and Language Processing, vol. 30, pp. 1493-1507 (2022)
+Shota Horiguchi, Yusuke Fujita, **Shinji Watanabe**, Yawen Xue, and Paola Garcia, "Encoder-Decoder Based Attractors for End-to-End Neural Diarization," *IEEE Transactions on Audio, Speech and Language Processing*, vol. 30, pp. 1493-1507 (2022)
 
-Jing Shi, Xuankai Chang, **Shinji Watanabe**, and Bo Xu, "Train from scratch: single-stage joint training of speech separation and recognition," Computer Speech & Language, vol. 76, pages 101387 (2022)
+Jing Shi, Xuankai Chang, **Shinji Watanabe**, and Bo Xu, "Train from scratch: single-stage joint training of speech separation and recognition," *Computer Speech & Language*, vol. 76, pages 101387 (2022)
 
-Aswin Shanmugam Subramanian, Chao Weng, **Shinji Watanabe**, Meng Yu, and Dong Yu, "Deep Learning based Multi-Source Localization with Source Splitting and its Effectiveness in Multi-Talker Speech Recognition," Computer Speech & Language, vol. 75, pages 101360 (2022)
+Aswin Shanmugam Subramanian, Chao Weng, **Shinji Watanabe**, Meng Yu, and Dong Yu, "Deep Learning based Multi-Source Localization with Source Splitting and its Effectiveness in Multi-Talker Speech Recognition," *Computer Speech & Language*, vol. 75, pages 101360 (2022)
 
-Jiatong Shi, Chunlei Zhang, Chao Weng, **Shinji Watanabe**, Meng Yu, and Dong Yu, "An Investigation of Neural Uncertainty Estimation for Target Speaker Extraction Equipped RNN Transducer," Computer Speech & Language, vol. 73, pages 101327 (2022)
+Jiatong Shi, Chunlei Zhang, Chao Weng, **Shinji Watanabe**, Meng Yu, and Dong Yu, "An Investigation of Neural Uncertainty Estimation for Target Speaker Extraction Equipped RNN Transducer," *Computer Speech & Language*, vol. 73, pages 101327 (2022)
 
-Tae Jin Park, Naoyuki Kanda, Dimitrios Dimitriadis, Kyu J. Han, and **Shinji Watanabe**, Shrikanth Narayanan, "A Review of Speaker Diarization: Recent Advances with Deep Learning," Computer Speech & Language, vol. 72, pages 101317 (2022)
+Tae Jin Park, Naoyuki Kanda, Dimitrios Dimitriadis, Kyu J. Han, and **Shinji Watanabe**, Shrikanth Narayanan, "A Review of Speaker Diarization: Recent Advances with Deep Learning," *Computer Speech & Language*, vol. 72, pages 101317 (2022)
 
-Zili Huang, Marc Delcroix, Leibny Paola Garcia, **Shinji Watanabe**, Desh Raj, and Sanjeev Khudanpur, "Joint Speaker Diarization and Speech Recognition Based on Region Proposal Networks," Computer Speech & Language, vol. 72, pages 101316 (2022)
+Zili Huang, Marc Delcroix, Leibny Paola Garcia, **Shinji Watanabe**, Desh Raj, and Sanjeev Khudanpur, "Joint Speaker Diarization and Speech Recognition Based on Region Proposal Networks," *Computer Speech & Language*, vol. 72, pages 101316 (2022)
 
-Amir Hussein, **Shinji Watanabe**, and Ahmed Ali, "Arabic Speech Recognition by End-to-End, Modular Systems and Human," Computer Speech & Language, vol. 71, pages 101272 (2022)
+Amir Hussein, **Shinji Watanabe**, and Ahmed Ali, "Arabic Speech Recognition by End-to-End, Modular Systems and Human," *Computer Speech & Language*, vol. 71, pages 101272 (2022)
 
-Nanxin Chen, **Shinji Watanabe**, Jesus Villalba, Piotr Zelasko, and Najim Dehak, "Non-Autoregressive Transformer for Speech Recognition," IEEE Signal Processing Letters, vol. 28, pp 121 -- 125 (2020)
+Nanxin Chen, **Shinji Watanabe**, Jesus Villalba, Piotr Zelasko, and Najim Dehak, "Non-Autoregressive Transformer for Speech Recognition," *IEEE Signal Processing Letters*, vol. 28, pp 121 -- 125 (2020)
 
-Wangyou Zhang, Xuankai Chang, Yanmin Qian, and **Shinji Watanabe**, "Improving End-to-End Single-Channel Multi-Talker Speech Recognition," IEEE Transactions on Audio, Speech and Language Processing, vol. 28, pp. 1385--1394 (2020)
+Wangyou Zhang, Xuankai Chang, Yanmin Qian, and **Shinji Watanabe**, "Improving End-to-End Single-Channel Multi-Talker Speech Recognition," *IEEE Transactions on Audio, Speech and Language Processing*, vol. 28, pp. 1385--1394 (2020)
 
-Ruizhi Li, Xiaofei Wang, Sri Harish Mallidi, **Shinji Watanabe**, Takaaki Hori, and Hynek Hermansky, "Multi-Stream End-to-End Speech Recognition," IEEE Transactions on Audio, Speech and Language Processing, vol. 28, pp. 646--655 (2020)
+Ruizhi Li, Xiaofei Wang, Sri Harish Mallidi, **Shinji Watanabe**, Takaaki Hori, and Hynek Hermansky, "Multi-Stream End-to-End Speech Recognition," *IEEE Transactions on Audio, Speech and Language Processing*, vol. 28, pp. 646--655 (2020)
 
-Jonathan Le Roux, Gordon Wichern, **Shinji Watanabe**, Andy Sarroff, and John R. Hershey, ”Phasebook and Friends: Leveraging discrete representations for source separation," IEEE Journal of Selected Topics in Signal Processing, pp. 370--382 (2019)
+Jonathan Le Roux, Gordon Wichern, **Shinji Watanabe**, Andy Sarroff, and John R. Hershey, ”Phasebook and Friends: Leveraging discrete representations for source separation," *IEEE Journal of Selected Topics in Signal Processing*, pp. 370--382 (2019)
 
-Takafumi Moriya, Tomohiro Tanaka, Takahiro Shinozaki, **Shinji Watanabe**, and Kevin Duh, "Evolution-Strategy-Based Automation of System Development for High-Performance Speech Recognition," IEEE Transactions on Audio, Speech and Language Processing, vol. 27, no. 1, pp. 77--88 (2019)
+Takafumi Moriya, Tomohiro Tanaka, Takahiro Shinozaki, **Shinji Watanabe**, and Kevin Duh, "Evolution-Strategy-Based Automation of System Development for High-Performance Speech Recognition," *IEEE Transactions on Audio, Speech and Language Processing*, vol. 27, no. 1, pp. 77--88 (2019)
 
-Chungwei Lin, Tim K. Marks, Milutin Pajovic, **Shinji Watanabe**, and Chih-kuan Tung, "Model parameter learning using Kullback–Leibler divergence," Physica A, vol. 491, pp. 549-559 (2018)
+Chungwei Lin, Tim K. Marks, Milutin Pajovic, **Shinji Watanabe**, and Chih-kuan Tung, "Model parameter learning using Kullback–Leibler divergence," *Physica A*, vol. 491, pp. 549-559 (2018)
 
-Tsubasa Ochiai, **Shinji Watanabe**, Takaaki Hori, John R. Hershey, and Xiong Xiao, "A Unified Architecture for Multichannel End-to-End Speech Recognition with Neural Beamforming," IEEE Journal of Selected Topics in Signal Processing, vol. 11, no. 8, pp. 1274--1288 (2017)
+Tsubasa Ochiai, **Shinji Watanabe**, Takaaki Hori, John R. Hershey, and Xiong Xiao, "A Unified Architecture for Multichannel End-to-End Speech Recognition with Neural Beamforming," *IEEE Journal of Selected Topics in Signal Processing*, vol. 11, no. 8, pp. 1274--1288 (2017)
 
-**Shinji Watanabe**, Takaaki Hori, Suyoun Kim, John R. Hershey, and Tomoki Hayashi, "Hybrid CTC/attention architecture for end-to-end speech recognition," IEEE Journal of Selected Topics in Signal Processing, vol. 11, no. 8, pp. 1240--1253 (2017)
+**Shinji Watanabe**, Takaaki Hori, Suyoun Kim, John R. Hershey, and Tomoki Hayashi, "Hybrid CTC/attention architecture for end-to-end speech recognition," *IEEE Journal of Selected Topics in Signal Processing*, vol. 11, no. 8, pp. 1240--1253 (2017)
 
-Tomoki Hayashi, **Shinji Watanabe**, Tomoki Toda, Takaaki Hori, Jonathan Le Roux, Kazuya Takeda, "Duration-Controlled LSTM for Polyphonic Sound Event Detection," IEEE Transactions on Audio, Speech and Language Processing, vol. 25, no. 11, pp. 2059--2070 (2017)
+Tomoki Hayashi, **Shinji Watanabe**, Tomoki Toda, Takaaki Hori, Jonathan Le Roux, Kazuya Takeda, "Duration-Controlled LSTM for Polyphonic Sound Event Detection," *IEEE Transactions on Audio, Speech and Language Processing*, vol. 25, no. 11, pp. 2059--2070 (2017)
 
-Takaaki Hori, Zhuo Chen, Hakan Erdogan, John Hershey, Jonathan Le Roux, Vikramjit Mitra, and **Shinji Watanabe**, “Multi-Microphone Speech Recognition Integrating Beamforming, Robust Feature Extraction, and Advanced DNN/RNN Backend, " Computer Speech & Language, pp. 401--418 (2017)
+Takaaki Hori, Zhuo Chen, Hakan Erdogan, John Hershey, Jonathan Le Roux, Vikramjit Mitra, and **Shinji Watanabe**, “Multi-Microphone Speech Recognition Integrating Beamforming, Robust Feature Extraction, and Advanced DNN/RNN Backend, " *Computer Speech & Language*, pp. 401--418 (2017)
 
-Jon Barker, Ricard Marxer, Emmanuel Vincent, **Shinji Watanabe**, "The third ’CHIME’ speech separation and recognition challenge: Analysis and outcomes," Computer Speech & Language, pp. 605--626 (2017)
+Jon Barker, Ricard Marxer, Emmanuel Vincent, **Shinji Watanabe**, "The third ’CHIME’ speech separation and recognition challenge: Analysis and outcomes," *Computer Speech & Language*, pp. 605--626 (2017)
 
-Emmanuel Vincent, **Shinji Watanabe**, Aditya Nugraha, Jon Barker, Ricard Marxer, "An analysis of environment, microphone and data simulation mismatches in robust speech recognition," Computer Speech & Language, pp. 535--557 (2017) Best Review Paper Award
+Emmanuel Vincent, **Shinji Watanabe**, Aditya Nugraha, Jon Barker, Ricard Marxer, "An analysis of environment, microphone and data simulation mismatches in robust speech recognition," *Computer Speech & Language*, pp. 535--557 (2017) Best Review Paper Award
 
-Naohiro Tawara, Tetsuji Ogawa, **Shinji Watanabe**, Atsushi Nakamura, and Tetsunori Kobayashi, "A sampling-based speaker clustering using utterance-oriented Dirichlet process mixture model and its evaluation on large scale data," APSIPA Transactions on Signal and Information Processing, vol. 4, e16 (2015).
+Naohiro Tawara, Tetsuji Ogawa, **Shinji Watanabe**, Atsushi Nakamura, and Tetsunori Kobayashi, "A sampling-based speaker clustering using utterance-oriented Dirichlet process mixture model and its evaluation on large scale data," *APSIPA Transactions on Signal and Information Processing*, vol. 4, e16 (2015).
 
-Yuuki Tachioka, Tomohiro Narita, and **Shinji Watanabe**, "Effectiveness of dereverberation, feature transformation, discriminative training methods, and system combination approach for various reverberant environments," EURASIP Journal on Advances in Signal Processing, vol. 2015:52 (2015).
+Yuuki Tachioka, Tomohiro Narita, and **Shinji Watanabe**, "Effectiveness of dereverberation, feature transformation, discriminative training methods, and system combination approach for various reverberant environments," *EURASIP Journal on Advances in Signal Processing*, vol. 2015:52 (2015).
 
-Masayuki Suzuki, Takuya Yoshioka, **Shinji Watanabe**, Nobuaki Minematsu, and Keikichi Hirose, "Feature Enhancement with Joint Use of Consecutive Corrupted and Noise Feature Vectors with Discriminative Region Weighting," IEEE Transactions on Audio, Speech & Language Processing, vol. 21, no. 10, pp. 2172--2181 (2013).
+Masayuki Suzuki, Takuya Yoshioka, **Shinji Watanabe**, Nobuaki Minematsu, and Keikichi Hirose, "Feature Enhancement with Joint Use of Consecutive Corrupted and Noise Feature Vectors with Discriminative Region Weighting," *IEEE Transactions on Audio, Speech & Language Processing*, vol. 21, no. 10, pp. 2172--2181 (2013).
 
-**Shinji Watanabe**, Atsushi Nakamura, and Biing-Hwang (Fred) Juang, "Structural Bayesian linear regression for hidden Markov models," Journal of Signal Processing Systems, pp. 1--18 (2013).
+**Shinji Watanabe**, Atsushi Nakamura, and Biing-Hwang (Fred) Juang, "Structural Bayesian linear regression for hidden Markov models," *Journal of Signal Processing Systems*, pp. 1--18 (2013).
 
-Seong-Jun Hahm, **Shinji Watanabe**, Atsunori Ogawa, Masakiyo Fujimoto, Takaaki Hori, and Atsushi Nakamura, "Prior-Shared Feature and Model Space Speaker Adaptation by Consistently Employing MAP Estimation," Speech Communication, vol. 55, Issue 3, pp. 415--431 (2013).
+Seong-Jun Hahm, **Shinji Watanabe**, Atsunori Ogawa, Masakiyo Fujimoto, Takaaki Hori, and Atsushi Nakamura, "Prior-Shared Feature and Model Space Speaker Adaptation by Consistently Employing MAP Estimation," *Speech Communication*, vol. 55, Issue 3, pp. 415--431 (2013).
 
-Tomoharu Iwata and **Shinji Watanabe**, "Influence Relation Estimation based on Lexical Entrainment in Conversation," Speech Communication, vol. 55, issue 2, pp 329–-339 (2013)
+Tomoharu Iwata and **Shinji Watanabe**, "Influence Relation Estimation based on Lexical Entrainment in Conversation," *Speech Communication*, vol. 55, issue 2, pp 329–-339 (2013)
 
-Marc Delcroix, Keisuke Kinoshita, Tomohiro Nakatani, Shoko Araki, Atsunori Ogawa, Takaaki Hori, **Shinji Watanabe**, Masakiyo Fujimoto, Takuya Yoshioka, Takanobu Oba, Yotaro Kubo, Mehrez Souden, Seong-Jun Hahm, and Atsushi Nakamura, "Speech recognition in living rooms: Integrated speech enhancement and recognition system based on spatial, spectral and temporal modeling of sounds," Computer Speech & Language, vol. 27, Issue 3, pp. 851--873 (2013).
+Marc Delcroix, Keisuke Kinoshita, Tomohiro Nakatani, Shoko Araki, Atsunori Ogawa, Takaaki Hori, **Shinji Watanabe**, Masakiyo Fujimoto, Takuya Yoshioka, Takanobu Oba, Yotaro Kubo, Mehrez Souden, Seong-Jun Hahm, and Atsushi Nakamura, "Speech recognition in living rooms: Integrated speech enhancement and recognition system based on spatial, spectral and temporal modeling of sounds," *Computer Speech & Language*, vol. 27, Issue 3, pp. 851--873 (2013).
 
-Marc Delcroix, **Shinji Watanabe**, Tomohiro Nakatani, and Atsushi Nakamura, "Cluster-based dynamic variance adaptation for interconnecting speech enhancement pre-processor and speech recognizer," Computer Speech & Language, vol. 27, Issue 1, pp. 350--368 (2013)
+Marc Delcroix, **Shinji Watanabe**, Tomohiro Nakatani, and Atsushi Nakamura, "Cluster-based dynamic variance adaptation for interconnecting speech enhancement pre-processor and speech recognizer," *Computer Speech & Language*, vol. 27, Issue 1, pp. 350--368 (2013)
 
-Yotaro Kubo, **Shinji Watanabe**, Takaaki Hori, and Atsushi Nakamura, "Structural Classification Methods based on Weighted Finite-State Transducers for Automatic Speech Recognition," IEEE Transactions on Audio, Speech & Language Processing, vol. 20, issue 8, pp. 2240--2251 (2012).
+Yotaro Kubo, **Shinji Watanabe**, Takaaki Hori, and Atsushi Nakamura, "Structural Classification Methods based on Weighted Finite-State Transducers for Automatic Speech Recognition," *IEEE Transactions on Audio, Speech & Language Processing*, vol. 20, issue 8, pp. 2240--2251 (2012).
 
-Daisuke Saito, **Shinji Watanabe**, Atsushi Nakamura, and Nobuaki Minematsu, "Statistical Voice Conversion Based on Noisy Channel Model, " IEEE Transactions on Audio, Speech & Language Processing, vol. 20, issue 6, pp. 1784--1794 (2012). ASJ Itakura Award
+Daisuke Saito, **Shinji Watanabe**, Atsushi Nakamura, and Nobuaki Minematsu, "Statistical Voice Conversion Based on Noisy Channel Model, " *IEEE Transactions on Audio, Speech & Language Processing*, vol. 20, issue 6, pp. 1784--1794 (2012). ASJ Itakura Award
 
-Takuya Maekawa and **Shinji Watanabe**, “Training Data Selection with User's Physical Characteristics Data for Acceleration-based Activity Modeling,” Personal and Ubiquitous Computing, vol. 17, issue 3, pp. 451--463 (2013).
+Takuya Maekawa and **Shinji Watanabe**, “Training Data Selection with User's Physical Characteristics Data for Acceleration-based Activity Modeling,” *Personal and Ubiquitous Computing*, vol. 17, issue 3, pp. 451--463 (2013).
 
-Masakiyo Fujimoto, **Shinji Watanabe**, and Tomohiro Nakatani, "Frame-wise model re-estimation method based on Gaussian pruning with weight normalization for noise robust voice activity detection," Speech Communication, vol. 54(2), pp. 229--244 (2012)
+Masakiyo Fujimoto, **Shinji Watanabe**, and Tomohiro Nakatani, "Frame-wise model re-estimation method based on Gaussian pruning with weight normalization for noise robust voice activity detection," *Speech Communication*, vol. 54(2), pp. 229--244 (2012)
 
-Takaaki Hori, Shoko Araki, Takuya Yoshioka, Masakiyo Fujimoto, **Shinji Watanabe**, Takanobu Oba, Atsunori Ogawa, Kazuhiro Otsuka, Dan Mikami, Keisuke Kinoshita, Tomohiro Nakatani, Atsushi Nakamura, and Junji Yamato, "Low-latency Real-time Meeting Recognition and Understanding Using Distant Microphones and Omni-directional Camera," IEEE Transactions on Audio, Speech & Language Processing, vol. 20, issue 2, pp. 499--513 (2012).
+Takaaki Hori, Shoko Araki, Takuya Yoshioka, Masakiyo Fujimoto, **Shinji Watanabe**, Takanobu Oba, Atsunori Ogawa, Kazuhiro Otsuka, Dan Mikami, Keisuke Kinoshita, Tomohiro Nakatani, Atsushi Nakamura, and Junji Yamato, "Low-latency Real-time Meeting Recognition and Understanding Using Distant Microphones and Omni-directional Camera," *IEEE Transactions on Audio, Speech & Language Processing*, vol. 20, issue 2, pp. 499--513 (2012).
 
-Hideyuki Watanabe, Shigeru Katagiri, Kouta Yamada, Erik McDermott, Atsushi Nakamura, **Shinji Watanabe**, and Miho Ohsaki, "Minimum Classification Error Training Using Geometric-Margin-Based Misclassification Measure," (in Japanese) IEICE Transactions on Information and Systems, Vol.J94-D No.10 pp.1664--1675 (2011)
+Hideyuki Watanabe, Shigeru Katagiri, Kouta Yamada, Erik McDermott, Atsushi Nakamura, **Shinji Watanabe**, and Miho Ohsaki, "Minimum Classification Error Training Using Geometric-Margin-Based Misclassification Measure," (in Japanese) *IEICE Transactions on Information and Systems*, Vol.J94-D No.10 pp.1664--1675 (2011)
 
-Hideyuki Watanabe, Shin'ichi TANIGUCHI, Shigeru Katagiri, Kouta Yamada, Atsushi Nakamura, Erik McDermott, **Shinji Watanabe**, and Miho Ohsaki, "Incremental Minimum Classification Error Training for Pattern Recognition," (in Japanese) IEICE Transactions on Information and Systems vol. J94-D, no. 4, pp. 702--711, (2011)
+Hideyuki Watanabe, Shin'ichi TANIGUCHI, Shigeru Katagiri, Kouta Yamada, Atsushi Nakamura, Erik McDermott, **Shinji Watanabe**, and Miho Ohsaki, "Incremental Minimum Classification Error Training for Pattern Recognition," (in Japanese) *IEICE Transactions on Information and Systems vol. J94-D*, no. 4, pp. 702--711, (2011)
 
-**Shinji Watanabe**, Tomoharu Iwata, Takaaki Hori, Atsushi Sako, and Yasuo Ariki, "Topic Tracking Language Model for Speech Recognition," Computer Speech & Language, vol. 25, issue 2, pp. 440--461, (2011)
+**Shinji Watanabe**, Tomoharu Iwata, Takaaki Hori, Atsushi Sako, and Yasuo Ariki, "Topic Tracking Language Model for Speech Recognition," *Computer Speech & Language*, vol. 25, issue 2, pp. 440--461, (2011)
 
-Yotaro Kubo, **Shinji Watanabe**, Atsushi Nakamura, Erik McDermott, and Tetsunori Kobayashi, "A Sequential Pattern Classifier Based on Hidden Markov Kernel Machine and Its Application to Phoneme Classification," IEEE Journal of Selected Topics in Signal Processing Volume 4, Issue 6, pages 974--984 (2010). IEEE Signal Processing Society Japan Chapter Student Paper Award
+Yotaro Kubo, **Shinji Watanabe**, Atsushi Nakamura, Erik McDermott, and Tetsunori Kobayashi, "A Sequential Pattern Classifier Based on Hidden Markov Kernel Machine and Its Application to Phoneme Classification," *IEEE Journal of Selected Topics in Signal Processing Volume 4*, Issue 6, pages 974--984 (2010). IEEE Signal Processing Society Japan Chapter Student Paper Award
 
-David Cournapeau, **Shinji Watanabe**, Atsushi Nakamura, and Tatsuya Kawahara, "Online Unsupervised Classification with Model Comparison in the Variational Bayes Framework for Voice Activity Detection," IEEE Journal of Selected Topics in Signal Processing, volume 4, issue 6, pp. 1071--1083 (2010)
+David Cournapeau, **Shinji Watanabe**, Atsushi Nakamura, and Tatsuya Kawahara, "Online Unsupervised Classification with Model Comparison in the Variational Bayes Framework for Voice Activity Detection," *IEEE Journal of Selected Topics in Signal Processing*, volume 4, issue 6, pp. 1071--1083 (2010)
 
-Tomoharu Iwata, **Shinji Watanabe**, Takeshi Yamada and Naonori Ueda, "Topic Tracking Model for Purchase Behavior Analysis," (in Japanese) IEICE Transactions on Information and Systems, vol. J93-D, No. 6, pp. 978--987 (2010)
+Tomoharu Iwata, **Shinji Watanabe**, Takeshi Yamada and Naonori Ueda, "Topic Tracking Model for Purchase Behavior Analysis," (in Japanese) *IEICE Transactions on Information and Systems*, vol. J93-D, No. 6, pp. 978--987 (2010)
 
-Kenta Nishiki, Yousuke Izumi, **Shinji Watanabe**, Takuya Nishimoto, Nobutaka Ono, And Shigeki Sagayama, "Two-channel input speech recognition using sparseness-based blind source separation," (in Japanese) IEICE Transactions on Information and Systems vol. J93-D, no. 3, pp. 303--311, (2010)
+Kenta Nishiki, Yousuke Izumi, **Shinji Watanabe**, Takuya Nishimoto, Nobutaka Ono, And Shigeki Sagayama, "Two-channel input speech recognition using sparseness-based blind source separation," (in Japanese) *IEICE Transactions on Information and Systems vol. J93-D*, no. 3, pp. 303--311, (2010)
 
-**Shinji Watanabe** and Atsushi Nakamura, "Predictor-Corrector Adaptation by using Time Evolution System with Macroscopic Time Scale," IEEE Transactions on Audio, Speech & Language Processing, vol. 18, issue 2, pp. 395--406 (2010)
+**Shinji Watanabe** and Atsushi Nakamura, "Predictor-Corrector Adaptation by using Time Evolution System with Macroscopic Time Scale," *IEEE Transactions on Audio, Speech & Language Processing*, vol. 18, issue 2, pp. 395--406 (2010)
 
-Marc Delcroix, Tomohiro Nakatani, and **Shinji Watanabe**, "Static and dynamic variance compensation for recognition of reverberant speech with dereverberation pre-processing, " IEEE Transactions on Audio, Speech & Language Processing, vol. 17, issue 2, pp. 324--334, (2009)
+Marc Delcroix, Tomohiro Nakatani, and **Shinji Watanabe**, "Static and dynamic variance compensation for recognition of reverberant speech with dereverberation pre-processing, " *IEEE Transactions on Audio, Speech & Language Processing*, vol. 17, issue 2, pp. 324--334, (2009)
 
-**Shinji Watanabe** and Atsushi Nakamura, "Speech recognition based on Student's t-distribution derived from total Bayesian framework," IEICE Transactions on Information and Systems, vol.E89-D, no. 3, pp. 970--980, (2006)
+**Shinji Watanabe** and Atsushi Nakamura, "Speech recognition based on Student's t-distribution derived from total Bayesian framework," *IEICE Transactions on Information and Systems*, vol.E89-D, no. 3, pp. 970--980, (2006)
 
-**Shinji Watanabe**, Atsushi Sako and Atsushi Nakamura, "Automatic Determination of Acoustic Model Topology using Variational Bayesian Estimation and Clustering for Large Vocabulary Continuous Speech Recognition," IEEE Transactions on Speech and Audio Processing,, vol. 14, issue 3, pp. 855--872, (2006). (received the TELECOM System Technology Award from the Telecommunications Advancement Foundation in 2006)
+**Shinji Watanabe**, Atsushi Sako and Atsushi Nakamura, "Automatic Determination of Acoustic Model Topology using Variational Bayesian Estimation and Clustering for Large Vocabulary Continuous Speech Recognition," *IEEE Transactions on Speech and Audio Processing,*, vol. 14, issue 3, pp. 855--872, (2006). (received the TELECOM System Technology Award from the Telecommunications Advancement Foundation in 2006)
 
-**Shinji Watanabe** and Atsushi Nakamura, "Acoustic Model Adaptation based on Coarse/Fine Training of Transfer Vectors," (in Japanese), Information Technology Letters (2004)
+**Shinji Watanabe** and Atsushi Nakamura, "Acoustic Model Adaptation based on Coarse/Fine Training of Transfer Vectors," (in Japanese), *Information Technology Letters* (2004)
 
-**Shinji Watanabe**, Yasuhiro Minami, Atsushi Nakamura, and Naonori Ueda, "Variational Bayesian Estimation and Clustering for Speech Recognition," IEEE Transactions on Speech and Audio Processing, vol. 12, pp. 365--381, (2004)
+**Shinji Watanabe**, Yasuhiro Minami, Atsushi Nakamura, and Naonori Ueda, "Variational Bayesian Estimation and Clustering for Speech Recognition," *IEEE Transactions on Speech and Audio Processing*, vol. 12, pp. 365--381, (2004)
 
-**Shinji Watanabe**, Yasuhiro Minami, Atsushi Nakamura, and Naonori Ueda, "Selection of Shared-State Hidden Markov Model Structure Using Bayesian Criterion, "IEICE D-II, vol. J86-D-II, no. 6, pp. 776--786, (2003), (received the Best Paper Award from IEICE. The English translation version is in IEICE Transactions on Information and Systems, vol.E88-D, no. 1, pp. 1--9, (2005))
+**Shinji Watanabe**, Yasuhiro Minami, Atsushi Nakamura, and Naonori Ueda, "Selection of Shared-State Hidden Markov Model Structure Using Bayesian Criterion, "*IEICE D-II*, vol. J86-D-II, no. 6, pp. 776--786, (2003), (received the Best Paper Award from IEICE. The English translation version is in IEICE Transactions on Information and Systems, vol.E88-D, no. 1, pp. 1--9, (2005))
 
-Hisakazu Minakata and **Shinji Watanabe**, "Solar Neutrinos and Leptonic CP Violation," Phys. Lett. B, 468, p. 256, (1999)
+Hisakazu Minakata and **Shinji Watanabe**, "Solar Neutrinos and Leptonic CP Violation," *Phys. Lett. B, 468, p. 256,* (1999)
 
 ## International Conference and Workshop (refereed)
 
