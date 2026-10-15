@@ -61,9 +61,14 @@ jobs:
               problems.append(f"only {entries} publication entries")
           if "<em>Proc." not in pubs:
               problems.append("no italic venue names")
+          # markdown that reached the page as literal text: `**bold**`, a link
+          # that never became one, or `_italic_` at a word boundary
+          leftover = re.compile(r"\*\*|\]\(http|(?<![A-Za-z0-9_])_\S[^_]*\S_(?![A-Za-z0-9_])")
           for name, page in (("publications", pubs), ("cv", cv)):
-              if re.search(r"\*\*|\]\(http", page):
-                  problems.append(f"unrendered markdown left in {name}.html")
+              hit = leftover.search(page)
+              if hit:
+                  problems.append(
+                      f"unrendered markdown left in {name}.html: {hit.group(0)[:40]!r}")
           size = pathlib.Path("docs/cv.pdf").stat().st_size
           if size < 200_000:
               problems.append(f"cv.pdf is only {size} bytes")

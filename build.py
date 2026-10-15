@@ -28,6 +28,10 @@ MD_LINK = re.compile(r"\[([^\]]+)\]\(([^)\s]+)\)")
 MD_BOTH = re.compile(r"\*\*\*(.+?)\*\*\*", re.S)
 MD_STRONG = re.compile(r"\*\*(.+?)\*\*", re.S)
 MD_EM = re.compile(r"(?<!\*)\*(?!\*)(.+?)(?<!\*)\*(?!\*)", re.S)
+# `_italic_` as well as `*italic*`. The underscore only counts at a word
+# boundary, so shinjiw_at_ieee.org, snake_case and chime_2020 inside a URL are
+# left alone.
+MD_EM_U = re.compile(r"(?<![A-Za-z0-9_])_(?=\S)([^_]+?)(?<=\S)_(?![A-Za-z0-9_])")
 NOTE_FILE = re.compile(r"^(\d{4})-(\d{2})-(\d{2})-([a-z0-9-]+)\.md$")
 MD_HEADING = re.compile(r"^(#{1,3})\s+(.*)")
 MD_ITEM = re.compile(r"^(\d+\.|[-*])\s+(.*)")
@@ -144,6 +148,7 @@ def md_inline(s):
     s = MD_BOTH.sub(lambda m: f"<strong><em>{m.group(1)}</em></strong>", s)
     s = MD_STRONG.sub(lambda m: f"<strong>{m.group(1)}</strong>", s)
     s = MD_EM.sub(lambda m: f"<em>{m.group(1)}</em>", s)
+    s = MD_EM_U.sub(lambda m: f"<em>{m.group(1)}</em>", s)
     return s
 
 
