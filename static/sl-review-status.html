@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>SL Review Status</title>
+<style>
+:root{
+  color-scheme: light;
+  --plane:#f9f9f7; --surface:#fcfcfb;
+  --ink:#0b0b0b; --ink-2:#52514e; --muted:#898781;
+  --grid:#e1e0d9; --axis:#c3c2b7; --ring:rgba(11,11,11,0.10);
+  --s1:#2a78d6; --s2:#eb6834; --s3:#1baf7a;
+  --good:#0ca30c; --critical:#d03b3b;
+  --sans:system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+@media (prefers-color-scheme:dark){ :root:not([data-theme="light"]){
+  color-scheme: dark;
+  --plane:#0d0d0d; --surface:#1a1a19;
+  --ink:#ffffff; --ink-2:#c3c2b7; --muted:#898781;
+  --grid:#2c2c2a; --axis:#383835; --ring:rgba(255,255,255,0.10);
+  --s1:#3987e5; --s2:#d95926; --s3:#199e70;
+}}
+:root[data-theme="dark"]{
+  color-scheme: dark;
+  --plane:#0d0d0d; --surface:#1a1a19;
+  --ink:#ffffff; --ink-2:#c3c2b7; --muted:#898781;
+  --grid:#2c2c2a; --axis:#383835; --ring:rgba(255,255,255,0.10);
+  --s1:#3987e5; --s2:#d95926; --s3:#199e70;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--plane);color:var(--ink);font-family:var(--sans);line-height:1.5}
+.wrap{max-width:980px;margin:0 auto;padding-block:40px 64px;padding-left:16px;padding-right:16px}
+h1{font-size:1.5rem;font-weight:600;margin:0 0 4px;letter-spacing:-.01em;text-wrap:balance}
+.sub{color:var(--ink-2);margin:0 0 4px;font-size:.95rem}
+.stamp{color:var(--muted);font-size:.82rem;margin:0 0 28px}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px;margin-bottom:28px}
+.tile{background:var(--surface);border:1px solid var(--ring);border-radius:12px;padding:16px 18px;min-width:0}
+.tile .lab{font-size:.74rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.tile .val{font-size:2rem;font-weight:600;line-height:1.1;margin-top:6px}
+.tile .chg{font-size:.84rem;color:var(--ink-2);margin-top:2px}
+.chg .down{color:var(--good)} .chg .up{color:var(--critical)}
+.card{background:var(--surface);border:1px solid var(--ring);border-radius:12px;padding:18px 18px 10px;margin-bottom:18px;min-width:0}
+.card h2{font-size:1rem;font-weight:600;margin:0 0 2px}
+.card p.note{color:var(--ink-2);font-size:.86rem;margin:0 0 12px}
+.legend{display:flex;flex-wrap:wrap;gap:14px;margin:0 0 10px;font-size:.84rem;color:var(--ink-2)}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.sw{width:10px;height:10px;border-radius:3px;display:inline-block}
+svg{display:block;width:100%;height:auto;overflow:visible}
+.gl{stroke:var(--grid);stroke-width:1}
+.ax{stroke:var(--axis);stroke-width:1}
+.tk{fill:var(--muted);font-size:11px;font-variant-numeric:tabular-nums}
+.dl{font-size:11px;font-weight:600}
+details{margin:6px 0 10px}
+summary{cursor:pointer;color:var(--ink-2);font-size:.86rem}
+table{border-collapse:collapse;width:100%;margin-top:10px;font-size:.84rem}
+th,td{text-align:left;padding:5px 10px 5px 0;border-bottom:1px solid var(--grid);font-variant-numeric:tabular-nums;vertical-align:top}
+th{color:var(--muted);font-weight:500;letter-spacing:.03em}
+tr.hit td{font-weight:600}
+.pill{display:inline-block;font-size:.74rem;font-weight:600;padding:1px 7px;border-radius:999px;
+  background:rgba(42,120,214,.12);color:var(--s1);white-space:nowrap}
+.tipbox{position:fixed;pointer-events:none;opacity:0;transition:opacity .08s;background:var(--surface);
+  border:1px solid var(--ring);border-radius:8px;padding:8px 10px;font-size:.82rem;box-shadow:0 4px 16px rgba(0,0,0,.14);z-index:9}
+.tipbox b{display:block;margin-bottom:3px;font-weight:600}
+.tipbox div{display:flex;gap:8px;justify-content:space-between}
+.warnbar{background:var(--surface);border:1px solid var(--critical);border-radius:10px;padding:10px 14px;
+  margin-bottom:18px;font-size:.88rem;color:var(--ink-2)}
+.foot{margin-top:28px;padding-top:16px;border-top:1px solid var(--grid);color:var(--muted);font-size:.82rem}
+.scroll{overflow-x:auto}
+label{display:block;font-size:.78rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-bottom:8px}
+input{width:100%;box-sizing:border-box;font:400 1rem/1.4 var(--sans);padding:11px 13px;
+  border:1px solid var(--ring);border-radius:8px;background:var(--plane);color:var(--ink)}
+button{font:500 .95rem var(--sans);padding:11px 18px;border:0;border-radius:8px;background:var(--s1);color:#fff;cursor:pointer}
+.row{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}
+.row>input{flex:1 1 220px;min-width:0}
+.err{color:var(--critical);font-size:.9rem;margin-top:10px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>SL review status</h1>
+  <p class="sub">ICASSP 2027 Speech and Language track, from snapshots taken in CMS.</p>
+  <p class="stamp" id="stamp"></p>
+
+  <div id="gate" class="card" hidden>
+    <label for="pass">Passphrase</label>
+    <div class="row">
+      <input id="pass" type="password" autocomplete="off" spellcheck="false" placeholder="The same one as the reviewer pool lookup">
+      <button id="unlock" type="button">Unlock</button>
+    </div>
+    <p id="gateErr" class="err" hidden></p>
+    <p class="note" style="margin-top:14px">This page lists reviewer names and workloads, so it is encrypted. Nothing is readable until it is unlocked, and nothing you type leaves your browser.</p>
+  </div>
+
+  <div id="app" hidden>
+    <div id="warn"></div>
+    <div class="tiles" id="tiles"></div>
+    <div id="charts"></div>
+    <p class="foot">Each snapshot is one run of the status script against CMS. The reviewer assignment count in CMS is the total across all technical committees, so a reviewer may be carrying papers that are not ours.</p>
+  </div>
+</div>
+<div class="tipbox" id="tip"></div>
+<script>
+const EMBEDDED = null;
+const BLOB = {"s": "jMm/8IxhGIaTC4Jjm6nTXw==", "n": "+0TCKWUuMl9Gr25Q", "it": 600000, "c": "M/FNn2BW0GRGheTscoVlnmPa1iPqGAk2TbUm8YtX1wnQCUcGVOWUM+We66OcC9C6XpCMIozQLbX/96Ryut/3ykVYX9uL8W3Toe+C33VcTxyRdxEVCSU+9gqBidzSzi+Ah3u9RL0LWwp2kH3aokjUnLZEaTNnAYJtiJGRQl1IU4v1B0XCL8IO+lNAHyBrV/Y/hcwE7wsBIa6wXcFVnTj7+Q+ffmuqzBm3yFtJRP5RmWYPHy4eZWywWHTqYtG2Y85W2U+hrR3JszEABdQHome2FTknLOIVsWFmarYCkw5ifYibXHOj5yUGX0LjVPpm3cCJaDJ9zCfarYhM8bajxGotayhMBBnNmEcgWjAl2asg+PdFEE7CIICYlGZEA7f781b+mJeODO7BZfm28oAgzUmK1a4sV4C3dQ68j8tUzaV0RiuUjh7sZ2510rT3TKtpoyKTdvHkfpmzbZ/wZ8AWtKrFzk7h9KCK44N3aAMicPaANVdY9ZMzsihEQt+HOSBhDsurUv49TT1VkplG2Kt394EcZt3kILGWHGPvchQBG0/u01W90c8ZN57TP7HOs7kXlIPeuOxLZDjqFYMs/7qs02+HWD6YqPC4RcHxISoN/9HRRSRQCuvnHQUJ67zYVnPsF0GkK0yPr51F2IX/omCk+BBi0nuXjGKUzvu4ujLQlNsHF/EIH0hGd8ySB5mwloyTbAVg9AnIsKxAe+uFgKXitL931lKGJfwqLEf5/YPWRbmWFZzwdmqMBc/n+jCaGWoniSv4v0Nc9dVcVCe7rvFcYZpr8bsQIpQOgZZoqfvi4xkVGVWGTP9bCU6gKnPG6yn056NdIBPNPaXxb7EJG7BTlcTej2cQRvncuCL3tuebMdCdYtnbC+WzvbnnvZcv/qr71lBtvCUQmtARR0rrUAYmYiZ6eEQPuD6R74GFGkksNnkS8KtFIgQU36tXYLT1Clr6tB9vwqjtTmDfJnvLC3h9ahzjDtAZgE/xi8++GKylFFYeAr3cmYraGgcXKTFamHBlEvFY/NEsZG9BGQ5EQG0WSQ59K6z+MuNWy5jM+41vMqKximCMR8W7hP2mToSzPaOGW94kWglUiQJPoaymSWjLLplagTuOBwRkE1hl6K5J4gEnvfnG/LrmKCPDmVEO8lSdkOLG2Ta9lu0YI1Zp4N15YqLsC1fSBBcc3Ox9AGIYMHDB2hAgh4RQ6F7qC0tYIp3WoghMczqpUsceyQM3LkjRFtSxx60ap+dLcQFye5/I4TrCvb8cuxgGst+r71mLgOGO9kptaMQkrVxckD7osiZ6vRwhI41Lfj6joLTQe85/0o+IMfVPVumCM7yupvec6X7hPm74erTrB3hNhdYb5dQQH0Uin1UhhPJPisQzf+UIK7vS5zSgGoN/e+fCISGUGxrau/DKXY/036bW6iC8wMjh8PIIgT3pkpIRIbRb5v+ioXwq39mxyhQmKvQzMlkNqyETOgCKGHv5pdijOvSi1huej/bR59VNR0CY1GR/FY/zbs1WoSlFZiJO8FhvvuCGLJ/y8w3Djt4M+7SYBCrU1qzJHeE80HZ5i8Oo5gOQXoHqA1TPi2m9ASwS2u4c9wagEm6Qurdv71PbV52Ei1ojymEFoYwmMrLYVLHWNjLynng6Y+JedKtiAwzmK3ZFk4wp2Vh+EMGUfIWNYVYqyBpBOE3BBB6rUBIuoZGsNhmxUdJ8yowMv5w+ZWfgc6NsrmM/uDJgGxXEoKf85I4IT3cG0vGUMsRwMZTeY6SvjONkU33VmguPa/ALd4+FXNKv0EFxWD82SvigWfNZO7UN1Y2eESA+kEuZ4YRYTth/oYXsoh81g1E8e67U3uQioB6e+k8rl9Zns3dc9bzTAogkkZ4XHq/kOEdwbdbmw4vnHTXkpT2HGCdwVDq5OoJnWfgLF+Am2gx+DSbU1aKyeb2q5r4wlIuU5UkK8GRthH13FuK6ucKJAlkUYD+9+aj5H8QT1UY0tZzRrKqFbB8avT33FFMKjtwlFsr7f5y5y5JWDy3pzhh8Mxi9mwVIG/ibqWqBPk9MpcJCB15s+8emRAO4iWHTJj81/FUt74VUJ8GnClUzrglJJHrtx/CLPBvtmLOec23js1mOXI0+mjnJqXZClBONLgx5RYEZmJiI/JDaSkzdVlIirI6uCI0WHA1dBcuhspe/EjLHCtaGYW8D3k+N4plh8kmyirJJI+1WlWH4bbCo5CVJLcNqJTz2LcbrTlwoe3xzD6RS7f44vXN9yVZJwHLsOsAuAIGhn4Y+jjY7KC+jLwOcvh6sKR5FDQni0zY9sEW7VT46P54Agp/xeAPCfaxmUDCoIKzPv+t1M/AO1gPwzd+cG1i4EKBbmH3w3A9zXmQfMuHn82pDfGltK/zzMWlCV6drj5cY/OvqA9LuFTnq83PNesJmw14nXs9pkEF6XFZ9OxR7itnqvNYxBP6a3bVuqY7g2/SwCOnHwTBw9BggVC+vOjEjMRZ1Jtqgtnly387A5Oq2K0OuujiFqxxQ8nmqm9Q5ssg7pFIOyL2grsFg7NJj2mA2YOxL0LD8/GU/yb0TNq6clZcrmcZjEKAvC7+Y3Sub2drtVHBLxZzOZgg3pYpuY1eNaPt7LhpNuycjY2840cKy9lUA8+Y1J95DF6UTjnA4QsSTOcDZ9Sih7qCy/ZeSLXqCTI8jTa3BqR2CwFnZDV/DTS0E8vErHminyLD4Cw1hQ2lONh6A8niYsB9LeJbAK22f+Eb4xv2m9IT3x4GkGvPadq03wJHQYzQ3hA2dz/4A1w1CNCr937QZuYvw2f7/HiY7KePab0LICOzu51PygQyAlckQzLtNwj/sxQILdZQnhZM4zGzOAt1RcbXByXB14WxO5mtajpRMRlcx2j8UV8bRJG2+K3F1hlV7BrONXBiVdQRrcxmCADN/ZWSEuEA0hNmgzoMuhuORdzwBYqPkEfz2090MXC8foxDz5/lNb3QSyNmTCOSuVn9aY506FDFo+64LKhsU2KPoXtsR7H+t5WCig/5Q4GmiaLZysO89izvX0LmFl+0IEKNJdz0eb4Awo+LIr0jmIt+Oa7fRKp+dSbysLPchhQ/XSCEY6h4deU6yd4odehuNu7BLVZk6P4//iWF6ooENb0phRA+7IQFUHtUmgegIAnCJOsh0ltcWvJLBi1wnR79qyLP33F+4T4nVsQYwu0IptpU/TKaB09EGT8yBCpjG9WopzVgdpjMGclCWPow+2z4OSlNrO33WYLfwV9a0OHF3HRE9piY6VcSJt86ehytY6gtpdQdZmgx3wP8DxYnCKcrzADwGoTqAplgQOsus4lWW78Frh3EnsI5yx+xvyO8u9TCFoj1QJbzgHLeT4I3SM2cYTPL4Oe0u1qZXpyRswLV4QVcCKt1/anmYrywc4KjyE0Bcz5FlPZLDM37QW3+2Lk/I5t8PNXZCeRDHUNu07fmfS0JtGZZJbRCnSGrJM4S3q2Aon9l5VTDE5mxR6Ef+w7u3ZoXJQvSm3FvfNrtn1bl/btW/mvmo7P1emH4SkY9LMs/mrqm5aLRp6OX6U7Tj2lkGT9pd9OzThuQSzW7AoJUm2wwD1tmugGDHWSAO+kMY5eIGXNjnH44QyCJ6BPG7W679p9rOodEbT+/KGrtKCg6YI5ueacj5dIhCFPhpCWkRdw4j1Iive5R88+CuXlgLUfLW17Y5sQzGqbcS3rgiNpgl0P/xKsu4RSotF+TvENE+PYy/+4IYgTRT/Hdo7jwvj+aBmeRWav/cCUWy0OLgB/4P9A9x/fLdGSwA7d4LObHYaGsEQ+lW5Gt3/0id9JeaY0SjUHwIZOdp3f1A7woFYuzBUK+khH8ysxH93YG5nxN1LtZj4VfIwpOWi68KCwMQ/p843wHx4e6N8ytZ05nV/sLQV6xd9h8a/kvPAgQ6we9kFp7g7VZpa0Qjnmaxq4EpjYiPiDO64b76mhVN8bYUyHf4BTxDlQqi8abFROKP6ck45J94o61xfZySF7mu70aVBLPPpBh6aF8qNW9jZFraE4D9kd33ICM3Xz6WL/UxsVSisHX2heh4XRpSBmuJTnjrG6eMlIcMz6ChtjVrze3Bn4NpKZl67HubLKHGloadAI9L1P/0tgEYUmU+JHaF86G4icBvk7o0SLsBjNFyPg7hEATNmdNQpUbVNb7S0BA4E89Dk2ZXanMkSlYxBAIuCBqbyBA5qPqsrbM0w+vk4SZw/wkSSXbjfYXlG5hldw7GOPSwSXpfpHbryBXdtevleMZaKd+tP5a2NgSBbTzImwnw5DRD0XICdiY5H5FwzAXX54Uqs811+SvN3zClszUUX7QUkv9CNMzTQm7aVSrLvwwStPedEE6xraj+OqoFpG3tCW1v+Hu2sTYtopUHeavCGj6b+FpRCjS27ImrTMQzZA7CoLYNww/jBb0HaxcjJfHEZ6lxAk8tKjdmpAobFw6sEtCm0TA1kvfHEX+qIgE8lTbeKkYeO+zbwCI0VMTtgxvhI8DS3BjLlO27beIpegCDSV5uBcJyj7Tucc3TEheNhrs7SsSjECwNy0Xgjv7BOk+weUS+lBobIj1ouSKuQ1oj5WZvYDQtuBDg37SnUDhRhW3CiFyNcF9S6NfdjgrpFKPHecQbRcjNX4JdViazoUZKoXKJAB1oLqTptKg5Hw1EzSRL/zOEWGsuYjxgQzVOi+9OHUXMkN3K8H1E98EPwqPySBVIs/XkOEsglHMxv/uPT/BlWSKl7hnkVQNr4GQmw2c7potZZXcQHTrgcALaawksBJR2KQp6eF/njFoQbN9ESgouC+nWE1zH9+tAorN0Im3AS6dZkzoRLs2KQTweGvV+ktYwCBKjBuwSRXIfhF0cPf73newMeINuCnH7IawKXqp/Od2jm0tzONOTGVY7+GzSCdrtYFopIXXVB63U6oZdB8dwQQWmmBnMOAu/J/ZJk6jgPsHzWmTQEsom6FaDiVfWDD3rMwumRY+1FwY6D2UrDCYQF6XjeTRFYw3rx4gAg7/qRH1xrdoKhUBU6C20d0tXqM2HZkAuFgqt3tP5tly5AjcoD1oZRgHVhSS5SOnXlep8RKr+VsCOJCyosAYWp/xn54pQKIMAk+VDYARatFmvT8+diwfZRn86FhP9mOPqdGpRBIlJhdNzalv9feRF09/q+M6KvHT59CvMFhTAv1fdUWzDHHZ20wlTdcJIK1PlLwmOLDK3/px5mHaWnkQOllZi9oCTg1xCBNI/bUsgM6qbb39ojYlO+S6uzMx0Kxa40MU0VY3lL2SSVmapYzZZx69QMIW/Kebbjr0Qh5i4JffJ/edniCDK66qJPkyRUKyobW2biBujkCqw8tD4f/HOp+kAvJXHA6wJTLOk20mujDcXmtPKnY76GdRrsjQ5mvaIF3B7OsuJqMjJjP+3cRrChwqvxP5SrRMNHNkrTLLzuGXrUT6125/TCUfQZGIdHAZ7GEvkXcSp+mPGvvvAoH5i7Oc6Em3X2379RZ/Z3v/3j14W6LOmF9eQ9NSYhivbvM+NIhpTKOJF/uMfkAk8k569U5kpIB8ookn6bxZxWFo+4Jur8zy5xTaUPGo6Yi8fvM2TeEGKmjg/WDu1x336drleW1Z7+1iyAY/fTa7zuBew/eZPJF1XBbNkCoPfmw8n3wiY/SSqyN23cHFDwvMZX99HtgrLo5oL0tLtOBuZd3ydIt6GziATfc1N8Yqr/Qjy4ZlFYFlmwbLNOBmKSaetj+9c9BRBEXgRa3s+YKnrthTAx7kL1q270pOwOUSinPbFCM0YTyiKihGqE+lbbsyTi/yUzLl1VTDWjf5+D0KbiC+uC1mbsI6zLZ+Xzwwav0Ia0ZAy022np3Q2ml9WlIdumTqpoEykQNmHNPoGrvz4xlKEviu9O+HgfKh76Bki6cX79d0bGH44g9UnKK5quJPXpv/RLhDjjqZLjuMznvRVSHT8EyW9xpTGYlos4Cu+cwCctCwpL3vU8HmWhMKMfDhJ8C+JcIfX08JaH01kMqU1iNude0Ls8HBZOgqG/ooJqMeFSRxtJtofn6o95iDOp2bexQcYc+fLfn58opdTnaWisVQrJwJLURyi4T6kb3K9onYXe9Wy3NPbAf/j0gzBhckrcod/RO3Y0J5Ovo6bbu22zCEMiY8vrsGxVEbBVmUxtHfezDkMIHIc6JMRLKz7o1hGdPgu9i8rWK3xjZiZlFpFFQ/m9ujdvRSTrJU8pntj3/yi0F3lEb++2YzbEMXqMRkfHtF5j1t6eSBUQhd0ZBIJcaOqU8s9leJPI4voU4hbJSP7IRFQFrYknd9iWek/WxkjZZDV8sEcW9MQWJMNwQqXFdiAW1KgkNaiZrQURXYetjp8FAwhwmeIIAs5k/mo9FNLuCU2vUjbbo63YvnvbaDqsVeXB/XQ3pdv0B6rYTdYX8kKB6mGJfXuG7Hv+KAV/P5AZHBgBR41894tryxkgtmKyk3rYqj2iF4l6a7UpP1bgQpyPwl7vYOv8LfYGtR6AGIKYhIQgpkk9tSGGVStag=="};
+const tip = document.getElementById('tip');
+
+/* ---------- gate ---------- */
+async function decrypt(pass, blob) {
+  const b = s => Uint8Array.from(atob(s), c => c.charCodeAt(0));
+  const base = await crypto.subtle.importKey('raw', new TextEncoder().encode(pass), 'PBKDF2', false, ['deriveKey']);
+  const key = await crypto.subtle.deriveKey(
+    { name:'PBKDF2', salt:b(blob.s), iterations:blob.it, hash:'SHA-256' },
+    base, { name:'AES-GCM', length:256 }, false, ['decrypt']);
+  const out = await crypto.subtle.decrypt({ name:'AES-GCM', iv:b(blob.n) }, key, b(blob.c));
+  return JSON.parse(new TextDecoder().decode(out));
+}
+function fail(msg) {
+  const e = document.getElementById('gateErr');
+  e.textContent = msg; e.hidden = false;
+  const b = document.getElementById('unlock'); b.disabled = false; b.textContent = 'Unlock';
+}
+async function unlock() {
+  const pass = document.getElementById('pass').value.trim();
+  if (!pass) { fail('Enter the passphrase.'); return; }
+  document.getElementById('gateErr').hidden = true;
+  const b = document.getElementById('unlock'); b.disabled = true; b.textContent = 'Unlocking, a moment...';
+  if (!(window.crypto && window.crypto.subtle)) {
+    fail('This browser will not run decryption here. Open the page over https.'); return;
+  }
+  let data;
+  try { data = await decrypt(pass, BLOB); }
+  catch (e) { fail('That passphrase does not work. Check it with the chairs.'); return; }
+  try { sessionStorage.setItem('slstatuspass', pass); } catch (e) {}
+  document.getElementById('gate').hidden = true;
+  start(data);
+}
+
+/* ---------- rendering ---------- */
+function start(DATA) {
+  const S = DATA.snapshots;
+  document.getElementById('app').hidden = false;
+
+  const fmtDay = t => { const d = new Date(t); return (d.getMonth()+1)+'/'+d.getDate(); };
+  const fmtFull = t => new Date(t).toLocaleString(undefined, {month:'short', day:'numeric', hour:'2-digit', minute:'2-digit'});
+
+  document.getElementById('stamp').textContent =
+    S.length + (S.length===1 ? ' snapshot' : ' snapshots') + ' · latest ' + fmtFull(S[S.length-1].t) +
+    (S[S.length-1].submissions ? ' · ' + S[S.length-1].submissions + ' submissions' : '');
+
+  if (DATA.truncated) {
+    document.getElementById('warn').innerHTML =
+      '<div class="warnbar">The latest snapshot hit the 100-row page limit, so the gap list may be incomplete.</div>';
+  }
+
+  function tile(lab, val, d, lowerIsBetter) {
+    let chg = '';
+    if (d !== null && d !== undefined) {
+      const cls = d === 0 ? '' : ((d < 0) === !!lowerIsBetter ? 'down' : 'up');
+      chg = '<div class="chg"><span class="'+cls+'">' + (d===0 ? 'no change' : (d>0?'+':'')+d) +
+            '</span> since the previous snapshot</div>';
+    }
+    return '<div class="tile"><div class="lab">'+lab+'</div><div class="val">'+val+'</div>'+chg+'</div>';
+  }
+  const L = S[S.length-1], D = DATA.deltas;
+  document.getElementById('tiles').innerHTML =
+    tile('Papers under three', L.gaps, D.gaps, true) +
+    tile('Reviewers accepted', L.accepted, D.accepted, false) +
+    tile('Carrying over ten', L.overTen, D.overTen, true) +
+    tile('Accepted, holding none', L.idle, D.idle, true);
+
+  const PAD = {l:44, r:58, t:14, b:30};
+  function showTip(evt, title, rows) {
+    tip.innerHTML = '<b>'+title+'</b>' + rows.map(r =>
+      '<div><span style="color:'+(r.c||'var(--ink-2)')+'">'+r.k+'</span><span style="font-variant-numeric:tabular-nums">'+r.v+'</span></div>').join('');
+    tip.style.opacity = 1;
+    const pad = 14; let x = evt.clientX + pad, y = evt.clientY + pad;
+    const b = tip.getBoundingClientRect();
+    if (x + b.width > innerWidth - 8) x = evt.clientX - b.width - pad;
+    if (y + b.height > innerHeight - 8) y = evt.clientY - b.height - pad;
+    tip.style.left = x+'px'; tip.style.top = y+'px';
+  }
+  const hideTip = () => { tip.style.opacity = 0; };
+
+  /* Four gridlines, every tick a whole number: pick the step first, then the max. */
+  function niceAxis(v) {
+    const raw = Math.max(1, v) / 4;
+    const p = Math.pow(10, Math.floor(Math.log10(raw)));
+    let step = 10*p;
+    for (const m of [1, 2, 2.5, 3, 5, 10]) { if (raw <= m*p) { step = m*p; break; } }
+    if (step < 1) step = 1;
+    return { max: step*4, step };
+  }
+
+  function lineChart(host, title, note, series) {
+    const W = 860, H = 260;
+    const A = niceAxis(Math.max(1, ...S.flatMap(s => series.map(x => s[x.key] ?? 0))));
+    const n = S.length;
+    const px = i => PAD.l + (n === 1 ? (W-PAD.l-PAD.r)/2 : i*(W-PAD.l-PAD.r)/(n-1));
+    const py = v => PAD.t + (1 - v/A.max)*(H-PAD.t-PAD.b);
+
+    let g = '';
+    for (let k=0;k<=4;k++) {
+      const v = A.step*k, y = py(v);
+      g += '<line class="gl" x1="'+PAD.l+'" y1="'+y+'" x2="'+(W-PAD.r)+'" y2="'+y+'"/>';
+      g += '<text class="tk" x="'+(PAD.l-8)+'" y="'+(y+4)+'" text-anchor="end">'+v+'</text>';
+    }
+    g += '<line class="ax" x1="'+PAD.l+'" y1="'+py(0)+'" x2="'+(W-PAD.r)+'" y2="'+py(0)+'"/>';
+    S.forEach((s,i) => {
+      if (n > 8 && i % Math.ceil(n/8)) return;
+      g += '<text class="tk" x="'+px(i)+'" y="'+(H-PAD.b+18)+'" text-anchor="middle">'+fmtDay(s.t)+'</text>';
+    });
+    series.forEach(sr => {
+      const pts = S.map((s,i) => [px(i), py(s[sr.key] ?? 0)]);
+      if (n > 1) g += '<path d="M'+pts.map(p=>p[0].toFixed(1)+','+p[1].toFixed(1)).join('L')+'" fill="none" stroke="'+sr.color+'" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>';
+      pts.forEach(p => { g += '<circle cx="'+p[0]+'" cy="'+p[1]+'" r="4" fill="'+sr.color+'" stroke="var(--surface)" stroke-width="2"/>'; });
+      const last = pts[pts.length-1];
+      g += '<text class="dl" x="'+(last[0]+10)+'" y="'+(last[1]+4)+'" fill="'+sr.color+'">'+(S[n-1][sr.key] ?? 0)+'</text>';
+    });
+    S.forEach((s,i) => {
+      const w = (W-PAD.l-PAD.r)/Math.max(n,1);
+      g += '<rect x="'+(px(i)-w/2)+'" y="'+PAD.t+'" width="'+Math.max(w,26)+'" height="'+(H-PAD.t-PAD.b)+'" fill="transparent" data-i="'+i+'" class="hitr"/>';
+    });
+
+    const legend = series.length > 1
+      ? '<div class="legend">'+series.map(sr=>'<span><i class="sw" style="background:'+sr.color+'"></i>'+sr.label+'</span>').join('')+'</div>' : '';
+    const rows = S.map(s => '<tr><td>'+fmtFull(s.t)+'</td>'+series.map(sr=>'<td>'+(s[sr.key] ?? '')+'</td>').join('')+'</tr>').join('');
+    const table = '<details><summary>Table view</summary><div class="scroll"><table><thead><tr><th>Snapshot</th>'+
+      series.map(sr=>'<th>'+sr.label+'</th>').join('')+'</tr></thead><tbody>'+rows+'</tbody></table></div></details>';
+
+    const el = document.createElement('div');
+    el.className = 'card';
+    el.innerHTML = '<h2>'+title+'</h2><p class="note">'+note+'</p>'+legend+
+      '<svg viewBox="0 0 '+W+' '+H+'" role="img" aria-label="'+title+'">'+g+'</svg>'+table;
+    host.appendChild(el);
+    el.querySelectorAll('.hitr').forEach(r => {
+      r.addEventListener('mousemove', e => {
+        const s = S[+r.dataset.i];
+        showTip(e, fmtFull(s.t), series.map(sr => ({k:sr.label, v:(s[sr.key] ?? '-'), c:sr.color})));
+      });
+      r.addEventListener('mouseleave', hideTip);
+    });
+  }
+
+  function barChart(host) {
+    const rows = DATA.byTopic;
+    const el = document.createElement('div');
+    el.className = 'card';
+    if (!rows.length) {
+      el.innerHTML = '<h2>Where the gap is</h2><p class="note">Every paper has three reviewers. Nothing to show ;)</p>';
+      host.appendChild(el); return;
+    }
+    const BW = 860, rowH = 26, left = 72, right = 48;
+    const H = rows.length*rowH + 26;
+    const A = niceAxis(Math.max(...rows.map(r=>r[1])));
+    const bx = v => left + v*(BW-left-right)/A.max;
+    let g = '';
+    for (let k=0;k<=4;k++){
+      const v = A.step*k, x = bx(v);
+      g += '<line class="gl" x1="'+x+'" y1="0" x2="'+x+'" y2="'+(rows.length*rowH)+'"/>';
+      g += '<text class="tk" x="'+x+'" y="'+(rows.length*rowH+16)+'" text-anchor="middle">'+v+'</text>';
+    }
+    rows.forEach((r,i) => {
+      const y = i*rowH + 5, h = rowH-12, w = Math.max(bx(r[1])-left, 2);
+      g += '<text class="tk" x="'+(left-10)+'" y="'+(y+h-1)+'" text-anchor="end">'+r[0]+'</text>';
+      g += '<rect x="'+left+'" y="'+y+'" width="'+w+'" height="'+h+'" rx="4" fill="var(--s1)" data-i="'+i+'" class="bhit"/>';
+      g += '<text class="dl" x="'+(left+w+8)+'" y="'+(y+h-1)+'" fill="var(--ink-2)">'+r[1]+'</text>';
+    });
+    g += '<line class="ax" x1="'+left+'" y1="'+(rows.length*rowH)+'" x2="'+(BW-right)+'" y2="'+(rows.length*rowH)+'"/>';
+    const tbody = rows.map(r => '<tr><td>'+r[0]+'</td><td>'+r[1]+'</td><td style="white-space:normal">'+
+      (DATA.topicPapers[r[0]]||[]).join(', ')+'</td></tr>').join('');
+    el.innerHTML = '<h2>Where the gap is</h2><p class="note">Papers with fewer than three reviewers in the latest snapshot, by EDICS sub-topic.</p>'+
+      '<svg viewBox="0 0 '+BW+' '+H+'" role="img" aria-label="Papers under three reviewers by sub-topic">'+g+'</svg>'+
+      '<details open><summary>Paper numbers</summary><div class="scroll"><table><thead><tr><th>Sub-topic</th><th>Papers</th><th>Numbers</th></tr></thead><tbody>'+tbody+'</tbody></table></div></details>';
+    host.appendChild(el);
+    el.querySelectorAll('.bhit').forEach(b => {
+      b.addEventListener('mousemove', e => {
+        const r = rows[+b.dataset.i];
+        showTip(e, r[0], [{k:'papers under three', v:r[1], c:'var(--s1)'}]);
+      });
+      b.addEventListener('mouseleave', hideTip);
+    });
+  }
+
+  const host = document.getElementById('charts');
+  lineChart(host, 'Papers with fewer than three reviewers',
+    'The number to drive to zero. Lower is better.',
+    [{key:'gaps', label:'Papers under three', color:'var(--s1)'}]);
+  barChart(host);
+  lineChart(host, 'Reviewer responses',
+    'How the invited pool has answered, over the snapshots taken so far.',
+    [{key:'accepted', label:'Accepted', color:'var(--s1)'},
+     {key:'noAnswer', label:'No answer', color:'var(--s2)'},
+     {key:'declined', label:'Declined', color:'var(--s3)'}]);
+  lineChart(host, 'Load problems',
+    'Reviewers carrying more than ten papers, against those who accepted but hold nothing yet. Both should fall.',
+    [{key:'overTen', label:'Carrying over ten', color:'var(--s1)'},
+     {key:'idle', label:'Accepted, holding none', color:'var(--s2)'}]);
+
+  // over ten
+  const ot = document.createElement('div');
+  ot.className = 'card';
+  ot.innerHTML = '<h2>Carrying more than ten papers <span style="color:var(--muted);font-weight:400">'+DATA.overTen.length+'</span></h2>'+
+    '<p class="note">The CMS count is the total across all technical committees, so part of this may belong to another track. CMS shows the split per paper as "TC: Y/X Total N assigned"; only N is available in bulk.</p>'+
+    '<div class="scroll"><table><thead><tr><th>Total papers</th><th>Name</th></tr></thead><tbody>'+
+    (DATA.overTen.length ? DATA.overTen.map(p=>'<tr><td>'+p.assigned+'</td><td style="white-space:normal">'+p.name+'</td></tr>').join('')
+                         : '<tr><td colspan="2">None.</td></tr>')+
+    '</tbody></table></div>';
+  host.appendChild(ot);
+
+  // idle, with the sub-topics they declared
+  const id = document.createElement('div');
+  id.className = 'card';
+  const idleRows = DATA.idle.length ? DATA.idle.map(p => {
+    const cats = p.cats.length
+      ? p.cats.map(c => p.short.includes(c) ? '<span class="pill">'+c+'</span>' : c).join(' ')
+      : '<span style="color:var(--muted)">no SL category</span>';
+    return '<tr'+(p.short.length ? ' class="hit"' : '')+'><td style="white-space:normal">'+cats+'</td>'+
+           '<td style="white-space:normal">'+p.name+'</td></tr>';
+  }).join('') : '<tr><td colspan="2">None.</td></tr>';
+  id.innerHTML = '<h2>Accepted but holding nothing <span style="color:var(--muted);font-weight:400">'+DATA.idle.length+'</span></h2>'+
+    '<p class="note">'+DATA.idleNoCat+' of them have no SL sub-topic selected, which is why the matcher cannot see them. '+
+    '<b>'+DATA.idleUseful+'</b> declared a sub-topic we are currently short of, highlighted below, and can be assigned today. '+
+    'The TC chair screen lists SL categories only, so a blank here does not rule out categories in another track.</p>'+
+    '<div class="scroll"><table><thead><tr><th>Declared sub-topics</th><th>Name</th></tr></thead><tbody>'+idleRows+'</tbody></table></div>';
+  host.appendChild(id);
+}
+
+/* ---------- boot ---------- */
+if (EMBEDDED) {
+  start(EMBEDDED);
+} else {
+  document.getElementById('gate').hidden = false;
+  document.getElementById('unlock').addEventListener('click', unlock);
+  document.getElementById('pass').addEventListener('keydown', e => { if (e.key === 'Enter') unlock(); });
+  try { const p = sessionStorage.getItem('slstatuspass'); if (p) document.getElementById('pass').value = p; } catch (e) {}
+}
+</script>
+</body>
+</html>
