@@ -10,6 +10,7 @@ drift out of date.
 """
 import re
 import shutil
+import unicodedata
 from difflib import get_close_matches
 from datetime import date
 from html import escape
@@ -165,8 +166,10 @@ def read_sections(name):
 
     def flush():
         if current is not None and buf:
-            item = md_inline(" ".join(buf).strip())
+            raw = " ".join(buf).strip()
+            item = md_inline(raw)
             current["items"].append(item)
+            current["raw_items"].append(raw)
             current["groups"][-1][1].append(item)
         buf.clear()
 
@@ -186,7 +189,7 @@ def read_sections(name):
             flush()
             level = "h2" if stripped.startswith("## ") else "h3"
             current = {"level": level, "title": stripped.lstrip("#").strip(),
-                       "items": [], "groups": [(None, [])]}
+                       "items": [], "raw_items": [], "groups": [(None, [])]}
             sections.append(current)
             continue
         if not stripped:
@@ -232,11 +235,27 @@ def shorten_authors(entry, keep=3):
     return f"{first} et al., {rest}"
 
 
-def read_highlights():
+ENTRY_QUOTE = re.compile(r"''|[\"\u201c\u201d]")
+
+
+def entry_title(raw):
+    """The quoted title inside an entry, for matching against the list."""
+    q = list(ENTRY_QUOTE.finditer(raw))
+    if len(q) < 2:
+        return ""
+    return raw[q[0].end():q[1].start()].strip().rstrip(",").strip()
+
+
+def read_highlights(catalogue=None):
     """(entries, caption) for the selected-publications block.
 
     The file is hand-maintained; a leading `caption:` line, if present, becomes
-    the line under the heading. Everything else is one entry per paragraph.
+    the line under the heading. Everything else names one publication.
+
+    Each one is looked up in content/publications.md by title and rendered from
+    *that* text. Storing a copy here meant the block kept the wording a paper had
+    on the day it was picked -- two of them were still showing a plain journal
+    name after the list had been italicised.
     """
     f = CONTENT / "highlights.md"
     if not f.is_file():
@@ -262,7 +281,27 @@ def read_highlights():
     caption = ""
     if out and out[0].startswith("caption:"):
         caption = md_inline(out.pop(0)[len("caption:"):].strip())
-    return [md_inline(shorten_authors(o)) for o in out], caption
+
+    index = {}
+    for sec in (catalogue or []):
+        for item in sec.get("raw_items", []):
+            index[norm_title(entry_title(item))] = item
+
+    resolved = []
+    for o in out:
+        current = index.get(norm_title(entry_title(o)))
+        if current is None and index:
+            print(f"  note: highlight not found in publications.md: "
+                  f"{entry_title(o)[:60]!r}")
+        resolved.append(current or o)
+    return [md_inline(shorten_authors(r)) for r in resolved], caption
+
+
+def norm_title(s):
+    """Case, accents and punctuation removed, for matching titles."""
+    s = unicodedata.normalize("NFKD", TAG.sub("", s))
+    s = "".join(c for c in s if not unicodedata.combining(c)).lower()
+    return " ".join(re.sub(r"[^a-z0-9]+", " ", s).split())
 
 
 def read_bio():
@@ -703,7 +742,7 @@ def main():
     check_cv_layout(sources)
 
     (SITE / "index.html").write_text(home_page(bio), encoding="utf-8")
-    highlights, caption = read_highlights()
+    highlights, caption = read_highlights(pubs)
     (SITE / "publications.html").write_text(
         publications_page(pubs, highlights, caption), encoding="utf-8")
     (SITE / "activities.html").write_text(activities_page(acts), encoding="utf-8")

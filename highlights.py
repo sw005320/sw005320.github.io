@@ -100,10 +100,14 @@ def main():
             break
 
     if args.check:
-        listed = current_entries()
-        picked = [e["raw"] for _, e in chosen]
-        gone = [r for r in listed if r not in picked]
-        risen = [(w, e) for w, e in chosen if e["raw"] not in listed]
+        def title_of(raw):
+            parts = re.split(r"''|[\"\u201c\u201d]", raw)
+            return verify.norm_title(parts[1]) if len(parts) > 1 else ""
+
+        listed = {title_of(r): r for r in current_entries()}
+        picked = {title_of(e["raw"]) for _, e in chosen}
+        gone = [r for k, r in listed.items() if k not in picked]
+        risen = [(w, e) for w, e in chosen if title_of(e["raw"]) not in listed]
         lines = []
         if gone or risen:
             lines = [
