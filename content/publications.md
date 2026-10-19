@@ -617,7 +617,7 @@ Salvador Medina, Sarah Taylor, Carsten Stoll, Gareth Edwards, Alex Hauptmann, **
 
 Samuele Cornell, Jee-weon Jung, **Shinji Watanabe**, and Stefano Squartini, "ONE MODEL TO RULE THEM ALL ? TOWARDS END-TO-END JOINT SPEAKER DIARIZATION AND SPEECH RECOGNITION," *Proc. ICASSP'24*, pp. 11856--11860 (2024)
 
-Ruizhe Huang, Xiaohui Zhang, Zhaoheng Ni, Li Sun, Moto Hira, Jeff Hwang, Vimal Manohar, Vineel Pratap, **Shinji Watanabe**, Daniel Povey, and Sanjeev Khudanpur, "LESS PEAKY AND MORE ACCURATE CTC FORCED ALIGNMENT BY PRUNED CTC LOSS AND LABEL PRIORS," *Proc. ICASSP'24*(accepted)
+Ruizhe Huang, Xiaohui Zhang, Zhaoheng Ni, Li Sun, Moto Hira, Jeff Hwang, Vimal Manohar, Vineel Pratap, Matthew Wiesner, **Shinji Watanabe**, Daniel Povey, and Sanjeev Khudanpur, "Less Peaky and More Accurate CTC Forced Alignment by Label Priors," *Proc. ICASSP'24*, pp. 11831--11835 (2024)
 
 Takashi Maekaku, Jiatong Shi, Xuankai Chang, Yuya Fujita, and **Shinji Watanabe**, "HUBERTOPIC: ENHANCING SEMANTIC REPRESENTATION OF HUBERT THROUGH SELF-SUPERVISION UTILIZING TOPIC MODEL," *Proc. ICASSP'24*, pp. 11741--11745 (2024)
 
@@ -639,7 +639,7 @@ Hayato Futami, Emiru Tsunoo, Yosuke Kashiwagi, Hiroaki Ogawa, Siddhant Arora, an
 
 Younglo Lee, Shukjae Choi, Byeong-Yeol Kim, Zhong-Qiu Wang, and **Shinji Watanabe**, "BOOSTING UNKNOWN-NUMBER SPEAKER SEPARATION WITH TRANSFORMER DECODER-BASED ATTRACTOR," *Proc. ICASSP'24*, pp. 446--450 (2024)
 
-Jeong Hun Yeo, Minsu Kim, **Shinji Watanabe**, and Yong Man Ro, "VISUAL SPEECH RECOGNITION FOR LOW-RESOURCE LANGUAGES WITH AUTOMATIC LABELS FROM WHISPER MODEL," *Proc. ICASSP'24*(accepted)
+Jeong Hun Yeo, Minsu Kim, **Shinji Watanabe**, and Yong Man Ro, "Visual Speech Recognition for Languages with Limited Labeled Data Using Automatic Labels from Whisper," *Proc. ICASSP'24*, pp. 10471--10475 (2024)
 
 Minsu Kim, Jeongsoo Choi, Soumi Maiti, Jeong Hun Yeo, **Shinji Watanabe**, and Yong Man Ro, "TOWARDS PRACTICAL AND EFFICIENT IMAGE-TO-SPEECH CAPTIONING WITH VISION-LANGUAGE PRE-TRAINING AND MULTI-MODAL TOKENS," *Proc. ICASSP'24*, pp. 7970--7974 (2024)
 
@@ -733,7 +733,7 @@ Jiachen Lian, Alan W Black, Yijing Lu, Louis Goldstein, **Shinji Watanabe**, and
 
 Dan Berrebbi, Brian Yan, and **Shinji Watanabe**, "Avoid Overthinking in Self-Supervised Models for Speech Recognition," *Proc. ICASSP'23*, pp. 1--5 (2023)
 
-Zhong-Qiu Wang, Samuele Cornell, Shukjae Choi, Younglo Lee, Byeong-Yeol Kim, and **Shinji Watanabe**, "Neural Speech Enhancement with Very Low Algorithmic Latency and Complexity via Integrated Full- and Sub-Band Modeling," *Proc. ICASSP'23*(accepted)
+Zhong-Qiu Wang, Samuele Cornell, Shukjae Choi, Younglo Lee, Byeong-Yeol Kim, and **Shinji Watanabe**, "Neural Speech Enhancement with Very Low Algorithmic Latency and Complexity via Integrated Full- and Sub-Band Modeling," *Proc. ICASSP'23*, pp. 1--5 (2023)
 
 Dongji Gao, Jiatong Shi, Shun-Po Chuang, Leibny Paola Garcia, Hung-yi Lee, **Shinji Watanabe**, and Sanjeev Khudanpur, "EURO: ESPnet Unsupervised ASR Open-Source Toolkit," *Proc. ICASSP'23*, pp. 1--5 (2023)
 
