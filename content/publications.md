@@ -433,7 +433,7 @@ Wei Wang, Wangyou Zhang, Chenda Li, JiaTong Shi, **Shinji Watanabe**, and Yanmin
 
 Sathvik Udupa, **Shinji Watanabe**, Petr Schwarz, and Jan Cernocky, "Streaming Endpointer for Spoken Dialogue using Neural Audio Codecs and Label-Delayed Training," *Proc. ASRU'25*(accepted)
 
-Jiatong Shi, Chunlei Zhang, Jinchuan Tian, Junrui Ni, Hao Zhang, **Shinji Watanabe**, and Dong Yu, "Balancing Speech Understanding and Generation Using Continual Pre-training for Codec-based Speech LLM," *Proc. ASRU'25*(accepted)
+Jiatong Shi, Chunlei Zhang, Jinchuan Tian, Junrui Ni, Hao Zhang, **Shinji Watanabe**, and Dong Yu, "Continual Pre-training for Codec-Based Speech LLMs: Balancing Understanding and Generation," *Proc. ASRU'25*, pp. 1--8 (2025)
 
 Shikhar Bharadwaj, Samuele Cornell, Kwanghee Choi, Satoru Fukayama, Hye-jin Shim, Soham Deshmukh, and **Shinji Watanabe**, "OpenBEATs: A Fully Open-Source General-Purpose Audio Encoder," *Proc. WASPAA'25*, pp. 1--5 (2025)
 
@@ -447,7 +447,7 @@ Qingzheng Wang, Jiancheng Sun, Yifan Peng, and **Shinji Watanabe**, "Improving M
 
 Zaid Sheikh, Shuichiro Shimizu, Siddhant Arora, Jiatong Shi, Samuele Cornell, Xinjian Li, and **Shinji Watanabe**, "Scalable Spontaneous Speech Dataset (SSSD): Crowdsourcing Data Collection to Promote Dialogue Research," *Proc. Interspeech'25*, pp. 3963--3967 (2025)
 
-Siddhant Arora, Jinchuan Tian, Hayato Futami, Jee-weon Jung, Jiatong Shi, Yosuke Kashiwagi, Emiru Tsunoo, and **Shinji Watanabe**, "A Chain-of-Thought Reasoning Approach to E2E Spoken Dialogue Systems with an Open-Source Toolkit," *Proc. Interspeech'25*(accepted)
+Siddhant Arora, Jinchuan Tian, Hayato Futami, Jee-weon Jung, Jiatong Shi, Yosuke Kashiwagi, Emiru Tsunoo, and **Shinji Watanabe**, "Chain-of-Thought Training for Open E2E Spoken Dialogue Systems," *Proc. Interspeech'25*, pp. 4833--4837 (2025)
 
 Brian Yan, Injy Hamed, Shuichiro Shimizu, Vasista Lodagala, William Chen, Olga Iakovenko, Bashar Talafha, Amir Hussein, Alexander Polok, Kalvin Chang, Dominik Klement, Sara Althubaiti, Puyuan Peng, Matthew Wiesner, Thamar Solorio, Ahmed Ali, Sanjeev Khudanpur, **Shinji Watanabe**, Chih-Chen Chen, Zhen Wu, Karim Benharrak, Anuj Diwan, Samuele Cornell, Eunjung Yeo, Kwanghee Choi, Carlos Carvalho, and Karen Rosero, "CS-FLEURS: A Massively Multilingual and Code-Switched Speech Dataset," *Proc. Interspeech'25*, pp. 743--747 (2025)
 
@@ -455,7 +455,7 @@ Carlos Ferreira Carvalho, Jinchuan Tian, William Chen, Yifan Peng, Alberto Abad,
 
 Ming Gao, Shilong Wu, Hang Chen, Jun Du, Chin-Hui Lee, **Shinji Watanabe**, Jingdong Chen, Sabato Marco Siniscalchi, and Odette Scharenborg, "The Multimodal Information Based Speech Processing (MISP) 2025 Challenge: Audio-Visual Diarization and Recognition," *Proc. Interspeech'25*, pp. 1888--1892 (2025)
 
-Jiatong Shi, Hye-Jin Shim, and **Shinji Watanabe**, "Uni-VERSA: Versatile Evaluation of Speech with a Unified Framework," *Proc. Interspeech'25*(accepted)
+Jiatong Shi, Hye-jin Shim, and **Shinji Watanabe**, "Uni-VERSA: Versatile Speech Assessment with a Unified Network," *Proc. Interspeech'25*, pp. 1798--1802 (2025)
 
 Hayato Futami, Emiru Tsunoo, Yosuke Kashiwagi, Yuki Ito, Hassan Shahmohammadi, Siddhant Arora, and **Shinji Watanabe**, "Scheduled Interleaved Speech-Text Training for Speech-to-Speech Translation with LLMs," *Proc. Interspeech'25*, pp. 36--40 (2025)
 
@@ -465,7 +465,7 @@ Takatomo Kano, Atsunori Ogawa, Marc Delcroix, Ryo Fukuda, William Chen, and **Sh
 
 Wangyou Zhang, Kohei Saijo, Samuele Cornell, Robin Scheibler, Chenda Li, Zhaoheng Ni, Anurag Kumar, Marvin Sach, Wei Wang, Yihui Fu, **Shinji Watanabe**, Tim Fingscheidt, and Yanmin Qian, "Lessons Learned from the URGENT 2024 Speech Enhancement Challenge," *Proc. Interspeech'25*, pp. 853--857 (2025)
 
-Masao Someki, Shikhar Bharadwaj, Atharva Anand Joshi, Chyi-Jiunn Lin, Jinchuan Tian, Jee-weon Jung, Markus Müller, Nathan Susanj, Jing Liu, and **Shinji Watanabe**, "Context-Driven Dynamic Pruning for Large Multi-Modal Foundation Model," *Proc. Interspeech'25*(accepted)
+Masao Someki, Shikhar Bharadwaj, Atharva Anand Joshi, Chyi-Jiunn Lin, Jinchuan Tian, Jee-weon Jung, Markus Müller, Nathan Susanj, Jing Liu, and **Shinji Watanabe**, "Context-Driven Dynamic Pruning for Large Speech Foundation Models," *Proc. Interspeech'25*, pp. 1993--1997 (2025)
 
 Jinchuan Tian, William Chen, Yifan Peng, Jiatong Shi, Siddhant Arora, Shikhar Bharadwaj, Maekaku Takashi, Yusuke Shinohara, Keita Goto, Xiang Yue, Chao-Han Huck Yang, and **Shinji Watanabe**, "OpusLM: A Family of Open Unified Speech Language Models," *Proc. Interspeech'25*, pp. 3259--3263 (2025)
 
@@ -485,7 +485,7 @@ Yui Sudo, Yosuke Fukumoto, Shakeel Muhammad, Yifan Peng, Chyi-Jiunn Lin, and **S
 
 Hyung-gun Chi, Zakaria Aldeneh, Tatiana Likhomanenko, Oggi Rudovic, Takuya Higuchi, Li-Wei Chen, **Shinji Watanabe**, and Ahmed Hussen Abdelaziz, ”DiceHuBERT: Distilling HuBERT with a Self-Supervised Learning Objective," *Proc. Interspeech'25*, pp. 1218--1222 (2025)
 
-Zhen Wan, Chao-Han Huck Yang, Yahan Yu, Jinchuan Tian, Sheng Li, Ke Hu, Zhehuai Chen, **Shinji Watanabe**, Fei Cheng, Chenhui Chu, and Sadao Kurohashi, ”SIQ: Exterminating Speech Intelligence Quotient Cross Cognitive Levels in Voice Understanding Large Language Models," *Proc. ACL'25*(accepted)
+Zhen Wan, Chao-Han Huck Yang, Yahan Yu, Jinchuan Tian, Sheng Li, Ke Hu, Zhehuai Chen, **Shinji Watanabe**, Fei Cheng, Chenhui Chu, and Sadao Kurohashi, "SpeechIQ: Speech-Agentic Intelligence Quotient Across Cognitive Levels in Voice Understanding by Large Language Models," *Proc. ACL'25*, pp. 30381--30398 (2025)
 
 William Chen, Jinchuan Tian, Yifan Peng, Brian Yan, Chao-Han Huck Yang, and **Shinji Watanabe**, "OWLS: Scaling Laws for Multilingual Speech Recognition and Translation Models," *Proc. ICML'25*(accepted)
 
@@ -504,6 +504,8 @@ Chien-yu Huang, Wei-Chih Chen, Shu-wen Yang, Andy T. Liu, Chen-An Li, Yu-Xiang L
 Siddhant Arora, Zhiyun Lu, Chung-Cheng Chiu, Ruoming Pang, and **Shinji Watanabe**, "Talking Turns: Benchmarking Audio Foundation Models on Turn-Taking Dynamics," *Proc. ICLR'25*(accepted)
 
 Masao Someki, Yifan Peng, Siddhant Arora, Markus Müller, Athanasios Mouchtaris, Grant Strimel, Jing Liu, and **Shinji Watanabe**, "Context-aware Dynamic Pruning for Speech Foundation Models," *Proc. ICLR'25*(accepted)
+
+Tomohiko Nakamura, Kwanghee Choi, Keigo Hojo, Yoshiaki Bando, Satoru Fukayama, and **Shinji Watanabe**, "Discrete Speech Unit Extraction via Independent Component Analysis," *Proc. ICASSPW'25*, pp. 1--5 (2025)
 
 Zakaria Aldeneh, Takuya Higuchi, Jee-weon Jung, Li-Wei Chen, Stephen Shum, Ahmed Hussen Abdelaziz, **Shinji Watanabe**, Tatiana Likhomanenko, and Barry-John Theobald, "Speaker-IPL: Unsupervised Learning of Speaker Characteristics with i-Vector based Pseudo-Labels," *Proc. ICASSP'25*, pp. 1--5 (2025)
 
