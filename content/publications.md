@@ -505,7 +505,7 @@ Siddhant Arora, Zhiyun Lu, Chung-Cheng Chiu, Ruoming Pang, and **Shinji Watanabe
 
 Masao Someki, Yifan Peng, Siddhant Arora, Markus Müller, Athanasios Mouchtaris, Grant Strimel, Jing Liu, and **Shinji Watanabe**, "Context-aware Dynamic Pruning for Speech Foundation Models," *Proc. ICLR'25*(accepted)
 
-Tomohiko Nakamura, Kwanghee Choi, Keigo Hojo, Yoshiaki Bando, Satoru Fukayama, and **Shinji Watanabe**, "Discrete Speech Unit Extraction via Independent Component Analysis," *Proc. ICASSPW'25*, pp. 1--5 (2025)
+Tomohiko Nakamura, Kwanghee Choi, Keigo Hojo, Yoshiaki Bando, Satoru Fukayama, and **Shinji Watanabe**, "Discrete Speech Unit Extraction via Independent Component Analysis," *Proc. ICASSP Workshops (ICASSPW'25)*, pp. 1--5 (2025)
 
 Zakaria Aldeneh, Takuya Higuchi, Jee-weon Jung, Li-Wei Chen, Stephen Shum, Ahmed Hussen Abdelaziz, **Shinji Watanabe**, Tatiana Likhomanenko, and Barry-John Theobald, "Speaker-IPL: Unsupervised Learning of Speaker Characteristics with i-Vector based Pseudo-Labels," *Proc. ICASSP'25*, pp. 1--5 (2025)
 
