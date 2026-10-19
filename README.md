@@ -98,6 +98,21 @@ truncates author lists, and sometimes files another Shinji Watanabe's work under
 this author id -- a 2025 depth-camera paper on elderly action recognition arrived
 that way. Candidates whose titles carry no vocabulary from this field are flagged.
 
+It reports two kinds of thing. A paper OpenAlex has and the list does not is a
+**candidate**. A paper the list already carries as `(accepted)`, and OpenAlex now
+has published, is an **update**: the entry needs its published title and page
+numbers, not a second copy.
+
+Matching an update cannot go by title. A title is often not what it was at
+acceptance -- five 2025 papers were renamed between the two, and every one came
+back here as a brand new publication until this was added. Nor can it go by DOI:
+`content/publications.md` holds no DOIs, and an accepted paper has none yet.
+What does not move is who wrote it and where it appeared, so an OpenAlex record
+matches a pending entry when the first author agrees, half the authors agree, and
+the venue string is already in the entry. Where several pending entries fit --
+Jiatong Shi had two at ASRU'25 -- the closest title wins, or the report would
+name the wrong entry to edit.
+
 `verify.py` is the other half: it cross-checks what is already listed. See
 `verify-report.md`.
 

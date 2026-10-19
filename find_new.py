@@ -15,6 +15,7 @@ import sys
 import time
 import urllib.request
 from datetime import date
+from difflib import SequenceMatcher
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -102,6 +103,45 @@ def crossref_venue(doi):
     return titles
 
 
+def work_authors(work):
+    return [a["author"]["display_name"] for a in work.get("authorships", [])]
+
+
+def is_accepted(entry):
+    """An entry still waiting for its published details."""
+    return "(accepted)" in (entry.get("tail") or "").lower()
+
+
+def title_overlap(work, entry):
+    """How much of the two titles is the same, 0..1."""
+    return SequenceMatcher(
+        None,
+        verify.norm_title(work.get("display_name") or ""),
+        verify.norm_title(entry.get("title") or ""),
+    ).ratio()
+
+
+def same_paper(work, entry, venue):
+    """Is this record the published version of an entry still "(accepted)"?
+
+    Titles are not stable across acceptance: five 2025 papers were renamed
+    between the two, and every one of them came back here as a brand new
+    publication. At acceptance there is no DOI to compare either, so match on
+    the two things that do not move -- who wrote it and where it appeared.
+    """
+    tail = (entry.get("tail") or "").lower()
+    if not venue or venue.lower() not in tail:
+        return False
+    a = [n for n in (verify.norm_name(x) for x in work_authors(work)) if n]
+    b = [n for n in (entry.get("authors") or []) if n]   # already parsed names
+    if not a or not b:
+        return False
+    if not verify.same_person(a[0], b[0]):      # a renamed paper keeps its lead
+        return False
+    hits = sum(any(verify.same_person(x, y) for y in b) for x in a)
+    return hits >= max(2, (min(len(a), len(b)) + 1) // 2)
+
+
 def entry_for(work):
     """One publication in the list's house style."""
     title = (work.get("display_name") or "").strip().rstrip(".")
@@ -128,7 +168,9 @@ def main():
     entries = verify.parse_entries(CONTENT)
     known = {verify.norm_title(e["title"]) for e in entries if e["title"]}
 
-    fresh = []
+    pending = [e for e in entries if is_accepted(e)]
+
+    fresh, updates = [], []
     for w in works:
         key = verify.work_key(w)
         if not key or key in known:
@@ -137,7 +179,17 @@ def main():
             continue  # wait for the published version
         if not w.get("publication_year"):
             continue
-        fresh.append(w)
+        venue = house_venue(verify.venue_of(w) or crossref_venue(w.get("doi")),
+                            w.get("publication_year"))
+        # several accepted papers can share a first author and a venue -- Jiatong
+        # Shi had two at ASRU'25 -- so take the closest title among the matches
+        # rather than the first, or the report names the wrong entry to edit.
+        cands = [e for e in pending if same_paper(w, e, venue)]
+        hit = max(cands, key=lambda e: title_overlap(w, e), default=None)
+        if hit:
+            updates.append((w, hit))      # a listed paper, now published
+        else:
+            fresh.append(w)
 
     # newest first, and only ever a handful: anything older is already a decision
     # someone made not to list it.
@@ -147,15 +199,35 @@ def main():
     ]
 
     lines = [f"# Candidate publications ({date.today():%Y-%m-%d})", ""]
-    if not fresh:
+
+    if updates:
+        lines += [
+            f"## {len(updates)} listed paper(s) now published",
+            "",
+            "These are already in `content/publications.md` under the title they",
+            "were accepted under, and are still marked `(accepted)`. OpenAlex now",
+            "has the published version. Replace the title and add the pages --",
+            "do not add a second entry.",
+            "",
+        ]
+        for w, e in updates:
+            lines += [
+                "**listed:**", "", "```", e["raw"], "```", "",
+                "**published:**", "", "```", entry_for(w), "```", "",
+            ]
+            if w.get("doi"):
+                lines += [f"{w['doi']}", ""]
+
+    if not fresh and not updates:
         lines += [
             "Nothing new. Every OpenAlex record from this year and last is "
             "already in `content/publications.md`.",
             "",
         ]
-    else:
+    elif fresh:
         lines += [
-            f"{len(fresh)} record(s) in OpenAlex are not in `content/publications.md`.",
+            f"## {len(fresh)} record(s) not in `content/publications.md`",
+            "",
             "",
             "These are **drafts**. Check the author order, the venue abbreviation and",
             "the section before committing -- OpenAlex sometimes truncates author lists,",
@@ -193,7 +265,7 @@ def main():
                 lines += [f"{w['doi']}", ""]
 
     (ROOT / args.out).write_text("\n".join(lines), encoding="utf-8")
-    print(f"{len(fresh)} candidate(s) -> {args.out}")
+    print(f"{len(fresh)} candidate(s), {len(updates)} update(s) -> {args.out}")
     if args.emit:
         for w in fresh:
             print(entry_for(w))
