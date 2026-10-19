@@ -101,6 +101,24 @@ that way. Candidates whose titles carry no vocabulary from this field are flagge
 `verify.py` is the other half: it cross-checks what is already listed. See
 `verify-report.md`.
 
+### The split author profile
+
+OpenAlex has more than one author record for this name, and the queries read
+four of them (`AUTHOR_IDS` in `verify.py`). The main record `A5001291873` is
+missing some 2025-26 papers that landed on `A5139833411`, `A5156124555` and
+`A5152952333` instead. `A5129998994` is deliberately left out: it is tagged
+Carnegie Mellon University, but 21 of its 22 works belong to a different Shinji
+Watanabe who writes on civil procedure, so including it would bury the real
+candidates under noise. Its one genuine paper goes in by hand.
+
+Checked 2026-10-19. If OpenAlex merges these back, an id here becomes redundant
+rather than wrong, so there is no hurry to prune the list.
+
+The work count under the main id fell from 1,101 to 868 over the same period.
+That was OpenAlex merging arXiv preprints into their published versions, not
+anything lost: of the 234 that disappeared, 231 were preprints and 224 still
+have a same-titled published version under the same id.
+
 ### The OpenAlex key
 
 OpenAlex gives every caller **without** a key a shared $0.10 daily budget, per

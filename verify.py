@@ -23,6 +23,23 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 CACHE = ROOT / ".cache" / "openalex_works.json"
 AUTHOR_ID = "A5001291873"          # Shinji Watanabe, Carnegie Mellon University
+
+# OpenAlex has split the profile: these three carry his 2025-26 papers -- POWSM,
+# YODAS v3, the URGENT challenge, BSCodec, PRiSM -- while the main id does not,
+# so a single-id query silently misses them. Checked 2026-10-19; drop any of them
+# if OpenAlex merges it back, which only makes the query redundant, not wrong.
+#
+# Deliberately NOT here: A5129998994. It is tagged Carnegie Mellon University but
+# 21 of its 22 works are a different Shinji Watanabe's civil-procedure law notes.
+# Including it would bury the real candidates. Its one genuine paper, "Which Data
+# Matter? Embedding-Based Data Selection for Speech Recognition", goes in by hand.
+EXTRA_AUTHOR_IDS = [
+    "A5139833411",                 # 23 works, "Tohoku University; CMU"
+    "A5156124555",                 # 2 works
+    "A5152952333",                 # 1 work
+]
+AUTHOR_IDS = [AUTHOR_ID] + EXTRA_AUTHOR_IDS
+
 MAIL = "swatanab@andrew.cmu.edu"
 
 # Without a key every caller sharing an IP shares one $0.10 daily budget, which
@@ -44,7 +61,7 @@ def fetch_works():
     cursor, works = "*", []
     while cursor:
         q = urllib.parse.urlencode({
-            "filter": f"author.id:{AUTHOR_ID}", "per-page": 200,
+            "filter": "author.id:" + "|".join(AUTHOR_IDS), "per-page": 200,
             "cursor": cursor, "select": fields, "mailto": MAIL,
         })
         req = urllib.request.Request(f"https://api.openalex.org/works?{q}")
@@ -71,6 +88,14 @@ def fetch_works():
         if not d["results"]:
             break
         time.sleep(0.3)
+    # the OR filter returns a work once even when two of the ids are on it, but
+    # that is OpenAlex's promise rather than ours
+    seen, unique = set(), []
+    for w in works:
+        if w["id"] not in seen:
+            seen.add(w["id"])
+            unique.append(w)
+    works = unique
     CACHE.parent.mkdir(exist_ok=True)
     CACHE.write_text(json.dumps(works), encoding="utf-8")
     return works
