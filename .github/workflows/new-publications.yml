@@ -30,6 +30,10 @@ jobs:
 
       - name: Ask OpenAlex
         id: look
+        env:
+          # Runners share IPs, so keyless requests share one $0.10 daily budget
+          # with every other caller on that address and get 401s.
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
         run: |
           # one fetch, shared by both checks
           python3 find_new.py --fetch

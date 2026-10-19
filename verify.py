@@ -9,10 +9,12 @@ for entries that still say "(accepted)". Writes a report; never edits content.
 """
 import argparse
 import json
+import os
 import re
 import sys
 import time
 import unicodedata
+import urllib.error
 import urllib.parse
 import urllib.request
 from difflib import SequenceMatcher
@@ -22,6 +24,13 @@ ROOT = Path(__file__).resolve().parent
 CACHE = ROOT / ".cache" / "openalex_works.json"
 AUTHOR_ID = "A5001291873"          # Shinji Watanabe, Carnegie Mellon University
 MAIL = "swatanab@andrew.cmu.edu"
+
+# Without a key every caller sharing an IP shares one $0.10 daily budget, which
+# GitHub Actions runners exhaust among themselves -- hence the 401s. A key is
+# free, carries its own $1/day, and is API-only. Never in the file: the env var
+# comes from the OPENALEX_API_KEY repository secret in CI, and from the shell
+# locally. Sent as a header, not a query parameter, so it stays out of URLs.
+API_KEY = os.environ.get("OPENALEX_API_KEY", "").strip()
 
 QUOTES = '"“”‘’„‟〝〞'
 TAGS = re.compile(r"\*{1,3}|\[|\]\([^)]*\)")
@@ -38,8 +47,25 @@ def fetch_works():
             "filter": f"author.id:{AUTHOR_ID}", "per-page": 200,
             "cursor": cursor, "select": fields, "mailto": MAIL,
         })
-        with urllib.request.urlopen(f"https://api.openalex.org/works?{q}", timeout=60) as r:
-            d = json.loads(r.read())
+        req = urllib.request.Request(f"https://api.openalex.org/works?{q}")
+        if API_KEY:
+            req.add_header("Authorization", f"Bearer {API_KEY}")
+        try:
+            with urllib.request.urlopen(req, timeout=60) as r:
+                d = json.loads(r.read())
+        except urllib.error.HTTPError as e:
+            # The two failures that are about the key rather than the query --
+            # a bare traceback here sent us looking in the wrong place once.
+            if e.code in (401, 403):
+                sys.exit(
+                    f"OpenAlex refused the request ({e.code}). "
+                    + ("The key in OPENALEX_API_KEY may not be activated yet -- "
+                       "click the link in the activation e-mail."
+                       if API_KEY else
+                       "No OPENALEX_API_KEY is set, so this shares one $0.10 "
+                       "daily budget with every caller on this IP.")
+                )
+            raise
         works.extend(d["results"])
         cursor = d["meta"].get("next_cursor")
         if not d["results"]:

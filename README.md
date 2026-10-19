@@ -101,6 +101,25 @@ that way. Candidates whose titles carry no vocabulary from this field are flagge
 `verify.py` is the other half: it cross-checks what is already listed. See
 `verify-report.md`.
 
+### The OpenAlex key
+
+OpenAlex gives every caller **without** a key a shared $0.10 daily budget, per
+IP address. GitHub Actions runners share their IPs with everyone else on them,
+so the weekly check started returning `401 Unauthorized` in October 2026. A free
+key carries its own $1/day and fixes it.
+
+The key is API-only -- it cannot sign in to openalex.org and cannot curate the
+author profile -- and is revocable. It is read from `OPENALEX_API_KEY` and sent
+as an `Authorization: Bearer` header, never as a query parameter. In CI it comes
+from the repository secret of the same name; locally, export it in your shell.
+It is never in the repository. Without it everything still runs, just on the
+shared budget.
+
+Registered 2026-10-19 against `sw005320@gmail.com` -- deliberately not the CMU
+or IEEE address, so those stay free for a real OpenAlex account if the author
+profile is ever claimed (OpenAlex refuses a key for an address that already has
+one).
+
 ## Theme
 
 Newsreader (display) + Inter (UI), from Google Fonts.
