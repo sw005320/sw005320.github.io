@@ -287,6 +287,8 @@ Hisakazu Minakata and **Shinji Watanabe**, "Solar Neutrinos and Leptonic CP Viol
 
 ## International Conference and Workshop (refereed)
 
+Brian Yan, Qingzheng Wang, Matthew Wiesner, Anuj Diwan, Olga Iakovenko, Alex Polok, Injy Hamed, Shuichiro Shimizu, Iris Emerman, Thomas Hain, David R. Mortensen, Peter Viechnicki, and **Shinji Watanabe**, "CS-YODAS: A Mined Dataset of In-the-Wild Code-Switched Speech," *Proc. LREC'26*, pp. 5776--5784 (2026)
+
 Masao Someki, Samuele Cornell, Kuang-Da Wang, and **Shinji Watanabe**, "ATLAS: Agentic ASR Tuning for Research Labor Scaling," *Proc. SLT'26*
 
 Shunsuke Mitsumori, Matthew Wiesner, Shigeo Morishima, and **Shinji Watanabe**, "Code-Switching Spoken Language Identification as Multi-Label Set Prediction," *Proc. SLT'26*

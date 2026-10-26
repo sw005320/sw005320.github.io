@@ -40,6 +40,19 @@ EXTRA_AUTHOR_IDS = [
 ]
 AUTHOR_IDS = [AUTHOR_ID] + EXTRA_AUTHOR_IDS
 
+# Pinning ids is not enough on its own. OpenAlex invents a fresh author record
+# for a paper it cannot attribute, so a new paper can land somewhere none of the
+# ids above reach: CS-YODAS (LREC'26) sat under three more of them and went
+# unnoticed. The second sweep asks by name instead and keeps only Computer
+# Science, which is what separates this Shinji Watanabe from the ones publishing
+# on batteries, plasma thrusters and cardiology. It still lets through a
+# Miyazaki group working on cameras and cherry packing; FIELD_WORDS in
+# find_new.py flags those. Measured 2026-10-26: 407 works by name since 2025,
+# 16 in Computer Science, and the only one genuinely missing was CS-YODAS.
+NAME_SWEEP = ("raw_author_name.search:shinji watanabe,"
+              "primary_topic.field.id:fields/17,"      # Computer Science
+              "from_publication_date:2025-01-01")
+
 MAIL = "swatanab@andrew.cmu.edu"
 
 # Without a key every caller sharing an IP shares one $0.10 daily budget, which
@@ -58,10 +71,26 @@ def fetch_works():
     # cited_by_count is here for highlights.py: one fetch serves every check
     fields = ("id,doi,title,display_name,publication_year,authorships,"
               "primary_location,biblio,type,ids,cited_by_count")
-    cursor, works = "*", []
+    works = []
+    for flt in ("author.id:" + "|".join(AUTHOR_IDS), NAME_SWEEP):
+        works.extend(_page_through(flt, fields))
+    # the OR filter returns a work once even when two of the ids are on it, and
+    # the two sweeps overlap heavily, so dedupe rather than trust either
+    seen, unique = set(), []
+    for w in works:
+        if w["id"] not in seen:
+            seen.add(w["id"])
+            unique.append(w)
+    CACHE.parent.mkdir(exist_ok=True)
+    CACHE.write_text(json.dumps(unique), encoding="utf-8")
+    return unique
+
+
+def _page_through(flt, fields):
+    out, cursor = [], "*"
     while cursor:
         q = urllib.parse.urlencode({
-            "filter": "author.id:" + "|".join(AUTHOR_IDS), "per-page": 200,
+            "filter": flt, "per-page": 200,
             "cursor": cursor, "select": fields, "mailto": MAIL,
         })
         req = urllib.request.Request(f"https://api.openalex.org/works?{q}")
@@ -83,22 +112,12 @@ def fetch_works():
                        "daily budget with every caller on this IP.")
                 )
             raise
-        works.extend(d["results"])
+        out.extend(d["results"])
         cursor = d["meta"].get("next_cursor")
         if not d["results"]:
             break
         time.sleep(0.3)
-    # the OR filter returns a work once even when two of the ids are on it, but
-    # that is OpenAlex's promise rather than ours
-    seen, unique = set(), []
-    for w in works:
-        if w["id"] not in seen:
-            seen.add(w["id"])
-            unique.append(w)
-    works = unique
-    CACHE.parent.mkdir(exist_ok=True)
-    CACHE.write_text(json.dumps(works), encoding="utf-8")
-    return works
+    return out
 
 
 # ---------------------------------------------------------------- parsing
