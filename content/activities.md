@@ -18,9 +18,9 @@ April 2025 - present: "Visiting Researcher," NHK Science & Technology Research L
 
 September 2022 - present: "Courtesy Faculty," Department of Electrical and Computer Engineering at Carnegie Mellon University, Pittsburgh PA, USA
 
-January 2021 - 2025: "Adjunct Associate Professor," Center for Language and Speech Processing at John Hopkins University, Baltimore MD, USA
+January 2021 - 2025: "Adjunct Associate Professor," Center for Language and Speech Processing at Johns Hopkins University, Baltimore MD, USA
 
-July 2017 – December 2020: "Associate Research Professor," Department of Electrical and Computer Engineering at John Hopkins University, Baltimore MD, USA
+July 2017 – December 2020: "Associate Research Professor," Department of Electrical and Computer Engineering at Johns Hopkins University, Baltimore MD, USA
 
 October 2014 – June 2017: "Senior Principal Research Scientist" (formerly, Senior Principal Member Research Staff) at Mitsubishi Electric Research Laboratories (MERL), Cambridge MA, USA (Group manager: Dr. Anthony Vetro. Team leader: Dr. John R. Hershey)
 
