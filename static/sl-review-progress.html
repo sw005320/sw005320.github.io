@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<title>SL review progress</title>
+<style>
+:root{
+  color-scheme:light;
+  --plane:#f9f9f7; --surface:#fcfcfb;
+  --ink:#0b0b0b; --ink-2:#52514e; --muted:#898781;
+  --ring:#e2e1dc; --grid:#ecebe6; --critical:#c0392b;
+  --s1:#2a78d6; --s2:#eb6834; --s3:#1baf7a; --s4:#8a63d2;
+}
+@media (prefers-color-scheme:dark){ :root:not([data-theme="light"]){
+  color-scheme:dark;
+  --plane:#0d0d0d; --surface:#1a1a19;
+  --ink:#ffffff; --ink-2:#c3c2b7; --muted:#898781;
+  --ring:#2e2e2b; --grid:#262623; --critical:#e06c5c;
+  --s1:#3987e5; --s2:#d95926; --s3:#199e70; --s4:#9b7ae0;
+}}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --plane:#0d0d0d; --surface:#1a1a19;
+  --ink:#ffffff; --ink-2:#c3c2b7; --muted:#898781;
+  --ring:#2e2e2b; --grid:#262623; --critical:#e06c5c;
+  --s1:#3987e5; --s2:#d95926; --s3:#199e70; --s4:#9b7ae0;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--plane);color:var(--ink);
+  font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+.wrap{max-width:900px;margin:0 auto;padding-block:36px 60px;padding-left:16px;padding-right:16px}
+h1{font-size:1.7rem;margin:0 0 6px;letter-spacing:-.01em;text-wrap:balance}
+h2{font-size:1.02rem;margin:0 0 4px;text-wrap:balance}
+.sub{color:var(--ink-2);margin:0 0 4px}
+.stamp{color:var(--muted);font-size:.82rem;margin:0 0 26px}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px;margin-bottom:22px}
+.tile{background:var(--surface);border:1px solid var(--ring);border-radius:12px;padding:16px 18px;min-width:0}
+.tile .lab{font-size:.74rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.tile .val{font-size:1.7rem;font-variant-numeric:tabular-nums;margin-top:4px}
+.tile .foot{font-size:.8rem;color:var(--ink-2);margin-top:2px}
+.tile.alarm .val{color:var(--critical)}
+.card{background:var(--surface);border:1px solid var(--ring);border-radius:12px;
+  padding:18px 18px 10px;margin-bottom:18px;min-width:0}
+.note{color:var(--ink-2);font-size:.9rem;margin:0 0 12px}
+.legend{display:flex;gap:16px;flex-wrap:wrap;font-size:.85rem;color:var(--ink-2);margin-bottom:8px}
+.legend .sw{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;vertical-align:middle}
+svg{width:100%;height:auto;display:block;overflow:visible}
+.gl{stroke:var(--grid);stroke-width:1}
+.ax{stroke:var(--ring);stroke-width:1}
+.tk{fill:var(--muted);font-size:11px;font-variant-numeric:tabular-nums}
+.dl{font-size:12px;font-variant-numeric:tabular-nums}
+details{margin:6px 0 4px}
+summary{cursor:pointer;color:var(--ink-2);font-size:.86rem}
+.scroll{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:.86rem;margin-top:8px}
+th,td{text-align:right;padding:5px 8px;border-bottom:1px solid var(--grid);
+  font-variant-numeric:tabular-nums;white-space:nowrap}
+th:first-child,td:first-child{text-align:left}
+th{color:var(--muted);font-weight:500;letter-spacing:.03em}
+.foot{color:var(--muted);font-size:.84rem;margin-top:26px}
+label{font-size:.86rem;color:var(--ink-2)}
+input,button{font:inherit;padding:9px 12px;border-radius:9px;border:1px solid var(--ring);
+  background:var(--plane);color:var(--ink)}
+button{cursor:pointer;background:var(--ink);color:var(--plane);border-color:var(--ink)}
+button[disabled]{opacity:.6;cursor:default}
+.row{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}
+.row>input{flex:1 1 220px;min-width:0}
+.err{color:var(--critical);font-size:.9rem;margin-top:10px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>SL review progress</h1>
+  <p class="sub">ICASSP 2027 Speech and Language track. Counts only, taken from CMS.</p>
+  <p class="stamp" id="stamp"></p>
+
+  <div id="gate" class="card" hidden>
+    <label for="pass">Passphrase</label>
+    <div class="row">
+      <input id="pass" type="password" autocomplete="off" spellcheck="false" placeholder="The one in the area chair email">
+      <button id="unlock" type="button">Unlock</button>
+    </div>
+    <p id="gateErr" class="err" hidden></p>
+    <p class="note" style="margin-top:14px">This page holds no names and no paper numbers, only totals, but the backlog is not something we want indexed, so it is encrypted. Nothing you type leaves your browser. The passphrase is different from the one for the chairs' status page.</p>
+  </div>
+
+  <div id="app" hidden>
+    <div class="tiles" id="tiles"></div>
+    <div id="charts"></div>
+    <p class="foot">Each point is one run of the status script against CMS. Numbers cover the whole Speech and Language track; your own area may be ahead of this or behind it, and CMS is the place to check that.</p>
+  </div>
+</div>
+<script>
+const EMBEDDED = null;
+const BLOB = {"s": "iDorMARQfHf7BPWeWUe36A==", "n": "jb5SQ2G25W9ax1iZ", "it": 600000, "c": "N1ksM1f9Rgre67coYhOefdPrH99eVnF9lxZmxpauXUirdlMNWF2zIfKmyB4+sr2GZRZxhJCoYaiJE4PIc2gqI/86aa2aQNFOWlzZ4OvQ/lII1DTHXVD+uhUevbcuKpZU5lY9rthry8n+WnTCckf+Vxn9qQaUiRpAGAeAb9v/MxdeaCFtkDsAibSBNNm7+hCOzo+LNuloq4gvULstZoi4kQ719aq6+DdFdqML0xXa8YenRkL584gdgRPNBPX8ZSsspiBVCR4523n0BzW/fclLFYHBYTp/v3/1NvoiIVOd77Foww0hY61izX0fjbavIJBgwTvBf4bbLiV0Mm8Mh/U048PbF517/U5fD+xxsbYH2yf5BNP45w2uUXD6T6UtM/WZkwdKioabNjSVvG3YZSzwVQelX2becWbGql/jCiprDW9jLVdGmH2hnBqvW0YGeFCQw89W7wfDvdVslZjIvTWbi4i8zJvNDJ7pku21tHABUe8kTSQ2LEabKIh2F8c1rqMC9lgD1m/oqIADeuuGp2mBz/shS2vVTb21CfVrxzq1nyha33eMBcBDyNyl6fAepga8rBEvVas7apdLQt7rIWkJ7C5vSYtLVklgxkl8XeN5DCEunu5N2V9rDZnwGlKarT1Bn4hQBv4AOoaXMHCNan1at8U+o+V8SsB6lVgk3Qo/6l7Cx7ZM6DaQM/sr0qLeCtHAU9jfJPF+KVa14Ht2WXSOndS+PC4B2Rau/o93"};
+
+async function decrypt(pass, blob) {
+  const b = s => Uint8Array.from(atob(s), c => c.charCodeAt(0));
+  const base = await crypto.subtle.importKey('raw', new TextEncoder().encode(pass), 'PBKDF2', false, ['deriveKey']);
+  const key = await crypto.subtle.deriveKey(
+    { name:'PBKDF2', salt:b(blob.s), iterations:blob.it, hash:'SHA-256' },
+    base, { name:'AES-GCM', length:256 }, false, ['decrypt']);
+  const out = await crypto.subtle.decrypt({ name:'AES-GCM', iv:b(blob.n) }, key, b(blob.c));
+  return JSON.parse(new TextDecoder().decode(out));
+}
+function fail(msg) {
+  const e = document.getElementById('gateErr');
+  e.textContent = msg; e.hidden = false;
+  const b = document.getElementById('unlock'); b.disabled = false; b.textContent = 'Unlock';
+}
+async function unlock() {
+  const pass = document.getElementById('pass').value.trim();
+  if (!pass) { fail('Enter the passphrase.'); return; }
+  document.getElementById('gateErr').hidden = true;
+  const b = document.getElementById('unlock'); b.disabled = true; b.textContent = 'Unlocking, a moment...';
+  if (!(window.crypto && window.crypto.subtle)) {
+    fail('This browser will not run decryption here. Open the page over https.'); return;
+  }
+  let data;
+  try { data = await decrypt(pass, BLOB); }
+  catch (e) { fail('That passphrase does not work. Check it with the chairs.'); return; }
+  try { sessionStorage.setItem('slprogresspass', pass); } catch (e) {}
+  document.getElementById('gate').hidden = true;
+  start(data);
+}
+
+const ET = { timeZone:'America/New_York' };
+const fmtDay = t => new Date(t).toLocaleDateString('en-GB', Object.assign({day:'numeric',month:'short'}, ET));
+const fmtFull = t => new Date(t).toLocaleString('en-GB', Object.assign(
+  {day:'numeric',month:'short',hour:'2-digit',minute:'2-digit',hour12:false}, ET)) + ' ET';
+const num = n => (n == null ? '-' : n.toLocaleString('en-US'));
+
+function niceAxis(max) {
+  const raw = Math.max(1, max) / 4;
+  const mag = Math.pow(10, Math.floor(Math.log10(raw)));
+  const step = [1,2,2.5,5,10].map(m => m*mag).find(s => s >= raw) || 10*mag;
+  return { step, max: step*4 };
+}
+/* x is proportional to real time, so a six-day gap between snapshots looks like
+   a six-day gap and the slope can be read off the page. */
+function timeAxis(S, x0, x1) {
+  const ts = S.map(s => new Date(s.t).getTime());
+  const lo = Math.min(...ts), hi = Math.max(...ts);
+  const span = hi - lo;
+  const tx = t => span ? x0 + (t-lo)*(x1-x0)/span : (x0+x1)/2;
+  const px = i => tx(ts[i]);
+  const ticks = [];
+  if (span) {
+    const d = new Date(lo); d.setHours(0,0,0,0);
+    for (let t = d.getTime(); t <= hi; t += 864e5) if (t >= lo) ticks.push(t);
+  }
+  return { tx, px, ticks, lab: t => fmtDay(t) };
+}
+
+const PAD = { l:44, r:58, t:18, b:30 };
+
+/* The buckets partition a total that barely moves, so stacked bands show the
+   shift. Four lines on one linear axis hide the small ones: on 12 November
+   "two reviews" and "all done" were both under 15% of the axis and read as flat
+   although they had tripled. */
+function stackChart(host, title, note, series, S) {
+  if (!S.length) return;
+  const W = 860, H = 260, n = S.length;
+  const totals = S.map(s => series.reduce((a,x) => a + (s[x.key] ?? 0), 0));
+  const A = niceAxis(Math.max(1, ...totals));
+  const AX = timeAxis(S, PAD.l, W-PAD.r), px = AX.px;
+  const py = v => PAD.t + (1 - v/A.max)*(H-PAD.t-PAD.b);
+  let g = grid(A, AX, px, py, W, H, S);
+  const cum = S.map(() => 0);
+  series.forEach(sr => {
+    const lower = cum.slice();
+    S.forEach((s,i) => { cum[i] += (s[sr.key] ?? 0); });
+    if (n > 1) {
+      const top = S.map((s,i) => px(i).toFixed(1)+','+py(cum[i]).toFixed(1));
+      const bot = S.map((s,i) => px(i).toFixed(1)+','+py(lower[i]).toFixed(1)).reverse();
+      g += '<polygon points="'+top.concat(bot).join(' ')+'" fill="'+sr.color+'" fill-opacity="0.9" stroke="var(--surface)" stroke-width="1"/>';
+    } else {
+      g += '<rect x="'+(px(0)-18)+'" y="'+py(cum[0])+'" width="36" height="'+Math.max(py(lower[0])-py(cum[0]),0)+'" fill="'+sr.color+'" fill-opacity="0.9"/>';
+    }
+    if (py(lower[n-1]) - py(cum[n-1]) >= 14) {
+      g += '<text class="dl" x="'+(W-PAD.r+10)+'" y="'+(py((cum[n-1]+lower[n-1])/2)+4)+'" fill="'+sr.color+'">'+num(S[n-1][sr.key] ?? 0)+'</text>';
+    }
+  });
+  g += '<line class="ax" x1="'+PAD.l+'" y1="'+py(0)+'" x2="'+(W-PAD.r)+'" y2="'+py(0)+'"/>';
+  host.appendChild(card(title, note, series, S, g, W, H));
+}
+
+function lineChart(host, title, note, series, S) {
+  if (!S.length) return;
+  const W = 860, H = 260, n = S.length;
+  const A = niceAxis(Math.max(1, ...S.flatMap(s => series.map(x => s[x.key] ?? 0))));
+  const AX = timeAxis(S, PAD.l, W-PAD.r), px = AX.px;
+  const py = v => PAD.t + (1 - v/A.max)*(H-PAD.t-PAD.b);
+  let g = grid(A, AX, px, py, W, H, S);
+  g += '<line class="ax" x1="'+PAD.l+'" y1="'+py(0)+'" x2="'+(W-PAD.r)+'" y2="'+py(0)+'"/>';
+  series.forEach(sr => {
+    const pts = S.map((s,i) => [px(i), py(s[sr.key] ?? 0)]);
+    if (n > 1) g += '<path d="M'+pts.map(p=>p[0].toFixed(1)+','+p[1].toFixed(1)).join('L')+'" fill="none" stroke="'+sr.color+'" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>';
+    pts.forEach(p => { g += '<circle cx="'+p[0]+'" cy="'+p[1]+'" r="4" fill="'+sr.color+'" stroke="var(--surface)" stroke-width="2"/>'; });
+    const last = pts[pts.length-1];
+    g += '<text class="dl" x="'+(last[0]+10)+'" y="'+(last[1]+4)+'" fill="'+sr.color+'">'+num(S[n-1][sr.key] ?? 0)+'</text>';
+  });
+  host.appendChild(card(title, note, series, S, g, W, H));
+}
+
+function grid(A, AX, px, py, W, H, S) {
+  let g = '';
+  for (let k=0;k<=4;k++) {
+    const v = A.step*k, y = py(v);
+    g += '<line class="gl" x1="'+PAD.l+'" y1="'+y+'" x2="'+(W-PAD.r)+'" y2="'+y+'"/>';
+    g += '<text class="tk" x="'+(PAD.l-8)+'" y="'+(y+4)+'" text-anchor="end">'+v+'</text>';
+  }
+  AX.ticks.forEach(t => {
+    const x = AX.tx(t).toFixed(1);
+    g += '<line class="gl" x1="'+x+'" y1="'+PAD.t+'" x2="'+x+'" y2="'+py(0)+'"/>';
+    g += '<text class="tk" x="'+x+'" y="'+(H-PAD.b+18)+'" text-anchor="middle">'+AX.lab(t)+'</text>';
+  });
+  if (!AX.ticks.length) {
+    g += '<text class="tk" x="'+px(0)+'" y="'+(H-PAD.b+18)+'" text-anchor="middle">'+fmtDay(S[0].t)+'</text>';
+  }
+  return g;
+}
+
+function card(title, note, series, S, g, W, H) {
+  const legend = '<div class="legend">'+series.map(sr=>'<span><i class="sw" style="background:'+sr.color+'"></i>'+sr.label+'</span>').join('')+'</div>';
+  const rows = S.map(s => '<tr><td>'+fmtFull(s.t)+'</td>'+series.map(sr=>'<td>'+num(s[sr.key])+'</td>').join('')+'</tr>').join('');
+  const table = '<details><summary>Table view</summary><div class="scroll"><table><thead><tr><th>Snapshot</th>'+
+    series.map(sr=>'<th>'+sr.label+'</th>').join('')+'</tr></thead><tbody>'+rows+'</tbody></table></div></details>';
+  const el = document.createElement('div');
+  el.className = 'card';
+  el.innerHTML = '<h2>'+title+'</h2><p class="note">'+note+'</p>'+legend+
+    '<svg viewBox="0 0 '+W+' '+H+'" role="img" aria-label="'+title+'">'+g+'</svg>'+table;
+  return el;
+}
+
+function start(DATA) {
+  const S = DATA.snaps, last = S[S.length-1];
+  document.getElementById('app').hidden = false;
+  document.getElementById('stamp').textContent = 'Snapshot of ' + fmtFull(DATA.takenAt) + '.';
+
+  /* Calendar days from the snapshot's date to the deadline, both in Eastern
+     time, which is the clock CMS closes on. Counting fractional days and
+     rounding up reads as one day more than everyone else is counting. */
+  const dayET = d => new Date(d).toLocaleDateString('en-CA', ET);
+  const days = Math.max(0, Math.round(
+    (Date.parse(DATA.deadline + 'T12:00:00Z') - Date.parse(dayET(DATA.takenAt) + 'T12:00:00Z')) / 864e5));
+  const perDay = days ? Math.round(last.outstanding / days) : last.outstanding;
+
+  const tiles = [
+    ['Reviews submitted', num(last.submitted), 'of ' + num(last.submitted + last.outstanding) + ' assigned', false],
+    ['Still outstanding', num(last.outstanding), days + (days === 1 ? ' day left' : ' days left'), true],
+    ['Papers with no review', num(last.rev0), 'out of ' + num(DATA.papers), true],
+    ['Needed per day', num(perDay), 'to finish by ' + fmtDay(DATA.deadline + 'T12:00:00-05:00'), false],
+  ];
+  document.getElementById('tiles').innerHTML = tiles.map(t =>
+    '<div class="tile'+(t[3]?' alarm':'')+'"><div class="lab">'+t[0]+'</div><div class="val">'+t[1]+'</div><div class="foot">'+t[2]+'</div></div>').join('');
+
+  const host = document.getElementById('charts');
+  stackChart(host, 'Papers by completed reviews',
+    'Every paper needs three reviews. The four bands always add up to all ' + num(DATA.papers) + ' papers, so watch the bottom band shrink.',
+    [{key:'rev0', label:'No reviews', color:'var(--s1)'},
+     {key:'rev1', label:'One review', color:'var(--s2)'},
+     {key:'rev2', label:'Two reviews', color:'var(--s3)'},
+     {key:'rev3', label:'Three or more', color:'var(--s4)'}], S);
+  stackChart(host, 'How far the reviewers have got',
+    'Counting only reviewers who hold at least one paper, so the three bands add up to everyone who was given work. The ones who have submitted nothing are the ones to remind first.',
+    [{key:'rNone', label:'Submitted nothing', color:'var(--s1)'},
+     {key:'rSome', label:'Partly done', color:'var(--s2)'},
+     {key:'rAll', label:'All done', color:'var(--s3)'}], S);
+  lineChart(host, 'Reviews submitted, and reviews still missing',
+    'The two lines have to meet before the deadline.',
+    [{key:'submitted', label:'Submitted', color:'var(--s3)'},
+     {key:'outstanding', label:'Outstanding', color:'var(--s1)'}], S);
+}
+
+if (EMBEDDED) { start(EMBEDDED); }
+else {
+  document.getElementById('gate').hidden = false;
+  document.getElementById('unlock').addEventListener('click', unlock);
+  document.getElementById('pass').addEventListener('keydown', e => { if (e.key === 'Enter') unlock(); });
+  try { const p = sessionStorage.getItem('slprogresspass'); if (p) document.getElementById('pass').value = p; } catch (e) {}
+}
+</script>
+<!-- payload a8ad661c4457203b -->
+</body>
+</html>
