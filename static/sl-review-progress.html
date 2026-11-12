@@ -94,7 +94,7 @@ button[disabled]{opacity:.6;cursor:default}
 </div>
 <script>
 const EMBEDDED = null;
-const BLOB = {"s": "N9by/8I9ez5SPeUNsUMwlw==", "n": "+BZpOtG3hcqFGVFP", "it": 600000, "c": "+ENR+hdOJGmywirP5cW0u7oTzGLpJnP9tSRCuHCxAhytjYsNYsJWWIvpDg464LG0JmitfwQiCQ391nQXxcPnQEft1KpR8GfQvhOmqxc6FL81vrLTRx5Dzm056hX/uSbogwm2xzTz2mME3ANlFFxxMN+3Pfhutc4rUb8MWa4z6VjA6l/YW6fAkF7fuYHL/Wg6HspRL8IDBR4u40E1X8HAmfL9v8aLFbsyVYNlz6UjtpxyVLpiI6G8tb8b7L2gDGb6dOrle79dR6gSIYs/RpF85Pj12p8tiYHsr0ATYDmTlbf5se8Nmifqj2HcZHVEd6t6Loyb4+wpzD5Dxz3Dz1L7T/JZeP6BkWfs2LL8aI0J/1L+GDy63zstoU22Nfl/dwsz9kjl7BucNDYlKleGW9KUnPZAbSek9pH+kn+YNfdacbL3P7EGhM+y4xSR1JtVAmYxjM2+x3P3IIRYxCk6iofd6hnd2RDTX4qivkFVjPA3auT7VZxnZXVLkS78s/Fs/HgNRwBx8sm1jmO5NA9iaFhzW0uI9a0YnfUtkLy6x4Klj71S8Dg2v8qijzPILQeoq6J0FRW3gncEDcrcjUMXw8ToijwqVdK2MzRJBt4XYbU+EFewIVVYfTPicWhqH7S3NYNzk7PPvWsGNciAfzNEEEes/3TsY38M30hV125lKvyyH+GB0rYTPWhXZrs+AkX3TWJKojDsSK3blsssRXten4MaUqJ6a7YeNtkNrwUgKh3+Jmp/LaR3e7BQPg6/egaq1Q7wzMAMle5HmUnMSPLwU3S4CU48BXObnI0Lh/WOFzw0TwwfohCKk/+ny62UtefIYqKtsAHPZeXQg8X2oOsw1BgFoWG6L+cAZJ38aK7cdZ5DqYNbOob3bC/YIzTWcQHP5GGHplcJTSXRzaPxUZMtnl/1hnYQiNsspCO7awGohovH"};
+const BLOB = {"s": "6VeXU5xNppV6ZAQNNiuzMg==", "n": "vYZLxMvcGS6+4xQ+", "it": 600000, "c": "by86ZndJ6SQIBucILh2ndMNA4lgnHSXSlnpLWnQmfE0bLAnhow1Mm+TKbJu+KNJWo/b6EauoD0jmsd7O2z/SaK2u0T5QACaHPLKwxdJej8IkM2q1DxXWCxh+1/02sC5yJAgpmIAqRKyUSK8qLFV1jmjnU5WORgMu5arkt9yUIYCgdpfAx3EZrQxsc/FkSwdWdZVP4HKpfAGuveOnczIDJOcChYYZ1QQkAYAGxrVkaFmA6jLvy+Ld4QNPvdAmIZEZz2uLf4Eje680VPXHEHuseFWM/Qr629SDp7LLD5Y9I2k+CEBc92IU6PwTAqHRM69yUSAaUyY6nvuGwwhoJXIMPRCMMXipsfcwg5ZbLv4nMOHkM29YgxjlX2+P0LLx8j/9tKYMq50V8k3JlTYsf/PV0GL3lf5dThKAMaWvAbs1pH/CQDnHfpm6oyXcIMl/cixtOHuKK1s8wfFqNQ9HVUI82XsnxeanTdZHAcXajLps8L5oVypKNKDoCBgupoXnt+gSTxjMNsVyA/8SIL/qN816vj0oh1t8HE8eyUpSE6etKK4LDGKrKp7KuwA3ZZAWtSYX3h0gwAsTdWDXBmaBDnPxsDu7e8VnDn9Q8su+vRID+YbcUtLc76dAybXESPuYoX1qAD6q1FDn+Cv4GV2eRDXBRBSqOntG6lDpGYNF9/0lyHZ0wNGsd/Db3l4J5i3UbUtPZeY/oPnG+QGqFe3BzAZLlNVOS8/f6m7IeBrtrvh11CEaCh9r7vaGEYa1vk6rLP7hfsL0UeaPiVdf7cFvzDcl/DjgHpKuZJmOLAqJVjrWvb+6mFi43qgxi5kuf6yK1QMojd1MMlBW6c8NGw7X4KQ/K7jye80M9723NJNn/QrvCJyG0yxLomUbEUT8QWsLEy+qJTz82vnlZdrA+zfc3v73x3BX7GyZa9IrmJ2Ne0P1"};
 
 async function decrypt(pass, blob) {
   const b = s => Uint8Array.from(atob(s), c => c.charCodeAt(0));
@@ -246,13 +246,11 @@ function start(DATA) {
   const dayET = d => new Date(d).toLocaleDateString('en-CA', ET);
   const days = Math.max(0, Math.round(
     (Date.parse(DATA.deadline + 'T12:00:00Z') - Date.parse(dayET(DATA.takenAt) + 'T12:00:00Z')) / 864e5));
-  const perDay = days ? Math.round(last.outstanding / days) : last.outstanding;
 
   const tiles = [
     ['Reviews submitted', num(last.submitted), 'of ' + num(last.submitted + last.outstanding) + ' assigned', false],
     ['Still outstanding', num(last.outstanding), days + (days === 1 ? ' day left' : ' days left'), true],
     ['Papers with no review', num(last.rev0), 'out of ' + num(DATA.papers), true],
-    ['Needed per day', num(perDay), 'to finish by ' + fmtDay(DATA.deadline + 'T12:00:00-05:00'), false],
   ];
   document.getElementById('tiles').innerHTML = tiles.map(t =>
     '<div class="tile'+(t[3]?' alarm':'')+'"><div class="lab">'+t[0]+'</div><div class="val">'+t[1]+'</div><div class="foot">'+t[2]+'</div></div>').join('');
@@ -283,6 +281,6 @@ else {
   try { const p = sessionStorage.getItem('slprogresspass'); if (p) document.getElementById('pass').value = p; } catch (e) {}
 }
 </script>
-<!-- payload 62d6574b2479afca -->
+<!-- payload 786e7851d61d5b76 -->
 </body>
 </html>
