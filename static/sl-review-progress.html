@@ -61,6 +61,17 @@ th,td{text-align:right;padding:5px 8px;border-bottom:1px solid var(--grid);
 th:first-child,td:first-child{text-align:left}
 th{color:var(--muted);font-weight:500;letter-spacing:.03em}
 .foot{color:var(--muted);font-size:.84rem;margin-top:26px}
+.areas{width:100%;border-collapse:collapse;font-size:.88rem;margin-top:4px}
+.areas th{text-align:right;color:var(--muted);font-weight:500;padding:4px 8px;
+  border-bottom:1px solid var(--grid);white-space:nowrap}
+.areas th:first-child,.areas td:first-child{text-align:left}
+.areas td{padding:7px 8px;border-bottom:1px solid var(--grid);text-align:right;
+  font-variant-numeric:tabular-nums;white-space:nowrap}
+.areas .bar{display:flex;height:10px;border-radius:3px;overflow:hidden;min-width:90px}
+.areas .bar i{display:block;height:100%}
+.areas .barcell{width:34%;padding-right:0}
+.areas tr.worst td{font-weight:600}
+.areas .name{white-space:normal}
 label{font-size:.86rem;color:var(--ink-2)}
 input,button{font:inherit;padding:9px 12px;border-radius:9px;border:1px solid var(--ring);
   background:var(--plane);color:var(--ink)}
@@ -95,7 +106,7 @@ button[disabled]{opacity:.6;cursor:default}
 </div>
 <script>
 const EMBEDDED = null;
-const BLOB = {"s": "y80n7LCtqvmdPy4lM61AfQ==", "n": "KUzLpjdq3qWhqqzO", "it": 600000, "c": "Mj1SKxWQvZsQQ5KNPCLGZjz+L6eQCfxIkvDmz/JWNJQ9btwYFscu+zM/nMPmHIMEupOB67kJntHw6NzP9WZ6eXjqj8vG/pUX8ZnRBQWnmCBzfJ29VG6nHbvGzQ28iuRTdorRhJYSyp94z7lTJ0LDzizO5zaRw1Z+oIWJZDB+jewOdjXUubzZcm28kCAVd3pwwRaTF/yZXyaqgZf2LXiArlfz0PKbVONbLt4gsAONBRT5U5Cv6xg0Or3gcPhfPuhT03m9CGomv0GM7seFIJLE11+hHHAwPdaibUB12UtJhYA+RUNNgMaKesoxQwzw/0Dx6GO3HE04+6fPOSDvIf9Cbz2Q6vfRg+FJv/a5/KcE4+tnbQY+LATPc9u+WWt2GyV42NCplYlygkRGlJfO+TAX66NCokCusIjyl0SA1X9F2iULzNjfd9zf8TGe5JUBzxppFZdCMZwJqgCkaVFc+i5SJ/cLCunKEAGT5v8E5qiktMqwUjmVbphRUTiKPKWyZl+y2wVAvBkIy1jxPRlp7c0MqbQMLZWycOQEVsa+5Ac14UQRv5QJ5K1kv1uwalfw2MJTZDc7NP8S9QPfZbchJ9IfL9LZWGOhJIMRfjVAziSR7saBb+ABSzn6ypADQipwY3+05tt/KjESJaW78IEndKME29KF50kvg1JNtV/5/uF61vdeREyuvCHImn6WbsdAAUs3MaVA6FuAIkvpx9FFxCyA9+gN1qqrwdw+oP7Gc6/zhxlst7YeNR5LYJL7M6qpg87UO3c2BrI2hTpn9vUtLijWYzh0m2Rjd4ABVo+t15HOufL9xTOAxp8I8IpxhrBWnaGaPK9palju5gRqTSV7XvNrvUMg+fsWWvRp7gfYIJJL8Gz7OAL+nXNN6f7ycJUD+fMBJ4AwsdJcsO+bxpcWtpGesOpq5xs1u2kLyGsz72eIImC79w6FrBbvcr+PXb7HSiU6ziPlwjg4Q1JV89A8OMdq/KsFwK3oEuhOjzvCX85a0M8pOTLhny4FhCHb7/LbCaY6pkg9UDAWIah9M/gdXgGzdaTm/FbkDE6+dNFgnJ9YpngPwTkwJksL3j4UpwHLIxb15IHOfau+CR4qe9upMcq9/WQhfrCBYxvVxU83JAYTx8Qb"};
+const BLOB = {"s": "2S1dB2g2Jn4cAAV/QPfnOA==", "n": "5v5ruljpn/D5FDga", "it": 600000, "c": "v/DG+8q4dMgvuDYuBFcyv6CDNIYibLyKdeuLFj+9nv++gaypZ2Ug1X5yx/NnAMEv50TzEme993cSEyzeZKhWFgpUQ5JT3D/DWK9KSVcRyBvBtTbHfBwSL7qs2WSC7BaKO3YCmrRtYZia9ZDGjD6EzUjwOORh9yOwIqlnA+OQ0t46JegMAtb7iYRn9xI6rU67Kf4cRDxKpoFThuZnsnA8LKzMZctnzBYsmNjdnifj6c677DytIQCY++E0nX6MvuKQZvIOnLTJbpWmkdEgI4j6il0A8Sjzgw3kPYDZ48iu5cNw0ynBJp+ALlsweQzTOZ0qWjNGUJocKxojlI/uzshWg9w7tCUhKXgwzBr625tjHJyJTF3LMZa/RYrf81g8fSpHC0WoU3odkl7zFnt7Dptr6dSEN9yEVBUNnbtHdCtHDA84nqvs8IicyGXCOb+oFc7GbcH4aY3P+nAfygsjpS9NdMFqQx5IkictFpKoc2LYku7BinupOtkRoDe8tddrxuKESEpKLSIM8vUhF+SvqRY+I7un5KOmehYXpq2W7ULX0qEyM2I5JzkXP7JyeymtOj36ONj2LZGEpIG3E+uYg7wp7pHOEf2BkmNRJhWJZH/zDDU6LeKbEam0y6i8TDp46cqU7hoI9d2K5A49FQTa6a3F9b2Av4kRey71jy+SAUhuQ4oLY8B3R2HcR93YFPwlugz+5NpxCWZrZEI+JAPUo7QR55LQyINw8sdNoK4ptFOjBS9QoBb6XziiqOGa0mJ+wkaso+qtS9mZnLTsnuBif4vYrMrHmFqHjfxasVEJJvRJOIaVm5rrOCvP8gpLbgy3G+YZMICn//H1ToPqKvfKbctaMxLqnp4nuuLwajReva9k3KvOrLgpoQtxko3am6milyykfqFkyQb12wbgVjPrQ/8SpBYoyga6FZFcMh5oFCnNx5pLOWookL5Q8dW88kaha7xNe3REUCZokr3OSjo/rQeKjaqoJUIqzuDaLlnyIlXdElSYBkE9Xz5cWUIXy9As2OuiFuWy5MxRBltOuQMWH+y/dLxernykCXSFsyWS1gTgp9BuKjA2heP92695IRupH+5isNddtAs8zAyTiOh09GZTe3ZQ1YEfPdrgYaa1DyeDkJi0tYQDmuVxzLcuKz5bBlJvYElNQA0oDMQnrXvMb6ATi34FoMfXocBpVv32WqCmOpplVfnBE8IPGq1mupt6ZW27V8igzaGg4F19Uqof5mUIrhd1pqtGdFt6hJue6+p/2JiA4lW5hLi5KhxwvFl9QF2W1oHpMRRGw27+oM9F7ZqZWgLSwN3QbMRD9c2E4DjWKBo5veeDqQXGi8uK48aovus9QilZc9fZdJ7aQNiMhdAJ6Lv/OAsvL7V71e0EmdaBwfL0mPa37XwiHyMbGo6YxWrMfYKwW+R5AWZE6c57IAOq5XNU0eNsfHn6C9Z30fKsQcRyBIOiIRVheWwIqVnE10bHDZ84ea6jwrbESP8/evAI+/jP+VJ65vBM2WG6n1zas2uQTvXGfSFbgyhhyQ0LrNKFjTbFNzsRJVePYjlrOifJGtOItE2QoFUUZS01IN5sYh1tpC4fmJnEzLcb3L7Jlhk="};
 
 async function decrypt(pass, blob) {
   const b = s => Uint8Array.from(atob(s), c => c.charCodeAt(0));
@@ -238,6 +249,55 @@ function card(title, note, series, S, g, W, H) {
   return el;
 }
 
+/* Area names live here rather than in the payload: the payload is checked
+   before publishing to be numbers and dates only, so that a future edit cannot
+   quietly put a person's name on a page that goes to 140 people. */
+const AREA = {
+  '10.1': 'Multi-modal and cross-modal',
+  '10.2': 'Speaker recognition',
+  '10.3': 'Speech enhancement',
+  '10.4': 'Speech event detection',
+  '10.5': 'Speech generation',
+  '10.6': 'Speech resources',
+  '10.7': 'Speech recognition',
+  '10.8': 'Speech translation',
+  '10.9': 'Spoken language processing',
+};
+const BAND = ['var(--s1)','var(--s2)','var(--s3)','var(--s4)'];
+
+function areaTable(host, byArea) {
+  if (!byArea || !Object.keys(byArea).length) return;
+  const rows = Object.entries(byArea).map(([code, h]) => {
+    const total = h['0'] + h['1'] + h['2'] + h['3+'];
+    return { code, label: AREA[code] || code, h, total, zero: total ? h['0']/total : 0 };
+  }).sort((a, b) => b.zero - a.zero);
+
+  const body = rows.map((r, i) => {
+    const seg = ['0','1','2','3+'].map((k, j) =>
+      '<i style="width:' + (r.total ? (r.h[k]/r.total*100).toFixed(2) : 0) + '%;background:' + BAND[j] + '"></i>').join('');
+    return '<tr' + (i === 0 ? ' class="worst"' : '') + '>' +
+      '<td class="name">' + r.code + ' ' + r.label + '</td>' +
+      '<td>' + num(r.total) + '</td>' +
+      '<td>' + num(r.h['0']) + '</td>' +
+      '<td>' + Math.round(r.zero*100) + '%</td>' +
+      '<td>' + num(r.h['1']) + '</td>' +
+      '<td>' + num(r.h['2']) + '</td>' +
+      '<td>' + num(r.h['3+']) + '</td>' +
+      '<td class="barcell"><span class="bar">' + seg + '</span></td></tr>';
+  }).join('');
+
+  const el = document.createElement('div');
+  el.className = 'card';
+  el.innerHTML = '<h2>Where each area stands</h2>' +
+    '<p class="note">The same four bands, split by EDICS area and sorted with the furthest behind at the top. Sub-topics are rolled up, so 10.7.3 counts under 10.7. A paper with more than one topic counts under the first one CMS lists.</p>' +
+    '<div class="legend">' + ['No reviews','One review','Two reviews','Three or more'].map((l, j) =>
+      '<span><i class="sw" style="background:' + BAND[j] + '"></i>' + l + '</span>').join('') + '</div>' +
+    '<div class="scroll"><table class="areas"><thead><tr>' +
+    '<th>Area</th><th>Papers</th><th>No reviews</th><th>%</th><th>One</th><th>Two</th><th>Three+</th><th></th>' +
+    '</tr></thead><tbody>' + body + '</tbody></table></div>';
+  host.appendChild(el);
+}
+
 function start(DATA) {
   const S = DATA.snaps, last = S[S.length-1];
   document.getElementById('app').hidden = false;
@@ -270,6 +330,7 @@ function start(DATA) {
     [{key:'rNone', label:'Submitted nothing', color:'var(--s1)'},
      {key:'rSome', label:'Partly done', color:'var(--s2)'},
      {key:'rAll', label:'All done', color:'var(--s3)'}], S);
+  areaTable(host, DATA.by_area);
   lineChart(host, 'Reviews submitted, and reviews still missing',
     'The two lines have to meet before the deadline.',
     [{key:'submitted', label:'Submitted', color:'var(--s3)'},
@@ -284,6 +345,6 @@ else {
   try { const p = sessionStorage.getItem('slprogresspass'); if (p) document.getElementById('pass').value = p; } catch (e) {}
 }
 </script>
-<!-- payload f49367a7818e5842 -->
+<!-- payload cd44e892950ee3e1 -->
 </body>
 </html>
