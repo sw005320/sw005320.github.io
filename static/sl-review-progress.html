@@ -72,6 +72,16 @@ th{color:var(--muted);font-weight:500;letter-spacing:.03em}
 .areas .barcell{width:34%;padding-right:0}
 .areas tr.worst td{font-weight:600}
 .areas .name{white-space:normal}
+.checks{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px;margin-bottom:18px}
+.check{background:var(--surface);border:1px solid var(--ring);border-radius:12px;padding:14px 16px;
+  display:flex;gap:12px;align-items:flex-start;min-width:0}
+.check .mark{font-size:1.1rem;line-height:1.3;flex:none}
+.check.ok .mark{color:var(--s3)}
+.check.bad .mark{color:var(--critical)}
+.check .lab{font-size:.9rem}
+.check .val{font-variant-numeric:tabular-nums;font-weight:600}
+.check.bad .val{color:var(--critical)}
+.check .sub{color:var(--ink-2);font-size:.84rem;margin-top:2px}
 label{font-size:.86rem;color:var(--ink-2)}
 input,button{font:inherit;padding:9px 12px;border-radius:9px;border:1px solid var(--ring);
   background:var(--plane);color:var(--ink)}
@@ -100,13 +110,14 @@ button[disabled]{opacity:.6;cursor:default}
 
   <div id="app" hidden>
     <div class="tiles" id="tiles"></div>
+    <div class="checks" id="checks"></div>
     <div id="charts"></div>
     <p class="foot">Each point is one run of the status script against CMS. Numbers cover the whole Speech and Language track; your own area may be ahead of this or behind it, and CMS is the place to check that.</p>
   </div>
 </div>
 <script>
 const EMBEDDED = null;
-const BLOB = {"s": "0FPxwwag2hHc2w3FyFkBtQ==", "n": "PS8YbMuxQ6rv2pPo", "it": 600000, "c": "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"};
+const BLOB = {"s": "CiZclxELKGy94wZOrM87Uw==", "n": "cW/QE/T97BhQchT9", "it": 600000, "c": "1AHyrYlXeMfj1wwCj/SCZWLWYG3KiONpZY27RAasT2qJ6mN26+NL0gtnJ8irVshLT8jARWgVQTNLq1vIo9i8VwAZJUVu9hzL6nVdapngyKfiaaNDUNr+GgrrnuyryOTgT4zko5G2n2yLlxED8gBqfu6p75A9tqGuTaypATPXWkrEbhYmGdzlwha6pRcq6R3kNg+c5gsDQaAuBCDNVPGSmbrvYqR6TWtG4WFcUqJDHaDfTRxoymuc3uy7+UjO3kJoO6pYbRmeXY1UXso0neMlwIvqvGHH5JglvHm+fpbQdj95q3+ctfnvI32fAZtsvhKB8dAeXiK4ex3Whw4p4nqYhneeMS399mzENOR8Cb8F3R4JszvEj+nfS1V9IaTGeDsaj01KFIg8t3DMWtVh1xslnlP8z9tQIXST7I80XImW9tjeuYHSSsqhLbmMsQlgtixqrYS7bdmX21duoLlroCPam1csGi5Y85919bK7CdwxNGRSlC6iyu43DwGMcmyAQleMBrRFWy79+ylK+OHdyGmcBBW4TrfHS7r5lHskCp8J4/V7pIbagfgYw8cWBc4OTX2569hjKj7lEpyWwXkpEBiI9bga+aj+KEcu8oTt7KcMAOGX/oyvqe9jddPdqc7Pi4yMfw2S9EGoECxftOmD4mzWFl4SchlePw0Lx9DPsUgVKoSQ8QH5g8OnmiL0+lTu6sAItgepW0fKVjQkd3MxY1JbbRGDQ37I0XioqKe/oCGPAWPFvePTNUptx1DmZL0sxOB9U8PvHp4FYi9O6HeA5CTiT2srWGmg1tUp0b/BzopzHSysKsycVqZ57ccmR35sR25b5H2/Du4cwpVzkZQmR3WYVvY/yfP2Gm1ldc4KE1ZC7X48RsD3Osm9DmS+rP4Wcg58b46aESmpE71A82d0BA8pxanmyB9cDzFCPqwe45PIkPOVQsjyeCJfdf4rxXE/1ukD85/lROWv4GSW0iRvIcbKOqcrI2T5tvC8TmMknPD0Pc3TSG32t1RkVK1sn8ZgMs7uik2ZWhFArDoH9mKUGlXMDa4T2vnwg+GIRB1X47nfbaojewoVxw+5HTtT54x1qY/PUetY+SmgCWRlAdYDU0qY4k317Dyy/FVBp73KuPq9c5AvstWfp0C4iOARD7CzU3YYR/9sfuYl6kcKoQYU24AWMRXHLOXrxz+TjTOLVHOsIS1hvfU6UevVQACGJEU97zLKhHVK7Z5KMTJwiYsyeFXj5WcasIOypiapqVZygZNSBRir/wZtF9trzEYWcJjaG90jZtNFlkSq/4naKBXbr5VKWVpkqtVcnpgVvHoI+pY2BuDPAMX71FD7VsKAJFXmYGHaQjTa68aZ6uwubKEYmfUYNKNJpWjJB9UO5UgOETxhACXjwZXjP3OmHZuPVAtvQJ5UZ3BDgoBOHGdq/gL7+es9MkHtB8K1iTLlougiYzE0etd3Mhvo77tt7Sy5vcSR3416dJHu5ln53IYjaebs4FahNIY/+xcB0/Ww7E5RpWw5bl08YPEb+I99FgxBre09AZaUn1rnmqLGpPBZJ3ypxQzxPJsZRABoXW0ryLIc8tMba5fLyHo77fxAgo4+JepG5nX2ZRRFUmo4r0V0HEdxIsjHX/EYsJqZNNVSNP1dZM5T8jE/gkOamH5HNdtGIIGwgVD6JlVzc/WWZzymKV2wZZ9HtB6/HosHGnOVkS38fieDFRVfFJGJLSfavRHS9H7KtykfCULNPTSOMW5+8a1vVkbsbhD3Hb3iNaB2jg7WhMWKhfw8ohQSP0rDYA4UjXy27nKnzxVvSpd+QglPTAdtvDaEs8oXQjj+4Gb+MzfahB19eSKxDx3b2ZwE+gt022U0Bihwf3d5fHJD83SQXOOzinMyKQJh4oJ+sNobs88rpXRmNedFzxoD+0GKSNQa+IEmTL2G8bVAfGtDzeubFHieA/HbBsCudhXzDAueRZ2bZ6cfTCZvywKgrDxw7ApeokhVnIOeGSsOdCAVE/XASw+ES44VFcfM/Qka0VbEybM0iFySUOIXjt+inUoaIrK2EYY4r377EXuqVsUh6RqFz4APp7CGbIqLzr6yJmHWQuRkqRgw6fqcxa1hBhOhs6Q9mu+KqSxtprvD21Bhwo+97EOe6yDiDrtzN3ZqiKGcbqo+w6rrOQ55MKMFL97sEhAAu3sQ6KJLTJ1s5XV80QpQvT+3xFTIIILhwIqmWlpqcPiKn6G06Yrj556EfEBig9TENbVmXSKMJuO6BBnOfbC1r5DJWeuMjDFCYE7qu5yNP/0FhQWEHz1er7OhsIsKqqbe9tAI/1FqA7Dg0JscTOYv1M6/ImRf5aLs0w5BUEjV8spkjCNk5KZFoMr+o6qLQT2FfGphBO3wOU8NW3+86tTqBtpIc3Xb+qrCWrbxR7h2tBSHYVFGE5mikFwh1mR8QD6vfLOW2mK1eXwLZvsDAFYTdK1Tsw4rnlpM4o7NSDioA+HrgOImZjDbA/Fmu8us/nbOC7TnT2wqVnVt63kCgX7Y0bjGPrARwTr2Eugo70x8U24+DI+67JF5kMsi8F9qnW8BhVu+uQIdMYTTuaExM5ngb5go6T8hRv2qmCqIpQiYyh+DUo9VrSnycwLOq/3QfIfWW1Rz3l3rBddYJZAx5Q0EPYoWaQ=="};
 
 async function decrypt(pass, blob) {
   const b = s => Uint8Array.from(atob(s), c => c.charCodeAt(0));
@@ -318,6 +329,27 @@ function start(DATA) {
   document.getElementById('tiles').innerHTML = tiles.map(t =>
     '<div class="tile'+(t[3]?' alarm':'')+'"><div class="lab">'+t[0]+'</div><div class="val">'+t[1]+'</div><div class="foot">'+t[2]+'</div></div>').join('');
 
+  /* Two things that should always read zero. A paper can quietly fall below
+     three reviewers, and a reviewer who answered "no" can still be holding
+     papers they will never write. Both are counts only - no names on this page. */
+  const checks = [
+    { n: DATA.thin, ok: 'Every paper has three reviewers',
+      bad: n => n === 1 ? '1 paper has fewer than three reviewers' : n + ' papers have fewer than three reviewers',
+      sub: 'Ask your AC to fill it from the reviewer pool.' },
+    { n: DATA.declined, ok: 'No papers are held by a reviewer who declined',
+      bad: n => (n === 1 ? '1 reviewer declined but still holds ' : n + ' reviewers declined but still hold ') +
+                (DATA.declinedPapers === 1 ? '1 paper' : DATA.declinedPapers + ' papers'),
+      sub: 'Those reviews will not arrive. The papers need replacing, not chasing.' },
+  ];
+  document.getElementById('checks').innerHTML = checks.map(function(c){
+    if (c.n == null) return '';
+    const bad = c.n > 0;
+    return '<div class="check ' + (bad ? 'bad' : 'ok') + '">' +
+      '<span class="mark">' + (bad ? '\u25cf' : '\u2713') + '</span>' +
+      '<span><span class="lab">' + (bad ? '<span class="val">' + c.bad(c.n) + '</span>' : c.ok) + '</span>' +
+      (bad ? '<div class="sub">' + c.sub + '</div>' : '') + '</span></div>';
+  }).join('');
+
   const host = document.getElementById('charts');
   stackChart(host, 'Papers by completed reviews',
     'Every paper needs three reviews. The four bands always add up to all ' + num(DATA.papers) + ' papers, so watch the bottom band shrink.',
@@ -345,6 +377,6 @@ else {
   try { const p = sessionStorage.getItem('slprogresspass'); if (p) document.getElementById('pass').value = p; } catch (e) {}
 }
 </script>
-<!-- payload aa4fb0783d119648 -->
+<!-- payload 2e772f5a390a1d04 -->
 </body>
 </html>
